@@ -1,0 +1,446 @@
+/* ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::.. */
+/* ..:: GLOBALS ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::.. */
+/* ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::.. */
+@import url("colors.css");
+
+::-moz-selection 
+{ 
+	background: #000000; 
+	color: #fff; 
+	text-shadow: none; 
+}
+::selection 
+{ 
+	background: #000000; 
+	color: #fff; 
+	text-shadow: none; 
+}
+
+html
+{
+	height: 100%;
+
+}
+
+body
+{
+	font-size: 1.2em;
+	padding-top: 0px;
+	height: 100%;
+	position: relative;
+	/*
+	background: url("../img/logos/abena-leaf_300x300.png");
+	background-position: right -30px bottom 75px;
+	background-repeat: no-repeat;
+	*/
+}
+
+body.no-js.has-bg
+{
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+@media screen and (max-width: 767px) {
+	body {
+		font-size : 0.9em;
+	}
+	h1, h2, h3{	font-size : 2em;}
+	.form-control {font-size: 0.9em!important;}
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	/* SM */
+	body {
+		font-size : 1.1em;
+	}
+	h1, h2, h3{	font-size : 2.6em;}
+	.form-control {font-size: 0.95em!important;}
+}
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	body{
+		font-size : 1.25em;
+	}
+	h1, h2, h3{	font-size : 2.7em;}
+	.form-control {font-size: 1.0em!important;}
+}
+@media screen and (min-width: 1200px) and (max-width: 1599px){
+	body {
+		font-size : 1.4em;
+	}
+	h1, h2, h3{	font-size : 2.75em;}
+	.form-control {font-size: 1.05em!important;}
+}
+@media screen and (min-width: 1600px){
+	body {
+		font-size : 1.5em;
+	}
+	h1, h2, h3{	font-size : 2.8em;}
+	.form-control {font-size: 1.1em!important;}
+}
+
+
+.no-js.collapse{
+	display:block
+}
+
+legend{
+	padding-top: 10px;
+}
+
+a {
+	cursor: pointer;
+}
+
+* {
+	outline: none; 
+}
+
+.app-container 
+{
+	min-height: 100%;
+	position: relative;
+}
+
+.app-container .app-footer 
+{
+	opacity: 1;
+	max-height:75px;
+	display: block;
+	right: 0px;
+	left: 0px;
+	-webkit-transition: all 0.25s;
+	transition: all 0.25s;
+}
+
+.app-container .app-footer .wrapper 
+{
+	max-height:75px;
+	height:75px;
+	vertical-align: middle;
+}
+
+.app-container .app-footer .footer-toggle-log::before
+{
+	font-family: FontAwesome;
+	text-align:center;
+	cursor:pointer;
+	position: absolute;
+	content: '\f077';
+	color:white;
+	width: 70px;
+	height: 18px;
+	background: grey;
+	right: calc(calc(50vw) - 35px);
+	top: -18px;
+	border-radius: 15px 15px 0 0;
+	transform: perspective(5px) rotateX(1deg);
+	pointer-events: all;
+	/*transform: translate(0, -50%) rotate(45deg);*/
+}
+.app-container .app-footer.footer-expanded .footer-toggle-log::before {
+	content: '\f078';
+}
+
+.app-container .app-footer .log-console
+{
+	margin:0;
+	padding-top: 10px;
+	overflow-y:scroll;
+	padding-left: 10px;
+	padding-right: 10px;
+	height:225px;
+	border-bottom: 1px solid #eeeeee;
+}
+
+.app-container .app-footer.footer-expanded
+{
+    max-height:300px;
+    height:300px;
+    display: block;
+    right: 0px;
+    left: 0px;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+    font-size: 12px;
+}
+
+.app-container .app-footer.navbar{
+	
+	margin-bottom: 0px;
+}
+
+
+
+
+.navbar > .container-fluid, 
+.navbar.navbar-default > .container-fluid 
+{
+	opacity: 1; 
+}    
+
+.app-container .content-container 
+{
+	margin-right: 0;
+	margin-left: 0; 
+}
+
+.side-body 
+{
+	/* @todo >> only when navbar/footer is fixed*/
+	
+	padding-top: 80px ; 
+	padding-bottom: 80px; 
+}
+.side-body.footer-expanded 
+{
+	padding-bottom: 300px; 
+}
+
+.app-container .content-container .side-body.padding-top 
+{
+	padding-top: 84px; 
+}
+
+.app-container .side-body 
+{
+	margin-left: 15px;
+	margin-right: 15px;
+	-webkit-transition: all 0.25s;
+	transition: all 0.25s; 
+}
+
+
+
+/* small screen */
+@media (max-width: 768px) 
+{
+	.app-container .content-container .side-body 
+	{
+		margin-left: 10px; 
+	}
+	
+	.app-container .app-footer.not-fixed-on-small{
+		position: relative;
+	}
+	
+	.not-fixed-on-small{
+		position: inherit!important;
+	}
+}
+
+
+.navbar-breadcrumb
+{
+	margin-bottom: 0; 
+}
+.navbar-breadcrumb > li + li:before 
+{
+	font-family: FontAwesome;
+	content: '\f105';
+	margin-right: 3px; 
+}
+
+
+
+
+
+
+/* ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::.. */
+/* ..:: PLAYGROUND :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::.. */
+/* ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::.. */
+.mce-fullscreen {
+    z-index: 110000 !important;
+}
+
+.sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+
+
+.sort-highlight {
+  background: #f4f4f4;
+  border: 2px dashed #ddd;
+  margin-bottom: 10px;
+}
+.fixed{
+	position: fixed;
+}
+
+
+.disabled_x
+{
+	cursor: not-allowed!important;
+	opacity	: 0.65;
+	box-shadow: none;
+	pointer-events: none ;
+}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.hasMouseOverCursor
+{
+	cursor: pointer;
+	cursor: hand;
+}
+
+
+.control-label{
+	padding-right: 0px!important;
+}
+
+.slimScroll{
+ 	max-height: calc(100vh - 400px) !important;  
+}
+
+.easingImage {
+	-webkit-transition: all 0.7s ease;
+	transition: all 0.7s ease;	
+}
+
+.easingImage:hover {
+	-webkit-transform:scale(1.1);
+	transform:scale(1.1);
+}
+
+.padding-correction-label
+{
+	padding-right: 3px !important;
+}
+
+.required-correction-label
+{
+	color:#ff2020 !important;
+	font-size:0.8em !important;
+		padding-left: 2px !important;
+}
+
+
+.button-row > div[class*="col-"] {
+	padding:0px !important;
+}
+.button-row {
+	margin-left:0px !important;
+	margin-right:0px !important;
+	margin-top:20px !important;
+	margin-bottom:20px !important;
+}
+
+.table-responsive{
+	margin:15px;
+}
+
+
+
+table.dataTable.draggable,
+table.draggable{
+	border-collapse: collapse !important;
+}
+table.draggable th{
+    padding:21px 25px 22px 25px;
+    border-top:1px solid #fafafa;
+    border-bottom:1px solid #e0e0e0;
+}
+
+table.draggable tbody tr:last-child td {
+    border-bottom:0;
+}
+
+/*table.draggable tbody tr:hover {
+    background: #d4ecf8;
+    cursor:move;
+	!*transform:scale(1.01);*!
+	
+    outline:1px solid #191970;
+    -moz-box-shadow: 10px 10px 5px #888 !important;
+    -webkit-box-shadow: 10px 10px 5px #888 !important;
+    box-shadow: 10px 10px 5px #888 !important;
+    z-index: 10000;
+}*/
+
+/* ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::.. */
+/* ..:: ADDITIONS FOR SELECT2 ::::::::::::::::::::::::::::::::::::::::::::::::.. */
+/* ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::.. */
+.select2-container .select2-selection,
+.select2-container--bootstrap .select2-selection{
+	border-radius:0px !important;
+}
+
+.input-group .select2-container .select2-selection,
+.input-group .select2-container--bootstrap .select2-selection{
+	border-bottom-right-radius:0px !important;
+	border-top-right-radius:0px !important;
+}
+
+
+.select2-container.select2-container--open .select2-selection ,
+.select2-container--bootstrap.select2-container--open .select2-selection 
+{
+	border-bottom-left-radius:0px!important;
+	border-bottom-right-radius:0px!important;
+	border-top-left-radius:0px!important;
+	border-top-right-radius:0px!important;
+}
+
+
+
+
+/* ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::.. */
+/* ..:: LIMIT TEXT TO LINES ::::::::::::::::::::::::::::::::::::::::::::::::::.. */
+/* ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::.. */
+.text-line-1{
+    line-height: 1.5em;
+    height: 1.5em;       	/* height is 1x line-height, so one lines will display */
+    overflow: hidden;  		/* prevents extra lines from being visible */
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding: 0, 0, 0, 0;
+    display: block;
+}
+
+.text-line-2{
+    line-height: 1.5em;
+    height: 3em;       		/* height is 2x line-height, so two lines will display */
+    overflow: hidden;  		/* prevents extra lines from being visible */
+    white-space: "normal";
+    text-overflow: ellipsis;
+    padding: 0, 0, 0, 0;
+    display: block;
+}
+
+.text-line-3{
+    line-height: 1.5em;
+    height: 4.5em;       	/* height is 3x line-height, so three lines will display */
+    overflow: hidden;  		/* prevents extra lines from being visible */
+    white-space: "normal";
+    text-overflow: ellipsis;
+    padding: 0, 0, 0, 0;
+    display: block;
+}
+
+/** DHL Autocomplete css */
+
+.competition-suggestions-container{
+	position: relative;
+}
+
+.competition-suggestions{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: white;
+	border: 1px solid;
+	border-color: var(--color-annotation-directquotation);
+	z-index: 999;
+}
+.competition-suggestions > li {
+	padding: 1rem 1.5rem;
+	cursor: pointer;
+	list-style-type: none;
+}

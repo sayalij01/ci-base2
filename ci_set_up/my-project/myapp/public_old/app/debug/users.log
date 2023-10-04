@@ -1,0 +1,26 @@
+
+admin/users
+
+
+save user
+post-Array
+(
+    [submit_user] => 1
+    [username] => testing demo
+    [employee_id] => 12377
+    [firstname] => testing
+    [lastname] => testing
+    [email] => sayali@gmail.com
+    [phone] => 333333333
+    [country] => iso_2
+    [locale] => locale_code
+    [scanagent_computer_id] => 11
+    [street] => ww
+    [house_nr] => ww
+    [zipcode] => 111111
+    [location] => Berlin
+    [user_id] => 
+    [username_orig] => 
+    [save] => 1
+    [team] => team_id
+)

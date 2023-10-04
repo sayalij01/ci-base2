@@ -1,0 +1,537 @@
+INFO - 2023-09-15 08:34:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 08:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 08:37:23 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH/Models/App_model.php on line 374.
+ 1 APPPATH/Controllers/admin/Users.php(68): App\Models\App_model->getCountries()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 09:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 09:53:18 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH/Models/App_model.php on line 374.
+ 1 APPPATH/Controllers/admin/Users.php(68): App\Models\App_model->getCountries()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 09:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 09:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 09:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 09:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 09:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 11:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 11:06:03 --> Call to undefined method Config\View::item()
+in APPPATH/Views/template/sidebar.php on line 13.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/core/BASE_Controller.php(577): view()
+ 5 APPPATH/Controllers/admin/Overview.php(62): App\core\BASE_Controller->render()
+ 6 APPPATH/Controllers/admin/Overview.php(39): App\Controllers\admin\Overview->show()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Overview->index()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 11:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 11:10:19 --> Undefined property: Config\View::$sidebar_location
+in APPPATH/Views/template/sidebar.php on line 13.
+ 1 APPPATH/Views/template/sidebar.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/template/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(577): view()
+ 6 APPPATH/Controllers/admin/Overview.php(62): App\core\BASE_Controller->render()
+ 7 APPPATH/Controllers/admin/Overview.php(39): App\Controllers\admin\Overview->show()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Overview->index()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 11:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 11:10:21 --> Undefined property: Config\View::$sidebar_location
+in APPPATH/Views/template/sidebar.php on line 13.
+ 1 APPPATH/Views/template/sidebar.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/template/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(577): view()
+ 6 APPPATH/Controllers/admin/Overview.php(62): App\core\BASE_Controller->render()
+ 7 APPPATH/Controllers/admin/Overview.php(39): App\Controllers\admin\Overview->show()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Overview->index()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 11:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 11:18:22 --> Undefined property: Config\View::$sidebar_location
+in APPPATH/Views/template/sidebar.php on line 13.
+ 1 APPPATH/Views/template/sidebar.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/template/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(577): view()
+ 6 APPPATH/Controllers/admin/Overview.php(62): App\core\BASE_Controller->render()
+ 7 APPPATH/Controllers/admin/Overview.php(39): App\Controllers\admin\Overview->show()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Overview->index()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 11:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 11:18:25 --> Undefined property: Config\View::$sidebar_location
+in APPPATH/Views/template/sidebar.php on line 13.
+ 1 APPPATH/Views/template/sidebar.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/template/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(577): view()
+ 6 APPPATH/Controllers/admin/Overview.php(62): App\core\BASE_Controller->render()
+ 7 APPPATH/Controllers/admin/Overview.php(39): App\Controllers\admin\Overview->show()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Overview->index()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 11:25:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 11:25:22 --> Undefined property: Config\View::$sidebar_location
+in APPPATH/Views/template/sidebar.php on line 14.
+ 1 APPPATH/Views/template/sidebar.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/template/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(577): view()
+ 6 APPPATH/Controllers/admin/Overview.php(62): App\core\BASE_Controller->render()
+ 7 APPPATH/Controllers/admin/Overview.php(39): App\Controllers\admin\Overview->show()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Overview->index()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 11:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 11:25:24 --> Undefined property: Config\View::$sidebar_location
+in APPPATH/Views/template/sidebar.php on line 14.
+ 1 APPPATH/Views/template/sidebar.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/template/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(577): view()
+ 6 APPPATH/Controllers/admin/Overview.php(62): App\core\BASE_Controller->render()
+ 7 APPPATH/Controllers/admin/Overview.php(39): App\Controllers\admin\Overview->show()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Overview->index()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 11:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 11:25:28 --> Undefined property: Config\View::$sidebar_location
+in APPPATH/Views/template/sidebar.php on line 14.
+ 1 APPPATH/Views/template/sidebar.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/template/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(577): view()
+ 6 APPPATH/Controllers/admin/Overview.php(62): App\core\BASE_Controller->render()
+ 7 APPPATH/Controllers/admin/Overview.php(39): App\Controllers\admin\Overview->show()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Overview->index()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 11:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 11:27:47 --> Undefined property: Config\View::$sidebar_location
+in APPPATH/Views/template/sidebar.php on line 20.
+ 1 APPPATH/Views/template/sidebar.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/template/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(577): view()
+ 6 APPPATH/Controllers/admin/Overview.php(62): App\core\BASE_Controller->render()
+ 7 APPPATH/Controllers/admin/Overview.php(39): App\Controllers\admin\Overview->show()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Overview->index()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 11:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 11:27:49 --> Undefined property: Config\View::$sidebar_location
+in APPPATH/Views/template/sidebar.php on line 20.
+ 1 APPPATH/Views/template/sidebar.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/template/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(577): view()
+ 6 APPPATH/Controllers/admin/Overview.php(62): App\core\BASE_Controller->render()
+ 7 APPPATH/Controllers/admin/Overview.php(39): App\Controllers\admin\Overview->show()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Overview->index()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 11:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 11:27:53 --> Undefined property: Config\View::$sidebar_location
+in APPPATH/Views/template/sidebar.php on line 20.
+ 1 APPPATH/Views/template/sidebar.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/template/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(577): view()
+ 6 APPPATH/Controllers/admin/Overview.php(62): App\core\BASE_Controller->render()
+ 7 APPPATH/Controllers/admin/Overview.php(39): App\Controllers\admin\Overview->show()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Overview->index()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 11:27:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 11:27:54 --> Undefined property: Config\View::$sidebar_location
+in APPPATH/Views/template/sidebar.php on line 20.
+ 1 APPPATH/Views/template/sidebar.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/template/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(577): view()
+ 6 APPPATH/Controllers/admin/Overview.php(62): App\core\BASE_Controller->render()
+ 7 APPPATH/Controllers/admin/Overview.php(39): App\Controllers\admin\Overview->show()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Overview->index()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 11:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 11:30:18 --> Undefined property: CodeIgniter\View\View::$uri
+in APPPATH/Views/template/sidebar.php on line 27.
+ 1 APPPATH/Views/template/sidebar.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/template/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(577): view()
+ 6 APPPATH/Controllers/admin/Overview.php(62): App\core\BASE_Controller->render()
+ 7 APPPATH/Controllers/admin/Overview.php(39): App\Controllers\admin\Overview->show()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Overview->index()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 11:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 11:30:35 --> Undefined array key "js_enabled"
+in APPPATH/Views/template/sidebar.php on line 60.
+ 1 APPPATH/Views/template/sidebar.php(60): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/template/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(577): view()
+ 6 APPPATH/Controllers/admin/Overview.php(62): App\core\BASE_Controller->render()
+ 7 APPPATH/Controllers/admin/Overview.php(39): App\Controllers\admin\Overview->show()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Overview->index()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 11:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 11:31:39 --> Undefined property: CodeIgniter\View\View::$uri
+in APPPATH/Views/template/sidebar.php on line 68.
+ 1 APPPATH/Views/template/sidebar.php(68): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/template/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(577): view()
+ 6 APPPATH/Controllers/admin/Overview.php(62): App\core\BASE_Controller->render()
+ 7 APPPATH/Controllers/admin/Overview.php(39): App\Controllers\admin\Overview->show()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Overview->index()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 11:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 11:33:57 --> Undefined property: CodeIgniter\View\View::$uri
+in APPPATH/Views/template/sidebar.php on line 71.
+ 1 APPPATH/Views/template/sidebar.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/template/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(577): view()
+ 6 APPPATH/Controllers/admin/Overview.php(62): App\core\BASE_Controller->render()
+ 7 APPPATH/Controllers/admin/Overview.php(39): App\Controllers\admin\Overview->show()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Overview->index()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 11:37:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 11:37:44 --> Undefined property: CodeIgniter\View\View::$uri
+in APPPATH/Views/template/sidebar.php on line 75.
+ 1 APPPATH/Views/template/sidebar.php(75): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/template/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(577): view()
+ 6 APPPATH/Controllers/admin/Overview.php(62): App\core\BASE_Controller->render()
+ 7 APPPATH/Controllers/admin/Overview.php(39): App\Controllers\admin\Overview->show()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Overview->index()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 11:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 11:37:46 --> Undefined property: CodeIgniter\View\View::$uri
+in APPPATH/Views/template/sidebar.php on line 75.
+ 1 APPPATH/Views/template/sidebar.php(75): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/template/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(577): view()
+ 6 APPPATH/Controllers/admin/Overview.php(62): App\core\BASE_Controller->render()
+ 7 APPPATH/Controllers/admin/Overview.php(39): App\Controllers\admin\Overview->show()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Overview->index()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 11:37:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 11:37:47 --> Undefined property: CodeIgniter\View\View::$uri
+in APPPATH/Views/template/sidebar.php on line 75.
+ 1 APPPATH/Views/template/sidebar.php(75): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/template/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(577): view()
+ 6 APPPATH/Controllers/admin/Overview.php(62): App\core\BASE_Controller->render()
+ 7 APPPATH/Controllers/admin/Overview.php(39): App\Controllers\admin\Overview->show()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Overview->index()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 11:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 11:37:48 --> Undefined property: CodeIgniter\View\View::$uri
+in APPPATH/Views/template/sidebar.php on line 75.
+ 1 APPPATH/Views/template/sidebar.php(75): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/template/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(577): view()
+ 6 APPPATH/Controllers/admin/Overview.php(62): App\core\BASE_Controller->render()
+ 7 APPPATH/Controllers/admin/Overview.php(39): App\Controllers\admin\Overview->show()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Overview->index()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 11:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 11:37:49 --> Undefined property: CodeIgniter\View\View::$uri
+in APPPATH/Views/template/sidebar.php on line 75.
+ 1 APPPATH/Views/template/sidebar.php(75): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/template/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(577): view()
+ 6 APPPATH/Controllers/admin/Overview.php(62): App\core\BASE_Controller->render()
+ 7 APPPATH/Controllers/admin/Overview.php(39): App\Controllers\admin\Overview->show()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Overview->index()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 11:37:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 11:37:49 --> Undefined property: CodeIgniter\View\View::$uri
+in APPPATH/Views/template/sidebar.php on line 75.
+ 1 APPPATH/Views/template/sidebar.php(75): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/template/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(577): view()
+ 6 APPPATH/Controllers/admin/Overview.php(62): App\core\BASE_Controller->render()
+ 7 APPPATH/Controllers/admin/Overview.php(39): App\Controllers\admin\Overview->show()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Overview->index()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 11:39:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 11:39:23 --> syntax error, unexpected token "else"
+in APPPATH/Views/template/sidebar.php on line 84.
+ 1 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 3 APPPATH/core/BASE_Controller.php(577): view()
+ 4 APPPATH/Controllers/admin/Overview.php(62): App\core\BASE_Controller->render()
+ 5 APPPATH/Controllers/admin/Overview.php(39): App\Controllers\admin\Overview->show()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Overview->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 11:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 11:39:46 --> Undefined variable $sidebarClass
+in APPPATH/Views/template/sidebar.php on line 111.
+ 1 APPPATH/Views/template/sidebar.php(111): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/template/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(577): view()
+ 6 APPPATH/Controllers/admin/Overview.php(62): App\core\BASE_Controller->render()
+ 7 APPPATH/Controllers/admin/Overview.php(39): App\Controllers\admin\Overview->show()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Overview->index()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 11:39:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 11:39:49 --> Undefined variable $sidebarClass
+in APPPATH/Views/template/sidebar.php on line 111.
+ 1 APPPATH/Views/template/sidebar.php(111): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/template/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(577): view()
+ 6 APPPATH/Controllers/admin/Overview.php(62): App\core\BASE_Controller->render()
+ 7 APPPATH/Controllers/admin/Overview.php(39): App\Controllers\admin\Overview->show()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Overview->index()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 11:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 11:48:41 --> Undefined property: Config\App::$item
+in APPPATH/Views/template/sidebar.php on line 25.
+ 1 APPPATH/Views/template/sidebar.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/template/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(577): view()
+ 6 APPPATH/Controllers/admin/Overview.php(62): App\core\BASE_Controller->render()
+ 7 APPPATH/Controllers/admin/Overview.php(39): App\Controllers\admin\Overview->show()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Overview->index()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 11:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 11:48:44 --> Undefined property: Config\App::$item
+in APPPATH/Views/template/sidebar.php on line 25.
+ 1 APPPATH/Views/template/sidebar.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/template/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(577): view()
+ 6 APPPATH/Controllers/admin/Overview.php(62): App\core\BASE_Controller->render()
+ 7 APPPATH/Controllers/admin/Overview.php(39): App\Controllers\admin\Overview->show()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Overview->index()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 11:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 11:50:24 --> Class "App\Controllers\HTML_Image" not found
+in APPPATH/Views/template/sidebar.php on line 116.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/core/BASE_Controller.php(577): view()
+ 5 APPPATH/Controllers/admin/Overview.php(62): App\core\BASE_Controller->render()
+ 6 APPPATH/Controllers/admin/Overview.php(39): App\Controllers\admin\Overview->show()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Overview->index()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 11:50:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 11:50:27 --> Class "App\Controllers\HTML_Image" not found
+in APPPATH/Views/template/sidebar.php on line 116.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/core/BASE_Controller.php(577): view()
+ 5 APPPATH/Controllers/admin/Overview.php(62): App\core\BASE_Controller->render()
+ 6 APPPATH/Controllers/admin/Overview.php(39): App\Controllers\admin\Overview->show()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Overview->index()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 11:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 11:51:06 --> Class "App\Controllers\HTML_Image" not found
+in APPPATH/Views/template/sidebar.php on line 116.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/core/BASE_Controller.php(577): view()
+ 5 APPPATH/Controllers/admin/Overview.php(62): App\core\BASE_Controller->render()
+ 6 APPPATH/Controllers/admin/Overview.php(39): App\Controllers\admin\Overview->show()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Overview->index()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 11:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 11:51:07 --> Class "App\Controllers\HTML_Image" not found
+in APPPATH/Views/template/sidebar.php on line 116.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/core/BASE_Controller.php(577): view()
+ 5 APPPATH/Controllers/admin/Overview.php(62): App\core\BASE_Controller->render()
+ 6 APPPATH/Controllers/admin/Overview.php(39): App\Controllers\admin\Overview->show()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Overview->index()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 11:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 11:51:51 --> Class "App\Enums\HTML_Image" not found
+in APPPATH/Views/template/sidebar.php on line 117.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/core/BASE_Controller.php(577): view()
+ 5 APPPATH/Controllers/admin/Overview.php(62): App\core\BASE_Controller->render()
+ 6 APPPATH/Controllers/admin/Overview.php(39): App\Controllers\admin\Overview->show()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Overview->index()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 11:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 11:51:53 --> Class "App\Enums\HTML_Image" not found
+in APPPATH/Views/template/sidebar.php on line 117.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/core/BASE_Controller.php(577): view()
+ 5 APPPATH/Controllers/admin/Overview.php(62): App\core\BASE_Controller->render()
+ 6 APPPATH/Controllers/admin/Overview.php(39): App\Controllers\admin\Overview->show()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Overview->index()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 11:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 11:51:55 --> Class "App\Enums\HTML_Image" not found
+in APPPATH/Views/template/sidebar.php on line 117.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/core/BASE_Controller.php(577): view()
+ 5 APPPATH/Controllers/admin/Overview.php(62): App\core\BASE_Controller->render()
+ 6 APPPATH/Controllers/admin/Overview.php(39): App\Controllers\admin\Overview->show()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Overview->index()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 11:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 11:53:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 12:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 12:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 12:12:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 12:12:11 --> Array to string conversion
+in APPPATH/Controllers/admin/Login.php on line 149.
+ 1 APPPATH/Controllers/admin/Login.php(149): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/admin/Login.php(53): App\Controllers\admin\Login->authenticate()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Login->index()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 12:13:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 12:13:13 --> Undefined property: App\Controllers\admin\Login::$form_validation
+in APPPATH/Controllers/admin/Login.php on line 152.
+ 1 APPPATH/Controllers/admin/Login.php(152): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/admin/Login.php(53): App\Controllers\admin\Login->authenticate()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Login->index()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 12:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 12:19:18 --> Undefined property: App\Controllers\admin\Login::$form_validation
+in APPPATH/Controllers/admin/Login.php on line 153.
+ 1 APPPATH/Controllers/admin/Login.php(153): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/admin/Login.php(54): App\Controllers\admin\Login->authenticate()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Login->index()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 12:24:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 12:24:49 --> Undefined property: App\Controllers\admin\Login::$form_validation
+in APPPATH/Controllers/admin/Login.php on line 154.
+ 1 APPPATH/Controllers/admin/Login.php(154): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/admin/Login.php(55): App\Controllers\admin\Login->authenticate()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Login->index()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 12:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 12:27:47 --> BASE_Result expected!
+in APPPATH/core/BASE_Controller.php on line 660.
+ 1 APPPATH/Controllers/admin/Login.php(154): App\core\BASE_Controller->setData()
+ 2 APPPATH/Controllers/admin/Login.php(55): App\Controllers\admin\Login->authenticate()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Login->index()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

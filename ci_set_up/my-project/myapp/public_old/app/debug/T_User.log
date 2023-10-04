@@ -1,0 +1,38 @@
+
+T_User src-Array
+(
+)
+
+result-App\Libraries\value_objects\T_User Object
+(
+    [client_id] => 
+    [user_id] => 
+    [employee_id] => 
+    [team_id] => 
+    [username] => 
+    [password] => 
+    [salt] => 
+    [email] => 
+    [phone] => 
+    [firstname] => 
+    [lastname] => 
+    [street] => 
+    [house_number] => 
+    [zipcode] => 
+    [location] => 
+    [country] => DE
+    [language] => DE
+    [scanagent_computer_id] => 
+    [created_at] => 
+    [activated] => 0
+    [activated_at] => 
+    [locked] => 
+    [locked_by] => 
+    [locked_at] => 
+    [deleted] => 
+    [deleted_by] => 
+    [deleted_at] => 
+    [failed_logins] => 
+    [last_login] => 
+    [permissions] => 
+)

@@ -1,0 +1,51 @@
+# Copyright VMware, Inc.
+# SPDX-License-Identifier: APACHE-2.0
+
+version: '2'
+
+services:
+  db:
+    image: mariadb:10.11
+    working_dir: /application
+    command: [ mysqld, --character-set-server=utf8mb4, --collation-server=utf8mb4_unicode_ci, --innodb-file-per-table=1, --lower_case_table_names=1 ]
+    volumes:
+      - ./db_data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: ROOT
+      MYSQL_DATABASE: ci_base
+      MYSQL_USER: root
+      MYSQL_PASSWORD: ROOT
+      healthcheck:
+      # The service is considered healthy when:
+      # - connection to ci_base can be established, and
+      # - we can run a simple SQL query.
+      # TEST: "true" 
+      # test: [ "CMD-SHELL", "mysql -h db -u$$MYSQL_USER -p$$MYSQL_PASSWORD $$MYSQL_DATABASE -e 'SHOW TABLES;'" ]
+      interval: 10s
+      retries: 6
+      start_period: 1m
+      timeout: 3s
+    ports:
+      - "3306:3306"
+  myapp:
+    image: docker.io/bitnami/codeigniter:4
+    ports:
+      - '8000:8000'
+    environment:
+      # ALLOW_EMPTY_PASSWORD is recommended only for development.
+      - ALLOW_EMPTY_PASSWORD=yes
+      - CODEIGNITER_DATABASE_HOST=mariadb
+      - CODEIGNITER_DATABASE_PORT_NUMBER=3306
+      - CODEIGNITER_DATABASE_USER=bn_myapp
+      - CODEIGNITER_DATABASE_NAME=bitnami_myapp
+    volumes:
+      - './my-project:/app'
+    depends_on:
+      - db
+  nginx:
+    container_name: ci-base2.nginx
+    image: nginx:stable-alpine
+    ports:
+      - "80:80"
+    volumes:
+      - .:/var/www/html:ro

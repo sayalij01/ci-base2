@@ -1,0 +1,3666 @@
+
+
+App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+            [DE] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => DE
+                    [locale_name] => Deutsch
+                    [flag] => 
+                    [folder] => german
+                    [enabled] => 1
+                )
+
+            [EN] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => EN
+                    [locale_name] => English
+                    [flag] => 
+                    [folder] => english
+                    [enabled] => 1
+                )
+
+            [ES] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => ES
+                    [locale_name] => Español
+                    [flag] => 
+                    [folder] => spanish
+                    [enabled] => 0
+                )
+
+            [FR] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => FR
+                    [locale_name] => Français
+                    [flag] => 
+                    [folder] => french
+                    [enabled] => 0
+                )
+
+            [HU] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => HU
+                    [locale_name] => Magyar
+                    [flag] => 
+                    [folder] => hungarian
+                    [enabled] => 0
+                )
+
+            [IT] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => IT
+                    [locale_name] => Italiano
+                    [flag] => 
+                    [folder] => italian
+                    [enabled] => 0
+                )
+
+            [JA] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => JA
+                    [locale_name] => 邦文
+                    [flag] => 
+                    [folder] => japanese
+                    [enabled] => 0
+                )
+
+            [NL] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => NL
+                    [locale_name] => Hollands
+                    [flag] => 
+                    [folder] => dutch
+                    [enabled] => 0
+                )
+
+            [PT] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => PT
+                    [locale_name] => Português
+                    [flag] => 
+                    [folder] => portuguese
+                    [enabled] => 0
+                )
+
+            [RU] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => RU
+                    [locale_name] => Pусский
+                    [flag] => 
+                    [folder] => russian
+                    [enabled] => 0
+                )
+
+            [TR] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => TR
+                    [locale_name] => Türkçe
+                    [flag] => 
+                    [folder] => turkish
+                    [enabled] => 0
+                )
+
+            [ZH] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => ZH
+                    [locale_name] => 中文
+                    [flag] => 
+                    [folder] => simplified-chinese
+                    [enabled] => 0
+                )
+
+        )
+
+    [error] => 
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => Array
+        (
+            [num_rows] => 12
+            [num_fields] => 6
+            [sql] => CodeIgniter\Database\Query Object
+                (
+                    [originalQueryString:protected] => SELECT *
+FROM `app_locales`
+                    [finalQueryString:protected] => SELECT *
+FROM `app_locales`
+                    [binds:protected] => Array
+                        (
+                        )
+
+                    [bindMarker:protected] => ?
+                    [startTime:protected] => 1696311394.6411
+                    [endTime:protected] => 1696311394.6504
+                    [errorCode:protected] => 
+                    [errorString:protected] => 
+                    [db] => CodeIgniter\Database\MySQLi\Connection Object
+                        (
+                            [DSN:protected] => 
+                            [port:protected] => 3306
+                            [hostname:protected] => db
+                            [username:protected] => root
+                            [password:protected] => ROOT
+                            [database:protected] => ci_base
+                            [DBDriver] => MySQLi
+                            [subdriver:protected] => 
+                            [DBPrefix:protected] => 
+                            [pConnect:protected] => 
+                            [DBDebug:protected] => 1
+                            [charset:protected] => utf8
+                            [DBCollat:protected] => utf8_general_ci
+                            [swapPre:protected] => 
+                            [encrypt:protected] => 
+                            [compress:protected] => 
+                            [strictOn:protected] => 
+                            [failover:protected] => Array
+                                (
+                                )
+
+                            [lastQuery:protected] => CodeIgniter\Database\Query Object
+ *RECURSION*
+                            [connID] => mysqli Object
+                                (
+                                    [affected_rows] => 12
+                                    [client_info] => mysqlnd 8.1.22
+                                    [client_version] => 80122
+                                    [connect_errno] => 0
+                                    [connect_error] => 
+                                    [errno] => 0
+                                    [error] => 
+                                    [error_list] => Array
+                                        (
+                                        )
+
+                                    [field_count] => 6
+                                    [host_info] => db via TCP/IP
+                                    [info] => 
+                                    [insert_id] => 0
+                                    [server_info] => 10.11.4-MariaDB-1:10.11.4+maria~ubu2204
+                                    [server_version] => 101104
+                                    [sqlstate] => 00000
+                                    [protocol_version] => 10
+                                    [thread_id] => 3
+                                    [warning_count] => 0
+                                )
+
+                            [resultID] => mysqli_result Object
+                                (
+                                    [current_field] => 0
+                                    [field_count] => 6
+                                    [lengths] => 
+                                    [num_rows] => 12
+                                    [type] => 0
+                                )
+
+                            [protectIdentifiers] => 1
+                            [reservedIdentifiers:protected] => Array
+                                (
+                                    [0] => *
+                                )
+
+                            [escapeChar] => `
+                            [likeEscapeStr] =>  ESCAPE '%s' 
+                            [likeEscapeChar] => !
+                            [pregEscapeChar:protected] => Array
+                                (
+                                    [1] => `
+                                    [0] => `
+                                    [3] => `
+                                    [2] => `
+                                )
+
+                            [dataCache] => Array
+                                (
+                                )
+
+                            [connectTime:protected] => 1696311394.3705
+                            [connectDuration:protected] => 0.27054810523987
+                            [pretend:protected] => 
+                            [transEnabled] => 1
+                            [transStrict] => 1
+                            [transDepth:protected] => 0
+                            [transStatus:protected] => 1
+                            [transFailure:protected] => 
+                            [transException:protected] => 
+                            [aliasedTables:protected] => Array
+                                (
+                                )
+
+                            [queryClass:protected] => CodeIgniter\Database\Query
+                            [deleteHack] => 1
+                            [mysqli] => mysqli Object
+                                (
+                                    [affected_rows] => 12
+                                    [client_info] => mysqlnd 8.1.22
+                                    [client_version] => 80122
+                                    [connect_errno] => 0
+                                    [connect_error] => 
+                                    [errno] => 0
+                                    [error] => 
+                                    [error_list] => Array
+                                        (
+                                        )
+
+                                    [field_count] => 6
+                                    [host_info] => db via TCP/IP
+                                    [info] => 
+                                    [insert_id] => 0
+                                    [server_info] => 10.11.4-MariaDB-1:10.11.4+maria~ubu2204
+                                    [server_version] => 101104
+                                    [sqlstate] => 00000
+                                    [protocol_version] => 10
+                                    [thread_id] => 3
+                                    [warning_count] => 0
+                                )
+
+                            [resultMode] => 0
+                        )
+
+                )
+
+        )
+
+    [status] => SUCCESS
+    [redirect] => 
+)
+
+
+App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+            [DE] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => DE
+                    [locale_name] => Deutsch
+                    [flag] => 
+                    [folder] => german
+                    [enabled] => 1
+                )
+
+            [EN] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => EN
+                    [locale_name] => English
+                    [flag] => 
+                    [folder] => english
+                    [enabled] => 1
+                )
+
+            [ES] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => ES
+                    [locale_name] => Español
+                    [flag] => 
+                    [folder] => spanish
+                    [enabled] => 0
+                )
+
+            [FR] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => FR
+                    [locale_name] => Français
+                    [flag] => 
+                    [folder] => french
+                    [enabled] => 0
+                )
+
+            [HU] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => HU
+                    [locale_name] => Magyar
+                    [flag] => 
+                    [folder] => hungarian
+                    [enabled] => 0
+                )
+
+            [IT] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => IT
+                    [locale_name] => Italiano
+                    [flag] => 
+                    [folder] => italian
+                    [enabled] => 0
+                )
+
+            [JA] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => JA
+                    [locale_name] => 邦文
+                    [flag] => 
+                    [folder] => japanese
+                    [enabled] => 0
+                )
+
+            [NL] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => NL
+                    [locale_name] => Hollands
+                    [flag] => 
+                    [folder] => dutch
+                    [enabled] => 0
+                )
+
+            [PT] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => PT
+                    [locale_name] => Português
+                    [flag] => 
+                    [folder] => portuguese
+                    [enabled] => 0
+                )
+
+            [RU] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => RU
+                    [locale_name] => Pусский
+                    [flag] => 
+                    [folder] => russian
+                    [enabled] => 0
+                )
+
+            [TR] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => TR
+                    [locale_name] => Türkçe
+                    [flag] => 
+                    [folder] => turkish
+                    [enabled] => 0
+                )
+
+            [ZH] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => ZH
+                    [locale_name] => 中文
+                    [flag] => 
+                    [folder] => simplified-chinese
+                    [enabled] => 0
+                )
+
+        )
+
+    [error] => 
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => Array
+        (
+            [num_rows] => 12
+            [num_fields] => 6
+            [sql] => CodeIgniter\Database\Query Object
+                (
+                    [originalQueryString:protected] => SELECT *
+FROM `app_locales`
+                    [finalQueryString:protected] => SELECT *
+FROM `app_locales`
+                    [binds:protected] => Array
+                        (
+                        )
+
+                    [bindMarker:protected] => ?
+                    [startTime:protected] => 1696311414.2129
+                    [endTime:protected] => 1696311414.2135
+                    [errorCode:protected] => 
+                    [errorString:protected] => 
+                    [db] => CodeIgniter\Database\MySQLi\Connection Object
+                        (
+                            [DSN:protected] => 
+                            [port:protected] => 3306
+                            [hostname:protected] => db
+                            [username:protected] => root
+                            [password:protected] => ROOT
+                            [database:protected] => ci_base
+                            [DBDriver] => MySQLi
+                            [subdriver:protected] => 
+                            [DBPrefix:protected] => 
+                            [pConnect:protected] => 
+                            [DBDebug:protected] => 1
+                            [charset:protected] => utf8
+                            [DBCollat:protected] => utf8_general_ci
+                            [swapPre:protected] => 
+                            [encrypt:protected] => 
+                            [compress:protected] => 
+                            [strictOn:protected] => 
+                            [failover:protected] => Array
+                                (
+                                )
+
+                            [lastQuery:protected] => CodeIgniter\Database\Query Object
+ *RECURSION*
+                            [connID] => mysqli Object
+                                (
+                                    [affected_rows] => 12
+                                    [client_info] => mysqlnd 8.1.22
+                                    [client_version] => 80122
+                                    [connect_errno] => 0
+                                    [connect_error] => 
+                                    [errno] => 0
+                                    [error] => 
+                                    [error_list] => Array
+                                        (
+                                        )
+
+                                    [field_count] => 6
+                                    [host_info] => db via TCP/IP
+                                    [info] => 
+                                    [insert_id] => 0
+                                    [server_info] => 10.11.4-MariaDB-1:10.11.4+maria~ubu2204
+                                    [server_version] => 101104
+                                    [sqlstate] => 00000
+                                    [protocol_version] => 10
+                                    [thread_id] => 4
+                                    [warning_count] => 0
+                                )
+
+                            [resultID] => mysqli_result Object
+                                (
+                                    [current_field] => 0
+                                    [field_count] => 6
+                                    [lengths] => 
+                                    [num_rows] => 12
+                                    [type] => 0
+                                )
+
+                            [protectIdentifiers] => 1
+                            [reservedIdentifiers:protected] => Array
+                                (
+                                    [0] => *
+                                )
+
+                            [escapeChar] => `
+                            [likeEscapeStr] =>  ESCAPE '%s' 
+                            [likeEscapeChar] => !
+                            [pregEscapeChar:protected] => Array
+                                (
+                                    [1] => `
+                                    [0] => `
+                                    [3] => `
+                                    [2] => `
+                                )
+
+                            [dataCache] => Array
+                                (
+                                )
+
+                            [connectTime:protected] => 1696311414.1878
+                            [connectDuration:protected] => 0.025048017501831
+                            [pretend:protected] => 
+                            [transEnabled] => 1
+                            [transStrict] => 1
+                            [transDepth:protected] => 0
+                            [transStatus:protected] => 1
+                            [transFailure:protected] => 
+                            [transException:protected] => 
+                            [aliasedTables:protected] => Array
+                                (
+                                )
+
+                            [queryClass:protected] => CodeIgniter\Database\Query
+                            [deleteHack] => 1
+                            [mysqli] => mysqli Object
+                                (
+                                    [affected_rows] => 12
+                                    [client_info] => mysqlnd 8.1.22
+                                    [client_version] => 80122
+                                    [connect_errno] => 0
+                                    [connect_error] => 
+                                    [errno] => 0
+                                    [error] => 
+                                    [error_list] => Array
+                                        (
+                                        )
+
+                                    [field_count] => 6
+                                    [host_info] => db via TCP/IP
+                                    [info] => 
+                                    [insert_id] => 0
+                                    [server_info] => 10.11.4-MariaDB-1:10.11.4+maria~ubu2204
+                                    [server_version] => 101104
+                                    [sqlstate] => 00000
+                                    [protocol_version] => 10
+                                    [thread_id] => 4
+                                    [warning_count] => 0
+                                )
+
+                            [resultMode] => 0
+                        )
+
+                )
+
+        )
+
+    [status] => SUCCESS
+    [redirect] => 
+)
+
+
+App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+            [DE] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => DE
+                    [locale_name] => Deutsch
+                    [flag] => 
+                    [folder] => german
+                    [enabled] => 1
+                )
+
+            [EN] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => EN
+                    [locale_name] => English
+                    [flag] => 
+                    [folder] => english
+                    [enabled] => 1
+                )
+
+            [ES] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => ES
+                    [locale_name] => Español
+                    [flag] => 
+                    [folder] => spanish
+                    [enabled] => 0
+                )
+
+            [FR] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => FR
+                    [locale_name] => Français
+                    [flag] => 
+                    [folder] => french
+                    [enabled] => 0
+                )
+
+            [HU] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => HU
+                    [locale_name] => Magyar
+                    [flag] => 
+                    [folder] => hungarian
+                    [enabled] => 0
+                )
+
+            [IT] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => IT
+                    [locale_name] => Italiano
+                    [flag] => 
+                    [folder] => italian
+                    [enabled] => 0
+                )
+
+            [JA] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => JA
+                    [locale_name] => 邦文
+                    [flag] => 
+                    [folder] => japanese
+                    [enabled] => 0
+                )
+
+            [NL] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => NL
+                    [locale_name] => Hollands
+                    [flag] => 
+                    [folder] => dutch
+                    [enabled] => 0
+                )
+
+            [PT] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => PT
+                    [locale_name] => Português
+                    [flag] => 
+                    [folder] => portuguese
+                    [enabled] => 0
+                )
+
+            [RU] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => RU
+                    [locale_name] => Pусский
+                    [flag] => 
+                    [folder] => russian
+                    [enabled] => 0
+                )
+
+            [TR] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => TR
+                    [locale_name] => Türkçe
+                    [flag] => 
+                    [folder] => turkish
+                    [enabled] => 0
+                )
+
+            [ZH] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => ZH
+                    [locale_name] => 中文
+                    [flag] => 
+                    [folder] => simplified-chinese
+                    [enabled] => 0
+                )
+
+        )
+
+    [error] => 
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => Array
+        (
+            [num_rows] => 12
+            [num_fields] => 6
+            [sql] => CodeIgniter\Database\Query Object
+                (
+                    [originalQueryString:protected] => SELECT *
+FROM `app_locales`
+                    [finalQueryString:protected] => SELECT *
+FROM `app_locales`
+                    [binds:protected] => Array
+                        (
+                        )
+
+                    [bindMarker:protected] => ?
+                    [startTime:protected] => 1696311416.9109
+                    [endTime:protected] => 1696311416.9116
+                    [errorCode:protected] => 
+                    [errorString:protected] => 
+                    [db] => CodeIgniter\Database\MySQLi\Connection Object
+                        (
+                            [DSN:protected] => 
+                            [port:protected] => 3306
+                            [hostname:protected] => db
+                            [username:protected] => root
+                            [password:protected] => ROOT
+                            [database:protected] => ci_base
+                            [DBDriver] => MySQLi
+                            [subdriver:protected] => 
+                            [DBPrefix:protected] => 
+                            [pConnect:protected] => 
+                            [DBDebug:protected] => 1
+                            [charset:protected] => utf8
+                            [DBCollat:protected] => utf8_general_ci
+                            [swapPre:protected] => 
+                            [encrypt:protected] => 
+                            [compress:protected] => 
+                            [strictOn:protected] => 
+                            [failover:protected] => Array
+                                (
+                                )
+
+                            [lastQuery:protected] => CodeIgniter\Database\Query Object
+ *RECURSION*
+                            [connID] => mysqli Object
+                                (
+                                    [affected_rows] => 12
+                                    [client_info] => mysqlnd 8.1.22
+                                    [client_version] => 80122
+                                    [connect_errno] => 0
+                                    [connect_error] => 
+                                    [errno] => 0
+                                    [error] => 
+                                    [error_list] => Array
+                                        (
+                                        )
+
+                                    [field_count] => 6
+                                    [host_info] => db via TCP/IP
+                                    [info] => 
+                                    [insert_id] => 0
+                                    [server_info] => 10.11.4-MariaDB-1:10.11.4+maria~ubu2204
+                                    [server_version] => 101104
+                                    [sqlstate] => 00000
+                                    [protocol_version] => 10
+                                    [thread_id] => 5
+                                    [warning_count] => 0
+                                )
+
+                            [resultID] => mysqli_result Object
+                                (
+                                    [current_field] => 0
+                                    [field_count] => 6
+                                    [lengths] => 
+                                    [num_rows] => 12
+                                    [type] => 0
+                                )
+
+                            [protectIdentifiers] => 1
+                            [reservedIdentifiers:protected] => Array
+                                (
+                                    [0] => *
+                                )
+
+                            [escapeChar] => `
+                            [likeEscapeStr] =>  ESCAPE '%s' 
+                            [likeEscapeChar] => !
+                            [pregEscapeChar:protected] => Array
+                                (
+                                    [1] => `
+                                    [0] => `
+                                    [3] => `
+                                    [2] => `
+                                )
+
+                            [dataCache] => Array
+                                (
+                                )
+
+                            [connectTime:protected] => 1696311416.9078
+                            [connectDuration:protected] => 0.0030558109283447
+                            [pretend:protected] => 
+                            [transEnabled] => 1
+                            [transStrict] => 1
+                            [transDepth:protected] => 0
+                            [transStatus:protected] => 1
+                            [transFailure:protected] => 
+                            [transException:protected] => 
+                            [aliasedTables:protected] => Array
+                                (
+                                )
+
+                            [queryClass:protected] => CodeIgniter\Database\Query
+                            [deleteHack] => 1
+                            [mysqli] => mysqli Object
+                                (
+                                    [affected_rows] => 12
+                                    [client_info] => mysqlnd 8.1.22
+                                    [client_version] => 80122
+                                    [connect_errno] => 0
+                                    [connect_error] => 
+                                    [errno] => 0
+                                    [error] => 
+                                    [error_list] => Array
+                                        (
+                                        )
+
+                                    [field_count] => 6
+                                    [host_info] => db via TCP/IP
+                                    [info] => 
+                                    [insert_id] => 0
+                                    [server_info] => 10.11.4-MariaDB-1:10.11.4+maria~ubu2204
+                                    [server_version] => 101104
+                                    [sqlstate] => 00000
+                                    [protocol_version] => 10
+                                    [thread_id] => 5
+                                    [warning_count] => 0
+                                )
+
+                            [resultMode] => 0
+                        )
+
+                )
+
+        )
+
+    [status] => SUCCESS
+    [redirect] => 
+)
+
+
+App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+            [DE] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => DE
+                    [locale_name] => Deutsch
+                    [flag] => 
+                    [folder] => german
+                    [enabled] => 1
+                )
+
+            [EN] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => EN
+                    [locale_name] => English
+                    [flag] => 
+                    [folder] => english
+                    [enabled] => 1
+                )
+
+            [ES] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => ES
+                    [locale_name] => Español
+                    [flag] => 
+                    [folder] => spanish
+                    [enabled] => 0
+                )
+
+            [FR] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => FR
+                    [locale_name] => Français
+                    [flag] => 
+                    [folder] => french
+                    [enabled] => 0
+                )
+
+            [HU] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => HU
+                    [locale_name] => Magyar
+                    [flag] => 
+                    [folder] => hungarian
+                    [enabled] => 0
+                )
+
+            [IT] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => IT
+                    [locale_name] => Italiano
+                    [flag] => 
+                    [folder] => italian
+                    [enabled] => 0
+                )
+
+            [JA] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => JA
+                    [locale_name] => 邦文
+                    [flag] => 
+                    [folder] => japanese
+                    [enabled] => 0
+                )
+
+            [NL] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => NL
+                    [locale_name] => Hollands
+                    [flag] => 
+                    [folder] => dutch
+                    [enabled] => 0
+                )
+
+            [PT] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => PT
+                    [locale_name] => Português
+                    [flag] => 
+                    [folder] => portuguese
+                    [enabled] => 0
+                )
+
+            [RU] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => RU
+                    [locale_name] => Pусский
+                    [flag] => 
+                    [folder] => russian
+                    [enabled] => 0
+                )
+
+            [TR] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => TR
+                    [locale_name] => Türkçe
+                    [flag] => 
+                    [folder] => turkish
+                    [enabled] => 0
+                )
+
+            [ZH] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => ZH
+                    [locale_name] => 中文
+                    [flag] => 
+                    [folder] => simplified-chinese
+                    [enabled] => 0
+                )
+
+        )
+
+    [error] => 
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => Array
+        (
+            [num_rows] => 12
+            [num_fields] => 6
+            [sql] => CodeIgniter\Database\Query Object
+                (
+                    [originalQueryString:protected] => SELECT *
+FROM `app_locales`
+                    [finalQueryString:protected] => SELECT *
+FROM `app_locales`
+                    [binds:protected] => Array
+                        (
+                        )
+
+                    [bindMarker:protected] => ?
+                    [startTime:protected] => 1696327003.3167
+                    [endTime:protected] => 1696327003.318
+                    [errorCode:protected] => 
+                    [errorString:protected] => 
+                    [db] => CodeIgniter\Database\MySQLi\Connection Object
+                        (
+                            [DSN:protected] => 
+                            [port:protected] => 3306
+                            [hostname:protected] => db
+                            [username:protected] => root
+                            [password:protected] => ROOT
+                            [database:protected] => ci_base
+                            [DBDriver] => MySQLi
+                            [subdriver:protected] => 
+                            [DBPrefix:protected] => 
+                            [pConnect:protected] => 
+                            [DBDebug:protected] => 1
+                            [charset:protected] => utf8
+                            [DBCollat:protected] => utf8_general_ci
+                            [swapPre:protected] => 
+                            [encrypt:protected] => 
+                            [compress:protected] => 
+                            [strictOn:protected] => 
+                            [failover:protected] => Array
+                                (
+                                )
+
+                            [lastQuery:protected] => CodeIgniter\Database\Query Object
+ *RECURSION*
+                            [connID] => mysqli Object
+                                (
+                                    [affected_rows] => 12
+                                    [client_info] => mysqlnd 8.1.22
+                                    [client_version] => 80122
+                                    [connect_errno] => 0
+                                    [connect_error] => 
+                                    [errno] => 0
+                                    [error] => 
+                                    [error_list] => Array
+                                        (
+                                        )
+
+                                    [field_count] => 6
+                                    [host_info] => db via TCP/IP
+                                    [info] => 
+                                    [insert_id] => 0
+                                    [server_info] => 10.11.4-MariaDB-1:10.11.4+maria~ubu2204
+                                    [server_version] => 101104
+                                    [sqlstate] => 00000
+                                    [protocol_version] => 10
+                                    [thread_id] => 178
+                                    [warning_count] => 0
+                                )
+
+                            [resultID] => mysqli_result Object
+                                (
+                                    [current_field] => 0
+                                    [field_count] => 6
+                                    [lengths] => 
+                                    [num_rows] => 12
+                                    [type] => 0
+                                )
+
+                            [protectIdentifiers] => 1
+                            [reservedIdentifiers:protected] => Array
+                                (
+                                    [0] => *
+                                )
+
+                            [escapeChar] => `
+                            [likeEscapeStr] =>  ESCAPE '%s' 
+                            [likeEscapeChar] => !
+                            [pregEscapeChar:protected] => Array
+                                (
+                                    [1] => `
+                                    [0] => `
+                                    [3] => `
+                                    [2] => `
+                                )
+
+                            [dataCache] => Array
+                                (
+                                )
+
+                            [connectTime:protected] => 1696327003.3144
+                            [connectDuration:protected] => 0.0023460388183594
+                            [pretend:protected] => 
+                            [transEnabled] => 1
+                            [transStrict] => 1
+                            [transDepth:protected] => 0
+                            [transStatus:protected] => 1
+                            [transFailure:protected] => 
+                            [transException:protected] => 
+                            [aliasedTables:protected] => Array
+                                (
+                                )
+
+                            [queryClass:protected] => CodeIgniter\Database\Query
+                            [deleteHack] => 1
+                            [mysqli] => mysqli Object
+                                (
+                                    [affected_rows] => 12
+                                    [client_info] => mysqlnd 8.1.22
+                                    [client_version] => 80122
+                                    [connect_errno] => 0
+                                    [connect_error] => 
+                                    [errno] => 0
+                                    [error] => 
+                                    [error_list] => Array
+                                        (
+                                        )
+
+                                    [field_count] => 6
+                                    [host_info] => db via TCP/IP
+                                    [info] => 
+                                    [insert_id] => 0
+                                    [server_info] => 10.11.4-MariaDB-1:10.11.4+maria~ubu2204
+                                    [server_version] => 101104
+                                    [sqlstate] => 00000
+                                    [protocol_version] => 10
+                                    [thread_id] => 178
+                                    [warning_count] => 0
+                                )
+
+                            [resultMode] => 0
+                        )
+
+                )
+
+        )
+
+    [status] => SUCCESS
+    [redirect] => 
+)
+
+
+App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+            [DE] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => DE
+                    [locale_name] => Deutsch
+                    [flag] => 
+                    [folder] => german
+                    [enabled] => 1
+                )
+
+            [EN] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => EN
+                    [locale_name] => English
+                    [flag] => 
+                    [folder] => english
+                    [enabled] => 1
+                )
+
+            [ES] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => ES
+                    [locale_name] => Español
+                    [flag] => 
+                    [folder] => spanish
+                    [enabled] => 0
+                )
+
+            [FR] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => FR
+                    [locale_name] => Français
+                    [flag] => 
+                    [folder] => french
+                    [enabled] => 0
+                )
+
+            [HU] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => HU
+                    [locale_name] => Magyar
+                    [flag] => 
+                    [folder] => hungarian
+                    [enabled] => 0
+                )
+
+            [IT] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => IT
+                    [locale_name] => Italiano
+                    [flag] => 
+                    [folder] => italian
+                    [enabled] => 0
+                )
+
+            [JA] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => JA
+                    [locale_name] => 邦文
+                    [flag] => 
+                    [folder] => japanese
+                    [enabled] => 0
+                )
+
+            [NL] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => NL
+                    [locale_name] => Hollands
+                    [flag] => 
+                    [folder] => dutch
+                    [enabled] => 0
+                )
+
+            [PT] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => PT
+                    [locale_name] => Português
+                    [flag] => 
+                    [folder] => portuguese
+                    [enabled] => 0
+                )
+
+            [RU] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => RU
+                    [locale_name] => Pусский
+                    [flag] => 
+                    [folder] => russian
+                    [enabled] => 0
+                )
+
+            [TR] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => TR
+                    [locale_name] => Türkçe
+                    [flag] => 
+                    [folder] => turkish
+                    [enabled] => 0
+                )
+
+            [ZH] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => ZH
+                    [locale_name] => 中文
+                    [flag] => 
+                    [folder] => simplified-chinese
+                    [enabled] => 0
+                )
+
+        )
+
+    [error] => 
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => Array
+        (
+            [num_rows] => 12
+            [num_fields] => 6
+            [sql] => CodeIgniter\Database\Query Object
+                (
+                    [originalQueryString:protected] => SELECT *
+FROM `app_locales`
+                    [finalQueryString:protected] => SELECT *
+FROM `app_locales`
+                    [binds:protected] => Array
+                        (
+                        )
+
+                    [bindMarker:protected] => ?
+                    [startTime:protected] => 1696327007.0801
+                    [endTime:protected] => 1696327007.0805
+                    [errorCode:protected] => 
+                    [errorString:protected] => 
+                    [db] => CodeIgniter\Database\MySQLi\Connection Object
+                        (
+                            [DSN:protected] => 
+                            [port:protected] => 3306
+                            [hostname:protected] => db
+                            [username:protected] => root
+                            [password:protected] => ROOT
+                            [database:protected] => ci_base
+                            [DBDriver] => MySQLi
+                            [subdriver:protected] => 
+                            [DBPrefix:protected] => 
+                            [pConnect:protected] => 
+                            [DBDebug:protected] => 1
+                            [charset:protected] => utf8
+                            [DBCollat:protected] => utf8_general_ci
+                            [swapPre:protected] => 
+                            [encrypt:protected] => 
+                            [compress:protected] => 
+                            [strictOn:protected] => 
+                            [failover:protected] => Array
+                                (
+                                )
+
+                            [lastQuery:protected] => CodeIgniter\Database\Query Object
+ *RECURSION*
+                            [connID] => mysqli Object
+                                (
+                                    [affected_rows] => 12
+                                    [client_info] => mysqlnd 8.1.22
+                                    [client_version] => 80122
+                                    [connect_errno] => 0
+                                    [connect_error] => 
+                                    [errno] => 0
+                                    [error] => 
+                                    [error_list] => Array
+                                        (
+                                        )
+
+                                    [field_count] => 6
+                                    [host_info] => db via TCP/IP
+                                    [info] => 
+                                    [insert_id] => 0
+                                    [server_info] => 10.11.4-MariaDB-1:10.11.4+maria~ubu2204
+                                    [server_version] => 101104
+                                    [sqlstate] => 00000
+                                    [protocol_version] => 10
+                                    [thread_id] => 179
+                                    [warning_count] => 0
+                                )
+
+                            [resultID] => mysqli_result Object
+                                (
+                                    [current_field] => 0
+                                    [field_count] => 6
+                                    [lengths] => 
+                                    [num_rows] => 12
+                                    [type] => 0
+                                )
+
+                            [protectIdentifiers] => 1
+                            [reservedIdentifiers:protected] => Array
+                                (
+                                    [0] => *
+                                )
+
+                            [escapeChar] => `
+                            [likeEscapeStr] =>  ESCAPE '%s' 
+                            [likeEscapeChar] => !
+                            [pregEscapeChar:protected] => Array
+                                (
+                                    [1] => `
+                                    [0] => `
+                                    [3] => `
+                                    [2] => `
+                                )
+
+                            [dataCache] => Array
+                                (
+                                )
+
+                            [connectTime:protected] => 1696327007.0781
+                            [connectDuration:protected] => 0.0020139217376709
+                            [pretend:protected] => 
+                            [transEnabled] => 1
+                            [transStrict] => 1
+                            [transDepth:protected] => 0
+                            [transStatus:protected] => 1
+                            [transFailure:protected] => 
+                            [transException:protected] => 
+                            [aliasedTables:protected] => Array
+                                (
+                                )
+
+                            [queryClass:protected] => CodeIgniter\Database\Query
+                            [deleteHack] => 1
+                            [mysqli] => mysqli Object
+                                (
+                                    [affected_rows] => 12
+                                    [client_info] => mysqlnd 8.1.22
+                                    [client_version] => 80122
+                                    [connect_errno] => 0
+                                    [connect_error] => 
+                                    [errno] => 0
+                                    [error] => 
+                                    [error_list] => Array
+                                        (
+                                        )
+
+                                    [field_count] => 6
+                                    [host_info] => db via TCP/IP
+                                    [info] => 
+                                    [insert_id] => 0
+                                    [server_info] => 10.11.4-MariaDB-1:10.11.4+maria~ubu2204
+                                    [server_version] => 101104
+                                    [sqlstate] => 00000
+                                    [protocol_version] => 10
+                                    [thread_id] => 179
+                                    [warning_count] => 0
+                                )
+
+                            [resultMode] => 0
+                        )
+
+                )
+
+        )
+
+    [status] => SUCCESS
+    [redirect] => 
+)
+
+
+App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+            [DE] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => DE
+                    [locale_name] => Deutsch
+                    [flag] => 
+                    [folder] => german
+                    [enabled] => 1
+                )
+
+            [EN] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => EN
+                    [locale_name] => English
+                    [flag] => 
+                    [folder] => english
+                    [enabled] => 1
+                )
+
+            [ES] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => ES
+                    [locale_name] => Español
+                    [flag] => 
+                    [folder] => spanish
+                    [enabled] => 0
+                )
+
+            [FR] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => FR
+                    [locale_name] => Français
+                    [flag] => 
+                    [folder] => french
+                    [enabled] => 0
+                )
+
+            [HU] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => HU
+                    [locale_name] => Magyar
+                    [flag] => 
+                    [folder] => hungarian
+                    [enabled] => 0
+                )
+
+            [IT] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => IT
+                    [locale_name] => Italiano
+                    [flag] => 
+                    [folder] => italian
+                    [enabled] => 0
+                )
+
+            [JA] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => JA
+                    [locale_name] => 邦文
+                    [flag] => 
+                    [folder] => japanese
+                    [enabled] => 0
+                )
+
+            [NL] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => NL
+                    [locale_name] => Hollands
+                    [flag] => 
+                    [folder] => dutch
+                    [enabled] => 0
+                )
+
+            [PT] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => PT
+                    [locale_name] => Português
+                    [flag] => 
+                    [folder] => portuguese
+                    [enabled] => 0
+                )
+
+            [RU] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => RU
+                    [locale_name] => Pусский
+                    [flag] => 
+                    [folder] => russian
+                    [enabled] => 0
+                )
+
+            [TR] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => TR
+                    [locale_name] => Türkçe
+                    [flag] => 
+                    [folder] => turkish
+                    [enabled] => 0
+                )
+
+            [ZH] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => ZH
+                    [locale_name] => 中文
+                    [flag] => 
+                    [folder] => simplified-chinese
+                    [enabled] => 0
+                )
+
+        )
+
+    [error] => 
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => Array
+        (
+            [num_rows] => 12
+            [num_fields] => 6
+            [sql] => CodeIgniter\Database\Query Object
+                (
+                    [originalQueryString:protected] => SELECT *
+FROM `app_locales`
+                    [finalQueryString:protected] => SELECT *
+FROM `app_locales`
+                    [binds:protected] => Array
+                        (
+                        )
+
+                    [bindMarker:protected] => ?
+                    [startTime:protected] => 1696327010.0828
+                    [endTime:protected] => 1696327010.0832
+                    [errorCode:protected] => 
+                    [errorString:protected] => 
+                    [db] => CodeIgniter\Database\MySQLi\Connection Object
+                        (
+                            [DSN:protected] => 
+                            [port:protected] => 3306
+                            [hostname:protected] => db
+                            [username:protected] => root
+                            [password:protected] => ROOT
+                            [database:protected] => ci_base
+                            [DBDriver] => MySQLi
+                            [subdriver:protected] => 
+                            [DBPrefix:protected] => 
+                            [pConnect:protected] => 
+                            [DBDebug:protected] => 1
+                            [charset:protected] => utf8
+                            [DBCollat:protected] => utf8_general_ci
+                            [swapPre:protected] => 
+                            [encrypt:protected] => 
+                            [compress:protected] => 
+                            [strictOn:protected] => 
+                            [failover:protected] => Array
+                                (
+                                )
+
+                            [lastQuery:protected] => CodeIgniter\Database\Query Object
+ *RECURSION*
+                            [connID] => mysqli Object
+                                (
+                                    [affected_rows] => 12
+                                    [client_info] => mysqlnd 8.1.22
+                                    [client_version] => 80122
+                                    [connect_errno] => 0
+                                    [connect_error] => 
+                                    [errno] => 0
+                                    [error] => 
+                                    [error_list] => Array
+                                        (
+                                        )
+
+                                    [field_count] => 6
+                                    [host_info] => db via TCP/IP
+                                    [info] => 
+                                    [insert_id] => 0
+                                    [server_info] => 10.11.4-MariaDB-1:10.11.4+maria~ubu2204
+                                    [server_version] => 101104
+                                    [sqlstate] => 00000
+                                    [protocol_version] => 10
+                                    [thread_id] => 180
+                                    [warning_count] => 0
+                                )
+
+                            [resultID] => mysqli_result Object
+                                (
+                                    [current_field] => 0
+                                    [field_count] => 6
+                                    [lengths] => 
+                                    [num_rows] => 12
+                                    [type] => 0
+                                )
+
+                            [protectIdentifiers] => 1
+                            [reservedIdentifiers:protected] => Array
+                                (
+                                    [0] => *
+                                )
+
+                            [escapeChar] => `
+                            [likeEscapeStr] =>  ESCAPE '%s' 
+                            [likeEscapeChar] => !
+                            [pregEscapeChar:protected] => Array
+                                (
+                                    [1] => `
+                                    [0] => `
+                                    [3] => `
+                                    [2] => `
+                                )
+
+                            [dataCache] => Array
+                                (
+                                )
+
+                            [connectTime:protected] => 1696327010.0807
+                            [connectDuration:protected] => 0.0021109580993652
+                            [pretend:protected] => 
+                            [transEnabled] => 1
+                            [transStrict] => 1
+                            [transDepth:protected] => 0
+                            [transStatus:protected] => 1
+                            [transFailure:protected] => 
+                            [transException:protected] => 
+                            [aliasedTables:protected] => Array
+                                (
+                                )
+
+                            [queryClass:protected] => CodeIgniter\Database\Query
+                            [deleteHack] => 1
+                            [mysqli] => mysqli Object
+                                (
+                                    [affected_rows] => 12
+                                    [client_info] => mysqlnd 8.1.22
+                                    [client_version] => 80122
+                                    [connect_errno] => 0
+                                    [connect_error] => 
+                                    [errno] => 0
+                                    [error] => 
+                                    [error_list] => Array
+                                        (
+                                        )
+
+                                    [field_count] => 6
+                                    [host_info] => db via TCP/IP
+                                    [info] => 
+                                    [insert_id] => 0
+                                    [server_info] => 10.11.4-MariaDB-1:10.11.4+maria~ubu2204
+                                    [server_version] => 101104
+                                    [sqlstate] => 00000
+                                    [protocol_version] => 10
+                                    [thread_id] => 180
+                                    [warning_count] => 0
+                                )
+
+                            [resultMode] => 0
+                        )
+
+                )
+
+        )
+
+    [status] => SUCCESS
+    [redirect] => 
+)
+
+
+App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+            [DE] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => DE
+                    [locale_name] => Deutsch
+                    [flag] => 
+                    [folder] => german
+                    [enabled] => 1
+                )
+
+            [EN] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => EN
+                    [locale_name] => English
+                    [flag] => 
+                    [folder] => english
+                    [enabled] => 1
+                )
+
+            [ES] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => ES
+                    [locale_name] => Español
+                    [flag] => 
+                    [folder] => spanish
+                    [enabled] => 0
+                )
+
+            [FR] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => FR
+                    [locale_name] => Français
+                    [flag] => 
+                    [folder] => french
+                    [enabled] => 0
+                )
+
+            [HU] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => HU
+                    [locale_name] => Magyar
+                    [flag] => 
+                    [folder] => hungarian
+                    [enabled] => 0
+                )
+
+            [IT] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => IT
+                    [locale_name] => Italiano
+                    [flag] => 
+                    [folder] => italian
+                    [enabled] => 0
+                )
+
+            [JA] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => JA
+                    [locale_name] => 邦文
+                    [flag] => 
+                    [folder] => japanese
+                    [enabled] => 0
+                )
+
+            [NL] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => NL
+                    [locale_name] => Hollands
+                    [flag] => 
+                    [folder] => dutch
+                    [enabled] => 0
+                )
+
+            [PT] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => PT
+                    [locale_name] => Português
+                    [flag] => 
+                    [folder] => portuguese
+                    [enabled] => 0
+                )
+
+            [RU] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => RU
+                    [locale_name] => Pусский
+                    [flag] => 
+                    [folder] => russian
+                    [enabled] => 0
+                )
+
+            [TR] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => TR
+                    [locale_name] => Türkçe
+                    [flag] => 
+                    [folder] => turkish
+                    [enabled] => 0
+                )
+
+            [ZH] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => ZH
+                    [locale_name] => 中文
+                    [flag] => 
+                    [folder] => simplified-chinese
+                    [enabled] => 0
+                )
+
+        )
+
+    [error] => 
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => Array
+        (
+            [num_rows] => 12
+            [num_fields] => 6
+            [sql] => CodeIgniter\Database\Query Object
+                (
+                    [originalQueryString:protected] => SELECT *
+FROM `app_locales`
+                    [finalQueryString:protected] => SELECT *
+FROM `app_locales`
+                    [binds:protected] => Array
+                        (
+                        )
+
+                    [bindMarker:protected] => ?
+                    [startTime:protected] => 1696327018.656
+                    [endTime:protected] => 1696327018.6565
+                    [errorCode:protected] => 
+                    [errorString:protected] => 
+                    [db] => CodeIgniter\Database\MySQLi\Connection Object
+                        (
+                            [DSN:protected] => 
+                            [port:protected] => 3306
+                            [hostname:protected] => db
+                            [username:protected] => root
+                            [password:protected] => ROOT
+                            [database:protected] => ci_base
+                            [DBDriver] => MySQLi
+                            [subdriver:protected] => 
+                            [DBPrefix:protected] => 
+                            [pConnect:protected] => 
+                            [DBDebug:protected] => 1
+                            [charset:protected] => utf8
+                            [DBCollat:protected] => utf8_general_ci
+                            [swapPre:protected] => 
+                            [encrypt:protected] => 
+                            [compress:protected] => 
+                            [strictOn:protected] => 
+                            [failover:protected] => Array
+                                (
+                                )
+
+                            [lastQuery:protected] => CodeIgniter\Database\Query Object
+ *RECURSION*
+                            [connID] => mysqli Object
+                                (
+                                    [affected_rows] => 12
+                                    [client_info] => mysqlnd 8.1.22
+                                    [client_version] => 80122
+                                    [connect_errno] => 0
+                                    [connect_error] => 
+                                    [errno] => 0
+                                    [error] => 
+                                    [error_list] => Array
+                                        (
+                                        )
+
+                                    [field_count] => 6
+                                    [host_info] => db via TCP/IP
+                                    [info] => 
+                                    [insert_id] => 0
+                                    [server_info] => 10.11.4-MariaDB-1:10.11.4+maria~ubu2204
+                                    [server_version] => 101104
+                                    [sqlstate] => 00000
+                                    [protocol_version] => 10
+                                    [thread_id] => 181
+                                    [warning_count] => 0
+                                )
+
+                            [resultID] => mysqli_result Object
+                                (
+                                    [current_field] => 0
+                                    [field_count] => 6
+                                    [lengths] => 
+                                    [num_rows] => 12
+                                    [type] => 0
+                                )
+
+                            [protectIdentifiers] => 1
+                            [reservedIdentifiers:protected] => Array
+                                (
+                                    [0] => *
+                                )
+
+                            [escapeChar] => `
+                            [likeEscapeStr] =>  ESCAPE '%s' 
+                            [likeEscapeChar] => !
+                            [pregEscapeChar:protected] => Array
+                                (
+                                    [1] => `
+                                    [0] => `
+                                    [3] => `
+                                    [2] => `
+                                )
+
+                            [dataCache] => Array
+                                (
+                                )
+
+                            [connectTime:protected] => 1696327018.6544
+                            [connectDuration:protected] => 0.0016539096832275
+                            [pretend:protected] => 
+                            [transEnabled] => 1
+                            [transStrict] => 1
+                            [transDepth:protected] => 0
+                            [transStatus:protected] => 1
+                            [transFailure:protected] => 
+                            [transException:protected] => 
+                            [aliasedTables:protected] => Array
+                                (
+                                )
+
+                            [queryClass:protected] => CodeIgniter\Database\Query
+                            [deleteHack] => 1
+                            [mysqli] => mysqli Object
+                                (
+                                    [affected_rows] => 12
+                                    [client_info] => mysqlnd 8.1.22
+                                    [client_version] => 80122
+                                    [connect_errno] => 0
+                                    [connect_error] => 
+                                    [errno] => 0
+                                    [error] => 
+                                    [error_list] => Array
+                                        (
+                                        )
+
+                                    [field_count] => 6
+                                    [host_info] => db via TCP/IP
+                                    [info] => 
+                                    [insert_id] => 0
+                                    [server_info] => 10.11.4-MariaDB-1:10.11.4+maria~ubu2204
+                                    [server_version] => 101104
+                                    [sqlstate] => 00000
+                                    [protocol_version] => 10
+                                    [thread_id] => 181
+                                    [warning_count] => 0
+                                )
+
+                            [resultMode] => 0
+                        )
+
+                )
+
+        )
+
+    [status] => SUCCESS
+    [redirect] => 
+)
+
+
+App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+            [DE] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => DE
+                    [locale_name] => Deutsch
+                    [flag] => 
+                    [folder] => german
+                    [enabled] => 1
+                )
+
+            [EN] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => EN
+                    [locale_name] => English
+                    [flag] => 
+                    [folder] => english
+                    [enabled] => 1
+                )
+
+            [ES] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => ES
+                    [locale_name] => Español
+                    [flag] => 
+                    [folder] => spanish
+                    [enabled] => 0
+                )
+
+            [FR] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => FR
+                    [locale_name] => Français
+                    [flag] => 
+                    [folder] => french
+                    [enabled] => 0
+                )
+
+            [HU] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => HU
+                    [locale_name] => Magyar
+                    [flag] => 
+                    [folder] => hungarian
+                    [enabled] => 0
+                )
+
+            [IT] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => IT
+                    [locale_name] => Italiano
+                    [flag] => 
+                    [folder] => italian
+                    [enabled] => 0
+                )
+
+            [JA] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => JA
+                    [locale_name] => 邦文
+                    [flag] => 
+                    [folder] => japanese
+                    [enabled] => 0
+                )
+
+            [NL] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => NL
+                    [locale_name] => Hollands
+                    [flag] => 
+                    [folder] => dutch
+                    [enabled] => 0
+                )
+
+            [PT] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => PT
+                    [locale_name] => Português
+                    [flag] => 
+                    [folder] => portuguese
+                    [enabled] => 0
+                )
+
+            [RU] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => RU
+                    [locale_name] => Pусский
+                    [flag] => 
+                    [folder] => russian
+                    [enabled] => 0
+                )
+
+            [TR] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => TR
+                    [locale_name] => Türkçe
+                    [flag] => 
+                    [folder] => turkish
+                    [enabled] => 0
+                )
+
+            [ZH] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => ZH
+                    [locale_name] => 中文
+                    [flag] => 
+                    [folder] => simplified-chinese
+                    [enabled] => 0
+                )
+
+        )
+
+    [error] => 
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => Array
+        (
+            [num_rows] => 12
+            [num_fields] => 6
+            [sql] => CodeIgniter\Database\Query Object
+                (
+                    [originalQueryString:protected] => SELECT *
+FROM `app_locales`
+                    [finalQueryString:protected] => SELECT *
+FROM `app_locales`
+                    [binds:protected] => Array
+                        (
+                        )
+
+                    [bindMarker:protected] => ?
+                    [startTime:protected] => 1696327021.1549
+                    [endTime:protected] => 1696327021.1555
+                    [errorCode:protected] => 
+                    [errorString:protected] => 
+                    [db] => CodeIgniter\Database\MySQLi\Connection Object
+                        (
+                            [DSN:protected] => 
+                            [port:protected] => 3306
+                            [hostname:protected] => db
+                            [username:protected] => root
+                            [password:protected] => ROOT
+                            [database:protected] => ci_base
+                            [DBDriver] => MySQLi
+                            [subdriver:protected] => 
+                            [DBPrefix:protected] => 
+                            [pConnect:protected] => 
+                            [DBDebug:protected] => 1
+                            [charset:protected] => utf8
+                            [DBCollat:protected] => utf8_general_ci
+                            [swapPre:protected] => 
+                            [encrypt:protected] => 
+                            [compress:protected] => 
+                            [strictOn:protected] => 
+                            [failover:protected] => Array
+                                (
+                                )
+
+                            [lastQuery:protected] => CodeIgniter\Database\Query Object
+ *RECURSION*
+                            [connID] => mysqli Object
+                                (
+                                    [affected_rows] => 12
+                                    [client_info] => mysqlnd 8.1.22
+                                    [client_version] => 80122
+                                    [connect_errno] => 0
+                                    [connect_error] => 
+                                    [errno] => 0
+                                    [error] => 
+                                    [error_list] => Array
+                                        (
+                                        )
+
+                                    [field_count] => 6
+                                    [host_info] => db via TCP/IP
+                                    [info] => 
+                                    [insert_id] => 0
+                                    [server_info] => 10.11.4-MariaDB-1:10.11.4+maria~ubu2204
+                                    [server_version] => 101104
+                                    [sqlstate] => 00000
+                                    [protocol_version] => 10
+                                    [thread_id] => 182
+                                    [warning_count] => 0
+                                )
+
+                            [resultID] => mysqli_result Object
+                                (
+                                    [current_field] => 0
+                                    [field_count] => 6
+                                    [lengths] => 
+                                    [num_rows] => 12
+                                    [type] => 0
+                                )
+
+                            [protectIdentifiers] => 1
+                            [reservedIdentifiers:protected] => Array
+                                (
+                                    [0] => *
+                                )
+
+                            [escapeChar] => `
+                            [likeEscapeStr] =>  ESCAPE '%s' 
+                            [likeEscapeChar] => !
+                            [pregEscapeChar:protected] => Array
+                                (
+                                    [1] => `
+                                    [0] => `
+                                    [3] => `
+                                    [2] => `
+                                )
+
+                            [dataCache] => Array
+                                (
+                                )
+
+                            [connectTime:protected] => 1696327021.1524
+                            [connectDuration:protected] => 0.0025529861450195
+                            [pretend:protected] => 
+                            [transEnabled] => 1
+                            [transStrict] => 1
+                            [transDepth:protected] => 0
+                            [transStatus:protected] => 1
+                            [transFailure:protected] => 
+                            [transException:protected] => 
+                            [aliasedTables:protected] => Array
+                                (
+                                )
+
+                            [queryClass:protected] => CodeIgniter\Database\Query
+                            [deleteHack] => 1
+                            [mysqli] => mysqli Object
+                                (
+                                    [affected_rows] => 12
+                                    [client_info] => mysqlnd 8.1.22
+                                    [client_version] => 80122
+                                    [connect_errno] => 0
+                                    [connect_error] => 
+                                    [errno] => 0
+                                    [error] => 
+                                    [error_list] => Array
+                                        (
+                                        )
+
+                                    [field_count] => 6
+                                    [host_info] => db via TCP/IP
+                                    [info] => 
+                                    [insert_id] => 0
+                                    [server_info] => 10.11.4-MariaDB-1:10.11.4+maria~ubu2204
+                                    [server_version] => 101104
+                                    [sqlstate] => 00000
+                                    [protocol_version] => 10
+                                    [thread_id] => 182
+                                    [warning_count] => 0
+                                )
+
+                            [resultMode] => 0
+                        )
+
+                )
+
+        )
+
+    [status] => SUCCESS
+    [redirect] => 
+)
+
+
+App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+            [DE] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => DE
+                    [locale_name] => Deutsch
+                    [flag] => 
+                    [folder] => german
+                    [enabled] => 1
+                )
+
+            [EN] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => EN
+                    [locale_name] => English
+                    [flag] => 
+                    [folder] => english
+                    [enabled] => 1
+                )
+
+            [ES] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => ES
+                    [locale_name] => Español
+                    [flag] => 
+                    [folder] => spanish
+                    [enabled] => 0
+                )
+
+            [FR] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => FR
+                    [locale_name] => Français
+                    [flag] => 
+                    [folder] => french
+                    [enabled] => 0
+                )
+
+            [HU] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => HU
+                    [locale_name] => Magyar
+                    [flag] => 
+                    [folder] => hungarian
+                    [enabled] => 0
+                )
+
+            [IT] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => IT
+                    [locale_name] => Italiano
+                    [flag] => 
+                    [folder] => italian
+                    [enabled] => 0
+                )
+
+            [JA] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => JA
+                    [locale_name] => 邦文
+                    [flag] => 
+                    [folder] => japanese
+                    [enabled] => 0
+                )
+
+            [NL] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => NL
+                    [locale_name] => Hollands
+                    [flag] => 
+                    [folder] => dutch
+                    [enabled] => 0
+                )
+
+            [PT] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => PT
+                    [locale_name] => Português
+                    [flag] => 
+                    [folder] => portuguese
+                    [enabled] => 0
+                )
+
+            [RU] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => RU
+                    [locale_name] => Pусский
+                    [flag] => 
+                    [folder] => russian
+                    [enabled] => 0
+                )
+
+            [TR] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => TR
+                    [locale_name] => Türkçe
+                    [flag] => 
+                    [folder] => turkish
+                    [enabled] => 0
+                )
+
+            [ZH] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => ZH
+                    [locale_name] => 中文
+                    [flag] => 
+                    [folder] => simplified-chinese
+                    [enabled] => 0
+                )
+
+        )
+
+    [error] => 
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => Array
+        (
+            [num_rows] => 12
+            [num_fields] => 6
+            [sql] => CodeIgniter\Database\Query Object
+                (
+                    [originalQueryString:protected] => SELECT *
+FROM `app_locales`
+                    [finalQueryString:protected] => SELECT *
+FROM `app_locales`
+                    [binds:protected] => Array
+                        (
+                        )
+
+                    [bindMarker:protected] => ?
+                    [startTime:protected] => 1696327023.2458
+                    [endTime:protected] => 1696327023.2462
+                    [errorCode:protected] => 
+                    [errorString:protected] => 
+                    [db] => CodeIgniter\Database\MySQLi\Connection Object
+                        (
+                            [DSN:protected] => 
+                            [port:protected] => 3306
+                            [hostname:protected] => db
+                            [username:protected] => root
+                            [password:protected] => ROOT
+                            [database:protected] => ci_base
+                            [DBDriver] => MySQLi
+                            [subdriver:protected] => 
+                            [DBPrefix:protected] => 
+                            [pConnect:protected] => 
+                            [DBDebug:protected] => 1
+                            [charset:protected] => utf8
+                            [DBCollat:protected] => utf8_general_ci
+                            [swapPre:protected] => 
+                            [encrypt:protected] => 
+                            [compress:protected] => 
+                            [strictOn:protected] => 
+                            [failover:protected] => Array
+                                (
+                                )
+
+                            [lastQuery:protected] => CodeIgniter\Database\Query Object
+ *RECURSION*
+                            [connID] => mysqli Object
+                                (
+                                    [affected_rows] => 12
+                                    [client_info] => mysqlnd 8.1.22
+                                    [client_version] => 80122
+                                    [connect_errno] => 0
+                                    [connect_error] => 
+                                    [errno] => 0
+                                    [error] => 
+                                    [error_list] => Array
+                                        (
+                                        )
+
+                                    [field_count] => 6
+                                    [host_info] => db via TCP/IP
+                                    [info] => 
+                                    [insert_id] => 0
+                                    [server_info] => 10.11.4-MariaDB-1:10.11.4+maria~ubu2204
+                                    [server_version] => 101104
+                                    [sqlstate] => 00000
+                                    [protocol_version] => 10
+                                    [thread_id] => 183
+                                    [warning_count] => 0
+                                )
+
+                            [resultID] => mysqli_result Object
+                                (
+                                    [current_field] => 0
+                                    [field_count] => 6
+                                    [lengths] => 
+                                    [num_rows] => 12
+                                    [type] => 0
+                                )
+
+                            [protectIdentifiers] => 1
+                            [reservedIdentifiers:protected] => Array
+                                (
+                                    [0] => *
+                                )
+
+                            [escapeChar] => `
+                            [likeEscapeStr] =>  ESCAPE '%s' 
+                            [likeEscapeChar] => !
+                            [pregEscapeChar:protected] => Array
+                                (
+                                    [1] => `
+                                    [0] => `
+                                    [3] => `
+                                    [2] => `
+                                )
+
+                            [dataCache] => Array
+                                (
+                                )
+
+                            [connectTime:protected] => 1696327023.2435
+                            [connectDuration:protected] => 0.0022950172424316
+                            [pretend:protected] => 
+                            [transEnabled] => 1
+                            [transStrict] => 1
+                            [transDepth:protected] => 0
+                            [transStatus:protected] => 1
+                            [transFailure:protected] => 
+                            [transException:protected] => 
+                            [aliasedTables:protected] => Array
+                                (
+                                )
+
+                            [queryClass:protected] => CodeIgniter\Database\Query
+                            [deleteHack] => 1
+                            [mysqli] => mysqli Object
+                                (
+                                    [affected_rows] => 12
+                                    [client_info] => mysqlnd 8.1.22
+                                    [client_version] => 80122
+                                    [connect_errno] => 0
+                                    [connect_error] => 
+                                    [errno] => 0
+                                    [error] => 
+                                    [error_list] => Array
+                                        (
+                                        )
+
+                                    [field_count] => 6
+                                    [host_info] => db via TCP/IP
+                                    [info] => 
+                                    [insert_id] => 0
+                                    [server_info] => 10.11.4-MariaDB-1:10.11.4+maria~ubu2204
+                                    [server_version] => 101104
+                                    [sqlstate] => 00000
+                                    [protocol_version] => 10
+                                    [thread_id] => 183
+                                    [warning_count] => 0
+                                )
+
+                            [resultMode] => 0
+                        )
+
+                )
+
+        )
+
+    [status] => SUCCESS
+    [redirect] => 
+)
+
+
+App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+            [DE] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => DE
+                    [locale_name] => Deutsch
+                    [flag] => 
+                    [folder] => german
+                    [enabled] => 1
+                )
+
+            [EN] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => EN
+                    [locale_name] => English
+                    [flag] => 
+                    [folder] => english
+                    [enabled] => 1
+                )
+
+            [ES] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => ES
+                    [locale_name] => Español
+                    [flag] => 
+                    [folder] => spanish
+                    [enabled] => 0
+                )
+
+            [FR] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => FR
+                    [locale_name] => Français
+                    [flag] => 
+                    [folder] => french
+                    [enabled] => 0
+                )
+
+            [HU] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => HU
+                    [locale_name] => Magyar
+                    [flag] => 
+                    [folder] => hungarian
+                    [enabled] => 0
+                )
+
+            [IT] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => IT
+                    [locale_name] => Italiano
+                    [flag] => 
+                    [folder] => italian
+                    [enabled] => 0
+                )
+
+            [JA] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => JA
+                    [locale_name] => 邦文
+                    [flag] => 
+                    [folder] => japanese
+                    [enabled] => 0
+                )
+
+            [NL] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => NL
+                    [locale_name] => Hollands
+                    [flag] => 
+                    [folder] => dutch
+                    [enabled] => 0
+                )
+
+            [PT] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => PT
+                    [locale_name] => Português
+                    [flag] => 
+                    [folder] => portuguese
+                    [enabled] => 0
+                )
+
+            [RU] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => RU
+                    [locale_name] => Pусский
+                    [flag] => 
+                    [folder] => russian
+                    [enabled] => 0
+                )
+
+            [TR] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => TR
+                    [locale_name] => Türkçe
+                    [flag] => 
+                    [folder] => turkish
+                    [enabled] => 0
+                )
+
+            [ZH] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => ZH
+                    [locale_name] => 中文
+                    [flag] => 
+                    [folder] => simplified-chinese
+                    [enabled] => 0
+                )
+
+        )
+
+    [error] => 
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => Array
+        (
+            [num_rows] => 12
+            [num_fields] => 6
+            [sql] => CodeIgniter\Database\Query Object
+                (
+                    [originalQueryString:protected] => SELECT *
+FROM `app_locales`
+                    [finalQueryString:protected] => SELECT *
+FROM `app_locales`
+                    [binds:protected] => Array
+                        (
+                        )
+
+                    [bindMarker:protected] => ?
+                    [startTime:protected] => 1696327031.0363
+                    [endTime:protected] => 1696327031.0366
+                    [errorCode:protected] => 
+                    [errorString:protected] => 
+                    [db] => CodeIgniter\Database\MySQLi\Connection Object
+                        (
+                            [DSN:protected] => 
+                            [port:protected] => 3306
+                            [hostname:protected] => db
+                            [username:protected] => root
+                            [password:protected] => ROOT
+                            [database:protected] => ci_base
+                            [DBDriver] => MySQLi
+                            [subdriver:protected] => 
+                            [DBPrefix:protected] => 
+                            [pConnect:protected] => 
+                            [DBDebug:protected] => 1
+                            [charset:protected] => utf8
+                            [DBCollat:protected] => utf8_general_ci
+                            [swapPre:protected] => 
+                            [encrypt:protected] => 
+                            [compress:protected] => 
+                            [strictOn:protected] => 
+                            [failover:protected] => Array
+                                (
+                                )
+
+                            [lastQuery:protected] => CodeIgniter\Database\Query Object
+ *RECURSION*
+                            [connID] => mysqli Object
+                                (
+                                    [affected_rows] => 12
+                                    [client_info] => mysqlnd 8.1.22
+                                    [client_version] => 80122
+                                    [connect_errno] => 0
+                                    [connect_error] => 
+                                    [errno] => 0
+                                    [error] => 
+                                    [error_list] => Array
+                                        (
+                                        )
+
+                                    [field_count] => 6
+                                    [host_info] => db via TCP/IP
+                                    [info] => 
+                                    [insert_id] => 0
+                                    [server_info] => 10.11.4-MariaDB-1:10.11.4+maria~ubu2204
+                                    [server_version] => 101104
+                                    [sqlstate] => 00000
+                                    [protocol_version] => 10
+                                    [thread_id] => 184
+                                    [warning_count] => 0
+                                )
+
+                            [resultID] => mysqli_result Object
+                                (
+                                    [current_field] => 0
+                                    [field_count] => 6
+                                    [lengths] => 
+                                    [num_rows] => 12
+                                    [type] => 0
+                                )
+
+                            [protectIdentifiers] => 1
+                            [reservedIdentifiers:protected] => Array
+                                (
+                                    [0] => *
+                                )
+
+                            [escapeChar] => `
+                            [likeEscapeStr] =>  ESCAPE '%s' 
+                            [likeEscapeChar] => !
+                            [pregEscapeChar:protected] => Array
+                                (
+                                    [1] => `
+                                    [0] => `
+                                    [3] => `
+                                    [2] => `
+                                )
+
+                            [dataCache] => Array
+                                (
+                                )
+
+                            [connectTime:protected] => 1696327031.0344
+                            [connectDuration:protected] => 0.0018031597137451
+                            [pretend:protected] => 
+                            [transEnabled] => 1
+                            [transStrict] => 1
+                            [transDepth:protected] => 0
+                            [transStatus:protected] => 1
+                            [transFailure:protected] => 
+                            [transException:protected] => 
+                            [aliasedTables:protected] => Array
+                                (
+                                )
+
+                            [queryClass:protected] => CodeIgniter\Database\Query
+                            [deleteHack] => 1
+                            [mysqli] => mysqli Object
+                                (
+                                    [affected_rows] => 12
+                                    [client_info] => mysqlnd 8.1.22
+                                    [client_version] => 80122
+                                    [connect_errno] => 0
+                                    [connect_error] => 
+                                    [errno] => 0
+                                    [error] => 
+                                    [error_list] => Array
+                                        (
+                                        )
+
+                                    [field_count] => 6
+                                    [host_info] => db via TCP/IP
+                                    [info] => 
+                                    [insert_id] => 0
+                                    [server_info] => 10.11.4-MariaDB-1:10.11.4+maria~ubu2204
+                                    [server_version] => 101104
+                                    [sqlstate] => 00000
+                                    [protocol_version] => 10
+                                    [thread_id] => 184
+                                    [warning_count] => 0
+                                )
+
+                            [resultMode] => 0
+                        )
+
+                )
+
+        )
+
+    [status] => SUCCESS
+    [redirect] => 
+)
+
+
+App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+            [DE] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => DE
+                    [locale_name] => Deutsch
+                    [flag] => 
+                    [folder] => german
+                    [enabled] => 1
+                )
+
+            [EN] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => EN
+                    [locale_name] => English
+                    [flag] => 
+                    [folder] => english
+                    [enabled] => 1
+                )
+
+            [ES] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => ES
+                    [locale_name] => Español
+                    [flag] => 
+                    [folder] => spanish
+                    [enabled] => 0
+                )
+
+            [FR] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => FR
+                    [locale_name] => Français
+                    [flag] => 
+                    [folder] => french
+                    [enabled] => 0
+                )
+
+            [HU] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => HU
+                    [locale_name] => Magyar
+                    [flag] => 
+                    [folder] => hungarian
+                    [enabled] => 0
+                )
+
+            [IT] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => IT
+                    [locale_name] => Italiano
+                    [flag] => 
+                    [folder] => italian
+                    [enabled] => 0
+                )
+
+            [JA] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => JA
+                    [locale_name] => 邦文
+                    [flag] => 
+                    [folder] => japanese
+                    [enabled] => 0
+                )
+
+            [NL] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => NL
+                    [locale_name] => Hollands
+                    [flag] => 
+                    [folder] => dutch
+                    [enabled] => 0
+                )
+
+            [PT] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => PT
+                    [locale_name] => Português
+                    [flag] => 
+                    [folder] => portuguese
+                    [enabled] => 0
+                )
+
+            [RU] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => RU
+                    [locale_name] => Pусский
+                    [flag] => 
+                    [folder] => russian
+                    [enabled] => 0
+                )
+
+            [TR] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => TR
+                    [locale_name] => Türkçe
+                    [flag] => 
+                    [folder] => turkish
+                    [enabled] => 0
+                )
+
+            [ZH] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => ZH
+                    [locale_name] => 中文
+                    [flag] => 
+                    [folder] => simplified-chinese
+                    [enabled] => 0
+                )
+
+        )
+
+    [error] => 
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => Array
+        (
+            [num_rows] => 12
+            [num_fields] => 6
+            [sql] => CodeIgniter\Database\Query Object
+                (
+                    [originalQueryString:protected] => SELECT *
+FROM `app_locales`
+                    [finalQueryString:protected] => SELECT *
+FROM `app_locales`
+                    [binds:protected] => Array
+                        (
+                        )
+
+                    [bindMarker:protected] => ?
+                    [startTime:protected] => 1696327033.2813
+                    [endTime:protected] => 1696327033.282
+                    [errorCode:protected] => 
+                    [errorString:protected] => 
+                    [db] => CodeIgniter\Database\MySQLi\Connection Object
+                        (
+                            [DSN:protected] => 
+                            [port:protected] => 3306
+                            [hostname:protected] => db
+                            [username:protected] => root
+                            [password:protected] => ROOT
+                            [database:protected] => ci_base
+                            [DBDriver] => MySQLi
+                            [subdriver:protected] => 
+                            [DBPrefix:protected] => 
+                            [pConnect:protected] => 
+                            [DBDebug:protected] => 1
+                            [charset:protected] => utf8
+                            [DBCollat:protected] => utf8_general_ci
+                            [swapPre:protected] => 
+                            [encrypt:protected] => 
+                            [compress:protected] => 
+                            [strictOn:protected] => 
+                            [failover:protected] => Array
+                                (
+                                )
+
+                            [lastQuery:protected] => CodeIgniter\Database\Query Object
+ *RECURSION*
+                            [connID] => mysqli Object
+                                (
+                                    [affected_rows] => 12
+                                    [client_info] => mysqlnd 8.1.22
+                                    [client_version] => 80122
+                                    [connect_errno] => 0
+                                    [connect_error] => 
+                                    [errno] => 0
+                                    [error] => 
+                                    [error_list] => Array
+                                        (
+                                        )
+
+                                    [field_count] => 6
+                                    [host_info] => db via TCP/IP
+                                    [info] => 
+                                    [insert_id] => 0
+                                    [server_info] => 10.11.4-MariaDB-1:10.11.4+maria~ubu2204
+                                    [server_version] => 101104
+                                    [sqlstate] => 00000
+                                    [protocol_version] => 10
+                                    [thread_id] => 185
+                                    [warning_count] => 0
+                                )
+
+                            [resultID] => mysqli_result Object
+                                (
+                                    [current_field] => 0
+                                    [field_count] => 6
+                                    [lengths] => 
+                                    [num_rows] => 12
+                                    [type] => 0
+                                )
+
+                            [protectIdentifiers] => 1
+                            [reservedIdentifiers:protected] => Array
+                                (
+                                    [0] => *
+                                )
+
+                            [escapeChar] => `
+                            [likeEscapeStr] =>  ESCAPE '%s' 
+                            [likeEscapeChar] => !
+                            [pregEscapeChar:protected] => Array
+                                (
+                                    [1] => `
+                                    [0] => `
+                                    [3] => `
+                                    [2] => `
+                                )
+
+                            [dataCache] => Array
+                                (
+                                )
+
+                            [connectTime:protected] => 1696327033.2794
+                            [connectDuration:protected] => 0.0018990039825439
+                            [pretend:protected] => 
+                            [transEnabled] => 1
+                            [transStrict] => 1
+                            [transDepth:protected] => 0
+                            [transStatus:protected] => 1
+                            [transFailure:protected] => 
+                            [transException:protected] => 
+                            [aliasedTables:protected] => Array
+                                (
+                                )
+
+                            [queryClass:protected] => CodeIgniter\Database\Query
+                            [deleteHack] => 1
+                            [mysqli] => mysqli Object
+                                (
+                                    [affected_rows] => 12
+                                    [client_info] => mysqlnd 8.1.22
+                                    [client_version] => 80122
+                                    [connect_errno] => 0
+                                    [connect_error] => 
+                                    [errno] => 0
+                                    [error] => 
+                                    [error_list] => Array
+                                        (
+                                        )
+
+                                    [field_count] => 6
+                                    [host_info] => db via TCP/IP
+                                    [info] => 
+                                    [insert_id] => 0
+                                    [server_info] => 10.11.4-MariaDB-1:10.11.4+maria~ubu2204
+                                    [server_version] => 101104
+                                    [sqlstate] => 00000
+                                    [protocol_version] => 10
+                                    [thread_id] => 185
+                                    [warning_count] => 0
+                                )
+
+                            [resultMode] => 0
+                        )
+
+                )
+
+        )
+
+    [status] => SUCCESS
+    [redirect] => 
+)
+
+
+App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+            [DE] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => DE
+                    [locale_name] => Deutsch
+                    [flag] => 
+                    [folder] => german
+                    [enabled] => 1
+                )
+
+            [EN] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => EN
+                    [locale_name] => English
+                    [flag] => 
+                    [folder] => english
+                    [enabled] => 1
+                )
+
+            [ES] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => ES
+                    [locale_name] => Español
+                    [flag] => 
+                    [folder] => spanish
+                    [enabled] => 0
+                )
+
+            [FR] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => FR
+                    [locale_name] => Français
+                    [flag] => 
+                    [folder] => french
+                    [enabled] => 0
+                )
+
+            [HU] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => HU
+                    [locale_name] => Magyar
+                    [flag] => 
+                    [folder] => hungarian
+                    [enabled] => 0
+                )
+
+            [IT] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => IT
+                    [locale_name] => Italiano
+                    [flag] => 
+                    [folder] => italian
+                    [enabled] => 0
+                )
+
+            [JA] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => JA
+                    [locale_name] => 邦文
+                    [flag] => 
+                    [folder] => japanese
+                    [enabled] => 0
+                )
+
+            [NL] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => NL
+                    [locale_name] => Hollands
+                    [flag] => 
+                    [folder] => dutch
+                    [enabled] => 0
+                )
+
+            [PT] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => PT
+                    [locale_name] => Português
+                    [flag] => 
+                    [folder] => portuguese
+                    [enabled] => 0
+                )
+
+            [RU] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => RU
+                    [locale_name] => Pусский
+                    [flag] => 
+                    [folder] => russian
+                    [enabled] => 0
+                )
+
+            [TR] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => TR
+                    [locale_name] => Türkçe
+                    [flag] => 
+                    [folder] => turkish
+                    [enabled] => 0
+                )
+
+            [ZH] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => ZH
+                    [locale_name] => 中文
+                    [flag] => 
+                    [folder] => simplified-chinese
+                    [enabled] => 0
+                )
+
+        )
+
+    [error] => 
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => Array
+        (
+            [num_rows] => 12
+            [num_fields] => 6
+            [sql] => CodeIgniter\Database\Query Object
+                (
+                    [originalQueryString:protected] => SELECT *
+FROM `app_locales`
+                    [finalQueryString:protected] => SELECT *
+FROM `app_locales`
+                    [binds:protected] => Array
+                        (
+                        )
+
+                    [bindMarker:protected] => ?
+                    [startTime:protected] => 1696327035.2128
+                    [endTime:protected] => 1696327035.2134
+                    [errorCode:protected] => 
+                    [errorString:protected] => 
+                    [db] => CodeIgniter\Database\MySQLi\Connection Object
+                        (
+                            [DSN:protected] => 
+                            [port:protected] => 3306
+                            [hostname:protected] => db
+                            [username:protected] => root
+                            [password:protected] => ROOT
+                            [database:protected] => ci_base
+                            [DBDriver] => MySQLi
+                            [subdriver:protected] => 
+                            [DBPrefix:protected] => 
+                            [pConnect:protected] => 
+                            [DBDebug:protected] => 1
+                            [charset:protected] => utf8
+                            [DBCollat:protected] => utf8_general_ci
+                            [swapPre:protected] => 
+                            [encrypt:protected] => 
+                            [compress:protected] => 
+                            [strictOn:protected] => 
+                            [failover:protected] => Array
+                                (
+                                )
+
+                            [lastQuery:protected] => CodeIgniter\Database\Query Object
+ *RECURSION*
+                            [connID] => mysqli Object
+                                (
+                                    [affected_rows] => 12
+                                    [client_info] => mysqlnd 8.1.22
+                                    [client_version] => 80122
+                                    [connect_errno] => 0
+                                    [connect_error] => 
+                                    [errno] => 0
+                                    [error] => 
+                                    [error_list] => Array
+                                        (
+                                        )
+
+                                    [field_count] => 6
+                                    [host_info] => db via TCP/IP
+                                    [info] => 
+                                    [insert_id] => 0
+                                    [server_info] => 10.11.4-MariaDB-1:10.11.4+maria~ubu2204
+                                    [server_version] => 101104
+                                    [sqlstate] => 00000
+                                    [protocol_version] => 10
+                                    [thread_id] => 186
+                                    [warning_count] => 0
+                                )
+
+                            [resultID] => mysqli_result Object
+                                (
+                                    [current_field] => 0
+                                    [field_count] => 6
+                                    [lengths] => 
+                                    [num_rows] => 12
+                                    [type] => 0
+                                )
+
+                            [protectIdentifiers] => 1
+                            [reservedIdentifiers:protected] => Array
+                                (
+                                    [0] => *
+                                )
+
+                            [escapeChar] => `
+                            [likeEscapeStr] =>  ESCAPE '%s' 
+                            [likeEscapeChar] => !
+                            [pregEscapeChar:protected] => Array
+                                (
+                                    [1] => `
+                                    [0] => `
+                                    [3] => `
+                                    [2] => `
+                                )
+
+                            [dataCache] => Array
+                                (
+                                )
+
+                            [connectTime:protected] => 1696327035.2112
+                            [connectDuration:protected] => 0.0016489028930664
+                            [pretend:protected] => 
+                            [transEnabled] => 1
+                            [transStrict] => 1
+                            [transDepth:protected] => 0
+                            [transStatus:protected] => 1
+                            [transFailure:protected] => 
+                            [transException:protected] => 
+                            [aliasedTables:protected] => Array
+                                (
+                                )
+
+                            [queryClass:protected] => CodeIgniter\Database\Query
+                            [deleteHack] => 1
+                            [mysqli] => mysqli Object
+                                (
+                                    [affected_rows] => 12
+                                    [client_info] => mysqlnd 8.1.22
+                                    [client_version] => 80122
+                                    [connect_errno] => 0
+                                    [connect_error] => 
+                                    [errno] => 0
+                                    [error] => 
+                                    [error_list] => Array
+                                        (
+                                        )
+
+                                    [field_count] => 6
+                                    [host_info] => db via TCP/IP
+                                    [info] => 
+                                    [insert_id] => 0
+                                    [server_info] => 10.11.4-MariaDB-1:10.11.4+maria~ubu2204
+                                    [server_version] => 101104
+                                    [sqlstate] => 00000
+                                    [protocol_version] => 10
+                                    [thread_id] => 186
+                                    [warning_count] => 0
+                                )
+
+                            [resultMode] => 0
+                        )
+
+                )
+
+        )
+
+    [status] => SUCCESS
+    [redirect] => 
+)
+
+
+App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+            [DE] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => DE
+                    [locale_name] => Deutsch
+                    [flag] => 
+                    [folder] => german
+                    [enabled] => 1
+                )
+
+            [EN] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => EN
+                    [locale_name] => English
+                    [flag] => 
+                    [folder] => english
+                    [enabled] => 1
+                )
+
+            [ES] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => ES
+                    [locale_name] => Español
+                    [flag] => 
+                    [folder] => spanish
+                    [enabled] => 0
+                )
+
+            [FR] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => FR
+                    [locale_name] => Français
+                    [flag] => 
+                    [folder] => french
+                    [enabled] => 0
+                )
+
+            [HU] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => HU
+                    [locale_name] => Magyar
+                    [flag] => 
+                    [folder] => hungarian
+                    [enabled] => 0
+                )
+
+            [IT] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => IT
+                    [locale_name] => Italiano
+                    [flag] => 
+                    [folder] => italian
+                    [enabled] => 0
+                )
+
+            [JA] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => JA
+                    [locale_name] => 邦文
+                    [flag] => 
+                    [folder] => japanese
+                    [enabled] => 0
+                )
+
+            [NL] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => NL
+                    [locale_name] => Hollands
+                    [flag] => 
+                    [folder] => dutch
+                    [enabled] => 0
+                )
+
+            [PT] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => PT
+                    [locale_name] => Português
+                    [flag] => 
+                    [folder] => portuguese
+                    [enabled] => 0
+                )
+
+            [RU] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => RU
+                    [locale_name] => Pусский
+                    [flag] => 
+                    [folder] => russian
+                    [enabled] => 0
+                )
+
+            [TR] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => TR
+                    [locale_name] => Türkçe
+                    [flag] => 
+                    [folder] => turkish
+                    [enabled] => 0
+                )
+
+            [ZH] => stdClass Object
+                (
+                    [client_id] => 0
+                    [locale_code] => ZH
+                    [locale_name] => 中文
+                    [flag] => 
+                    [folder] => simplified-chinese
+                    [enabled] => 0
+                )
+
+        )
+
+    [error] => 
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => Array
+        (
+            [num_rows] => 12
+            [num_fields] => 6
+            [sql] => CodeIgniter\Database\Query Object
+                (
+                    [originalQueryString:protected] => SELECT *
+FROM `app_locales`
+                    [finalQueryString:protected] => SELECT *
+FROM `app_locales`
+                    [binds:protected] => Array
+                        (
+                        )
+
+                    [bindMarker:protected] => ?
+                    [startTime:protected] => 1696327286.3121
+                    [endTime:protected] => 1696327286.3125
+                    [errorCode:protected] => 
+                    [errorString:protected] => 
+                    [db] => CodeIgniter\Database\MySQLi\Connection Object
+                        (
+                            [DSN:protected] => 
+                            [port:protected] => 3306
+                            [hostname:protected] => db
+                            [username:protected] => root
+                            [password:protected] => ROOT
+                            [database:protected] => ci_base
+                            [DBDriver] => MySQLi
+                            [subdriver:protected] => 
+                            [DBPrefix:protected] => 
+                            [pConnect:protected] => 
+                            [DBDebug:protected] => 1
+                            [charset:protected] => utf8
+                            [DBCollat:protected] => utf8_general_ci
+                            [swapPre:protected] => 
+                            [encrypt:protected] => 
+                            [compress:protected] => 
+                            [strictOn:protected] => 
+                            [failover:protected] => Array
+                                (
+                                )
+
+                            [lastQuery:protected] => CodeIgniter\Database\Query Object
+ *RECURSION*
+                            [connID] => mysqli Object
+                                (
+                                    [affected_rows] => 12
+                                    [client_info] => mysqlnd 8.1.22
+                                    [client_version] => 80122
+                                    [connect_errno] => 0
+                                    [connect_error] => 
+                                    [errno] => 0
+                                    [error] => 
+                                    [error_list] => Array
+                                        (
+                                        )
+
+                                    [field_count] => 6
+                                    [host_info] => db via TCP/IP
+                                    [info] => 
+                                    [insert_id] => 0
+                                    [server_info] => 10.11.4-MariaDB-1:10.11.4+maria~ubu2204
+                                    [server_version] => 101104
+                                    [sqlstate] => 00000
+                                    [protocol_version] => 10
+                                    [thread_id] => 187
+                                    [warning_count] => 0
+                                )
+
+                            [resultID] => mysqli_result Object
+                                (
+                                    [current_field] => 0
+                                    [field_count] => 6
+                                    [lengths] => 
+                                    [num_rows] => 12
+                                    [type] => 0
+                                )
+
+                            [protectIdentifiers] => 1
+                            [reservedIdentifiers:protected] => Array
+                                (
+                                    [0] => *
+                                )
+
+                            [escapeChar] => `
+                            [likeEscapeStr] =>  ESCAPE '%s' 
+                            [likeEscapeChar] => !
+                            [pregEscapeChar:protected] => Array
+                                (
+                                    [1] => `
+                                    [0] => `
+                                    [3] => `
+                                    [2] => `
+                                )
+
+                            [dataCache] => Array
+                                (
+                                )
+
+                            [connectTime:protected] => 1696327286.3102
+                            [connectDuration:protected] => 0.0018889904022217
+                            [pretend:protected] => 
+                            [transEnabled] => 1
+                            [transStrict] => 1
+                            [transDepth:protected] => 0
+                            [transStatus:protected] => 1
+                            [transFailure:protected] => 
+                            [transException:protected] => 
+                            [aliasedTables:protected] => Array
+                                (
+                                )
+
+                            [queryClass:protected] => CodeIgniter\Database\Query
+                            [deleteHack] => 1
+                            [mysqli] => mysqli Object
+                                (
+                                    [affected_rows] => 12
+                                    [client_info] => mysqlnd 8.1.22
+                                    [client_version] => 80122
+                                    [connect_errno] => 0
+                                    [connect_error] => 
+                                    [errno] => 0
+                                    [error] => 
+                                    [error_list] => Array
+                                        (
+                                        )
+
+                                    [field_count] => 6
+                                    [host_info] => db via TCP/IP
+                                    [info] => 
+                                    [insert_id] => 0
+                                    [server_info] => 10.11.4-MariaDB-1:10.11.4+maria~ubu2204
+                                    [server_version] => 101104
+                                    [sqlstate] => 00000
+                                    [protocol_version] => 10
+                                    [thread_id] => 187
+                                    [warning_count] => 0
+                                )
+
+                            [resultMode] => 0
+                        )
+
+                )
+
+        )
+
+    [status] => SUCCESS
+    [redirect] => 
+)

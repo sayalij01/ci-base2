@@ -1,0 +1,259 @@
+INFO - 2023-09-14 06:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-14 07:00:05 --> Cannot call constructor
+in APPPATH/Controllers/admin/Users.php on line 48.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\admin\Users->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-14 07:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-14 07:00:55 --> Undefined property: App\Controllers\admin\Users::$load
+in APPPATH/Controllers/admin/Users.php on line 50.
+ 1 APPPATH/Controllers/admin/Users.php(50): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-14 07:01:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-14 07:01:24 --> Call to undefined function App\Controllers\admin\library()
+in APPPATH/Controllers/admin/Users.php on line 50.
+ 1 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-14 07:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-14 07:04:04 --> Undefined property: App\Controllers\admin\Users::$load
+in APPPATH/Controllers/admin/Users.php on line 51.
+ 1 APPPATH/Controllers/admin/Users.php(51): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-14 07:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-14 07:04:34 --> Undefined property: App\Controllers\admin\Users::$load
+in APPPATH/Controllers/admin/Users.php on line 52.
+ 1 APPPATH/Controllers/admin/Users.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-14 07:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-14 07:04:36 --> Undefined property: App\Controllers\admin\Users::$load
+in APPPATH/Controllers/admin/Users.php on line 52.
+ 1 APPPATH/Controllers/admin/Users.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-14 07:05:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-14 07:05:37 --> Class "App\Controllers\admin\E_PLUGIN" not found
+in APPPATH/Controllers/admin/Users.php on line 60.
+ 1 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-14 07:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-14 07:07:00 --> Undefined property: App\Controllers\admin\Users::$role_model
+in APPPATH/Controllers/admin/Users.php on line 66.
+ 1 APPPATH/Controllers/admin/Users.php(66): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-14 07:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-14 07:07:01 --> Undefined property: App\Controllers\admin\Users::$role_model
+in APPPATH/Controllers/admin/Users.php on line 66.
+ 1 APPPATH/Controllers/admin/Users.php(66): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-14 07:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-14 07:07:56 --> Call to undefined method App\Controllers\admin\Users::role_model()
+in APPPATH/Controllers/admin/Users.php on line 66.
+ 1 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-14 07:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-14 07:09:18 --> Undefined property: App\Controllers\admin\Users::$role_model
+in APPPATH/Controllers/admin/Users.php on line 66.
+ 1 APPPATH/Controllers/admin/Users.php(66): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-14 07:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-14 07:10:45 --> Undefined property: App\Controllers\admin\Users::$role_model
+in APPPATH/Controllers/admin/Users.php on line 67.
+ 1 APPPATH/Controllers/admin/Users.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-14 07:10:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-14 07:10:47 --> Undefined property: App\Controllers\admin\Users::$role_model
+in APPPATH/Controllers/admin/Users.php on line 67.
+ 1 APPPATH/Controllers/admin/Users.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-14 07:11:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-14 07:11:09 --> Undefined property: App\Controllers\admin\Users::$role_model
+in APPPATH/Controllers/admin/Users.php on line 67.
+ 1 APPPATH/Controllers/admin/Users.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-14 07:11:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-14 07:11:10 --> Undefined property: App\Controllers\admin\Users::$role_model
+in APPPATH/Controllers/admin/Users.php on line 67.
+ 1 APPPATH/Controllers/admin/Users.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-14 07:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-14 07:11:11 --> Undefined property: App\Controllers\admin\Users::$role_model
+in APPPATH/Controllers/admin/Users.php on line 67.
+ 1 APPPATH/Controllers/admin/Users.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-14 07:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-14 07:11:43 --> Call to a member function load() on null
+in APPPATH/Controllers/admin/Users.php on line 67.
+ 1 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-14 07:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-14 07:11:45 --> Call to a member function load() on null
+in APPPATH/Controllers/admin/Users.php on line 67.
+ 1 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-14 07:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-14 07:11:46 --> Call to a member function load() on null
+in APPPATH/Controllers/admin/Users.php on line 67.
+ 1 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-14 07:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-14 07:17:55 --> Class "BASE_Model" not found
+in APPPATH/Models/Role_model.php on line 3.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(314): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH/Config/Factories.php(139): class_exists()
+ 6 SYSTEMPATH/Config/Factories.php(109): CodeIgniter\Config\Factories::locateClass()
+ 7 SYSTEMPATH/Common.php(825): CodeIgniter\Config\Factories::__callStatic()
+ 8 APPPATH/Controllers/admin/Users.php(54): model()
+ 9 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+10 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-14 07:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-14 07:20:23 --> Class "BASE_Model" not found
+in APPPATH/Models/Role_model.php on line 3.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(314): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH/Config/Factories.php(139): class_exists()
+ 6 SYSTEMPATH/Config/Factories.php(109): CodeIgniter\Config\Factories::locateClass()
+ 7 SYSTEMPATH/Common.php(825): CodeIgniter\Config\Factories::__callStatic()
+ 8 APPPATH/Controllers/admin/Users.php(54): model()
+ 9 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+10 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-14 07:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-14 07:20:25 --> Class "BASE_Model" not found
+in APPPATH/Models/Role_model.php on line 3.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(314): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH/Config/Factories.php(139): class_exists()
+ 6 SYSTEMPATH/Config/Factories.php(109): CodeIgniter\Config\Factories::locateClass()
+ 7 SYSTEMPATH/Common.php(825): CodeIgniter\Config\Factories::__callStatic()
+ 8 APPPATH/Controllers/admin/Users.php(54): model()
+ 9 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+10 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-14 07:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-14 07:20:57 --> Declaration of App\Models\Role_model::update($client_id, $role_id, $data, $rights, ?array $clients = null, ?array $users = null): App\core\BASE_Result must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/Role_model.php on line 443.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-09-14 07:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-14 07:21:00 --> Declaration of App\Models\Role_model::update($client_id, $role_id, $data, $rights, ?array $clients = null, ?array $users = null): App\core\BASE_Result must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/Role_model.php on line 443.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-09-14 07:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-14 07:22:43 --> Call to a member function select() on null
+in APPPATH/Models/Role_model.php on line 269.
+ 1 APPPATH/Controllers/admin/Users.php(67): App\Models\Role_model->load()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-14 07:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-14 07:25:07 --> Call to a member function select() on null
+in APPPATH/Models/Role_model.php on line 269.
+ 1 APPPATH/Controllers/admin/Users.php(67): App\Models\Role_model->load()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-14 07:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-14 07:29:04 --> Call to a member function table() on null
+in APPPATH/core/BASE_Model.php on line 292.
+ 1 APPPATH/Models/Role_model.php(299): App\core\BASE_Model->BASE_Select()
+ 2 APPPATH/Controllers/admin/Users.php(67): App\Models\Role_model->load()
+ 3 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 4 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-14 07:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-14 07:31:58 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::cache_on()
+in APPPATH/Models/App_model.php on line 371.
+ 1 APPPATH/Controllers/admin/Users.php(68): App\Models\App_model->getCountries()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-14 07:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-14 07:32:01 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::cache_on()
+in APPPATH/Models/App_model.php on line 371.
+ 1 APPPATH/Controllers/admin/Users.php(68): App\Models\App_model->getCountries()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-14 07:33:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-14 07:33:13 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH/Models/App_model.php on line 374.
+ 1 APPPATH/Controllers/admin/Users.php(68): App\Models\App_model->getCountries()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-14 07:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-14 07:33:17 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH/Models/App_model.php on line 374.
+ 1 APPPATH/Controllers/admin/Users.php(68): App\Models\App_model->getCountries()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-14 10:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-14 10:20:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-14 10:22:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-14 10:22:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

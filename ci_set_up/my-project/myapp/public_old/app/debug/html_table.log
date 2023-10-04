@@ -1,0 +1,252 @@
+
+generateHTML
+cols:
+Array
+(
+    [0] => App\Helpers\HTML_DTColumn Object
+        (
+            [cls_draggable:protected] =>  draggable
+            [attributeBlacklist:protected] => Array
+                (
+                    [0] => id
+                    [1] => name
+                    [2] => class
+                    [3] => style
+                )
+
+            [defaultStyles:protected] => Array
+                (
+                )
+
+            [defaultClasses:protected] => Array
+                (
+                    [column] => Array
+                        (
+                            [0] => control
+                        )
+
+                )
+
+            [id:protected] => control_col
+            [name] => control_col
+            [title:protected] => 
+            [visible] => 1
+            [enabled:protected] => 1
+            [draggable:protected] => 
+            [styles] => Array
+                (
+                )
+
+            [classes] => Array
+                (
+                    [0] => control
+                )
+
+            [attributes] => Array
+                (
+                    [data-field] => control_col
+                )
+
+            [styleString:protected] => 
+            [classString:protected] => 
+            [attrString:protected] => 
+            [table] => 
+            [data] => control_col
+            [label] => &nbsp;
+            [bSortable] => 
+            [sSortDataType] => string
+            [bVisible] => 1
+            [mRender] => 
+            [searchable] => 
+            [filter] => 
+        )
+
+    [1] => App\Helpers\HTML_DTColumn Object
+        (
+            [cls_draggable:protected] =>  draggable
+            [attributeBlacklist:protected] => Array
+                (
+                    [0] => id
+                    [1] => name
+                    [2] => class
+                    [3] => style
+                )
+
+            [defaultStyles:protected] => Array
+                (
+                )
+
+            [defaultClasses:protected] => Array
+                (
+                    [column] => Array
+                        (
+                        )
+
+                )
+
+            [id:protected] => role_name
+            [name] => role_name
+            [title:protected] => 
+            [visible] => 1
+            [enabled:protected] => 1
+            [draggable:protected] => 
+            [styles] => Array
+                (
+                )
+
+            [classes] => Array
+                (
+                )
+
+            [attributes] => Array
+                (
+                    [data-field] => role_name
+                )
+
+            [styleString:protected] => 
+            [classString:protected] => 
+            [attrString:protected] => 
+            [table] => 
+            [data] => role_name
+            [label] => name
+            [bSortable] => 1
+            [sSortDataType] => string
+            [bVisible] => 1
+            [mRender] => 
+            [searchable] => 1
+            [filter] => 
+        )
+
+    [2] => App\Helpers\HTML_DTColumn Object
+        (
+            [cls_draggable:protected] =>  draggable
+            [attributeBlacklist:protected] => Array
+                (
+                    [0] => id
+                    [1] => name
+                    [2] => class
+                    [3] => style
+                )
+
+            [defaultStyles:protected] => Array
+                (
+                )
+
+            [defaultClasses:protected] => Array
+                (
+                    [column] => Array
+                        (
+                        )
+
+                )
+
+            [id:protected] => role_desc
+            [name] => role_desc
+            [title:protected] => 
+            [visible] => 1
+            [enabled:protected] => 1
+            [draggable:protected] => 
+            [styles] => Array
+                (
+                )
+
+            [classes] => Array
+                (
+                )
+
+            [attributes] => Array
+                (
+                    [data-field] => role_desc
+                )
+
+            [styleString:protected] => 
+            [classString:protected] => 
+            [attrString:protected] => 
+            [table] => 
+            [data] => role_desc
+            [label] => desc
+            [bSortable] => 1
+            [sSortDataType] => string
+            [bVisible] => 1
+            [mRender] => 
+            [searchable] => 1
+            [filter] => 
+        )
+
+    [3] => App\Helpers\HTML_DTColumn Object
+        (
+            [cls_draggable:protected] =>  draggable
+            [attributeBlacklist:protected] => Array
+                (
+                    [0] => id
+                    [1] => name
+                    [2] => class
+                    [3] => style
+                )
+
+            [defaultStyles:protected] => Array
+                (
+                )
+
+            [defaultClasses:protected] => Array
+                (
+                    [column] => Array
+                        (
+                        )
+
+                )
+
+            [id:protected] => is_static
+            [name] => is_static
+            [title:protected] => 
+            [visible] => 1
+            [enabled:protected] => 1
+            [draggable:protected] => 
+            [styles] => Array
+                (
+                )
+
+            [classes] => Array
+                (
+                )
+
+            [attributes] => Array
+                (
+                    [data-field] => is_static
+                )
+
+            [styleString:protected] => 
+            [classString:protected] => 
+            [attrString:protected] => 
+            [table] => 
+            [data] => is_static
+            [label] => <i class="fa fa-shield"></i>&nbsp;static
+            [bSortable] => 1
+            [sSortDataType] => string
+            [bVisible] => 1
+            [mRender] => 
+            [searchable] => 
+            [filter] => 
+        )
+
+)
+
+
+data:
+Array
+(
+)
+
+
+HTML_Datatable generated
+data->
+
+		<div id="tbl_roles_wrapper" class="table-responsive tbl_roles no-side-margin" style="min-height:150px;">
+			<table id="tbl_roles" width="100%"  table_id="tbl_roles" class="table table-striped table-bordered table-advance table-hover table-full-width dataTable tbl_roles"
+				>
+				<thead>
+					<tr role="row"><th   >&nbsp;</th><th   >name</th><th   >desc</th><th   ><i class="fa fa-shield"></i>&nbsp;static</th></tr>
+				</thead>
+				<tbody></tbody>
+			</table>
+		</div>

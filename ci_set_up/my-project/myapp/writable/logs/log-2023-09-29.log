@@ -1,0 +1,1281 @@
+INFO - 2023-09-29 08:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-29 08:23:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-29 08:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-29 08:23:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-29 08:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-29 08:24:57 --> Call to a member function datatable() on null
+in APPPATH/Controllers/root/Clients.php on line 372.
+ 1 APPPATH/Controllers/root/Clients.php(65): App\Controllers\root\Clients->show()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 08:33:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-29 08:33:38 --> Call to a member function datatable() on null
+in APPPATH/Controllers/root/Clients.php on line 372.
+ 1 APPPATH/Controllers/root/Clients.php(65): App\Controllers\root\Clients->show()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 08:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-29 08:35:27 --> Call to a member function datatable() on null
+in APPPATH/Controllers/root/Clients.php on line 373.
+ 1 APPPATH/Controllers/root/Clients.php(65): App\Controllers\root\Clients->show()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 08:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-29 08:35:30 --> Call to a member function datatable() on null
+in APPPATH/Controllers/root/Clients.php on line 373.
+ 1 APPPATH/Controllers/root/Clients.php(65): App\Controllers\root\Clients->show()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 08:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-29 08:35:34 --> Call to a member function datatable() on null
+in APPPATH/Controllers/root/Clients.php on line 373.
+ 1 APPPATH/Controllers/root/Clients.php(65): App\Controllers\root\Clients->show()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 08:36:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-29 08:36:07 --> Call to a member function datatable() on null
+in APPPATH/Controllers/root/Clients.php on line 373.
+ 1 APPPATH/Controllers/root/Clients.php(65): App\Controllers\root\Clients->show()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 08:36:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 08:36:16 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 103.
+ 1 APPPATH/Controllers/admin/Roles.php(103): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 08:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-29 08:36:24 --> Call to a member function datatable() on null
+in APPPATH/Controllers/root/Clients.php on line 373.
+ 1 APPPATH/Controllers/root/Clients.php(65): App\Controllers\root\Clients->show()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 08:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-29 08:36:25 --> Call to a member function datatable() on null
+in APPPATH/Controllers/root/Clients.php on line 373.
+ 1 APPPATH/Controllers/root/Clients.php(65): App\Controllers\root\Clients->show()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 08:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-29 08:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-29 08:38:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-29 08:38:05 --> Array to string conversion
+in APPPATH/Controllers/root/Clients.php on line 371.
+ 1 APPPATH/Controllers/root/Clients.php(371): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/root/Clients.php(65): App\Controllers\root\Clients->show()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->index()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 08:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-29 08:38:07 --> Array to string conversion
+in APPPATH/Controllers/root/Clients.php on line 371.
+ 1 APPPATH/Controllers/root/Clients.php(371): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/root/Clients.php(65): App\Controllers\root\Clients->show()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->index()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 08:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-29 08:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-29 08:49:06 --> Call to a member function datatable() on null
+in APPPATH/Controllers/root/Clients.php on line 374.
+ 1 APPPATH/Controllers/root/Clients.php(65): App\Controllers\root\Clients->show()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 08:49:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-29 08:49:08 --> Call to a member function datatable() on null
+in APPPATH/Controllers/root/Clients.php on line 374.
+ 1 APPPATH/Controllers/root/Clients.php(65): App\Controllers\root\Clients->show()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 08:49:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-29 08:49:09 --> Call to a member function datatable() on null
+in APPPATH/Controllers/root/Clients.php on line 374.
+ 1 APPPATH/Controllers/root/Clients.php(65): App\Controllers\root\Clients->show()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 08:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-29 08:49:10 --> Call to a member function datatable() on null
+in APPPATH/Controllers/root/Clients.php on line 374.
+ 1 APPPATH/Controllers/root/Clients.php(65): App\Controllers\root\Clients->show()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 09:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-29 09:00:33 --> Call to a member function datatable() on null
+in APPPATH/Controllers/root/Clients.php on line 374.
+ 1 APPPATH/Controllers/root/Clients.php(65): App\Controllers\root\Clients->show()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 09:00:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-29 09:00:34 --> Call to a member function datatable() on null
+in APPPATH/Controllers/root/Clients.php on line 374.
+ 1 APPPATH/Controllers/root/Clients.php(65): App\Controllers\root\Clients->show()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 09:00:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-29 09:00:35 --> Call to a member function datatable() on null
+in APPPATH/Controllers/root/Clients.php on line 374.
+ 1 APPPATH/Controllers/root/Clients.php(65): App\Controllers\root\Clients->show()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 09:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-29 09:00:36 --> Call to a member function datatable() on null
+in APPPATH/Controllers/root/Clients.php on line 374.
+ 1 APPPATH/Controllers/root/Clients.php(65): App\Controllers\root\Clients->show()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 09:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-29 09:00:36 --> Call to a member function datatable() on null
+in APPPATH/Controllers/root/Clients.php on line 374.
+ 1 APPPATH/Controllers/root/Clients.php(65): App\Controllers\root\Clients->show()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 09:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-29 09:00:36 --> Call to a member function datatable() on null
+in APPPATH/Controllers/root/Clients.php on line 374.
+ 1 APPPATH/Controllers/root/Clients.php(65): App\Controllers\root\Clients->show()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 09:00:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-29 09:00:37 --> Call to a member function datatable() on null
+in APPPATH/Controllers/root/Clients.php on line 374.
+ 1 APPPATH/Controllers/root/Clients.php(65): App\Controllers\root\Clients->show()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 10:19:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-29 10:20:02 --> Call to a member function datatable() on null
+in APPPATH/Controllers/root/Clients.php on line 374.
+ 1 APPPATH/Controllers/root/Clients.php(65): App\Controllers\root\Clients->show()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 10:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-29 10:26:14 --> Call to a member function datatable() on null
+in APPPATH/Controllers/root/Clients.php on line 374.
+ 1 APPPATH/Controllers/root/Clients.php(65): App\Controllers\root\Clients->show()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 10:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-29 10:26:17 --> Call to a member function datatable() on null
+in APPPATH/Controllers/root/Clients.php on line 374.
+ 1 APPPATH/Controllers/root/Clients.php(65): App\Controllers\root\Clients->show()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 11:45:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-29 11:45:11 --> Call to a member function datatable() on null
+in APPPATH/Controllers/root/Clients.php on line 374.
+ 1 APPPATH/Controllers/root/Clients.php(65): App\Controllers\root\Clients->show()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 11:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-29 11:45:51 --> Undefined property: App\Controllers\root\Clients::$input
+in APPPATH/Controllers/root/Clients.php on line 76.
+ 1 APPPATH/Controllers/root/Clients.php(76): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 11:51:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 11:51:17 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Clients.php on line 76.
+ 1 APPPATH/Controllers/root/Clients.php(76): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Clients))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 11:51:17 --> Undefined variable $error
+in APPPATH/Views/root/client/client_form.php on line 2.
+ 1 APPPATH/Views/root/client/client_form.php(2): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/client/client_form.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(519): view()
+ 6 APPPATH/Controllers/root/Clients.php(96): App\core\BASE_Controller->render()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->create()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 11:53:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 11:53:57 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Clients.php on line 76.
+ 1 APPPATH/Controllers/root/Clients.php(76): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Clients))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 11:53:57 --> Undefined variable $error
+in APPPATH/Views/root/client/client_form.php on line 2.
+ 1 APPPATH/Views/root/client/client_form.php(2): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/client/client_form.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(519): view()
+ 6 APPPATH/Controllers/root/Clients.php(96): App\core\BASE_Controller->render()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->create()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 11:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 11:54:58 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Clients.php on line 76.
+ 1 APPPATH/Controllers/root/Clients.php(76): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Clients))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 11:54:58 --> Class "T_Client" not found
+in APPPATH/Views/root/client/client_form.php on line 6.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/core/BASE_Controller.php(519): view()
+ 5 APPPATH/Controllers/root/Clients.php(96): App\core\BASE_Controller->render()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->create()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 11:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 11:54:59 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Clients.php on line 76.
+ 1 APPPATH/Controllers/root/Clients.php(76): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Clients))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 11:54:59 --> Class "T_Client" not found
+in APPPATH/Views/root/client/client_form.php on line 6.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/core/BASE_Controller.php(519): view()
+ 5 APPPATH/Controllers/root/Clients.php(96): App\core\BASE_Controller->render()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->create()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 11:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 11:55:01 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Clients.php on line 76.
+ 1 APPPATH/Controllers/root/Clients.php(76): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Clients))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 11:55:01 --> Class "T_Client" not found
+in APPPATH/Views/root/client/client_form.php on line 6.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/core/BASE_Controller.php(519): view()
+ 5 APPPATH/Controllers/root/Clients.php(96): App\core\BASE_Controller->render()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->create()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 11:56:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 11:56:08 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Clients.php on line 76.
+ 1 APPPATH/Controllers/root/Clients.php(76): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Clients))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 11:56:08 --> Call to undefined function form_error()
+in APPPATH/Views/root/client/client_form.php on line 19.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/core/BASE_Controller.php(519): view()
+ 5 APPPATH/Controllers/root/Clients.php(96): App\core\BASE_Controller->render()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->create()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 11:59:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 11:59:47 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Clients.php on line 76.
+ 1 APPPATH/Controllers/root/Clients.php(76): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Clients))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 11:59:47 --> Class "App\Helpers\E_IMAGE_STYLES" not found
+in APPPATH/Helpers/html_helper.php on line 4035.
+ 1 APPPATH/Helpers/html_helper.php(3794): App\Helpers\HTML_Image->setDecoration()
+ 2 APPPATH/Views/root/client/client_form.php(130): App\Helpers\HTML_Image->__construct()
+ 3 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/client/client_form.php')
+ 4 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 6 APPPATH/core/BASE_Controller.php(519): view()
+ 7 APPPATH/Controllers/root/Clients.php(96): App\core\BASE_Controller->render()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->create()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:01:13 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Clients.php on line 76.
+ 1 APPPATH/Controllers/root/Clients.php(76): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Clients))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:01:13 --> Undefined array key "js_enabled"
+in APPPATH/Views/root/client/client_form.php on line 135.
+ 1 APPPATH/Views/root/client/client_form.php(135): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/client/client_form.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(519): view()
+ 6 APPPATH/Controllers/root/Clients.php(96): App\core\BASE_Controller->render()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->create()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:08:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:08:36 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Clients.php on line 76.
+ 1 APPPATH/Controllers/root/Clients.php(76): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Clients))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:08:36 --> Undefined variable $page_alerts
+in APPPATH/Views/root/client/client_form.php on line 156.
+ 1 APPPATH/Views/root/client/client_form.php(156): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/client/client_form.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(519): view()
+ 6 APPPATH/Controllers/root/Clients.php(96): App\core\BASE_Controller->render()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->create()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:08:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:08:38 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Clients.php on line 76.
+ 1 APPPATH/Controllers/root/Clients.php(76): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Clients))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:08:38 --> Undefined variable $page_alerts
+in APPPATH/Views/root/client/client_form.php on line 156.
+ 1 APPPATH/Views/root/client/client_form.php(156): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/client/client_form.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(519): view()
+ 6 APPPATH/Controllers/root/Clients.php(96): App\core\BASE_Controller->render()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->create()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:09:32 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Clients.php on line 76.
+ 1 APPPATH/Controllers/root/Clients.php(76): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Clients))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:10:02 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Clients.php on line 76.
+ 1 APPPATH/Controllers/root/Clients.php(76): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Clients))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:10:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-29 12:10:39 --> Undefined property: App\Controllers\root\Locales::$input
+in APPPATH/Controllers/root/Locales.php on line 76.
+ 1 APPPATH/Controllers/root/Locales.php(76): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:11:15 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Locales.php on line 79.
+ 1 APPPATH/Controllers/root/Locales.php(79): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Locales))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:11:15 --> Undefined variable $error
+in APPPATH/Views/root/locale/locale_form.php on line 3.
+ 1 APPPATH/Views/root/locale/locale_form.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/locale/locale_form.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(519): view()
+ 6 APPPATH/Controllers/root/Locales.php(110): App\core\BASE_Controller->render()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:16:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:16:41 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Locales.php on line 79.
+ 1 APPPATH/Controllers/root/Locales.php(79): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Locales))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:16:41 --> Call to undefined function App\Libraries\value_objects\html_escape()
+in APPPATH/Libraries/value_objects/T_Pseudo.php on line 52.
+ 1 APPPATH/Libraries/value_objects/T_Pseudo.php(23): App\Libraries\value_objects\T_Pseudo->setValue()
+ 2 APPPATH/Libraries/value_objects/T_Pseudo.php(11): App\Libraries\value_objects\T_Pseudo->init()
+ 3 APPPATH/Libraries/value_objects/T_Locale.php(19): App\Libraries\value_objects\T_Pseudo->__construct()
+ 4 APPPATH/Views/root/locale/locale_form.php(13): App\Libraries\value_objects\T_Locale->__construct()
+ 5 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/locale/locale_form.php')
+ 6 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 8 APPPATH/core/BASE_Controller.php(519): view()
+ 9 APPPATH/Controllers/root/Locales.php(110): App\core\BASE_Controller->render()
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:29:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:29:06 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Locales.php on line 79.
+ 1 APPPATH/Controllers/root/Locales.php(79): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Locales))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:29:06 --> Call to undefined function App\Libraries\value_objects\html_escape()
+in APPPATH/Libraries/value_objects/T_Pseudo.php on line 52.
+ 1 APPPATH/Libraries/value_objects/T_Pseudo.php(23): App\Libraries\value_objects\T_Pseudo->setValue()
+ 2 APPPATH/Libraries/value_objects/T_Pseudo.php(11): App\Libraries\value_objects\T_Pseudo->init()
+ 3 APPPATH/Libraries/value_objects/T_Locale.php(19): App\Libraries\value_objects\T_Pseudo->__construct()
+ 4 APPPATH/Views/root/locale/locale_form.php(13): App\Libraries\value_objects\T_Locale->__construct()
+ 5 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/locale/locale_form.php')
+ 6 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 8 APPPATH/core/BASE_Controller.php(519): view()
+ 9 APPPATH/Controllers/root/Locales.php(110): App\core\BASE_Controller->render()
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:29:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:29:08 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Locales.php on line 79.
+ 1 APPPATH/Controllers/root/Locales.php(79): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Locales))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:29:08 --> Call to undefined function App\Libraries\value_objects\html_escape()
+in APPPATH/Libraries/value_objects/T_Pseudo.php on line 52.
+ 1 APPPATH/Libraries/value_objects/T_Pseudo.php(23): App\Libraries\value_objects\T_Pseudo->setValue()
+ 2 APPPATH/Libraries/value_objects/T_Pseudo.php(11): App\Libraries\value_objects\T_Pseudo->init()
+ 3 APPPATH/Libraries/value_objects/T_Locale.php(19): App\Libraries\value_objects\T_Pseudo->__construct()
+ 4 APPPATH/Views/root/locale/locale_form.php(13): App\Libraries\value_objects\T_Locale->__construct()
+ 5 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/locale/locale_form.php')
+ 6 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 8 APPPATH/core/BASE_Controller.php(519): view()
+ 9 APPPATH/Controllers/root/Locales.php(110): App\core\BASE_Controller->render()
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:29:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:29:09 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Locales.php on line 79.
+ 1 APPPATH/Controllers/root/Locales.php(79): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Locales))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:29:09 --> Call to undefined function App\Libraries\value_objects\html_escape()
+in APPPATH/Libraries/value_objects/T_Pseudo.php on line 52.
+ 1 APPPATH/Libraries/value_objects/T_Pseudo.php(23): App\Libraries\value_objects\T_Pseudo->setValue()
+ 2 APPPATH/Libraries/value_objects/T_Pseudo.php(11): App\Libraries\value_objects\T_Pseudo->init()
+ 3 APPPATH/Libraries/value_objects/T_Locale.php(19): App\Libraries\value_objects\T_Pseudo->__construct()
+ 4 APPPATH/Views/root/locale/locale_form.php(13): App\Libraries\value_objects\T_Locale->__construct()
+ 5 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/locale/locale_form.php')
+ 6 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 8 APPPATH/core/BASE_Controller.php(519): view()
+ 9 APPPATH/Controllers/root/Locales.php(110): App\core\BASE_Controller->render()
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:29:36 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Locales.php on line 79.
+ 1 APPPATH/Controllers/root/Locales.php(79): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Locales))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:29:36 --> Call to undefined function App\Libraries\value_objects\html_escape()
+in APPPATH/Libraries/value_objects/T_Pseudo.php on line 52.
+ 1 APPPATH/Libraries/value_objects/T_Pseudo.php(23): App\Libraries\value_objects\T_Pseudo->setValue()
+ 2 APPPATH/Libraries/value_objects/T_Pseudo.php(11): App\Libraries\value_objects\T_Pseudo->init()
+ 3 APPPATH/Libraries/value_objects/T_Locale.php(19): App\Libraries\value_objects\T_Pseudo->__construct()
+ 4 APPPATH/Views/root/locale/locale_form.php(13): App\Libraries\value_objects\T_Locale->__construct()
+ 5 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/locale/locale_form.php')
+ 6 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 8 APPPATH/core/BASE_Controller.php(519): view()
+ 9 APPPATH/Controllers/root/Locales.php(110): App\core\BASE_Controller->render()
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:29:39 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Locales.php on line 79.
+ 1 APPPATH/Controllers/root/Locales.php(79): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Locales))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:29:39 --> Call to undefined function App\Libraries\value_objects\html_escape()
+in APPPATH/Libraries/value_objects/T_Pseudo.php on line 52.
+ 1 APPPATH/Libraries/value_objects/T_Pseudo.php(23): App\Libraries\value_objects\T_Pseudo->setValue()
+ 2 APPPATH/Libraries/value_objects/T_Pseudo.php(11): App\Libraries\value_objects\T_Pseudo->init()
+ 3 APPPATH/Libraries/value_objects/T_Locale.php(19): App\Libraries\value_objects\T_Pseudo->__construct()
+ 4 APPPATH/Views/root/locale/locale_form.php(13): App\Libraries\value_objects\T_Locale->__construct()
+ 5 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/locale/locale_form.php')
+ 6 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 8 APPPATH/core/BASE_Controller.php(519): view()
+ 9 APPPATH/Controllers/root/Locales.php(110): App\core\BASE_Controller->render()
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:29:40 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Locales.php on line 79.
+ 1 APPPATH/Controllers/root/Locales.php(79): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Locales))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:29:40 --> Call to undefined function App\Libraries\value_objects\html_escape()
+in APPPATH/Libraries/value_objects/T_Pseudo.php on line 52.
+ 1 APPPATH/Libraries/value_objects/T_Pseudo.php(23): App\Libraries\value_objects\T_Pseudo->setValue()
+ 2 APPPATH/Libraries/value_objects/T_Pseudo.php(11): App\Libraries\value_objects\T_Pseudo->init()
+ 3 APPPATH/Libraries/value_objects/T_Locale.php(19): App\Libraries\value_objects\T_Pseudo->__construct()
+ 4 APPPATH/Views/root/locale/locale_form.php(13): App\Libraries\value_objects\T_Locale->__construct()
+ 5 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/locale/locale_form.php')
+ 6 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 8 APPPATH/core/BASE_Controller.php(519): view()
+ 9 APPPATH/Controllers/root/Locales.php(110): App\core\BASE_Controller->render()
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:29:41 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Locales.php on line 79.
+ 1 APPPATH/Controllers/root/Locales.php(79): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Locales))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:29:41 --> Call to undefined function App\Libraries\value_objects\html_escape()
+in APPPATH/Libraries/value_objects/T_Pseudo.php on line 52.
+ 1 APPPATH/Libraries/value_objects/T_Pseudo.php(23): App\Libraries\value_objects\T_Pseudo->setValue()
+ 2 APPPATH/Libraries/value_objects/T_Pseudo.php(11): App\Libraries\value_objects\T_Pseudo->init()
+ 3 APPPATH/Libraries/value_objects/T_Locale.php(19): App\Libraries\value_objects\T_Pseudo->__construct()
+ 4 APPPATH/Views/root/locale/locale_form.php(13): App\Libraries\value_objects\T_Locale->__construct()
+ 5 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/locale/locale_form.php')
+ 6 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 8 APPPATH/core/BASE_Controller.php(519): view()
+ 9 APPPATH/Controllers/root/Locales.php(110): App\core\BASE_Controller->render()
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:29:41 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Locales.php on line 79.
+ 1 APPPATH/Controllers/root/Locales.php(79): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Locales))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:29:41 --> Call to undefined function App\Libraries\value_objects\html_escape()
+in APPPATH/Libraries/value_objects/T_Pseudo.php on line 52.
+ 1 APPPATH/Libraries/value_objects/T_Pseudo.php(23): App\Libraries\value_objects\T_Pseudo->setValue()
+ 2 APPPATH/Libraries/value_objects/T_Pseudo.php(11): App\Libraries\value_objects\T_Pseudo->init()
+ 3 APPPATH/Libraries/value_objects/T_Locale.php(19): App\Libraries\value_objects\T_Pseudo->__construct()
+ 4 APPPATH/Views/root/locale/locale_form.php(13): App\Libraries\value_objects\T_Locale->__construct()
+ 5 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/locale/locale_form.php')
+ 6 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 8 APPPATH/core/BASE_Controller.php(519): view()
+ 9 APPPATH/Controllers/root/Locales.php(110): App\core\BASE_Controller->render()
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:29:42 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Locales.php on line 79.
+ 1 APPPATH/Controllers/root/Locales.php(79): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Locales))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:29:42 --> Call to undefined function App\Libraries\value_objects\html_escape()
+in APPPATH/Libraries/value_objects/T_Pseudo.php on line 52.
+ 1 APPPATH/Libraries/value_objects/T_Pseudo.php(23): App\Libraries\value_objects\T_Pseudo->setValue()
+ 2 APPPATH/Libraries/value_objects/T_Pseudo.php(11): App\Libraries\value_objects\T_Pseudo->init()
+ 3 APPPATH/Libraries/value_objects/T_Locale.php(19): App\Libraries\value_objects\T_Pseudo->__construct()
+ 4 APPPATH/Views/root/locale/locale_form.php(13): App\Libraries\value_objects\T_Locale->__construct()
+ 5 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/locale/locale_form.php')
+ 6 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 8 APPPATH/core/BASE_Controller.php(519): view()
+ 9 APPPATH/Controllers/root/Locales.php(110): App\core\BASE_Controller->render()
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:29:42 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Locales.php on line 79.
+ 1 APPPATH/Controllers/root/Locales.php(79): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Locales))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:29:42 --> Call to undefined function App\Libraries\value_objects\html_escape()
+in APPPATH/Libraries/value_objects/T_Pseudo.php on line 52.
+ 1 APPPATH/Libraries/value_objects/T_Pseudo.php(23): App\Libraries\value_objects\T_Pseudo->setValue()
+ 2 APPPATH/Libraries/value_objects/T_Pseudo.php(11): App\Libraries\value_objects\T_Pseudo->init()
+ 3 APPPATH/Libraries/value_objects/T_Locale.php(19): App\Libraries\value_objects\T_Pseudo->__construct()
+ 4 APPPATH/Views/root/locale/locale_form.php(13): App\Libraries\value_objects\T_Locale->__construct()
+ 5 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/locale/locale_form.php')
+ 6 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 8 APPPATH/core/BASE_Controller.php(519): view()
+ 9 APPPATH/Controllers/root/Locales.php(110): App\core\BASE_Controller->render()
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:30:12 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Locales.php on line 79.
+ 1 APPPATH/Controllers/root/Locales.php(79): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Locales))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:30:12 --> Call to undefined function App\Libraries\value_objects\html_escape()
+in APPPATH/Libraries/value_objects/T_Pseudo.php on line 52.
+ 1 APPPATH/Libraries/value_objects/T_Pseudo.php(23): App\Libraries\value_objects\T_Pseudo->setValue()
+ 2 APPPATH/Libraries/value_objects/T_Pseudo.php(11): App\Libraries\value_objects\T_Pseudo->init()
+ 3 APPPATH/Libraries/value_objects/T_Locale.php(19): App\Libraries\value_objects\T_Pseudo->__construct()
+ 4 APPPATH/Views/root/locale/locale_form.php(13): App\Libraries\value_objects\T_Locale->__construct()
+ 5 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/locale/locale_form.php')
+ 6 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 8 APPPATH/core/BASE_Controller.php(519): view()
+ 9 APPPATH/Controllers/root/Locales.php(110): App\core\BASE_Controller->render()
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:30:13 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Locales.php on line 79.
+ 1 APPPATH/Controllers/root/Locales.php(79): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Locales))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:30:13 --> Call to undefined function App\Libraries\value_objects\html_escape()
+in APPPATH/Libraries/value_objects/T_Pseudo.php on line 52.
+ 1 APPPATH/Libraries/value_objects/T_Pseudo.php(23): App\Libraries\value_objects\T_Pseudo->setValue()
+ 2 APPPATH/Libraries/value_objects/T_Pseudo.php(11): App\Libraries\value_objects\T_Pseudo->init()
+ 3 APPPATH/Libraries/value_objects/T_Locale.php(19): App\Libraries\value_objects\T_Pseudo->__construct()
+ 4 APPPATH/Views/root/locale/locale_form.php(13): App\Libraries\value_objects\T_Locale->__construct()
+ 5 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/locale/locale_form.php')
+ 6 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 8 APPPATH/core/BASE_Controller.php(519): view()
+ 9 APPPATH/Controllers/root/Locales.php(110): App\core\BASE_Controller->render()
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:30:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:30:15 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Locales.php on line 79.
+ 1 APPPATH/Controllers/root/Locales.php(79): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Locales))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:30:15 --> Call to undefined function App\Libraries\value_objects\html_escape()
+in APPPATH/Libraries/value_objects/T_Pseudo.php on line 52.
+ 1 APPPATH/Libraries/value_objects/T_Pseudo.php(23): App\Libraries\value_objects\T_Pseudo->setValue()
+ 2 APPPATH/Libraries/value_objects/T_Pseudo.php(11): App\Libraries\value_objects\T_Pseudo->init()
+ 3 APPPATH/Libraries/value_objects/T_Locale.php(19): App\Libraries\value_objects\T_Pseudo->__construct()
+ 4 APPPATH/Views/root/locale/locale_form.php(13): App\Libraries\value_objects\T_Locale->__construct()
+ 5 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/locale/locale_form.php')
+ 6 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 8 APPPATH/core/BASE_Controller.php(519): view()
+ 9 APPPATH/Controllers/root/Locales.php(110): App\core\BASE_Controller->render()
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:30:16 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Locales.php on line 79.
+ 1 APPPATH/Controllers/root/Locales.php(79): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Locales))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:30:16 --> Call to undefined function App\Libraries\value_objects\html_escape()
+in APPPATH/Libraries/value_objects/T_Pseudo.php on line 52.
+ 1 APPPATH/Libraries/value_objects/T_Pseudo.php(23): App\Libraries\value_objects\T_Pseudo->setValue()
+ 2 APPPATH/Libraries/value_objects/T_Pseudo.php(11): App\Libraries\value_objects\T_Pseudo->init()
+ 3 APPPATH/Libraries/value_objects/T_Locale.php(19): App\Libraries\value_objects\T_Pseudo->__construct()
+ 4 APPPATH/Views/root/locale/locale_form.php(13): App\Libraries\value_objects\T_Locale->__construct()
+ 5 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/locale/locale_form.php')
+ 6 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 8 APPPATH/core/BASE_Controller.php(519): view()
+ 9 APPPATH/Controllers/root/Locales.php(110): App\core\BASE_Controller->render()
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:30:17 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Locales.php on line 79.
+ 1 APPPATH/Controllers/root/Locales.php(79): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Locales))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:30:17 --> Call to undefined function App\Libraries\value_objects\html_escape()
+in APPPATH/Libraries/value_objects/T_Pseudo.php on line 52.
+ 1 APPPATH/Libraries/value_objects/T_Pseudo.php(23): App\Libraries\value_objects\T_Pseudo->setValue()
+ 2 APPPATH/Libraries/value_objects/T_Pseudo.php(11): App\Libraries\value_objects\T_Pseudo->init()
+ 3 APPPATH/Libraries/value_objects/T_Locale.php(19): App\Libraries\value_objects\T_Pseudo->__construct()
+ 4 APPPATH/Views/root/locale/locale_form.php(13): App\Libraries\value_objects\T_Locale->__construct()
+ 5 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/locale/locale_form.php')
+ 6 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 8 APPPATH/core/BASE_Controller.php(519): view()
+ 9 APPPATH/Controllers/root/Locales.php(110): App\core\BASE_Controller->render()
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:30:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:30:17 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Locales.php on line 79.
+ 1 APPPATH/Controllers/root/Locales.php(79): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Locales))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:30:17 --> Call to undefined function App\Libraries\value_objects\html_escape()
+in APPPATH/Libraries/value_objects/T_Pseudo.php on line 52.
+ 1 APPPATH/Libraries/value_objects/T_Pseudo.php(23): App\Libraries\value_objects\T_Pseudo->setValue()
+ 2 APPPATH/Libraries/value_objects/T_Pseudo.php(11): App\Libraries\value_objects\T_Pseudo->init()
+ 3 APPPATH/Libraries/value_objects/T_Locale.php(19): App\Libraries\value_objects\T_Pseudo->__construct()
+ 4 APPPATH/Views/root/locale/locale_form.php(13): App\Libraries\value_objects\T_Locale->__construct()
+ 5 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/locale/locale_form.php')
+ 6 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 8 APPPATH/core/BASE_Controller.php(519): view()
+ 9 APPPATH/Controllers/root/Locales.php(110): App\core\BASE_Controller->render()
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:30:18 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Locales.php on line 79.
+ 1 APPPATH/Controllers/root/Locales.php(79): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Locales))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:30:18 --> Call to undefined function App\Libraries\value_objects\html_escape()
+in APPPATH/Libraries/value_objects/T_Pseudo.php on line 52.
+ 1 APPPATH/Libraries/value_objects/T_Pseudo.php(23): App\Libraries\value_objects\T_Pseudo->setValue()
+ 2 APPPATH/Libraries/value_objects/T_Pseudo.php(11): App\Libraries\value_objects\T_Pseudo->init()
+ 3 APPPATH/Libraries/value_objects/T_Locale.php(19): App\Libraries\value_objects\T_Pseudo->__construct()
+ 4 APPPATH/Views/root/locale/locale_form.php(13): App\Libraries\value_objects\T_Locale->__construct()
+ 5 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/locale/locale_form.php')
+ 6 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 8 APPPATH/core/BASE_Controller.php(519): view()
+ 9 APPPATH/Controllers/root/Locales.php(110): App\core\BASE_Controller->render()
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:30:18 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Locales.php on line 79.
+ 1 APPPATH/Controllers/root/Locales.php(79): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Locales))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:30:18 --> Call to undefined function App\Libraries\value_objects\html_escape()
+in APPPATH/Libraries/value_objects/T_Pseudo.php on line 52.
+ 1 APPPATH/Libraries/value_objects/T_Pseudo.php(23): App\Libraries\value_objects\T_Pseudo->setValue()
+ 2 APPPATH/Libraries/value_objects/T_Pseudo.php(11): App\Libraries\value_objects\T_Pseudo->init()
+ 3 APPPATH/Libraries/value_objects/T_Locale.php(19): App\Libraries\value_objects\T_Pseudo->__construct()
+ 4 APPPATH/Views/root/locale/locale_form.php(13): App\Libraries\value_objects\T_Locale->__construct()
+ 5 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/locale/locale_form.php')
+ 6 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 8 APPPATH/core/BASE_Controller.php(519): view()
+ 9 APPPATH/Controllers/root/Locales.php(110): App\core\BASE_Controller->render()
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:30:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:30:19 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Locales.php on line 79.
+ 1 APPPATH/Controllers/root/Locales.php(79): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Locales))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:30:19 --> Call to undefined function App\Libraries\value_objects\html_escape()
+in APPPATH/Libraries/value_objects/T_Pseudo.php on line 52.
+ 1 APPPATH/Libraries/value_objects/T_Pseudo.php(23): App\Libraries\value_objects\T_Pseudo->setValue()
+ 2 APPPATH/Libraries/value_objects/T_Pseudo.php(11): App\Libraries\value_objects\T_Pseudo->init()
+ 3 APPPATH/Libraries/value_objects/T_Locale.php(19): App\Libraries\value_objects\T_Pseudo->__construct()
+ 4 APPPATH/Views/root/locale/locale_form.php(13): App\Libraries\value_objects\T_Locale->__construct()
+ 5 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/locale/locale_form.php')
+ 6 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 8 APPPATH/core/BASE_Controller.php(519): view()
+ 9 APPPATH/Controllers/root/Locales.php(110): App\core\BASE_Controller->render()
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:30:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:30:19 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Locales.php on line 79.
+ 1 APPPATH/Controllers/root/Locales.php(79): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Locales))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:30:19 --> Call to undefined function App\Libraries\value_objects\html_escape()
+in APPPATH/Libraries/value_objects/T_Pseudo.php on line 52.
+ 1 APPPATH/Libraries/value_objects/T_Pseudo.php(23): App\Libraries\value_objects\T_Pseudo->setValue()
+ 2 APPPATH/Libraries/value_objects/T_Pseudo.php(11): App\Libraries\value_objects\T_Pseudo->init()
+ 3 APPPATH/Libraries/value_objects/T_Locale.php(19): App\Libraries\value_objects\T_Pseudo->__construct()
+ 4 APPPATH/Views/root/locale/locale_form.php(13): App\Libraries\value_objects\T_Locale->__construct()
+ 5 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/locale/locale_form.php')
+ 6 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 8 APPPATH/core/BASE_Controller.php(519): view()
+ 9 APPPATH/Controllers/root/Locales.php(110): App\core\BASE_Controller->render()
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:30:20 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Locales.php on line 79.
+ 1 APPPATH/Controllers/root/Locales.php(79): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Locales))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:30:20 --> Call to undefined function App\Libraries\value_objects\html_escape()
+in APPPATH/Libraries/value_objects/T_Pseudo.php on line 52.
+ 1 APPPATH/Libraries/value_objects/T_Pseudo.php(23): App\Libraries\value_objects\T_Pseudo->setValue()
+ 2 APPPATH/Libraries/value_objects/T_Pseudo.php(11): App\Libraries\value_objects\T_Pseudo->init()
+ 3 APPPATH/Libraries/value_objects/T_Locale.php(19): App\Libraries\value_objects\T_Pseudo->__construct()
+ 4 APPPATH/Views/root/locale/locale_form.php(13): App\Libraries\value_objects\T_Locale->__construct()
+ 5 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/locale/locale_form.php')
+ 6 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 8 APPPATH/core/BASE_Controller.php(519): view()
+ 9 APPPATH/Controllers/root/Locales.php(110): App\core\BASE_Controller->render()
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:30:20 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Locales.php on line 79.
+ 1 APPPATH/Controllers/root/Locales.php(79): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Locales))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:30:20 --> Call to undefined function App\Libraries\value_objects\html_escape()
+in APPPATH/Libraries/value_objects/T_Pseudo.php on line 52.
+ 1 APPPATH/Libraries/value_objects/T_Pseudo.php(23): App\Libraries\value_objects\T_Pseudo->setValue()
+ 2 APPPATH/Libraries/value_objects/T_Pseudo.php(11): App\Libraries\value_objects\T_Pseudo->init()
+ 3 APPPATH/Libraries/value_objects/T_Locale.php(19): App\Libraries\value_objects\T_Pseudo->__construct()
+ 4 APPPATH/Views/root/locale/locale_form.php(13): App\Libraries\value_objects\T_Locale->__construct()
+ 5 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/locale/locale_form.php')
+ 6 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 8 APPPATH/core/BASE_Controller.php(519): view()
+ 9 APPPATH/Controllers/root/Locales.php(110): App\core\BASE_Controller->render()
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:43:17 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Locales.php on line 79.
+ 1 APPPATH/Controllers/root/Locales.php(79): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Locales))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:43:17 --> Call to undefined function App\Libraries\value_objects\html_escape()
+in APPPATH/Libraries/value_objects/T_Pseudo.php on line 52.
+ 1 APPPATH/Libraries/value_objects/T_Pseudo.php(23): App\Libraries\value_objects\T_Pseudo->setValue()
+ 2 APPPATH/Libraries/value_objects/T_Pseudo.php(11): App\Libraries\value_objects\T_Pseudo->init()
+ 3 APPPATH/Libraries/value_objects/T_Locale.php(19): App\Libraries\value_objects\T_Pseudo->__construct()
+ 4 APPPATH/Views/root/locale/locale_form.php(13): App\Libraries\value_objects\T_Locale->__construct()
+ 5 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/locale/locale_form.php')
+ 6 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 8 APPPATH/core/BASE_Controller.php(519): view()
+ 9 APPPATH/Controllers/root/Locales.php(110): App\core\BASE_Controller->render()
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:43:19 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Locales.php on line 79.
+ 1 APPPATH/Controllers/root/Locales.php(79): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Locales))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:43:19 --> Call to undefined function App\Libraries\value_objects\html_escape()
+in APPPATH/Libraries/value_objects/T_Pseudo.php on line 52.
+ 1 APPPATH/Libraries/value_objects/T_Pseudo.php(23): App\Libraries\value_objects\T_Pseudo->setValue()
+ 2 APPPATH/Libraries/value_objects/T_Pseudo.php(11): App\Libraries\value_objects\T_Pseudo->init()
+ 3 APPPATH/Libraries/value_objects/T_Locale.php(19): App\Libraries\value_objects\T_Pseudo->__construct()
+ 4 APPPATH/Views/root/locale/locale_form.php(13): App\Libraries\value_objects\T_Locale->__construct()
+ 5 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/locale/locale_form.php')
+ 6 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 8 APPPATH/core/BASE_Controller.php(519): view()
+ 9 APPPATH/Controllers/root/Locales.php(110): App\core\BASE_Controller->render()
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:43:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:43:38 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Locales.php on line 79.
+ 1 APPPATH/Controllers/root/Locales.php(79): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Locales))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:43:38 --> Call to undefined function App\Libraries\value_objects\html_escape()
+in APPPATH/Libraries/value_objects/T_Pseudo.php on line 52.
+ 1 APPPATH/Libraries/value_objects/T_Pseudo.php(23): App\Libraries\value_objects\T_Pseudo->setValue()
+ 2 APPPATH/Libraries/value_objects/T_Pseudo.php(11): App\Libraries\value_objects\T_Pseudo->init()
+ 3 APPPATH/Libraries/value_objects/T_Locale.php(19): App\Libraries\value_objects\T_Pseudo->__construct()
+ 4 APPPATH/Views/root/locale/locale_form.php(13): App\Libraries\value_objects\T_Locale->__construct()
+ 5 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/locale/locale_form.php')
+ 6 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 8 APPPATH/core/BASE_Controller.php(519): view()
+ 9 APPPATH/Controllers/root/Locales.php(110): App\core\BASE_Controller->render()
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:43:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:43:39 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Locales.php on line 79.
+ 1 APPPATH/Controllers/root/Locales.php(79): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Locales))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:43:39 --> Call to undefined function App\Libraries\value_objects\html_escape()
+in APPPATH/Libraries/value_objects/T_Pseudo.php on line 52.
+ 1 APPPATH/Libraries/value_objects/T_Pseudo.php(23): App\Libraries\value_objects\T_Pseudo->setValue()
+ 2 APPPATH/Libraries/value_objects/T_Pseudo.php(11): App\Libraries\value_objects\T_Pseudo->init()
+ 3 APPPATH/Libraries/value_objects/T_Locale.php(19): App\Libraries\value_objects\T_Pseudo->__construct()
+ 4 APPPATH/Views/root/locale/locale_form.php(13): App\Libraries\value_objects\T_Locale->__construct()
+ 5 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/locale/locale_form.php')
+ 6 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 8 APPPATH/core/BASE_Controller.php(519): view()
+ 9 APPPATH/Controllers/root/Locales.php(110): App\core\BASE_Controller->render()
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:43:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:43:40 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Locales.php on line 79.
+ 1 APPPATH/Controllers/root/Locales.php(79): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Locales))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:43:40 --> Call to undefined function App\Libraries\value_objects\html_escape()
+in APPPATH/Libraries/value_objects/T_Pseudo.php on line 52.
+ 1 APPPATH/Libraries/value_objects/T_Pseudo.php(23): App\Libraries\value_objects\T_Pseudo->setValue()
+ 2 APPPATH/Libraries/value_objects/T_Pseudo.php(11): App\Libraries\value_objects\T_Pseudo->init()
+ 3 APPPATH/Libraries/value_objects/T_Locale.php(19): App\Libraries\value_objects\T_Pseudo->__construct()
+ 4 APPPATH/Views/root/locale/locale_form.php(13): App\Libraries\value_objects\T_Locale->__construct()
+ 5 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/locale/locale_form.php')
+ 6 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 8 APPPATH/core/BASE_Controller.php(519): view()
+ 9 APPPATH/Controllers/root/Locales.php(110): App\core\BASE_Controller->render()
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:44:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:44:57 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Locales.php on line 79.
+ 1 APPPATH/Controllers/root/Locales.php(79): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Locales))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:44:57 --> Call to undefined function App\Libraries\value_objects\html_escape()
+in APPPATH/Libraries/value_objects/T_Pseudo.php on line 52.
+ 1 APPPATH/Libraries/value_objects/T_Pseudo.php(23): App\Libraries\value_objects\T_Pseudo->setValue()
+ 2 APPPATH/Libraries/value_objects/T_Pseudo.php(11): App\Libraries\value_objects\T_Pseudo->init()
+ 3 APPPATH/Libraries/value_objects/T_Locale.php(19): App\Libraries\value_objects\T_Pseudo->__construct()
+ 4 APPPATH/Views/root/locale/locale_form.php(13): App\Libraries\value_objects\T_Locale->__construct()
+ 5 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/locale/locale_form.php')
+ 6 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 8 APPPATH/core/BASE_Controller.php(519): view()
+ 9 APPPATH/Controllers/root/Locales.php(110): App\core\BASE_Controller->render()
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:44:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:44:58 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Locales.php on line 79.
+ 1 APPPATH/Controllers/root/Locales.php(79): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Locales))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:44:58 --> Call to undefined function App\Libraries\value_objects\html_escape()
+in APPPATH/Libraries/value_objects/T_Pseudo.php on line 52.
+ 1 APPPATH/Libraries/value_objects/T_Pseudo.php(23): App\Libraries\value_objects\T_Pseudo->setValue()
+ 2 APPPATH/Libraries/value_objects/T_Pseudo.php(11): App\Libraries\value_objects\T_Pseudo->init()
+ 3 APPPATH/Libraries/value_objects/T_Locale.php(19): App\Libraries\value_objects\T_Pseudo->__construct()
+ 4 APPPATH/Views/root/locale/locale_form.php(13): App\Libraries\value_objects\T_Locale->__construct()
+ 5 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/locale/locale_form.php')
+ 6 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 8 APPPATH/core/BASE_Controller.php(519): view()
+ 9 APPPATH/Controllers/root/Locales.php(110): App\core\BASE_Controller->render()
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:47:47 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Locales.php on line 79.
+ 1 APPPATH/Controllers/root/Locales.php(79): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Locales))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:47:47 --> Call to undefined function App\Libraries\value_objects\html_escape()
+in APPPATH/Libraries/value_objects/T_Pseudo.php on line 52.
+ 1 APPPATH/Libraries/value_objects/T_Pseudo.php(23): App\Libraries\value_objects\T_Pseudo->setValue()
+ 2 APPPATH/Libraries/value_objects/T_Pseudo.php(11): App\Libraries\value_objects\T_Pseudo->init()
+ 3 APPPATH/Libraries/value_objects/T_Locale.php(19): App\Libraries\value_objects\T_Pseudo->__construct()
+ 4 APPPATH/Views/root/locale/locale_form.php(13): App\Libraries\value_objects\T_Locale->__construct()
+ 5 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/locale/locale_form.php')
+ 6 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 8 APPPATH/core/BASE_Controller.php(519): view()
+ 9 APPPATH/Controllers/root/Locales.php(110): App\core\BASE_Controller->render()
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:47:48 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Locales.php on line 79.
+ 1 APPPATH/Controllers/root/Locales.php(79): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Locales))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:47:48 --> Call to undefined function App\Libraries\value_objects\html_escape()
+in APPPATH/Libraries/value_objects/T_Pseudo.php on line 52.
+ 1 APPPATH/Libraries/value_objects/T_Pseudo.php(23): App\Libraries\value_objects\T_Pseudo->setValue()
+ 2 APPPATH/Libraries/value_objects/T_Pseudo.php(11): App\Libraries\value_objects\T_Pseudo->init()
+ 3 APPPATH/Libraries/value_objects/T_Locale.php(19): App\Libraries\value_objects\T_Pseudo->__construct()
+ 4 APPPATH/Views/root/locale/locale_form.php(13): App\Libraries\value_objects\T_Locale->__construct()
+ 5 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/locale/locale_form.php')
+ 6 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 8 APPPATH/core/BASE_Controller.php(519): view()
+ 9 APPPATH/Controllers/root/Locales.php(110): App\core\BASE_Controller->render()
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:47:49 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Locales.php on line 79.
+ 1 APPPATH/Controllers/root/Locales.php(79): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Locales))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:47:49 --> Call to undefined function App\Libraries\value_objects\html_escape()
+in APPPATH/Libraries/value_objects/T_Pseudo.php on line 52.
+ 1 APPPATH/Libraries/value_objects/T_Pseudo.php(23): App\Libraries\value_objects\T_Pseudo->setValue()
+ 2 APPPATH/Libraries/value_objects/T_Pseudo.php(11): App\Libraries\value_objects\T_Pseudo->init()
+ 3 APPPATH/Libraries/value_objects/T_Locale.php(19): App\Libraries\value_objects\T_Pseudo->__construct()
+ 4 APPPATH/Views/root/locale/locale_form.php(13): App\Libraries\value_objects\T_Locale->__construct()
+ 5 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/locale/locale_form.php')
+ 6 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 8 APPPATH/core/BASE_Controller.php(519): view()
+ 9 APPPATH/Controllers/root/Locales.php(110): App\core\BASE_Controller->render()
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:48:10 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Locales.php on line 79.
+ 1 APPPATH/Controllers/root/Locales.php(79): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Locales))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:48:10 --> Call to undefined function App\Libraries\value_objects\html_escape()
+in APPPATH/Libraries/value_objects/T_Pseudo.php on line 52.
+ 1 APPPATH/Libraries/value_objects/T_Pseudo.php(23): App\Libraries\value_objects\T_Pseudo->setValue()
+ 2 APPPATH/Libraries/value_objects/T_Pseudo.php(11): App\Libraries\value_objects\T_Pseudo->init()
+ 3 APPPATH/Libraries/value_objects/T_Locale.php(19): App\Libraries\value_objects\T_Pseudo->__construct()
+ 4 APPPATH/Views/root/locale/locale_form.php(13): App\Libraries\value_objects\T_Locale->__construct()
+ 5 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/locale/locale_form.php')
+ 6 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 8 APPPATH/core/BASE_Controller.php(519): view()
+ 9 APPPATH/Controllers/root/Locales.php(110): App\core\BASE_Controller->render()
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:48:46 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Clients.php on line 76.
+ 1 APPPATH/Controllers/root/Clients.php(76): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Clients))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:49:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:49:01 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Locales.php on line 79.
+ 1 APPPATH/Controllers/root/Locales.php(79): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Locales))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:49:01 --> Call to undefined function App\Libraries\value_objects\html_escape()
+in APPPATH/Libraries/value_objects/T_Pseudo.php on line 52.
+ 1 APPPATH/Libraries/value_objects/T_Pseudo.php(23): App\Libraries\value_objects\T_Pseudo->setValue()
+ 2 APPPATH/Libraries/value_objects/T_Pseudo.php(11): App\Libraries\value_objects\T_Pseudo->init()
+ 3 APPPATH/Libraries/value_objects/T_Locale.php(19): App\Libraries\value_objects\T_Pseudo->__construct()
+ 4 APPPATH/Views/root/locale/locale_form.php(13): App\Libraries\value_objects\T_Locale->__construct()
+ 5 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/root/locale/locale_form.php')
+ 6 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 8 APPPATH/core/BASE_Controller.php(519): view()
+ 9 APPPATH/Controllers/root/Locales.php(110): App\core\BASE_Controller->render()
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->create()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-29 12:51:36 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/root/Clients.php on line 76.
+ 1 APPPATH/Controllers/root/Clients.php(76): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\root\Clients))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-29 12:51:56 --> Call to a member function datatable() on null
+in APPPATH/Controllers/root/Clients.php on line 374.
+ 1 APPPATH/Controllers/root/Clients.php(65): App\Controllers\root\Clients->show()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:51:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-29 12:51:57 --> Call to a member function datatable() on null
+in APPPATH/Controllers/root/Clients.php on line 374.
+ 1 APPPATH/Controllers/root/Clients.php(65): App\Controllers\root\Clients->show()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Clients->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 12:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-29 12:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-29 12:52:17 --> mysqli_sql_exception: Unknown column 'app_locales__l18n.locale_code' in 'on clause' in /app/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /app/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /app/myapp/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /app/myapp/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /app/myapp/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /app/myapp/app/Models/Locale_model.php(214): CodeIgniter\Database\BaseBuilder->get()
+#5 /app/myapp/app/Controllers/root/Locales.php(515): App\Models\Locale_model->datatable()
+#6 /app/myapp/app/Controllers/root/Locales.php(64): App\Controllers\root\Locales->show()
+#7 /app/myapp/system/CodeIgniter.php(932): App\Controllers\root\Locales->index()
+#8 /app/myapp/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 /app/myapp/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 /app/myapp/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-09-29 12:52:17 --> Unknown column 'app_locales__l18n.locale_code' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/Locale_model.php(214): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/root/Locales.php(515): App\Models\Locale_model->datatable()
+ 7 APPPATH/Controllers/root/Locales.php(64): App\Controllers\root\Locales->show()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\root\Locales->index()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

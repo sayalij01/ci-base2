@@ -1,0 +1,3020 @@
+
+
+root-node [menu_admin]  with [5] items 
+Array
+(
+    [items] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [menu_id] => menu_root_contract
+                    [menu_label] => #menu_root_contract
+                    [menu_icon] => fa fa-suitcase
+                    [menu_ref] => root/contracts/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => root_right_contract_list
+                    [requires_root_user] => 0
+                    [sort_order] => 1200
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [1] => stdClass Object
+                (
+                    [menu_id] => menu_health_insurance
+                    [menu_label] => #menu_health_insurance
+                    [menu_icon] => fa fa-heartbeat 
+                    [menu_ref] => root/health_insurances/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => root_right_health_insurance_list
+                    [requires_root_user] => 0
+                    [sort_order] => 1400
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [2] => stdClass Object
+                (
+                    [menu_id] => menu_user
+                    [menu_label] => #menu_user
+                    [menu_icon] => fa fa-user
+                    [menu_ref] => admin/users/show
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_user_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2100
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [3] => stdClass Object
+                (
+                    [menu_id] => menu_role
+                    [menu_label] => #menu_role
+                    [menu_icon] => fa fa-object-group
+                    [menu_ref] => admin/roles/show
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_role_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2200
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [4] => stdClass Object
+                (
+                    [menu_id] => menu_articles
+                    [menu_label] => #menu_articles
+                    [menu_icon] => fa fa-cubes
+                    [menu_ref] => admin/articles/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_articles_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2300
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+        )
+
+    [menu_id] => menu_admin
+    [menu_label] => #menu_administration
+    [menu_icon] => fa fa-dashboard
+    [menu_ref] => admin/overview/
+    [right_id] => 
+    [active] => 
+)
+
+
+root-node [menu_admin]  with [5] items 
+Array
+(
+    [items] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [menu_id] => menu_root_contract
+                    [menu_label] => #menu_root_contract
+                    [menu_icon] => fa fa-suitcase
+                    [menu_ref] => root/contracts/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => root_right_contract_list
+                    [requires_root_user] => 0
+                    [sort_order] => 1200
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [1] => stdClass Object
+                (
+                    [menu_id] => menu_health_insurance
+                    [menu_label] => #menu_health_insurance
+                    [menu_icon] => fa fa-heartbeat 
+                    [menu_ref] => root/health_insurances/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => root_right_health_insurance_list
+                    [requires_root_user] => 0
+                    [sort_order] => 1400
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [2] => stdClass Object
+                (
+                    [menu_id] => menu_user
+                    [menu_label] => #menu_user
+                    [menu_icon] => fa fa-user
+                    [menu_ref] => admin/users/show
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_user_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2100
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [3] => stdClass Object
+                (
+                    [menu_id] => menu_role
+                    [menu_label] => #menu_role
+                    [menu_icon] => fa fa-object-group
+                    [menu_ref] => admin/roles/show
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_role_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2200
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [4] => stdClass Object
+                (
+                    [menu_id] => menu_articles
+                    [menu_label] => #menu_articles
+                    [menu_icon] => fa fa-cubes
+                    [menu_ref] => admin/articles/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_articles_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2300
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+        )
+
+    [menu_id] => menu_admin
+    [menu_label] => #menu_administration
+    [menu_icon] => fa fa-dashboard
+    [menu_ref] => admin/overview/
+    [right_id] => 
+    [active] => 
+)
+
+
+root-node [menu_admin]  with [5] items 
+Array
+(
+    [items] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [menu_id] => menu_root_contract
+                    [menu_label] => #menu_root_contract
+                    [menu_icon] => fa fa-suitcase
+                    [menu_ref] => root/contracts/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => root_right_contract_list
+                    [requires_root_user] => 0
+                    [sort_order] => 1200
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [1] => stdClass Object
+                (
+                    [menu_id] => menu_health_insurance
+                    [menu_label] => #menu_health_insurance
+                    [menu_icon] => fa fa-heartbeat 
+                    [menu_ref] => root/health_insurances/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => root_right_health_insurance_list
+                    [requires_root_user] => 0
+                    [sort_order] => 1400
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [2] => stdClass Object
+                (
+                    [menu_id] => menu_user
+                    [menu_label] => #menu_user
+                    [menu_icon] => fa fa-user
+                    [menu_ref] => admin/users/show
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_user_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2100
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [3] => stdClass Object
+                (
+                    [menu_id] => menu_role
+                    [menu_label] => #menu_role
+                    [menu_icon] => fa fa-object-group
+                    [menu_ref] => admin/roles/show
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_role_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2200
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [4] => stdClass Object
+                (
+                    [menu_id] => menu_articles
+                    [menu_label] => #menu_articles
+                    [menu_icon] => fa fa-cubes
+                    [menu_ref] => admin/articles/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_articles_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2300
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+        )
+
+    [menu_id] => menu_admin
+    [menu_label] => #menu_administration
+    [menu_icon] => fa fa-dashboard
+    [menu_ref] => admin/overview/
+    [right_id] => 
+    [active] => 
+)
+
+
+root-node [menu_admin]  with [5] items 
+Array
+(
+    [items] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [menu_id] => menu_root_contract
+                    [menu_label] => #menu_root_contract
+                    [menu_icon] => fa fa-suitcase
+                    [menu_ref] => root/contracts/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => root_right_contract_list
+                    [requires_root_user] => 0
+                    [sort_order] => 1200
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [1] => stdClass Object
+                (
+                    [menu_id] => menu_health_insurance
+                    [menu_label] => #menu_health_insurance
+                    [menu_icon] => fa fa-heartbeat 
+                    [menu_ref] => root/health_insurances/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => root_right_health_insurance_list
+                    [requires_root_user] => 0
+                    [sort_order] => 1400
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [2] => stdClass Object
+                (
+                    [menu_id] => menu_user
+                    [menu_label] => #menu_user
+                    [menu_icon] => fa fa-user
+                    [menu_ref] => admin/users/show
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_user_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2100
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [3] => stdClass Object
+                (
+                    [menu_id] => menu_role
+                    [menu_label] => #menu_role
+                    [menu_icon] => fa fa-object-group
+                    [menu_ref] => admin/roles/show
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_role_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2200
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [4] => stdClass Object
+                (
+                    [menu_id] => menu_articles
+                    [menu_label] => #menu_articles
+                    [menu_icon] => fa fa-cubes
+                    [menu_ref] => admin/articles/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_articles_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2300
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+        )
+
+    [menu_id] => menu_admin
+    [menu_label] => #menu_administration
+    [menu_icon] => fa fa-dashboard
+    [menu_ref] => admin/overview/
+    [right_id] => 
+    [active] => 
+)
+
+
+root-node [menu_admin]  with [5] items 
+Array
+(
+    [items] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [menu_id] => menu_root_contract
+                    [menu_label] => #menu_root_contract
+                    [menu_icon] => fa fa-suitcase
+                    [menu_ref] => root/contracts/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => root_right_contract_list
+                    [requires_root_user] => 0
+                    [sort_order] => 1200
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [1] => stdClass Object
+                (
+                    [menu_id] => menu_health_insurance
+                    [menu_label] => #menu_health_insurance
+                    [menu_icon] => fa fa-heartbeat 
+                    [menu_ref] => root/health_insurances/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => root_right_health_insurance_list
+                    [requires_root_user] => 0
+                    [sort_order] => 1400
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [2] => stdClass Object
+                (
+                    [menu_id] => menu_user
+                    [menu_label] => #menu_user
+                    [menu_icon] => fa fa-user
+                    [menu_ref] => admin/users/show
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_user_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2100
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [3] => stdClass Object
+                (
+                    [menu_id] => menu_role
+                    [menu_label] => #menu_role
+                    [menu_icon] => fa fa-object-group
+                    [menu_ref] => admin/roles/show
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_role_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2200
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [4] => stdClass Object
+                (
+                    [menu_id] => menu_articles
+                    [menu_label] => #menu_articles
+                    [menu_icon] => fa fa-cubes
+                    [menu_ref] => admin/articles/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_articles_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2300
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+        )
+
+    [menu_id] => menu_admin
+    [menu_label] => #menu_administration
+    [menu_icon] => fa fa-dashboard
+    [menu_ref] => admin/overview/
+    [right_id] => 
+    [active] => 
+)
+
+
+root-node [menu_admin]  with [5] items 
+Array
+(
+    [items] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [menu_id] => menu_root_contract
+                    [menu_label] => #menu_root_contract
+                    [menu_icon] => fa fa-suitcase
+                    [menu_ref] => root/contracts/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => root_right_contract_list
+                    [requires_root_user] => 0
+                    [sort_order] => 1200
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [1] => stdClass Object
+                (
+                    [menu_id] => menu_health_insurance
+                    [menu_label] => #menu_health_insurance
+                    [menu_icon] => fa fa-heartbeat 
+                    [menu_ref] => root/health_insurances/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => root_right_health_insurance_list
+                    [requires_root_user] => 0
+                    [sort_order] => 1400
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [2] => stdClass Object
+                (
+                    [menu_id] => menu_user
+                    [menu_label] => #menu_user
+                    [menu_icon] => fa fa-user
+                    [menu_ref] => admin/users/show
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_user_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2100
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [3] => stdClass Object
+                (
+                    [menu_id] => menu_role
+                    [menu_label] => #menu_role
+                    [menu_icon] => fa fa-object-group
+                    [menu_ref] => admin/roles/show
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_role_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2200
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [4] => stdClass Object
+                (
+                    [menu_id] => menu_articles
+                    [menu_label] => #menu_articles
+                    [menu_icon] => fa fa-cubes
+                    [menu_ref] => admin/articles/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_articles_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2300
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+        )
+
+    [menu_id] => menu_admin
+    [menu_label] => #menu_administration
+    [menu_icon] => fa fa-dashboard
+    [menu_ref] => admin/overview/
+    [right_id] => 
+    [active] => 
+)
+
+
+root-node [menu_admin]  with [5] items 
+Array
+(
+    [items] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [menu_id] => menu_root_contract
+                    [menu_label] => #menu_root_contract
+                    [menu_icon] => fa fa-suitcase
+                    [menu_ref] => root/contracts/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => root_right_contract_list
+                    [requires_root_user] => 0
+                    [sort_order] => 1200
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [1] => stdClass Object
+                (
+                    [menu_id] => menu_health_insurance
+                    [menu_label] => #menu_health_insurance
+                    [menu_icon] => fa fa-heartbeat 
+                    [menu_ref] => root/health_insurances/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => root_right_health_insurance_list
+                    [requires_root_user] => 0
+                    [sort_order] => 1400
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [2] => stdClass Object
+                (
+                    [menu_id] => menu_user
+                    [menu_label] => #menu_user
+                    [menu_icon] => fa fa-user
+                    [menu_ref] => admin/users/show
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_user_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2100
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [3] => stdClass Object
+                (
+                    [menu_id] => menu_role
+                    [menu_label] => #menu_role
+                    [menu_icon] => fa fa-object-group
+                    [menu_ref] => admin/roles/show
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_role_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2200
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [4] => stdClass Object
+                (
+                    [menu_id] => menu_articles
+                    [menu_label] => #menu_articles
+                    [menu_icon] => fa fa-cubes
+                    [menu_ref] => admin/articles/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_articles_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2300
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+        )
+
+    [menu_id] => menu_admin
+    [menu_label] => #menu_administration
+    [menu_icon] => fa fa-dashboard
+    [menu_ref] => admin/overview/
+    [right_id] => 
+    [active] => 
+)
+
+
+root-node [menu_admin]  with [5] items 
+Array
+(
+    [items] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [menu_id] => menu_root_contract
+                    [menu_label] => #menu_root_contract
+                    [menu_icon] => fa fa-suitcase
+                    [menu_ref] => root/contracts/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => root_right_contract_list
+                    [requires_root_user] => 0
+                    [sort_order] => 1200
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [1] => stdClass Object
+                (
+                    [menu_id] => menu_health_insurance
+                    [menu_label] => #menu_health_insurance
+                    [menu_icon] => fa fa-heartbeat 
+                    [menu_ref] => root/health_insurances/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => root_right_health_insurance_list
+                    [requires_root_user] => 0
+                    [sort_order] => 1400
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [2] => stdClass Object
+                (
+                    [menu_id] => menu_user
+                    [menu_label] => #menu_user
+                    [menu_icon] => fa fa-user
+                    [menu_ref] => admin/users/show
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_user_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2100
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [3] => stdClass Object
+                (
+                    [menu_id] => menu_role
+                    [menu_label] => #menu_role
+                    [menu_icon] => fa fa-object-group
+                    [menu_ref] => admin/roles/show
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_role_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2200
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [4] => stdClass Object
+                (
+                    [menu_id] => menu_articles
+                    [menu_label] => #menu_articles
+                    [menu_icon] => fa fa-cubes
+                    [menu_ref] => admin/articles/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_articles_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2300
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+        )
+
+    [menu_id] => menu_admin
+    [menu_label] => #menu_administration
+    [menu_icon] => fa fa-dashboard
+    [menu_ref] => admin/overview/
+    [right_id] => 
+    [active] => 
+)
+
+
+root-node [menu_admin]  with [5] items 
+Array
+(
+    [items] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [menu_id] => menu_root_contract
+                    [menu_label] => #menu_root_contract
+                    [menu_icon] => fa fa-suitcase
+                    [menu_ref] => root/contracts/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => root_right_contract_list
+                    [requires_root_user] => 0
+                    [sort_order] => 1200
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [1] => stdClass Object
+                (
+                    [menu_id] => menu_health_insurance
+                    [menu_label] => #menu_health_insurance
+                    [menu_icon] => fa fa-heartbeat 
+                    [menu_ref] => root/health_insurances/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => root_right_health_insurance_list
+                    [requires_root_user] => 0
+                    [sort_order] => 1400
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [2] => stdClass Object
+                (
+                    [menu_id] => menu_user
+                    [menu_label] => #menu_user
+                    [menu_icon] => fa fa-user
+                    [menu_ref] => admin/users/show
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_user_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2100
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [3] => stdClass Object
+                (
+                    [menu_id] => menu_role
+                    [menu_label] => #menu_role
+                    [menu_icon] => fa fa-object-group
+                    [menu_ref] => admin/roles/show
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_role_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2200
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [4] => stdClass Object
+                (
+                    [menu_id] => menu_articles
+                    [menu_label] => #menu_articles
+                    [menu_icon] => fa fa-cubes
+                    [menu_ref] => admin/articles/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_articles_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2300
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+        )
+
+    [menu_id] => menu_admin
+    [menu_label] => #menu_administration
+    [menu_icon] => fa fa-dashboard
+    [menu_ref] => admin/overview/
+    [right_id] => 
+    [active] => 
+)
+
+
+root-node [menu_admin]  with [5] items 
+Array
+(
+    [items] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [menu_id] => menu_root_contract
+                    [menu_label] => #menu_root_contract
+                    [menu_icon] => fa fa-suitcase
+                    [menu_ref] => root/contracts/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => root_right_contract_list
+                    [requires_root_user] => 0
+                    [sort_order] => 1200
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [1] => stdClass Object
+                (
+                    [menu_id] => menu_health_insurance
+                    [menu_label] => #menu_health_insurance
+                    [menu_icon] => fa fa-heartbeat 
+                    [menu_ref] => root/health_insurances/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => root_right_health_insurance_list
+                    [requires_root_user] => 0
+                    [sort_order] => 1400
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [2] => stdClass Object
+                (
+                    [menu_id] => menu_user
+                    [menu_label] => #menu_user
+                    [menu_icon] => fa fa-user
+                    [menu_ref] => admin/users/show
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_user_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2100
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [3] => stdClass Object
+                (
+                    [menu_id] => menu_role
+                    [menu_label] => #menu_role
+                    [menu_icon] => fa fa-object-group
+                    [menu_ref] => admin/roles/show
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_role_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2200
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [4] => stdClass Object
+                (
+                    [menu_id] => menu_articles
+                    [menu_label] => #menu_articles
+                    [menu_icon] => fa fa-cubes
+                    [menu_ref] => admin/articles/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_articles_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2300
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+        )
+
+    [menu_id] => menu_admin
+    [menu_label] => #menu_administration
+    [menu_icon] => fa fa-dashboard
+    [menu_ref] => admin/overview/
+    [right_id] => 
+    [active] => 
+)
+
+
+root-node [menu_prescriptions]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_prescriptions
+    [menu_label] => #menu_prescriptions
+    [menu_icon] => fa fa-bookmark-o
+    [menu_ref] => admin/prescriptions/show/
+    [right_id] => right_prescriptions_list
+    [active] => 
+)
+
+
+root-node [menu_debitor]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_debitor
+    [menu_label] => #menu_debitor
+    [menu_icon] => fa fa-group
+    [menu_ref] => admin/debitors/show/
+    [right_id] => right_debitor_list
+    [active] => 
+)
+
+
+root-node [menu_orders]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_orders
+    [menu_label] => #menu_order
+    [menu_icon] => fa fa-shopping-basket
+    [menu_ref] => admin/orders/show/
+    [right_id] => right_order_list
+    [active] => 
+)
+
+
+root-node [menu_contact]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_contact
+    [menu_label] => #menu_contact
+    [menu_icon] => fa fa-thumbs-o-up
+    [menu_ref] => home/contact
+    [right_id] => 
+    [active] => 
+)
+
+
+root-node [menu_reminder]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_reminder
+    [menu_label] => #menu_reminder
+    [menu_icon] => fa fa-hashtag
+    [menu_ref] => admin/reminder/show/
+    [right_id] => right_reminder_list
+    [active] => 
+)
+
+
+
+root-node [menu_admin]  with [5] items 
+Array
+(
+    [items] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [menu_id] => menu_root_contract
+                    [menu_label] => #menu_root_contract
+                    [menu_icon] => fa fa-suitcase
+                    [menu_ref] => root/contracts/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => root_right_contract_list
+                    [requires_root_user] => 0
+                    [sort_order] => 1200
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [1] => stdClass Object
+                (
+                    [menu_id] => menu_health_insurance
+                    [menu_label] => #menu_health_insurance
+                    [menu_icon] => fa fa-heartbeat 
+                    [menu_ref] => root/health_insurances/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => root_right_health_insurance_list
+                    [requires_root_user] => 0
+                    [sort_order] => 1400
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [2] => stdClass Object
+                (
+                    [menu_id] => menu_user
+                    [menu_label] => #menu_user
+                    [menu_icon] => fa fa-user
+                    [menu_ref] => admin/users/show
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_user_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2100
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [3] => stdClass Object
+                (
+                    [menu_id] => menu_role
+                    [menu_label] => #menu_role
+                    [menu_icon] => fa fa-object-group
+                    [menu_ref] => admin/roles/show
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_role_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2200
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [4] => stdClass Object
+                (
+                    [menu_id] => menu_articles
+                    [menu_label] => #menu_articles
+                    [menu_icon] => fa fa-cubes
+                    [menu_ref] => admin/articles/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_articles_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2300
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+        )
+
+    [menu_id] => menu_admin
+    [menu_label] => #menu_administration
+    [menu_icon] => fa fa-dashboard
+    [menu_ref] => admin/overview/
+    [right_id] => 
+    [active] => 
+)
+
+
+root-node [menu_prescriptions]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_prescriptions
+    [menu_label] => #menu_prescriptions
+    [menu_icon] => fa fa-bookmark-o
+    [menu_ref] => admin/prescriptions/show/
+    [right_id] => right_prescriptions_list
+    [active] => 
+)
+
+
+root-node [menu_debitor]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_debitor
+    [menu_label] => #menu_debitor
+    [menu_icon] => fa fa-group
+    [menu_ref] => admin/debitors/show/
+    [right_id] => right_debitor_list
+    [active] => 
+)
+
+
+root-node [menu_orders]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_orders
+    [menu_label] => #menu_order
+    [menu_icon] => fa fa-shopping-basket
+    [menu_ref] => admin/orders/show/
+    [right_id] => right_order_list
+    [active] => 
+)
+
+
+root-node [menu_contact]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_contact
+    [menu_label] => #menu_contact
+    [menu_icon] => fa fa-thumbs-o-up
+    [menu_ref] => home/contact
+    [right_id] => 
+    [active] => 
+)
+
+
+root-node [menu_reminder]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_reminder
+    [menu_label] => #menu_reminder
+    [menu_icon] => fa fa-hashtag
+    [menu_ref] => admin/reminder/show/
+    [right_id] => right_reminder_list
+    [active] => 
+)
+
+
+
+root-node [menu_admin]  with [5] items 
+Array
+(
+    [items] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [menu_id] => menu_root_contract
+                    [menu_label] => #menu_root_contract
+                    [menu_icon] => fa fa-suitcase
+                    [menu_ref] => root/contracts/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => root_right_contract_list
+                    [requires_root_user] => 0
+                    [sort_order] => 1200
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [1] => stdClass Object
+                (
+                    [menu_id] => menu_health_insurance
+                    [menu_label] => #menu_health_insurance
+                    [menu_icon] => fa fa-heartbeat 
+                    [menu_ref] => root/health_insurances/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => root_right_health_insurance_list
+                    [requires_root_user] => 0
+                    [sort_order] => 1400
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [2] => stdClass Object
+                (
+                    [menu_id] => menu_user
+                    [menu_label] => #menu_user
+                    [menu_icon] => fa fa-user
+                    [menu_ref] => admin/users/show
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_user_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2100
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [3] => stdClass Object
+                (
+                    [menu_id] => menu_role
+                    [menu_label] => #menu_role
+                    [menu_icon] => fa fa-object-group
+                    [menu_ref] => admin/roles/show
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_role_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2200
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [4] => stdClass Object
+                (
+                    [menu_id] => menu_articles
+                    [menu_label] => #menu_articles
+                    [menu_icon] => fa fa-cubes
+                    [menu_ref] => admin/articles/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_articles_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2300
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+        )
+
+    [menu_id] => menu_admin
+    [menu_label] => #menu_administration
+    [menu_icon] => fa fa-dashboard
+    [menu_ref] => admin/overview/
+    [right_id] => 
+    [active] => 
+)
+
+
+root-node [menu_prescriptions]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_prescriptions
+    [menu_label] => #menu_prescriptions
+    [menu_icon] => fa fa-bookmark-o
+    [menu_ref] => admin/prescriptions/show/
+    [right_id] => right_prescriptions_list
+    [active] => 
+)
+
+
+root-node [menu_debitor]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_debitor
+    [menu_label] => #menu_debitor
+    [menu_icon] => fa fa-group
+    [menu_ref] => admin/debitors/show/
+    [right_id] => right_debitor_list
+    [active] => 
+)
+
+
+root-node [menu_orders]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_orders
+    [menu_label] => #menu_order
+    [menu_icon] => fa fa-shopping-basket
+    [menu_ref] => admin/orders/show/
+    [right_id] => right_order_list
+    [active] => 
+)
+
+
+root-node [menu_contact]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_contact
+    [menu_label] => #menu_contact
+    [menu_icon] => fa fa-thumbs-o-up
+    [menu_ref] => home/contact
+    [right_id] => 
+    [active] => 
+)
+
+
+root-node [menu_reminder]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_reminder
+    [menu_label] => #menu_reminder
+    [menu_icon] => fa fa-hashtag
+    [menu_ref] => admin/reminder/show/
+    [right_id] => right_reminder_list
+    [active] => 
+)
+
+
+
+root-node [menu_admin]  with [5] items 
+Array
+(
+    [items] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [menu_id] => menu_root_contract
+                    [menu_label] => #menu_root_contract
+                    [menu_icon] => fa fa-suitcase
+                    [menu_ref] => root/contracts/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => root_right_contract_list
+                    [requires_root_user] => 0
+                    [sort_order] => 1200
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [1] => stdClass Object
+                (
+                    [menu_id] => menu_health_insurance
+                    [menu_label] => #menu_health_insurance
+                    [menu_icon] => fa fa-heartbeat 
+                    [menu_ref] => root/health_insurances/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => root_right_health_insurance_list
+                    [requires_root_user] => 0
+                    [sort_order] => 1400
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [2] => stdClass Object
+                (
+                    [menu_id] => menu_user
+                    [menu_label] => #menu_user
+                    [menu_icon] => fa fa-user
+                    [menu_ref] => admin/users/show
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_user_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2100
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [3] => stdClass Object
+                (
+                    [menu_id] => menu_role
+                    [menu_label] => #menu_role
+                    [menu_icon] => fa fa-object-group
+                    [menu_ref] => admin/roles/show
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_role_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2200
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [4] => stdClass Object
+                (
+                    [menu_id] => menu_articles
+                    [menu_label] => #menu_articles
+                    [menu_icon] => fa fa-cubes
+                    [menu_ref] => admin/articles/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_articles_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2300
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+        )
+
+    [menu_id] => menu_admin
+    [menu_label] => #menu_administration
+    [menu_icon] => fa fa-dashboard
+    [menu_ref] => admin/overview/
+    [right_id] => 
+    [active] => 
+)
+
+
+root-node [menu_prescriptions]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_prescriptions
+    [menu_label] => #menu_prescriptions
+    [menu_icon] => fa fa-bookmark-o
+    [menu_ref] => admin/prescriptions/show/
+    [right_id] => right_prescriptions_list
+    [active] => 
+)
+
+
+root-node [menu_debitor]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_debitor
+    [menu_label] => #menu_debitor
+    [menu_icon] => fa fa-group
+    [menu_ref] => admin/debitors/show/
+    [right_id] => right_debitor_list
+    [active] => 
+)
+
+
+root-node [menu_orders]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_orders
+    [menu_label] => #menu_order
+    [menu_icon] => fa fa-shopping-basket
+    [menu_ref] => admin/orders/show/
+    [right_id] => right_order_list
+    [active] => 
+)
+
+
+root-node [menu_contact]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_contact
+    [menu_label] => #menu_contact
+    [menu_icon] => fa fa-thumbs-o-up
+    [menu_ref] => home/contact
+    [right_id] => 
+    [active] => 
+)
+
+
+root-node [menu_reminder]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_reminder
+    [menu_label] => #menu_reminder
+    [menu_icon] => fa fa-hashtag
+    [menu_ref] => admin/reminder/show/
+    [right_id] => right_reminder_list
+    [active] => 
+)
+
+
+
+root-node [menu_admin]  with [5] items 
+Array
+(
+    [items] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [menu_id] => menu_root_contract
+                    [menu_label] => #menu_root_contract
+                    [menu_icon] => fa fa-suitcase
+                    [menu_ref] => root/contracts/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => root_right_contract_list
+                    [requires_root_user] => 0
+                    [sort_order] => 1200
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [1] => stdClass Object
+                (
+                    [menu_id] => menu_health_insurance
+                    [menu_label] => #menu_health_insurance
+                    [menu_icon] => fa fa-heartbeat 
+                    [menu_ref] => root/health_insurances/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => root_right_health_insurance_list
+                    [requires_root_user] => 0
+                    [sort_order] => 1400
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [2] => stdClass Object
+                (
+                    [menu_id] => menu_user
+                    [menu_label] => #menu_user
+                    [menu_icon] => fa fa-user
+                    [menu_ref] => admin/users/show
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_user_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2100
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [3] => stdClass Object
+                (
+                    [menu_id] => menu_role
+                    [menu_label] => #menu_role
+                    [menu_icon] => fa fa-object-group
+                    [menu_ref] => admin/roles/show
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_role_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2200
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [4] => stdClass Object
+                (
+                    [menu_id] => menu_articles
+                    [menu_label] => #menu_articles
+                    [menu_icon] => fa fa-cubes
+                    [menu_ref] => admin/articles/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_articles_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2300
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+        )
+
+    [menu_id] => menu_admin
+    [menu_label] => #menu_administration
+    [menu_icon] => fa fa-dashboard
+    [menu_ref] => admin/overview/
+    [right_id] => 
+    [active] => 
+)
+
+
+root-node [menu_prescriptions]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_prescriptions
+    [menu_label] => #menu_prescriptions
+    [menu_icon] => fa fa-bookmark-o
+    [menu_ref] => admin/prescriptions/show/
+    [right_id] => right_prescriptions_list
+    [active] => 
+)
+
+
+root-node [menu_debitor]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_debitor
+    [menu_label] => #menu_debitor
+    [menu_icon] => fa fa-group
+    [menu_ref] => admin/debitors/show/
+    [right_id] => right_debitor_list
+    [active] => 
+)
+
+
+root-node [menu_orders]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_orders
+    [menu_label] => #menu_order
+    [menu_icon] => fa fa-shopping-basket
+    [menu_ref] => admin/orders/show/
+    [right_id] => right_order_list
+    [active] => 
+)
+
+
+root-node [menu_contact]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_contact
+    [menu_label] => #menu_contact
+    [menu_icon] => fa fa-thumbs-o-up
+    [menu_ref] => home/contact
+    [right_id] => 
+    [active] => 
+)
+
+
+root-node [menu_reminder]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_reminder
+    [menu_label] => #menu_reminder
+    [menu_icon] => fa fa-hashtag
+    [menu_ref] => admin/reminder/show/
+    [right_id] => right_reminder_list
+    [active] => 
+)
+
+
+
+root-node [menu_admin]  with [5] items 
+Array
+(
+    [items] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [menu_id] => menu_root_contract
+                    [menu_label] => #menu_root_contract
+                    [menu_icon] => fa fa-suitcase
+                    [menu_ref] => root/contracts/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => root_right_contract_list
+                    [requires_root_user] => 0
+                    [sort_order] => 1200
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [1] => stdClass Object
+                (
+                    [menu_id] => menu_health_insurance
+                    [menu_label] => #menu_health_insurance
+                    [menu_icon] => fa fa-heartbeat 
+                    [menu_ref] => root/health_insurances/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => root_right_health_insurance_list
+                    [requires_root_user] => 0
+                    [sort_order] => 1400
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [2] => stdClass Object
+                (
+                    [menu_id] => menu_user
+                    [menu_label] => #menu_user
+                    [menu_icon] => fa fa-user
+                    [menu_ref] => admin/users/show
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_user_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2100
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [3] => stdClass Object
+                (
+                    [menu_id] => menu_role
+                    [menu_label] => #menu_role
+                    [menu_icon] => fa fa-object-group
+                    [menu_ref] => admin/roles/show
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_role_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2200
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [4] => stdClass Object
+                (
+                    [menu_id] => menu_articles
+                    [menu_label] => #menu_articles
+                    [menu_icon] => fa fa-cubes
+                    [menu_ref] => admin/articles/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_articles_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2300
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+        )
+
+    [menu_id] => menu_admin
+    [menu_label] => #menu_administration
+    [menu_icon] => fa fa-dashboard
+    [menu_ref] => admin/overview/
+    [right_id] => 
+    [active] => 
+)
+
+
+root-node [menu_prescriptions]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_prescriptions
+    [menu_label] => #menu_prescriptions
+    [menu_icon] => fa fa-bookmark-o
+    [menu_ref] => admin/prescriptions/show/
+    [right_id] => right_prescriptions_list
+    [active] => 
+)
+
+
+root-node [menu_debitor]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_debitor
+    [menu_label] => #menu_debitor
+    [menu_icon] => fa fa-group
+    [menu_ref] => admin/debitors/show/
+    [right_id] => right_debitor_list
+    [active] => 
+)
+
+
+root-node [menu_orders]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_orders
+    [menu_label] => #menu_order
+    [menu_icon] => fa fa-shopping-basket
+    [menu_ref] => admin/orders/show/
+    [right_id] => right_order_list
+    [active] => 
+)
+
+
+root-node [menu_contact]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_contact
+    [menu_label] => #menu_contact
+    [menu_icon] => fa fa-thumbs-o-up
+    [menu_ref] => home/contact
+    [right_id] => 
+    [active] => 
+)
+
+
+root-node [menu_reminder]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_reminder
+    [menu_label] => #menu_reminder
+    [menu_icon] => fa fa-hashtag
+    [menu_ref] => admin/reminder/show/
+    [right_id] => right_reminder_list
+    [active] => 
+)
+
+
+
+root-node [menu_admin]  with [5] items 
+Array
+(
+    [items] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [menu_id] => menu_root_contract
+                    [menu_label] => #menu_root_contract
+                    [menu_icon] => fa fa-suitcase
+                    [menu_ref] => root/contracts/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => root_right_contract_list
+                    [requires_root_user] => 0
+                    [sort_order] => 1200
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [1] => stdClass Object
+                (
+                    [menu_id] => menu_health_insurance
+                    [menu_label] => #menu_health_insurance
+                    [menu_icon] => fa fa-heartbeat 
+                    [menu_ref] => root/health_insurances/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => root_right_health_insurance_list
+                    [requires_root_user] => 0
+                    [sort_order] => 1400
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [2] => stdClass Object
+                (
+                    [menu_id] => menu_user
+                    [menu_label] => #menu_user
+                    [menu_icon] => fa fa-user
+                    [menu_ref] => admin/users/show
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_user_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2100
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [3] => stdClass Object
+                (
+                    [menu_id] => menu_role
+                    [menu_label] => #menu_role
+                    [menu_icon] => fa fa-object-group
+                    [menu_ref] => admin/roles/show
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_role_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2200
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [4] => stdClass Object
+                (
+                    [menu_id] => menu_articles
+                    [menu_label] => #menu_articles
+                    [menu_icon] => fa fa-cubes
+                    [menu_ref] => admin/articles/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_articles_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2300
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+        )
+
+    [menu_id] => menu_admin
+    [menu_label] => #menu_administration
+    [menu_icon] => fa fa-dashboard
+    [menu_ref] => admin/overview/
+    [right_id] => 
+    [active] => 
+)
+
+
+root-node [menu_prescriptions]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_prescriptions
+    [menu_label] => #menu_prescriptions
+    [menu_icon] => fa fa-bookmark-o
+    [menu_ref] => admin/prescriptions/show/
+    [right_id] => right_prescriptions_list
+    [active] => 
+)
+
+
+root-node [menu_debitor]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_debitor
+    [menu_label] => #menu_debitor
+    [menu_icon] => fa fa-group
+    [menu_ref] => admin/debitors/show/
+    [right_id] => right_debitor_list
+    [active] => 
+)
+
+
+root-node [menu_orders]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_orders
+    [menu_label] => #menu_order
+    [menu_icon] => fa fa-shopping-basket
+    [menu_ref] => admin/orders/show/
+    [right_id] => right_order_list
+    [active] => 
+)
+
+
+root-node [menu_contact]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_contact
+    [menu_label] => #menu_contact
+    [menu_icon] => fa fa-thumbs-o-up
+    [menu_ref] => home/contact
+    [right_id] => 
+    [active] => 
+)
+
+
+root-node [menu_reminder]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_reminder
+    [menu_label] => #menu_reminder
+    [menu_icon] => fa fa-hashtag
+    [menu_ref] => admin/reminder/show/
+    [right_id] => right_reminder_list
+    [active] => 
+)
+
+
+
+root-node [menu_admin]  with [5] items 
+Array
+(
+    [items] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [menu_id] => menu_root_contract
+                    [menu_label] => #menu_root_contract
+                    [menu_icon] => fa fa-suitcase
+                    [menu_ref] => root/contracts/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => root_right_contract_list
+                    [requires_root_user] => 0
+                    [sort_order] => 1200
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [1] => stdClass Object
+                (
+                    [menu_id] => menu_health_insurance
+                    [menu_label] => #menu_health_insurance
+                    [menu_icon] => fa fa-heartbeat 
+                    [menu_ref] => root/health_insurances/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => root_right_health_insurance_list
+                    [requires_root_user] => 0
+                    [sort_order] => 1400
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [2] => stdClass Object
+                (
+                    [menu_id] => menu_user
+                    [menu_label] => #menu_user
+                    [menu_icon] => fa fa-user
+                    [menu_ref] => admin/users/show
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_user_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2100
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [3] => stdClass Object
+                (
+                    [menu_id] => menu_role
+                    [menu_label] => #menu_role
+                    [menu_icon] => fa fa-object-group
+                    [menu_ref] => admin/roles/show
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_role_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2200
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [4] => stdClass Object
+                (
+                    [menu_id] => menu_articles
+                    [menu_label] => #menu_articles
+                    [menu_icon] => fa fa-cubes
+                    [menu_ref] => admin/articles/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_articles_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2300
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+        )
+
+    [menu_id] => menu_admin
+    [menu_label] => #menu_administration
+    [menu_icon] => fa fa-dashboard
+    [menu_ref] => admin/overview/
+    [right_id] => 
+    [active] => 
+)
+
+
+root-node [menu_prescriptions]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_prescriptions
+    [menu_label] => #menu_prescriptions
+    [menu_icon] => fa fa-bookmark-o
+    [menu_ref] => admin/prescriptions/show/
+    [right_id] => right_prescriptions_list
+    [active] => 
+)
+
+
+root-node [menu_debitor]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_debitor
+    [menu_label] => #menu_debitor
+    [menu_icon] => fa fa-group
+    [menu_ref] => admin/debitors/show/
+    [right_id] => right_debitor_list
+    [active] => 
+)
+
+
+root-node [menu_orders]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_orders
+    [menu_label] => #menu_order
+    [menu_icon] => fa fa-shopping-basket
+    [menu_ref] => admin/orders/show/
+    [right_id] => right_order_list
+    [active] => 
+)
+
+
+root-node [menu_contact]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_contact
+    [menu_label] => #menu_contact
+    [menu_icon] => fa fa-thumbs-o-up
+    [menu_ref] => home/contact
+    [right_id] => 
+    [active] => 
+)
+
+
+root-node [menu_reminder]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_reminder
+    [menu_label] => #menu_reminder
+    [menu_icon] => fa fa-hashtag
+    [menu_ref] => admin/reminder/show/
+    [right_id] => right_reminder_list
+    [active] => 
+)
+
+
+
+root-node [menu_admin]  with [5] items 
+Array
+(
+    [items] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [menu_id] => menu_root_contract
+                    [menu_label] => #menu_root_contract
+                    [menu_icon] => fa fa-suitcase
+                    [menu_ref] => root/contracts/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => root_right_contract_list
+                    [requires_root_user] => 0
+                    [sort_order] => 1200
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [1] => stdClass Object
+                (
+                    [menu_id] => menu_health_insurance
+                    [menu_label] => #menu_health_insurance
+                    [menu_icon] => fa fa-heartbeat 
+                    [menu_ref] => root/health_insurances/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => root_right_health_insurance_list
+                    [requires_root_user] => 0
+                    [sort_order] => 1400
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [2] => stdClass Object
+                (
+                    [menu_id] => menu_user
+                    [menu_label] => #menu_user
+                    [menu_icon] => fa fa-user
+                    [menu_ref] => admin/users/show
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_user_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2100
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [3] => stdClass Object
+                (
+                    [menu_id] => menu_role
+                    [menu_label] => #menu_role
+                    [menu_icon] => fa fa-object-group
+                    [menu_ref] => admin/roles/show
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_role_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2200
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [4] => stdClass Object
+                (
+                    [menu_id] => menu_articles
+                    [menu_label] => #menu_articles
+                    [menu_icon] => fa fa-cubes
+                    [menu_ref] => admin/articles/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_articles_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2300
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+        )
+
+    [menu_id] => menu_admin
+    [menu_label] => #menu_administration
+    [menu_icon] => fa fa-dashboard
+    [menu_ref] => admin/overview/
+    [right_id] => 
+    [active] => 
+)
+
+
+root-node [menu_prescriptions]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_prescriptions
+    [menu_label] => #menu_prescriptions
+    [menu_icon] => fa fa-bookmark-o
+    [menu_ref] => admin/prescriptions/show/
+    [right_id] => right_prescriptions_list
+    [active] => 
+)
+
+
+root-node [menu_debitor]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_debitor
+    [menu_label] => #menu_debitor
+    [menu_icon] => fa fa-group
+    [menu_ref] => admin/debitors/show/
+    [right_id] => right_debitor_list
+    [active] => 
+)
+
+
+root-node [menu_orders]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_orders
+    [menu_label] => #menu_order
+    [menu_icon] => fa fa-shopping-basket
+    [menu_ref] => admin/orders/show/
+    [right_id] => right_order_list
+    [active] => 
+)
+
+
+root-node [menu_contact]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_contact
+    [menu_label] => #menu_contact
+    [menu_icon] => fa fa-thumbs-o-up
+    [menu_ref] => home/contact
+    [right_id] => 
+    [active] => 
+)
+
+
+root-node [menu_reminder]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_reminder
+    [menu_label] => #menu_reminder
+    [menu_icon] => fa fa-hashtag
+    [menu_ref] => admin/reminder/show/
+    [right_id] => right_reminder_list
+    [active] => 
+)
+
+
+
+root-node [menu_admin]  with [5] items 
+Array
+(
+    [items] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [menu_id] => menu_root_contract
+                    [menu_label] => #menu_root_contract
+                    [menu_icon] => fa fa-suitcase
+                    [menu_ref] => root/contracts/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => root_right_contract_list
+                    [requires_root_user] => 0
+                    [sort_order] => 1200
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [1] => stdClass Object
+                (
+                    [menu_id] => menu_health_insurance
+                    [menu_label] => #menu_health_insurance
+                    [menu_icon] => fa fa-heartbeat 
+                    [menu_ref] => root/health_insurances/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => root_right_health_insurance_list
+                    [requires_root_user] => 0
+                    [sort_order] => 1400
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [2] => stdClass Object
+                (
+                    [menu_id] => menu_user
+                    [menu_label] => #menu_user
+                    [menu_icon] => fa fa-user
+                    [menu_ref] => admin/users/show
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_user_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2100
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [3] => stdClass Object
+                (
+                    [menu_id] => menu_role
+                    [menu_label] => #menu_role
+                    [menu_icon] => fa fa-object-group
+                    [menu_ref] => admin/roles/show
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_role_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2200
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [4] => stdClass Object
+                (
+                    [menu_id] => menu_articles
+                    [menu_label] => #menu_articles
+                    [menu_icon] => fa fa-cubes
+                    [menu_ref] => admin/articles/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_articles_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2300
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+        )
+
+    [menu_id] => menu_admin
+    [menu_label] => #menu_administration
+    [menu_icon] => fa fa-dashboard
+    [menu_ref] => admin/overview/
+    [right_id] => 
+    [active] => 
+)
+
+
+root-node [menu_prescriptions]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_prescriptions
+    [menu_label] => #menu_prescriptions
+    [menu_icon] => fa fa-bookmark-o
+    [menu_ref] => admin/prescriptions/show/
+    [right_id] => right_prescriptions_list
+    [active] => 
+)
+
+
+root-node [menu_debitor]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_debitor
+    [menu_label] => #menu_debitor
+    [menu_icon] => fa fa-group
+    [menu_ref] => admin/debitors/show/
+    [right_id] => right_debitor_list
+    [active] => 
+)
+
+
+root-node [menu_orders]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_orders
+    [menu_label] => #menu_order
+    [menu_icon] => fa fa-shopping-basket
+    [menu_ref] => admin/orders/show/
+    [right_id] => right_order_list
+    [active] => 
+)
+
+
+root-node [menu_contact]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_contact
+    [menu_label] => #menu_contact
+    [menu_icon] => fa fa-thumbs-o-up
+    [menu_ref] => home/contact
+    [right_id] => 
+    [active] => 
+)
+
+
+root-node [menu_reminder]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_reminder
+    [menu_label] => #menu_reminder
+    [menu_icon] => fa fa-hashtag
+    [menu_ref] => admin/reminder/show/
+    [right_id] => right_reminder_list
+    [active] => 
+)
+
+
+
+root-node [menu_admin]  with [5] items 
+Array
+(
+    [items] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [menu_id] => menu_root_contract
+                    [menu_label] => #menu_root_contract
+                    [menu_icon] => fa fa-suitcase
+                    [menu_ref] => root/contracts/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => root_right_contract_list
+                    [requires_root_user] => 0
+                    [sort_order] => 1200
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [1] => stdClass Object
+                (
+                    [menu_id] => menu_health_insurance
+                    [menu_label] => #menu_health_insurance
+                    [menu_icon] => fa fa-heartbeat 
+                    [menu_ref] => root/health_insurances/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => root_right_health_insurance_list
+                    [requires_root_user] => 0
+                    [sort_order] => 1400
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [2] => stdClass Object
+                (
+                    [menu_id] => menu_user
+                    [menu_label] => #menu_user
+                    [menu_icon] => fa fa-user
+                    [menu_ref] => admin/users/show
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_user_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2100
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [3] => stdClass Object
+                (
+                    [menu_id] => menu_role
+                    [menu_label] => #menu_role
+                    [menu_icon] => fa fa-object-group
+                    [menu_ref] => admin/roles/show
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_role_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2200
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+            [4] => stdClass Object
+                (
+                    [menu_id] => menu_articles
+                    [menu_label] => #menu_articles
+                    [menu_icon] => fa fa-cubes
+                    [menu_ref] => admin/articles/show/
+                    [menu_id_parent] => menu_admin
+                    [right_id] => right_articles_list
+                    [requires_root_user] => 0
+                    [sort_order] => 2300
+                    [is_visible] => 1
+                    [items] => Array
+                        (
+                        )
+
+                    [active] => 
+                )
+
+        )
+
+    [menu_id] => menu_admin
+    [menu_label] => #menu_administration
+    [menu_icon] => fa fa-dashboard
+    [menu_ref] => admin/overview/
+    [right_id] => 
+    [active] => 
+)
+
+
+root-node [menu_prescriptions]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_prescriptions
+    [menu_label] => #menu_prescriptions
+    [menu_icon] => fa fa-bookmark-o
+    [menu_ref] => admin/prescriptions/show/
+    [right_id] => right_prescriptions_list
+    [active] => 
+)
+
+
+root-node [menu_debitor]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_debitor
+    [menu_label] => #menu_debitor
+    [menu_icon] => fa fa-group
+    [menu_ref] => admin/debitors/show/
+    [right_id] => right_debitor_list
+    [active] => 
+)
+
+
+root-node [menu_orders]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_orders
+    [menu_label] => #menu_order
+    [menu_icon] => fa fa-shopping-basket
+    [menu_ref] => admin/orders/show/
+    [right_id] => right_order_list
+    [active] => 
+)
+
+
+root-node [menu_contact]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_contact
+    [menu_label] => #menu_contact
+    [menu_icon] => fa fa-thumbs-o-up
+    [menu_ref] => home/contact
+    [right_id] => 
+    [active] => 
+)
+
+
+root-node [menu_reminder]  with [0] items 
+Array
+(
+    [items] => Array
+        (
+        )
+
+    [menu_id] => menu_reminder
+    [menu_label] => #menu_reminder
+    [menu_icon] => fa fa-hashtag
+    [menu_ref] => admin/reminder/show/
+    [right_id] => right_reminder_list
+    [active] => 
+)
+
+
+
+
+
+
+
+
+
+

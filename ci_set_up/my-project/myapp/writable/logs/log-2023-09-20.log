@@ -1,0 +1,1474 @@
+INFO - 2023-09-20 05:11:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 05:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 05:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 05:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 05:21:39 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 05:24:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 05:24:28 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 05:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 05:40:27 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 05:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 05:40:38 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 05:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 05:40:49 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 05:40:49 --> Undefined variable $error
+in APPPATH/Views/admin/role/role_form.php on line 4.
+ 1 APPPATH/Views/admin/role/role_form.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/admin/role/role_form.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(519): view()
+ 6 APPPATH/Controllers/admin/Roles.php(123): App\core\BASE_Controller->render()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 05:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 05:41:11 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 05:41:11 --> Class "T_Role" not found
+in APPPATH/Views/admin/role/role_form.php on line 8.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/core/BASE_Controller.php(519): view()
+ 5 APPPATH/Controllers/admin/Roles.php(123): App\core\BASE_Controller->render()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 05:43:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 05:43:39 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 05:43:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 05:44:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 05:44:23 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 05:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 05:44:32 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 05:44:32 --> Class "HTML_Input" not found
+in APPPATH/Views/admin/role/role_form.php on line 13.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/core/BASE_Controller.php(519): view()
+ 5 APPPATH/Controllers/admin/Roles.php(123): App\core\BASE_Controller->render()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 05:48:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 05:48:21 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 05:48:22 --> syntax error, unexpected variable "$role", expecting "," or ";"
+in APPPATH/Views/admin/role/role_form.php on line 9.
+ 1 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 3 APPPATH/core/BASE_Controller.php(519): view()
+ 4 APPPATH/Controllers/admin/Roles.php(123): App\core\BASE_Controller->render()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 05:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 05:48:40 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 05:48:40 --> Class "App\HTML_Input\HTML_Input" not found
+in APPPATH/Views/admin/role/role_form.php on line 14.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/core/BASE_Controller.php(519): view()
+ 5 APPPATH/Controllers/admin/Roles.php(123): App\core\BASE_Controller->render()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 05:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 05:51:01 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 05:51:01 --> Class "App\html_helper\HTML_Input" not found
+in APPPATH/Views/admin/role/role_form.php on line 14.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/core/BASE_Controller.php(519): view()
+ 5 APPPATH/Controllers/admin/Roles.php(123): App\core\BASE_Controller->render()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 05:51:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 05:51:03 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 05:51:03 --> Class "App\html_helper\HTML_Input" not found
+in APPPATH/Views/admin/role/role_form.php on line 14.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/core/BASE_Controller.php(519): view()
+ 5 APPPATH/Controllers/admin/Roles.php(123): App\core\BASE_Controller->render()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 05:51:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 05:51:45 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 05:51:45 --> Class "App\Helper\html_helper\HTML_Input" not found
+in APPPATH/Views/admin/role/role_form.php on line 14.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/core/BASE_Controller.php(519): view()
+ 5 APPPATH/Controllers/admin/Roles.php(123): App\core\BASE_Controller->render()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 05:54:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 05:54:39 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 05:54:39 --> Class "HTML_FormItem" not found
+in APPPATH/Views/admin/role/role_form.php on line 19.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/core/BASE_Controller.php(519): view()
+ 5 APPPATH/Controllers/admin/Roles.php(123): App\core\BASE_Controller->render()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 05:55:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 05:55:10 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 05:55:10 --> Call to undefined function form_error()
+in APPPATH/Views/admin/role/role_form.php on line 20.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/core/BASE_Controller.php(519): view()
+ 5 APPPATH/Controllers/admin/Roles.php(123): App\core\BASE_Controller->render()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 05:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 05:56:16 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 05:56:16 --> Class "HTML_TextArea" not found
+in APPPATH/Views/admin/role/role_form.php on line 24.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/core/BASE_Controller.php(519): view()
+ 5 APPPATH/Controllers/admin/Roles.php(123): App\core\BASE_Controller->render()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 05:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 05:56:45 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 05:56:45 --> Call to undefined function form_error()
+in APPPATH/Views/admin/role/role_form.php on line 31.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/core/BASE_Controller.php(519): view()
+ 5 APPPATH/Controllers/admin/Roles.php(123): App\core\BASE_Controller->render()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 05:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 05:57:06 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 05:57:06 --> Class "HTML_Toggle" not found
+in APPPATH/Views/admin/role/role_form.php on line 35.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/core/BASE_Controller.php(519): view()
+ 5 APPPATH/Controllers/admin/Roles.php(123): App\core\BASE_Controller->render()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 05:57:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 05:57:45 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 05:57:45 --> Class "HTML_Button" not found
+in APPPATH/Views/admin/role/role_form.php on line 42.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/core/BASE_Controller.php(519): view()
+ 5 APPPATH/Controllers/admin/Roles.php(123): App\core\BASE_Controller->render()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 05:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 05:58:31 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 05:58:31 --> Class "HTML_Form" not found
+in APPPATH/Views/admin/role/role_form.php on line 61.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/core/BASE_Controller.php(519): view()
+ 5 APPPATH/Controllers/admin/Roles.php(123): App\core\BASE_Controller->render()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 05:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 05:58:57 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 05:58:57 --> Call to undefined function form_error()
+in APPPATH/Views/admin/role/role_form.php on line 111.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/core/BASE_Controller.php(519): view()
+ 5 APPPATH/Controllers/admin/Roles.php(123): App\core\BASE_Controller->render()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 06:01:54 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 06:01:54 --> Cannot use App\Helpers\HTML_FormItem as HTML_FormItem because the name is already in use
+in APPPATH/Views/admin/role/role_form.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-09-20 06:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 06:02:14 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 06:02:14 --> Undefined variable $page_alerts
+in APPPATH/Views/admin/role/role_form.php on line 125.
+ 1 APPPATH/Views/admin/role/role_form.php(125): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/admin/role/role_form.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(519): view()
+ 6 APPPATH/Controllers/admin/Roles.php(123): App\core\BASE_Controller->render()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 06:02:56 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 06:02:56 --> Class "HTML_Panel" not found
+in APPPATH/Views/admin/role/role_form.php on line 135.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/core/BASE_Controller.php(519): view()
+ 5 APPPATH/Controllers/admin/Roles.php(123): App\core\BASE_Controller->render()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:03:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 06:03:22 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 06:11:26 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:11:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 06:11:56 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 06:12:00 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:12:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 06:12:11 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:12:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 06:12:58 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:13:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 06:13:34 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 06:13:37 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 06:14:42 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 06:15:10 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 06:15:40 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 06:15:43 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:17:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 06:17:21 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 06:18:41 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 06:18:57 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 06:23:45 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 06:24:38 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 06:25:51 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 06:31:28 --> Call to undefined method Config\App::item()
+in APPPATH/Models/Role_model.php on line 242.
+ 1 APPPATH/Controllers/admin/Roles.php(76): App\Models\Role_model->loadRights()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Roles->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 06:33:51 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH/Models/Role_model.php on line 251.
+ 1 APPPATH/Controllers/admin/Roles.php(76): App\Models\Role_model->loadRights()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Roles->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 06:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 06:34:49 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH/Models/Role_model.php on line 251.
+ 1 APPPATH/Controllers/admin/Roles.php(76): App\Models\Role_model->loadRights()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Roles->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:34:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 06:34:51 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH/Models/Role_model.php on line 251.
+ 1 APPPATH/Controllers/admin/Roles.php(76): App\Models\Role_model->loadRights()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Roles->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-20 06:40:03 --> mysqli_sql_exception: Unknown column 'active' in 'where clause' in /app/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /app/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /app/myapp/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /app/myapp/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /app/myapp/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /app/myapp/app/Models/Role_model.php(287): CodeIgniter\Database\BaseBuilder->get()
+#5 /app/myapp/app/Controllers/admin/Roles.php(76): App\Models\Role_model->loadRights()
+#6 /app/myapp/system/CodeIgniter.php(905): App\Controllers\admin\Roles->initController()
+#7 /app/myapp/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#8 /app/myapp/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#9 /app/myapp/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-20 06:40:03 --> Unknown column 'active' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/Role_model.php(287): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/admin/Roles.php(76): App\Models\Role_model->loadRights()
+ 7 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Roles->initController()
+ 8 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 06:41:12 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getLastQuery()
+in APPPATH/Models/Role_model.php on line 296.
+ 1 APPPATH/Controllers/admin/Roles.php(76): App\Models\Role_model->loadRights()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Roles->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 06:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 06:41:50 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 06:41:50 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 06:41:55 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 06:41:56 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:41:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 06:41:57 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 06:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 06:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 06:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 06:45:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 06:45:30 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 06:45:33 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 06:45:33 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 06:45:33 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 06:45:34 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 06:47:12 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 06:47:13 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 06:47:14 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 06:47:14 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 06:47:57 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 06:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 06:54:30 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 100.
+ 1 APPPATH/Controllers/admin/Roles.php(100): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 07:05:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 07:05:21 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 103.
+ 1 APPPATH/Controllers/admin/Roles.php(103): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 07:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 07:05:25 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 103.
+ 1 APPPATH/Controllers/admin/Roles.php(103): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 07:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 07:43:01 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 103.
+ 1 APPPATH/Controllers/admin/Roles.php(103): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 07:43:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 07:43:48 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 103.
+ 1 APPPATH/Controllers/admin/Roles.php(103): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 07:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 07:43:50 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 103.
+ 1 APPPATH/Controllers/admin/Roles.php(103): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 07:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 07:43:50 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 103.
+ 1 APPPATH/Controllers/admin/Roles.php(103): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 07:43:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 07:43:52 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 103.
+ 1 APPPATH/Controllers/admin/Roles.php(103): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 07:43:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 07:43:53 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 103.
+ 1 APPPATH/Controllers/admin/Roles.php(103): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 07:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 07:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 07:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 07:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 07:44:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 07:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 07:44:37 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 103.
+ 1 APPPATH/Controllers/admin/Roles.php(103): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 07:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 07:44:53 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 103.
+ 1 APPPATH/Controllers/admin/Roles.php(103): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 07:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 07:49:34 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 103.
+ 1 APPPATH/Controllers/admin/Roles.php(103): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 07:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 07:50:02 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 103.
+ 1 APPPATH/Controllers/admin/Roles.php(103): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 07:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 07:50:32 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 103.
+ 1 APPPATH/Controllers/admin/Roles.php(103): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 07:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 07:50:35 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 103.
+ 1 APPPATH/Controllers/admin/Roles.php(103): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 07:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 07:50:49 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 103.
+ 1 APPPATH/Controllers/admin/Roles.php(103): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 07:56:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 07:56:27 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 103.
+ 1 APPPATH/Controllers/admin/Roles.php(103): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 07:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 07:56:55 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 103.
+ 1 APPPATH/Controllers/admin/Roles.php(103): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 08:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 08:04:34 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 103.
+ 1 APPPATH/Controllers/admin/Roles.php(103): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 08:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 08:05:46 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 103.
+ 1 APPPATH/Controllers/admin/Roles.php(103): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 09:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 09:31:36 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 103.
+ 1 APPPATH/Controllers/admin/Roles.php(103): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 09:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 09:33:39 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 103.
+ 1 APPPATH/Controllers/admin/Roles.php(103): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 09:33:39 --> Undefined variable $fields
+in APPPATH/core/BASE_Model.php on line 979.
+ 1 APPPATH/core/BASE_Model.php(979): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/core/BASE_Model.php(887): App\core\BASE_Model::issetID()
+ 3 APPPATH/Controllers/admin/Roles.php(397): App\core\BASE_Model::generateUID()
+ 4 APPPATH/Controllers/admin/Roles.php(114): App\Controllers\admin\Roles->save()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 09:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 09:37:08 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 103.
+ 1 APPPATH/Controllers/admin/Roles.php(103): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 09:37:10 --> BASE_Result expected!
+in APPPATH/core/BASE_Controller.php on line 664.
+ 1 APPPATH/Controllers/admin/Roles.php(446): App\core\BASE_Controller->setData()
+ 2 APPPATH/Controllers/admin/Roles.php(114): App\Controllers\admin\Roles->save()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 09:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 09:38:03 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 103.
+ 1 APPPATH/Controllers/admin/Roles.php(103): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 09:38:03 --> Undefined property: App\core\BASE_Result::$common
+in APPPATH/core/BASE_Controller.php on line 667.
+ 1 APPPATH/core/BASE_Controller.php(667): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/admin/Roles.php(446): App\core\BASE_Controller->setData()
+ 3 APPPATH/Controllers/admin/Roles.php(114): App\Controllers\admin\Roles->save()
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 09:39:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 09:39:14 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 103.
+ 1 APPPATH/Controllers/admin/Roles.php(103): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 09:39:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 09:39:25 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 103.
+ 1 APPPATH/Controllers/admin/Roles.php(103): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 09:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 09:39:35 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 103.
+ 1 APPPATH/Controllers/admin/Roles.php(103): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 09:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 09:40:47 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 103.
+ 1 APPPATH/Controllers/admin/Roles.php(103): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 09:40:47 --> Call to undefined function App\Libraries\value_objects\html_escape()
+in APPPATH/Libraries/value_objects/T_Pseudo.php on line 52.
+ 1 APPPATH/Libraries/value_objects/T_Pseudo.php(23): App\Libraries\value_objects\T_Pseudo->setValue()
+ 2 APPPATH/Libraries/value_objects/T_Pseudo.php(11): App\Libraries\value_objects\T_Pseudo->init()
+ 3 APPPATH/Libraries/value_objects/T_Role.php(23): App\Libraries\value_objects\T_Pseudo->__construct()
+ 4 APPPATH/Views/admin/role/role_form.php(11): App\Libraries\value_objects\T_Role->__construct()
+ 5 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/admin/role/role_form.php')
+ 6 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 8 APPPATH/core/BASE_Controller.php(519): view()
+ 9 APPPATH/Controllers/admin/Roles.php(126): App\core\BASE_Controller->render()
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 09:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 09:45:36 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 103.
+ 1 APPPATH/Controllers/admin/Roles.php(103): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 09:45:36 --> Call to undefined function App\Libraries\value_objects\html_escape()
+in APPPATH/Libraries/value_objects/T_Pseudo.php on line 53.
+ 1 APPPATH/Libraries/value_objects/T_Pseudo.php(24): App\Libraries\value_objects\T_Pseudo->setValue()
+ 2 APPPATH/Libraries/value_objects/T_Pseudo.php(12): App\Libraries\value_objects\T_Pseudo->init()
+ 3 APPPATH/Libraries/value_objects/T_Role.php(23): App\Libraries\value_objects\T_Pseudo->__construct()
+ 4 APPPATH/Views/admin/role/role_form.php(11): App\Libraries\value_objects\T_Role->__construct()
+ 5 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/admin/role/role_form.php')
+ 6 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 8 APPPATH/core/BASE_Controller.php(519): view()
+ 9 APPPATH/Controllers/admin/Roles.php(126): App\core\BASE_Controller->render()
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 09:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 09:47:05 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 103.
+ 1 APPPATH/Controllers/admin/Roles.php(103): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 09:47:05 --> Call to undefined function App\Libraries\value_objects\html_escape()
+in APPPATH/Libraries/value_objects/T_Pseudo.php on line 54.
+ 1 APPPATH/Libraries/value_objects/T_Pseudo.php(25): App\Libraries\value_objects\T_Pseudo->setValue()
+ 2 APPPATH/Libraries/value_objects/T_Pseudo.php(13): App\Libraries\value_objects\T_Pseudo->init()
+ 3 APPPATH/Libraries/value_objects/T_Role.php(23): App\Libraries\value_objects\T_Pseudo->__construct()
+ 4 APPPATH/Views/admin/role/role_form.php(11): App\Libraries\value_objects\T_Role->__construct()
+ 5 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/admin/role/role_form.php')
+ 6 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 8 APPPATH/core/BASE_Controller.php(519): view()
+ 9 APPPATH/Controllers/admin/Roles.php(126): App\core\BASE_Controller->render()
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 09:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 09:47:52 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Roles.php on line 103.
+ 1 APPPATH/Controllers/admin/Roles.php(103): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Roles))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 09:47:52 --> Call to undefined function App\Libraries\value_objects\html_escape()
+in APPPATH/Libraries/value_objects/T_Pseudo.php on line 53.
+ 1 APPPATH/Libraries/value_objects/T_Pseudo.php(24): App\Libraries\value_objects\T_Pseudo->setValue()
+ 2 APPPATH/Libraries/value_objects/T_Pseudo.php(12): App\Libraries\value_objects\T_Pseudo->init()
+ 3 APPPATH/Libraries/value_objects/T_Role.php(23): App\Libraries\value_objects\T_Pseudo->__construct()
+ 4 APPPATH/Views/admin/role/role_form.php(11): App\Libraries\value_objects\T_Role->__construct()
+ 5 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/admin/role/role_form.php')
+ 6 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 8 APPPATH/core/BASE_Controller.php(519): view()
+ 9 APPPATH/Controllers/admin/Roles.php(126): App\core\BASE_Controller->render()
+10 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Roles->create()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 11:24:18 --> Cannot call constructor
+in APPPATH/Controllers/admin/Users.php on line 44.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\admin\Users->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 11:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 11:26:17 --> Undefined constant App\Enums\E_PLUGINS_JS::DATATABLES
+in APPPATH/Controllers/admin/Users.php on line 58.
+ 1 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 11:26:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 11:26:50 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::cache_on()
+in APPPATH/Models/App_model.php on line 371.
+ 1 APPPATH/Controllers/admin/Users.php(65): App\Models\App_model->getCountries()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 11:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 11:28:57 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH/Models/App_model.php on line 374.
+ 1 APPPATH/Controllers/admin/Users.php(65): App\Models\App_model->getCountries()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 11:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 11:30:39 --> Undefined variable $db
+in APPPATH/Models/App_model.php on line 377.
+ 1 APPPATH/Models/App_model.php(377): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/admin/Users.php(65): App\Models\App_model->getCountries()
+ 3 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 4 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 11:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 11:31:45 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+in APPPATH/Models/App_model.php on line 386.
+ 1 APPPATH/Controllers/admin/Users.php(65): App\Models\App_model->getCountries()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 11:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 11:32:35 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+in APPPATH/Models/App_model.php on line 386.
+ 1 APPPATH/Controllers/admin/Users.php(65): App\Models\App_model->getCountries()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 11:32:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 11:32:38 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+in APPPATH/Models/App_model.php on line 386.
+ 1 APPPATH/Controllers/admin/Users.php(65): App\Models\App_model->getCountries()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 11:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 11:36:19 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH/Models/App_model.php on line 374.
+ 1 APPPATH/Controllers/admin/Users.php(65): App\Models\App_model->getCountries()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 11:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 11:36:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_object()
+in APPPATH/Models/App_model.php on line 394.
+ 1 APPPATH/Controllers/admin/Users.php(65): App\Models\App_model->getCountries()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 11:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 11:55:54 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_object()
+in APPPATH/Models/App_model.php on line 394.
+ 1 APPPATH/Controllers/admin/Users.php(65): App\Models\App_model->getCountries()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 11:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 11:56:59 --> Undefined property: stdClass::$country_label
+in APPPATH/Models/App_model.php on line 406.
+ 1 APPPATH/Models/App_model.php(406): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/admin/Users.php(65): App\Models\App_model->getCountries()
+ 3 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 4 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 11:57:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 11:57:22 --> Undefined property: stdClass::$european_union
+in APPPATH/Models/App_model.php on line 407.
+ 1 APPPATH/Models/App_model.php(407): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/admin/Users.php(65): App\Models\App_model->getCountries()
+ 3 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 4 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 11:57:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 11:57:40 --> Undefined property: stdClass::$country_name
+in APPPATH/Models/App_model.php on line 410.
+ 1 APPPATH/Models/App_model.php(410): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/admin/Users.php(65): App\Models\App_model->getCountries()
+ 3 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 4 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 11:58:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 11:58:43 --> Class "App\Models\BASE_Result" not found
+in APPPATH/Models/App_model.php on line 417.
+ 1 APPPATH/Controllers/admin/Users.php(65): App\Models\App_model->getCountries()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 12:00:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 12:00:17 --> Undefined property: stdClass::$country_name
+in APPPATH/Models/App_model.php on line 410.
+ 1 APPPATH/Models/App_model.php(410): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/admin/Users.php(65): App\Models\App_model->getCountries()
+ 3 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 4 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 12:00:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 12:00:34 --> Class "App\Models\BASE_Result" not found
+in APPPATH/Models/App_model.php on line 418.
+ 1 APPPATH/Controllers/admin/Users.php(65): App\Models\App_model->getCountries()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 12:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 12:00:38 --> Class "App\Models\BASE_Result" not found
+in APPPATH/Models/App_model.php on line 418.
+ 1 APPPATH/Controllers/admin/Users.php(65): App\Models\App_model->getCountries()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 12:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 12:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 12:03:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 12:03:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 12:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-20 12:05:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 12:05:10 --> Class "App\Models\BASE_Result" not found
+in APPPATH/Models/App_model.php on line 419.
+ 1 APPPATH/Controllers/admin/Users.php(65): App\Models\App_model->getCountries()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 12:05:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 12:05:11 --> Class "App\Models\BASE_Result" not found
+in APPPATH/Models/App_model.php on line 419.
+ 1 APPPATH/Controllers/admin/Users.php(65): App\Models\App_model->getCountries()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 12:05:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 12:05:12 --> Class "App\Models\BASE_Result" not found
+in APPPATH/Models/App_model.php on line 419.
+ 1 APPPATH/Controllers/admin/Users.php(65): App\Models\App_model->getCountries()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 12:06:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 12:06:20 --> Undefined constant "App\Controllers\admin\TBL_TEAMS"
+in APPPATH/Controllers/admin/Users.php on line 66.
+ 1 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 12:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 12:55:39 --> Undefined constant "App\Controllers\admin\TBL_TEAMS"
+in APPPATH/Controllers/admin/Users.php on line 70.
+ 1 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 12:57:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 12:57:40 --> Undefined constant "App\Controllers\admin\TBL_TEAMS"
+in APPPATH/Controllers/admin/Users.php on line 70.
+ 1 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\admin\Users->initController()
+ 2 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 12:59:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 12:59:57 --> Class "App\Controllers\admin\E_ENABLED" not found
+in APPPATH/Controllers/admin/Users.php on line 513.
+ 1 APPPATH/Controllers/admin/Users.php(81): App\Controllers\admin\Users->show()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 13:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 13:00:31 --> Class "App\Controllers\admin\E_ENABLED" not found
+in APPPATH/Controllers/admin/Users.php on line 508.
+ 1 APPPATH/Controllers/admin/Users.php(76): App\Controllers\admin\Users->show()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 13:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 13:03:47 --> Class "App\Controllers\admin\T_User" not found
+in APPPATH/Controllers/admin/Users.php on line 513.
+ 1 APPPATH/Controllers/admin/Users.php(76): App\Controllers\admin\Users->show()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 13:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 13:04:49 --> Class "T_Pseudo" not found
+in APPPATH/Libraries/value_objects/T_User.php on line 10.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(314): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 APPPATH/Controllers/admin/Users.php(514): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 APPPATH/Controllers/admin/Users.php(77): App\Controllers\admin\Users->show()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Users->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 13:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 13:05:30 --> Call to a member function library() on null
+in APPPATH/Models/User_model.php on line 280.
+ 1 APPPATH/Controllers/admin/Users.php(514): App\Models\User_model->datatable()
+ 2 APPPATH/Controllers/admin/Users.php(77): App\Controllers\admin\Users->show()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Users->index()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 13:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 13:08:29 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::list_fields()
+in APPPATH/core/BASE_Model.php on line 1043.
+ 1 APPPATH/Models/User_model.php(283): App\core\BASE_Model->listFields()
+ 2 APPPATH/Controllers/admin/Users.php(514): App\Models\User_model->datatable()
+ 3 APPPATH/Controllers/admin/Users.php(77): App\Controllers\admin\Users->show()
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Users->index()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 13:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 13:13:51 --> Call to a member function library() on null
+in APPPATH/Models/User_model.php on line 280.
+ 1 APPPATH/Controllers/admin/Users.php(514): App\Models\User_model->datatable()
+ 2 APPPATH/Controllers/admin/Users.php(77): App\Controllers\admin\Users->show()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Users->index()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 13:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 13:13:53 --> Call to a member function library() on null
+in APPPATH/Models/User_model.php on line 280.
+ 1 APPPATH/Controllers/admin/Users.php(514): App\Models\User_model->datatable()
+ 2 APPPATH/Controllers/admin/Users.php(77): App\Controllers\admin\Users->show()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Users->index()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 13:25:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 13:25:08 --> Cannot redeclare App\Models\User_model::datatable()
+in APPPATH/Models/User_model.php on line 315.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-09-20 13:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 13:25:10 --> Cannot redeclare App\Models\User_model::datatable()
+in APPPATH/Models/User_model.php on line 315.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-09-20 13:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 13:25:58 --> Call to a member function library() on null
+in APPPATH/Models/User_model.php on line 280.
+ 1 APPPATH/Controllers/admin/Users.php(514): App\Models\User_model->datatable()
+ 2 APPPATH/Controllers/admin/Users.php(77): App\Controllers\admin\Users->show()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Users->index()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 13:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 13:37:34 --> Undefined property: App\Controllers\admin\Users::$input
+in APPPATH/Controllers/admin/Users.php on line 163.
+ 1 APPPATH/Controllers/admin/Users.php(163): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Users->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 13:39:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 13:39:08 --> Undefined property: App\Controllers\admin\Users::$input
+in APPPATH/Controllers/admin/Users.php on line 163.
+ 1 APPPATH/Controllers/admin/Users.php(163): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Users->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 13:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 13:39:10 --> Undefined property: App\Controllers\admin\Users::$input
+in APPPATH/Controllers/admin/Users.php on line 163.
+ 1 APPPATH/Controllers/admin/Users.php(163): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Users->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 13:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-20 13:39:11 --> Undefined property: App\Controllers\admin\Users::$input
+in APPPATH/Controllers/admin/Users.php on line 163.
+ 1 APPPATH/Controllers/admin/Users.php(163): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Users->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 13:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 13:40:03 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Users.php on line 163.
+ 1 APPPATH/Controllers/admin/Users.php(163): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Users->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Users))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 13:40:03 --> Undefined property: App\Controllers\admin\Users::$input
+in APPPATH/Controllers/admin/Users.php on line 169.
+ 1 APPPATH/Controllers/admin/Users.php(169): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Users->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 13:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 13:40:41 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Users.php on line 163.
+ 1 APPPATH/Controllers/admin/Users.php(163): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Users->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Users))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 13:40:42 --> Undefined variable $error
+in APPPATH/Views/admin/user/user_form.php on line 4.
+ 1 APPPATH/Views/admin/user/user_form.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/admin/user/user_form.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(519): view()
+ 6 APPPATH/Controllers/admin/Users.php(187): App\core\BASE_Controller->render()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Users->create()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 13:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 13:41:24 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Users.php on line 163.
+ 1 APPPATH/Controllers/admin/Users.php(163): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Users->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Users))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 13:41:24 --> Undefined array key "available_component_languages"
+in APPPATH/Views/admin/user/user_form.php on line 7.
+ 1 APPPATH/Views/admin/user/user_form.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/admin/user/user_form.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(519): view()
+ 6 APPPATH/Controllers/admin/Users.php(187): App\core\BASE_Controller->render()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Users->create()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 13:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 13:41:49 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Users.php on line 163.
+ 1 APPPATH/Controllers/admin/Users.php(163): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Users->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Users))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 13:41:49 --> Undefined array key "approval_users"
+in APPPATH/Views/admin/user/user_form.php on line 9.
+ 1 APPPATH/Views/admin/user/user_form.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/admin/user/user_form.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(519): view()
+ 6 APPPATH/Controllers/admin/Users.php(187): App\core\BASE_Controller->render()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Users->create()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 13:42:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 13:42:01 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Users.php on line 163.
+ 1 APPPATH/Controllers/admin/Users.php(163): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Users->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Users))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 13:42:01 --> Call to undefined method E_THEMES::getConstants()
+in APPPATH/Views/admin/user/user_form.php on line 10.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/core/BASE_Controller.php(519): view()
+ 5 APPPATH/Controllers/admin/Users.php(187): App\core\BASE_Controller->render()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Users->create()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 13:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 13:43:01 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Users.php on line 163.
+ 1 APPPATH/Controllers/admin/Users.php(163): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Users->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Users))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 13:43:01 --> Undefined array key "available_component_languages"
+in APPPATH/Views/admin/user/user_form.php on line 12.
+ 1 APPPATH/Views/admin/user/user_form.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/admin/user/user_form.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(519): view()
+ 6 APPPATH/Controllers/admin/Users.php(187): App\core\BASE_Controller->render()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Users->create()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 13:43:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 13:43:03 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Users.php on line 163.
+ 1 APPPATH/Controllers/admin/Users.php(163): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Users->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Users))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 13:43:03 --> Undefined array key "available_component_languages"
+in APPPATH/Views/admin/user/user_form.php on line 12.
+ 1 APPPATH/Views/admin/user/user_form.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/admin/user/user_form.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(519): view()
+ 6 APPPATH/Controllers/admin/Users.php(187): App\core\BASE_Controller->render()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Users->create()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 13:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 13:43:15 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Users.php on line 163.
+ 1 APPPATH/Controllers/admin/Users.php(163): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Users->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Users))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 13:43:15 --> Call to undefined method E_THEMES::getConstants()
+in APPPATH/Views/admin/user/user_form.php on line 15.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/core/BASE_Controller.php(519): view()
+ 5 APPPATH/Controllers/admin/Users.php(187): App\core\BASE_Controller->render()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Users->create()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-20 13:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-20 13:43:17 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Controllers/admin/Users.php on line 163.
+ 1 APPPATH/Controllers/admin/Users.php(163): strtoupper(null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Users->create()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Users))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 13:43:17 --> Call to undefined method E_THEMES::getConstants()
+in APPPATH/Views/admin/user/user_form.php on line 15.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/core/BASE_Controller.php(519): view()
+ 5 APPPATH/Controllers/admin/Users.php(187): App\core\BASE_Controller->render()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Users->create()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

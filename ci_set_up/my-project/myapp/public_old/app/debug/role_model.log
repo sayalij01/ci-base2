@@ -1,0 +1,22 @@
+
+Role_model
+ - load client_id[] role_id[]
+SELECT *
+FROM `app_roles`
+WHERE `client_id` IS NULL
+AND `deleted` = '0'
+App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+        )
+
+    [error] => 
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => 
+    [status] => SUCCESS
+    [redirect] => 
+)

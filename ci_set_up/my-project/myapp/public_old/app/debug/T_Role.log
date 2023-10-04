@@ -1,0 +1,16 @@
+
+T_Role src-Array
+(
+)
+
+result-App\Libraries\value_objects\T_Role Object
+(
+    [role_id] => 
+    [role_name] => 
+    [role_desc] => 
+    [is_static] => 
+    [created_at] => 
+    [deleted] => 
+    [deleted_by] => 
+    [deleted_at] => 
+)

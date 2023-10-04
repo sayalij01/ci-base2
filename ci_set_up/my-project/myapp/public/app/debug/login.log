@@ -1,0 +1,1680 @@
+
+login
+login
+authenticate with username: [sayali_admin] and password [Abena2019!]
+auth-result
+App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+            [session_id] => nc4kv93bd36tprot3ui2640lsssi935m
+            [is_root] => 
+            [js_enabled] => 
+            [logged_in] => 1
+            [logged_in_at] => 1696311417
+            [client_id] => 209493449
+            [client_customer_number] => 20002
+            [client_name] => Abena GmbH
+            [client_desc] => Abena GmbH
+            [client_email] => abena@abena.de
+            [client_fax] => 
+            [client_phone] => 
+            [client_street] => Lösnitz Mark
+            [client_house_nr] => 23
+            [client_zipcode] => 06780
+            [client_location] => Zörbig
+            [client_country] => DE
+            [client_logo] => 
+            [client_created_at] => 1592567635
+            [user_id] => 1310342702
+            [username] => sayali_admin
+            [email] => sayali.jadhav@codenground.de
+            [phone] => 
+            [firstname] => Sayali
+            [lastname] => Jadhav
+            [street] => 
+            [house_number] => 
+            [zipcode] => 
+            [location] => 
+            [country] => DE
+            [language] => DE
+            [scanagent_computer_id] => 
+            [team] => 
+            [created_at] => 1688976182
+            [last_login] => 1689054200
+            [permissions] => Array
+                (
+                    [root_right_contract_delete] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => root_right_contract_delete
+                            [right_name] => #root_right_contract_delete
+                            [right_desc] => #root_right_contract_delete_desc
+                            [active] => 1
+                        )
+
+                    [root_right_contract_general_settings] => stdClass Object
+                        (
+                            [role_id] => 1025176470
+                            [right_id] => root_right_contract_general_settings
+                            [right_name] => #root_right_contract_general_settings
+                            [right_desc] => #root_right_contract_general_settings_desc
+                            [active] => 1
+                        )
+
+                    [root_right_contract_list] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => root_right_contract_list
+                            [right_name] => #root_right_contract_list
+                            [right_desc] => #root_right_contract_list_desc
+                            [active] => 1
+                        )
+
+                    [root_right_contract_write] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => root_right_contract_write
+                            [right_name] => #root_right_contract_write
+                            [right_desc] => #root_right_contract_write_desc
+                            [active] => 1
+                        )
+
+                    [root_right_health_insurance_delete] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => root_right_health_insurance_delete
+                            [right_name] => #root_right_health_insurance_delete
+                            [right_desc] => #root_right_health_insurance_delete_desc
+                            [active] => 1
+                        )
+
+                    [root_right_health_insurance_list] => stdClass Object
+                        (
+                            [role_id] => role_user
+                            [right_id] => root_right_health_insurance_list
+                            [right_name] => #root_right_health_insurance_list
+                            [right_desc] => #root_right_health_insurance_list_desc
+                            [active] => 1
+                        )
+
+                    [root_right_health_insurance_write] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => root_right_health_insurance_write
+                            [right_name] => #root_right_health_insurance_write
+                            [right_desc] => #root_right_health_insurance_write_desc
+                            [active] => 1
+                        )
+
+                    [right_anamnesis_delete] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => right_anamnesis_delete
+                            [right_name] => #right_anamnesis_delete
+                            [right_desc] => #right_anamnesis_delete_desc
+                            [active] => 1
+                        )
+
+                    [right_anamnesis_list] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => right_anamnesis_list
+                            [right_name] => #right_anamnesis_list
+                            [right_desc] => #right_anamnesis_list_desc
+                            [active] => 1
+                        )
+
+                    [right_anamnesis_write] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => right_anamnesis_write
+                            [right_name] => #right_anamnesis_write
+                            [right_desc] => #right_anamnesis_write_desc
+                            [active] => 1
+                        )
+
+                    [right_debitor_delete] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => right_debitor_delete
+                            [right_name] => #right_debitor_delete
+                            [right_desc] => #right_debitor_delete_desc
+                            [active] => 1
+                        )
+
+                    [right_debitor_list] => stdClass Object
+                        (
+                            [role_id] => role_user
+                            [right_id] => right_debitor_list
+                            [right_name] => #right_debitor_list
+                            [right_desc] => #right_debitor_list_desc
+                            [active] => 1
+                        )
+
+                    [right_debitor_write] => stdClass Object
+                        (
+                            [role_id] => role_user
+                            [right_id] => right_debitor_write
+                            [right_name] => #right_debitor_write
+                            [right_desc] => #right_debitor_write_desc
+                            [active] => 1
+                        )
+
+                    [right_order_delete] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => right_order_delete
+                            [right_name] => #right_order_delete
+                            [right_desc] => #right_order_delete_desc
+                            [active] => 1
+                        )
+
+                    [right_order_list] => stdClass Object
+                        (
+                            [role_id] => role_user
+                            [right_id] => right_order_list
+                            [right_name] => #right_order_list
+                            [right_desc] => #right_order_list_desc
+                            [active] => 1
+                        )
+
+                    [right_order_write] => stdClass Object
+                        (
+                            [role_id] => role_user
+                            [right_id] => right_order_write
+                            [right_name] => #right_order_write
+                            [right_desc] => #right_order_write_desc
+                            [active] => 1
+                        )
+
+                    [right_prescriptions_delete] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => right_prescriptions_delete
+                            [right_name] => #right_prescriptions_delete
+                            [right_desc] => #right_prescriptions_delete_desc
+                            [active] => 1
+                        )
+
+                    [right_prescriptions_list] => stdClass Object
+                        (
+                            [role_id] => role_user
+                            [right_id] => right_prescriptions_list
+                            [right_name] => #right_prescriptions_list
+                            [right_desc] => #right_prescriptions_list_desc
+                            [active] => 1
+                        )
+
+                    [right_prescriptions_upload] => stdClass Object
+                        (
+                            [role_id] => role_user
+                            [right_id] => right_prescriptions_upload
+                            [right_name] => #right_prescriptions_upload
+                            [right_desc] => #right_prescriptions_upload_desc
+                            [active] => 1
+                        )
+
+                    [right_prescriptions_write] => stdClass Object
+                        (
+                            [role_id] => role_user
+                            [right_id] => right_prescriptions_write
+                            [right_name] => #right_prescriptions_write
+                            [right_desc] => #right_prescriptions_write_desc
+                            [active] => 1
+                        )
+
+                    [right_reminder_delete] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => right_reminder_delete
+                            [right_name] => #right_reminder_delete
+                            [right_desc] => #right_reminder_delete_desc
+                            [active] => 1
+                        )
+
+                    [right_reminder_list] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => right_reminder_list
+                            [right_name] => #right_reminder_list
+                            [right_desc] => #right_reminder_list_desc
+                            [active] => 1
+                        )
+
+                    [right_reminder_write] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => right_reminder_write
+                            [right_name] => #right_reminder_write
+                            [right_desc] => #right_reminder_write_desc
+                            [active] => 1
+                        )
+
+                    [right_use_scanagent] => stdClass Object
+                        (
+                            [role_id] => 278787910
+                            [right_id] => right_use_scanagent
+                            [right_name] => #right_use_scanagent
+                            [right_desc] => #right_use_scanagent_desc
+                            [active] => 1
+                        )
+
+                    [right_articles_delete] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => right_articles_delete
+                            [right_name] => #right_articles_delete
+                            [right_desc] => #right_articles_delete_desc
+                            [active] => 1
+                        )
+
+                    [right_articles_list] => stdClass Object
+                        (
+                            [role_id] => role_user
+                            [right_id] => right_articles_list
+                            [right_name] => #right_articles_list
+                            [right_desc] => #right_articles_list_desc
+                            [active] => 1
+                        )
+
+                    [right_articles_write] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => right_articles_write
+                            [right_name] => #right_articles_write
+                            [right_desc] => #right_articles_write_desc
+                            [active] => 1
+                        )
+
+                    [right_role_delete] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => right_role_delete
+                            [right_name] => #right_role_delete
+                            [right_desc] => #right_role_delete_desc
+                            [active] => 1
+                        )
+
+                    [right_role_list] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => right_role_list
+                            [right_name] => #right_role_list
+                            [right_desc] => #right_role_list_desc
+                            [active] => 1
+                        )
+
+                    [right_role_write] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => right_role_write
+                            [right_name] => #right_role_write
+                            [right_desc] => #right_role_write_desc
+                            [active] => 1
+                        )
+
+                    [right_user_delete] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => right_user_delete
+                            [right_name] => #right_user_delete
+                            [right_desc] => #right_user_delete_desc
+                            [active] => 1
+                        )
+
+                    [right_user_list] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => right_user_list
+                            [right_name] => #right_user_list
+                            [right_desc] => #right_user_list_desc
+                            [active] => 1
+                        )
+
+                    [right_user_write] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => right_user_write
+                            [right_name] => #right_user_write
+                            [right_desc] => #right_user_write_desc
+                            [active] => 1
+                        )
+
+                )
+
+            [menu] => Array
+                (
+                    [menu_admin] => Array
+                        (
+                            [items] => Array
+                                (
+                                    [0] => stdClass Object
+                                        (
+                                            [menu_id] => menu_root_contract
+                                            [menu_label] => #menu_root_contract
+                                            [menu_icon] => fa fa-suitcase
+                                            [menu_ref] => root/contracts/show/
+                                            [menu_id_parent] => menu_admin
+                                            [right_id] => root_right_contract_list
+                                            [requires_root_user] => 0
+                                            [sort_order] => 1200
+                                            [is_visible] => 1
+                                            [items] => Array
+                                                (
+                                                )
+
+                                            [active] => 
+                                        )
+
+                                    [1] => stdClass Object
+                                        (
+                                            [menu_id] => menu_health_insurance
+                                            [menu_label] => #menu_health_insurance
+                                            [menu_icon] => fa fa-heartbeat 
+                                            [menu_ref] => root/health_insurances/show/
+                                            [menu_id_parent] => menu_admin
+                                            [right_id] => root_right_health_insurance_list
+                                            [requires_root_user] => 0
+                                            [sort_order] => 1400
+                                            [is_visible] => 1
+                                            [items] => Array
+                                                (
+                                                )
+
+                                            [active] => 
+                                        )
+
+                                    [2] => stdClass Object
+                                        (
+                                            [menu_id] => menu_user
+                                            [menu_label] => #menu_user
+                                            [menu_icon] => fa fa-user
+                                            [menu_ref] => admin/users/show
+                                            [menu_id_parent] => menu_admin
+                                            [right_id] => right_user_list
+                                            [requires_root_user] => 0
+                                            [sort_order] => 2100
+                                            [is_visible] => 1
+                                            [items] => Array
+                                                (
+                                                )
+
+                                            [active] => 
+                                        )
+
+                                    [3] => stdClass Object
+                                        (
+                                            [menu_id] => menu_role
+                                            [menu_label] => #menu_role
+                                            [menu_icon] => fa fa-object-group
+                                            [menu_ref] => admin/roles/show
+                                            [menu_id_parent] => menu_admin
+                                            [right_id] => right_role_list
+                                            [requires_root_user] => 0
+                                            [sort_order] => 2200
+                                            [is_visible] => 1
+                                            [items] => Array
+                                                (
+                                                )
+
+                                            [active] => 
+                                        )
+
+                                    [4] => stdClass Object
+                                        (
+                                            [menu_id] => menu_articles
+                                            [menu_label] => #menu_articles
+                                            [menu_icon] => fa fa-cubes
+                                            [menu_ref] => admin/articles/show/
+                                            [menu_id_parent] => menu_admin
+                                            [right_id] => right_articles_list
+                                            [requires_root_user] => 0
+                                            [sort_order] => 2300
+                                            [is_visible] => 1
+                                            [items] => Array
+                                                (
+                                                )
+
+                                            [active] => 
+                                        )
+
+                                )
+
+                            [menu_id] => menu_admin
+                            [menu_label] => #menu_administration
+                            [menu_icon] => fa fa-dashboard
+                            [menu_ref] => admin/overview/
+                            [right_id] => 
+                            [active] => 
+                        )
+
+                    [menu_prescriptions] => Array
+                        (
+                            [items] => Array
+                                (
+                                )
+
+                            [menu_id] => menu_prescriptions
+                            [menu_label] => #menu_prescriptions
+                            [menu_icon] => fa fa-bookmark-o
+                            [menu_ref] => admin/prescriptions/show/
+                            [right_id] => right_prescriptions_list
+                            [active] => 
+                        )
+
+                    [menu_debitor] => Array
+                        (
+                            [items] => Array
+                                (
+                                )
+
+                            [menu_id] => menu_debitor
+                            [menu_label] => #menu_debitor
+                            [menu_icon] => fa fa-group
+                            [menu_ref] => admin/debitors/show/
+                            [right_id] => right_debitor_list
+                            [active] => 
+                        )
+
+                    [menu_orders] => Array
+                        (
+                            [items] => Array
+                                (
+                                )
+
+                            [menu_id] => menu_orders
+                            [menu_label] => #menu_order
+                            [menu_icon] => fa fa-shopping-basket
+                            [menu_ref] => admin/orders/show/
+                            [right_id] => right_order_list
+                            [active] => 
+                        )
+
+                    [menu_contact] => Array
+                        (
+                            [items] => Array
+                                (
+                                )
+
+                            [menu_id] => menu_contact
+                            [menu_label] => #menu_contact
+                            [menu_icon] => fa fa-thumbs-o-up
+                            [menu_ref] => home/contact
+                            [right_id] => 
+                            [active] => 
+                        )
+
+                    [menu_reminder] => Array
+                        (
+                            [items] => Array
+                                (
+                                )
+
+                            [menu_id] => menu_reminder
+                            [menu_label] => #menu_reminder
+                            [menu_icon] => fa fa-hashtag
+                            [menu_ref] => admin/reminder/show/
+                            [right_id] => right_reminder_list
+                            [active] => 
+                        )
+
+                )
+
+        )
+
+    [error] => 
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => 
+    [status] => SUCCESS
+    [redirect] => 
+)
+
+
+current-sessionCodeIgniter\Session\Session Object
+(
+    [driver:protected] => CodeIgniter\Session\Handlers\FileHandler Object
+        (
+            [fingerprint:protected] => 24e81e0f089e37ed20d2e7fb5fd67d74
+            [lock:protected] => 
+            [cookiePrefix:protected] => 
+            [cookieDomain:protected] => 
+            [cookiePath:protected] => /
+            [cookieSecure:protected] => 
+            [cookieName:protected] => ci_session
+            [matchIP:protected] => 
+            [sessionID:protected] => nc4kv93bd36tprot3ui2640lsssi935m
+            [savePath:protected] => /app/myapp/writable/session
+            [ipAddress:protected] => 172.18.0.1
+            [logger:protected] => CodeIgniter\Log\Logger Object
+                (
+                    [logLevels:protected] => Array
+                        (
+                            [emergency] => 1
+                            [alert] => 2
+                            [critical] => 3
+                            [error] => 4
+                            [warning] => 5
+                            [notice] => 6
+                            [info] => 7
+                            [debug] => 8
+                        )
+
+                    [loggableLevels:protected] => Array
+                        (
+                            [0] => emergency
+                            [1] => alert
+                            [2] => critical
+                            [3] => error
+                            [4] => warning
+                            [5] => notice
+                            [6] => info
+                            [7] => debug
+                            [8] => 
+                        )
+
+                    [filePermissions:protected] => 420
+                    [dateFormat:protected] => Y-m-d H:i:s
+                    [fileExt:protected] => 
+                    [handlers:protected] => Array
+                        (
+                            [CodeIgniter\Log\Handlers\FileHandler] => CodeIgniter\Log\Handlers\FileHandler Object
+                                (
+                                    [handles:protected] => Array
+                                        (
+                                            [0] => critical
+                                            [1] => alert
+                                            [2] => emergency
+                                            [3] => debug
+                                            [4] => error
+                                            [5] => info
+                                            [6] => notice
+                                            [7] => warning
+                                        )
+
+                                    [dateFormat:protected] => Y-m-d H:i:s
+                                    [path:protected] => /app/myapp/writable/logs/
+                                    [fileExtension:protected] => log
+                                    [filePermissions:protected] => 420
+                                )
+
+                        )
+
+                    [handlerConfig:protected] => Array
+                        (
+                            [CodeIgniter\Log\Handlers\FileHandler] => Array
+                                (
+                                    [handles] => Array
+                                        (
+                                            [0] => critical
+                                            [1] => alert
+                                            [2] => emergency
+                                            [3] => debug
+                                            [4] => error
+                                            [5] => info
+                                            [6] => notice
+                                            [7] => warning
+                                        )
+
+                                    [fileExtension] => 
+                                    [filePermissions] => 420
+                                    [path] => 
+                                )
+
+                        )
+
+                    [logCache] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [level] => info
+                                    [msg] => Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+                                )
+
+                        )
+
+                    [cacheLogs:protected] => 1
+                )
+
+            [fileHandle:protected] => Resource id #126
+            [filePath:protected] => /app/myapp/writable/session/ci_session
+            [fileNew:protected] => 
+            [sessionIDRegex:protected] => [0-9a-v]{32}
+        )
+
+    [sessionDriverName:protected] => CodeIgniter\Session\Handlers\FileHandler
+    [sessionCookieName:protected] => ci_session
+    [sessionExpiration:protected] => 7200
+    [sessionSavePath:protected] => /app/myapp/writable/session
+    [sessionMatchIP:protected] => 
+    [sessionTimeToUpdate:protected] => 300
+    [sessionRegenerateDestroy:protected] => 
+    [cookie:protected] => CodeIgniter\Cookie\Cookie Object
+        (
+            [prefix:protected] => 
+            [name:protected] => ci_session
+            [value:protected] => 
+            [expires:protected] => 1696318616
+            [path:protected] => /
+            [domain:protected] => 
+            [secure:protected] => 
+            [httponly:protected] => 1
+            [samesite:protected] => Lax
+            [raw:protected] => 
+        )
+
+    [cookieDomain:protected] => 
+    [cookiePath:protected] => /
+    [cookieSecure:protected] => 
+    [cookieSameSite:protected] => Lax
+    [sidRegexp:protected] => [0-9a-v]{32}
+    [logger:protected] => CodeIgniter\Log\Logger Object
+        (
+            [logLevels:protected] => Array
+                (
+                    [emergency] => 1
+                    [alert] => 2
+                    [critical] => 3
+                    [error] => 4
+                    [warning] => 5
+                    [notice] => 6
+                    [info] => 7
+                    [debug] => 8
+                )
+
+            [loggableLevels:protected] => Array
+                (
+                    [0] => emergency
+                    [1] => alert
+                    [2] => critical
+                    [3] => error
+                    [4] => warning
+                    [5] => notice
+                    [6] => info
+                    [7] => debug
+                    [8] => 
+                )
+
+            [filePermissions:protected] => 420
+            [dateFormat:protected] => Y-m-d H:i:s
+            [fileExt:protected] => 
+            [handlers:protected] => Array
+                (
+                    [CodeIgniter\Log\Handlers\FileHandler] => CodeIgniter\Log\Handlers\FileHandler Object
+                        (
+                            [handles:protected] => Array
+                                (
+                                    [0] => critical
+                                    [1] => alert
+                                    [2] => emergency
+                                    [3] => debug
+                                    [4] => error
+                                    [5] => info
+                                    [6] => notice
+                                    [7] => warning
+                                )
+
+                            [dateFormat:protected] => Y-m-d H:i:s
+                            [path:protected] => /app/myapp/writable/logs/
+                            [fileExtension:protected] => log
+                            [filePermissions:protected] => 420
+                        )
+
+                )
+
+            [handlerConfig:protected] => Array
+                (
+                    [CodeIgniter\Log\Handlers\FileHandler] => Array
+                        (
+                            [handles] => Array
+                                (
+                                    [0] => critical
+                                    [1] => alert
+                                    [2] => emergency
+                                    [3] => debug
+                                    [4] => error
+                                    [5] => info
+                                    [6] => notice
+                                    [7] => warning
+                                )
+
+                            [fileExtension] => 
+                            [filePermissions] => 420
+                            [path] => 
+                        )
+
+                )
+
+            [logCache] => Array
+                (
+                    [0] => Array
+                        (
+                            [level] => info
+                            [msg] => Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+                        )
+
+                )
+
+            [cacheLogs:protected] => 1
+        )
+
+)
+
+login
+login
+authenticate with username: [sayali_admin] and password [Abena2019!]
+auth-result
+App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+        )
+
+    [error] => user_not_found
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => 
+    [status] => ERROR
+    [redirect] => 
+)
+
+login
+authenticate with username: [sayali_admin] and password [Abena2019!]
+auth-result
+App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+        )
+
+    [error] => user_not_found
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => 
+    [status] => ERROR
+    [redirect] => 
+)
+
+login
+authenticate with username: [sayali_admin] and password [Abena2019!]
+auth-result
+App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+        )
+
+    [error] => user_not_found
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => 
+    [status] => ERROR
+    [redirect] => 
+)
+
+login
+authenticate with username: [sayali_admin] and password [Abena2019!]
+auth-result
+App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+        )
+
+    [error] => user_not_found
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => 
+    [status] => ERROR
+    [redirect] => 
+)
+
+login
+authenticate with username: [sayali_admin] and password [Abena2019!]
+auth-result
+App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+        )
+
+    [error] => user_not_found
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => 
+    [status] => ERROR
+    [redirect] => 
+)
+
+login
+authenticate with username: [sayali_admin] and password [Abena2019!]
+auth-result
+App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+        )
+
+    [error] => user_not_found
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => 
+    [status] => ERROR
+    [redirect] => 
+)
+
+login
+authenticate with username: [sayali_admin] and password [Abena2019!]
+auth-result
+App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+        )
+
+    [error] => user_not_found
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => 
+    [status] => ERROR
+    [redirect] => 
+)
+
+login
+authenticate with username: [sayali_admin] and password [Abena2019!]
+auth-result
+App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+        )
+
+    [error] => user_not_found
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => 
+    [status] => ERROR
+    [redirect] => 
+)
+
+login
+authenticate with username: [sayali_admin] and password [Abena2019!]
+auth-result
+App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+            [session_id] => 6bci34p6adnkjqklc8020ltnu1rbvo04
+            [is_root] => 
+            [js_enabled] => 
+            [logged_in] => 1
+            [logged_in_at] => 1696327286
+            [client_id] => 209493449
+            [client_customer_number] => 20002
+            [client_name] => Abena GmbH
+            [client_desc] => Abena GmbH
+            [client_email] => abena@abena.de
+            [client_fax] => 
+            [client_phone] => 
+            [client_street] => Lösnitz Mark
+            [client_house_nr] => 23
+            [client_zipcode] => 06780
+            [client_location] => Zörbig
+            [client_country] => DE
+            [client_logo] => 
+            [client_created_at] => 1592567635
+            [user_id] => 1310342702
+            [username] => sayali_admin
+            [email] => sayali.jadhav@codenground.de
+            [phone] => 
+            [firstname] => Sayali
+            [lastname] => Jadhav
+            [street] => 
+            [house_number] => 
+            [zipcode] => 
+            [location] => 
+            [country] => DE
+            [language] => DE
+            [scanagent_computer_id] => 
+            [team] => 
+            [created_at] => 1688976182
+            [last_login] => 1689054200
+            [permissions] => Array
+                (
+                    [root_right_contract_delete] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => root_right_contract_delete
+                            [right_name] => #root_right_contract_delete
+                            [right_desc] => #root_right_contract_delete_desc
+                            [active] => 1
+                        )
+
+                    [root_right_contract_general_settings] => stdClass Object
+                        (
+                            [role_id] => 1025176470
+                            [right_id] => root_right_contract_general_settings
+                            [right_name] => #root_right_contract_general_settings
+                            [right_desc] => #root_right_contract_general_settings_desc
+                            [active] => 1
+                        )
+
+                    [root_right_contract_list] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => root_right_contract_list
+                            [right_name] => #root_right_contract_list
+                            [right_desc] => #root_right_contract_list_desc
+                            [active] => 1
+                        )
+
+                    [root_right_contract_write] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => root_right_contract_write
+                            [right_name] => #root_right_contract_write
+                            [right_desc] => #root_right_contract_write_desc
+                            [active] => 1
+                        )
+
+                    [root_right_health_insurance_delete] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => root_right_health_insurance_delete
+                            [right_name] => #root_right_health_insurance_delete
+                            [right_desc] => #root_right_health_insurance_delete_desc
+                            [active] => 1
+                        )
+
+                    [root_right_health_insurance_list] => stdClass Object
+                        (
+                            [role_id] => role_user
+                            [right_id] => root_right_health_insurance_list
+                            [right_name] => #root_right_health_insurance_list
+                            [right_desc] => #root_right_health_insurance_list_desc
+                            [active] => 1
+                        )
+
+                    [root_right_health_insurance_write] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => root_right_health_insurance_write
+                            [right_name] => #root_right_health_insurance_write
+                            [right_desc] => #root_right_health_insurance_write_desc
+                            [active] => 1
+                        )
+
+                    [right_anamnesis_delete] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => right_anamnesis_delete
+                            [right_name] => #right_anamnesis_delete
+                            [right_desc] => #right_anamnesis_delete_desc
+                            [active] => 1
+                        )
+
+                    [right_anamnesis_list] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => right_anamnesis_list
+                            [right_name] => #right_anamnesis_list
+                            [right_desc] => #right_anamnesis_list_desc
+                            [active] => 1
+                        )
+
+                    [right_anamnesis_write] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => right_anamnesis_write
+                            [right_name] => #right_anamnesis_write
+                            [right_desc] => #right_anamnesis_write_desc
+                            [active] => 1
+                        )
+
+                    [right_debitor_delete] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => right_debitor_delete
+                            [right_name] => #right_debitor_delete
+                            [right_desc] => #right_debitor_delete_desc
+                            [active] => 1
+                        )
+
+                    [right_debitor_list] => stdClass Object
+                        (
+                            [role_id] => role_user
+                            [right_id] => right_debitor_list
+                            [right_name] => #right_debitor_list
+                            [right_desc] => #right_debitor_list_desc
+                            [active] => 1
+                        )
+
+                    [right_debitor_write] => stdClass Object
+                        (
+                            [role_id] => role_user
+                            [right_id] => right_debitor_write
+                            [right_name] => #right_debitor_write
+                            [right_desc] => #right_debitor_write_desc
+                            [active] => 1
+                        )
+
+                    [right_order_delete] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => right_order_delete
+                            [right_name] => #right_order_delete
+                            [right_desc] => #right_order_delete_desc
+                            [active] => 1
+                        )
+
+                    [right_order_list] => stdClass Object
+                        (
+                            [role_id] => role_user
+                            [right_id] => right_order_list
+                            [right_name] => #right_order_list
+                            [right_desc] => #right_order_list_desc
+                            [active] => 1
+                        )
+
+                    [right_order_write] => stdClass Object
+                        (
+                            [role_id] => role_user
+                            [right_id] => right_order_write
+                            [right_name] => #right_order_write
+                            [right_desc] => #right_order_write_desc
+                            [active] => 1
+                        )
+
+                    [right_prescriptions_delete] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => right_prescriptions_delete
+                            [right_name] => #right_prescriptions_delete
+                            [right_desc] => #right_prescriptions_delete_desc
+                            [active] => 1
+                        )
+
+                    [right_prescriptions_list] => stdClass Object
+                        (
+                            [role_id] => role_user
+                            [right_id] => right_prescriptions_list
+                            [right_name] => #right_prescriptions_list
+                            [right_desc] => #right_prescriptions_list_desc
+                            [active] => 1
+                        )
+
+                    [right_prescriptions_upload] => stdClass Object
+                        (
+                            [role_id] => role_user
+                            [right_id] => right_prescriptions_upload
+                            [right_name] => #right_prescriptions_upload
+                            [right_desc] => #right_prescriptions_upload_desc
+                            [active] => 1
+                        )
+
+                    [right_prescriptions_write] => stdClass Object
+                        (
+                            [role_id] => role_user
+                            [right_id] => right_prescriptions_write
+                            [right_name] => #right_prescriptions_write
+                            [right_desc] => #right_prescriptions_write_desc
+                            [active] => 1
+                        )
+
+                    [right_reminder_delete] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => right_reminder_delete
+                            [right_name] => #right_reminder_delete
+                            [right_desc] => #right_reminder_delete_desc
+                            [active] => 1
+                        )
+
+                    [right_reminder_list] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => right_reminder_list
+                            [right_name] => #right_reminder_list
+                            [right_desc] => #right_reminder_list_desc
+                            [active] => 1
+                        )
+
+                    [right_reminder_write] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => right_reminder_write
+                            [right_name] => #right_reminder_write
+                            [right_desc] => #right_reminder_write_desc
+                            [active] => 1
+                        )
+
+                    [right_use_scanagent] => stdClass Object
+                        (
+                            [role_id] => 278787910
+                            [right_id] => right_use_scanagent
+                            [right_name] => #right_use_scanagent
+                            [right_desc] => #right_use_scanagent_desc
+                            [active] => 1
+                        )
+
+                    [right_articles_delete] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => right_articles_delete
+                            [right_name] => #right_articles_delete
+                            [right_desc] => #right_articles_delete_desc
+                            [active] => 1
+                        )
+
+                    [right_articles_list] => stdClass Object
+                        (
+                            [role_id] => role_user
+                            [right_id] => right_articles_list
+                            [right_name] => #right_articles_list
+                            [right_desc] => #right_articles_list_desc
+                            [active] => 1
+                        )
+
+                    [right_articles_write] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => right_articles_write
+                            [right_name] => #right_articles_write
+                            [right_desc] => #right_articles_write_desc
+                            [active] => 1
+                        )
+
+                    [right_role_delete] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => right_role_delete
+                            [right_name] => #right_role_delete
+                            [right_desc] => #right_role_delete_desc
+                            [active] => 1
+                        )
+
+                    [right_role_list] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => right_role_list
+                            [right_name] => #right_role_list
+                            [right_desc] => #right_role_list_desc
+                            [active] => 1
+                        )
+
+                    [right_role_write] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => right_role_write
+                            [right_name] => #right_role_write
+                            [right_desc] => #right_role_write_desc
+                            [active] => 1
+                        )
+
+                    [right_user_delete] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => right_user_delete
+                            [right_name] => #right_user_delete
+                            [right_desc] => #right_user_delete_desc
+                            [active] => 1
+                        )
+
+                    [right_user_list] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => right_user_list
+                            [right_name] => #right_user_list
+                            [right_desc] => #right_user_list_desc
+                            [active] => 1
+                        )
+
+                    [right_user_write] => stdClass Object
+                        (
+                            [role_id] => role_admin
+                            [right_id] => right_user_write
+                            [right_name] => #right_user_write
+                            [right_desc] => #right_user_write_desc
+                            [active] => 1
+                        )
+
+                )
+
+            [menu] => Array
+                (
+                    [menu_admin] => Array
+                        (
+                            [items] => Array
+                                (
+                                    [0] => stdClass Object
+                                        (
+                                            [menu_id] => menu_root_contract
+                                            [menu_label] => #menu_root_contract
+                                            [menu_icon] => fa fa-suitcase
+                                            [menu_ref] => root/contracts/show/
+                                            [menu_id_parent] => menu_admin
+                                            [right_id] => root_right_contract_list
+                                            [requires_root_user] => 0
+                                            [sort_order] => 1200
+                                            [is_visible] => 1
+                                            [items] => Array
+                                                (
+                                                )
+
+                                            [active] => 
+                                        )
+
+                                    [1] => stdClass Object
+                                        (
+                                            [menu_id] => menu_health_insurance
+                                            [menu_label] => #menu_health_insurance
+                                            [menu_icon] => fa fa-heartbeat 
+                                            [menu_ref] => root/health_insurances/show/
+                                            [menu_id_parent] => menu_admin
+                                            [right_id] => root_right_health_insurance_list
+                                            [requires_root_user] => 0
+                                            [sort_order] => 1400
+                                            [is_visible] => 1
+                                            [items] => Array
+                                                (
+                                                )
+
+                                            [active] => 
+                                        )
+
+                                    [2] => stdClass Object
+                                        (
+                                            [menu_id] => menu_user
+                                            [menu_label] => #menu_user
+                                            [menu_icon] => fa fa-user
+                                            [menu_ref] => admin/users/show
+                                            [menu_id_parent] => menu_admin
+                                            [right_id] => right_user_list
+                                            [requires_root_user] => 0
+                                            [sort_order] => 2100
+                                            [is_visible] => 1
+                                            [items] => Array
+                                                (
+                                                )
+
+                                            [active] => 
+                                        )
+
+                                    [3] => stdClass Object
+                                        (
+                                            [menu_id] => menu_role
+                                            [menu_label] => #menu_role
+                                            [menu_icon] => fa fa-object-group
+                                            [menu_ref] => admin/roles/show
+                                            [menu_id_parent] => menu_admin
+                                            [right_id] => right_role_list
+                                            [requires_root_user] => 0
+                                            [sort_order] => 2200
+                                            [is_visible] => 1
+                                            [items] => Array
+                                                (
+                                                )
+
+                                            [active] => 
+                                        )
+
+                                    [4] => stdClass Object
+                                        (
+                                            [menu_id] => menu_articles
+                                            [menu_label] => #menu_articles
+                                            [menu_icon] => fa fa-cubes
+                                            [menu_ref] => admin/articles/show/
+                                            [menu_id_parent] => menu_admin
+                                            [right_id] => right_articles_list
+                                            [requires_root_user] => 0
+                                            [sort_order] => 2300
+                                            [is_visible] => 1
+                                            [items] => Array
+                                                (
+                                                )
+
+                                            [active] => 
+                                        )
+
+                                )
+
+                            [menu_id] => menu_admin
+                            [menu_label] => #menu_administration
+                            [menu_icon] => fa fa-dashboard
+                            [menu_ref] => admin/overview/
+                            [right_id] => 
+                            [active] => 
+                        )
+
+                    [menu_prescriptions] => Array
+                        (
+                            [items] => Array
+                                (
+                                )
+
+                            [menu_id] => menu_prescriptions
+                            [menu_label] => #menu_prescriptions
+                            [menu_icon] => fa fa-bookmark-o
+                            [menu_ref] => admin/prescriptions/show/
+                            [right_id] => right_prescriptions_list
+                            [active] => 
+                        )
+
+                    [menu_debitor] => Array
+                        (
+                            [items] => Array
+                                (
+                                )
+
+                            [menu_id] => menu_debitor
+                            [menu_label] => #menu_debitor
+                            [menu_icon] => fa fa-group
+                            [menu_ref] => admin/debitors/show/
+                            [right_id] => right_debitor_list
+                            [active] => 
+                        )
+
+                    [menu_orders] => Array
+                        (
+                            [items] => Array
+                                (
+                                )
+
+                            [menu_id] => menu_orders
+                            [menu_label] => #menu_order
+                            [menu_icon] => fa fa-shopping-basket
+                            [menu_ref] => admin/orders/show/
+                            [right_id] => right_order_list
+                            [active] => 
+                        )
+
+                    [menu_contact] => Array
+                        (
+                            [items] => Array
+                                (
+                                )
+
+                            [menu_id] => menu_contact
+                            [menu_label] => #menu_contact
+                            [menu_icon] => fa fa-thumbs-o-up
+                            [menu_ref] => home/contact
+                            [right_id] => 
+                            [active] => 
+                        )
+
+                    [menu_reminder] => Array
+                        (
+                            [items] => Array
+                                (
+                                )
+
+                            [menu_id] => menu_reminder
+                            [menu_label] => #menu_reminder
+                            [menu_icon] => fa fa-hashtag
+                            [menu_ref] => admin/reminder/show/
+                            [right_id] => right_reminder_list
+                            [active] => 
+                        )
+
+                )
+
+        )
+
+    [error] => 
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => 
+    [status] => SUCCESS
+    [redirect] => 
+)
+
+
+current-sessionCodeIgniter\Session\Session Object
+(
+    [driver:protected] => CodeIgniter\Session\Handlers\FileHandler Object
+        (
+            [fingerprint:protected] => 577b125198a90c89ddb7fda963a70e84
+            [lock:protected] => 
+            [cookiePrefix:protected] => 
+            [cookieDomain:protected] => 
+            [cookiePath:protected] => /
+            [cookieSecure:protected] => 
+            [cookieName:protected] => ci_session
+            [matchIP:protected] => 
+            [sessionID:protected] => 6bci34p6adnkjqklc8020ltnu1rbvo04
+            [savePath:protected] => /app/myapp/writable/session
+            [ipAddress:protected] => 172.18.0.1
+            [logger:protected] => CodeIgniter\Log\Logger Object
+                (
+                    [logLevels:protected] => Array
+                        (
+                            [emergency] => 1
+                            [alert] => 2
+                            [critical] => 3
+                            [error] => 4
+                            [warning] => 5
+                            [notice] => 6
+                            [info] => 7
+                            [debug] => 8
+                        )
+
+                    [loggableLevels:protected] => Array
+                        (
+                            [0] => emergency
+                            [1] => alert
+                            [2] => critical
+                            [3] => error
+                            [4] => warning
+                            [5] => notice
+                            [6] => info
+                            [7] => debug
+                            [8] => 
+                        )
+
+                    [filePermissions:protected] => 420
+                    [dateFormat:protected] => Y-m-d H:i:s
+                    [fileExt:protected] => 
+                    [handlers:protected] => Array
+                        (
+                            [CodeIgniter\Log\Handlers\FileHandler] => CodeIgniter\Log\Handlers\FileHandler Object
+                                (
+                                    [handles:protected] => Array
+                                        (
+                                            [0] => critical
+                                            [1] => alert
+                                            [2] => emergency
+                                            [3] => debug
+                                            [4] => error
+                                            [5] => info
+                                            [6] => notice
+                                            [7] => warning
+                                        )
+
+                                    [dateFormat:protected] => Y-m-d H:i:s
+                                    [path:protected] => /app/myapp/writable/logs/
+                                    [fileExtension:protected] => log
+                                    [filePermissions:protected] => 420
+                                )
+
+                        )
+
+                    [handlerConfig:protected] => Array
+                        (
+                            [CodeIgniter\Log\Handlers\FileHandler] => Array
+                                (
+                                    [handles] => Array
+                                        (
+                                            [0] => critical
+                                            [1] => alert
+                                            [2] => emergency
+                                            [3] => debug
+                                            [4] => error
+                                            [5] => info
+                                            [6] => notice
+                                            [7] => warning
+                                        )
+
+                                    [fileExtension] => 
+                                    [filePermissions] => 420
+                                    [path] => 
+                                )
+
+                        )
+
+                    [logCache] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [level] => info
+                                    [msg] => Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+                                )
+
+                        )
+
+                    [cacheLogs:protected] => 1
+                )
+
+            [fileHandle:protected] => Resource id #126
+            [filePath:protected] => /app/myapp/writable/session/ci_session
+            [fileNew:protected] => 
+            [sessionIDRegex:protected] => [0-9a-v]{32}
+        )
+
+    [sessionDriverName:protected] => CodeIgniter\Session\Handlers\FileHandler
+    [sessionCookieName:protected] => ci_session
+    [sessionExpiration:protected] => 7200
+    [sessionSavePath:protected] => /app/myapp/writable/session
+    [sessionMatchIP:protected] => 
+    [sessionTimeToUpdate:protected] => 300
+    [sessionRegenerateDestroy:protected] => 
+    [cookie:protected] => CodeIgniter\Cookie\Cookie Object
+        (
+            [prefix:protected] => 
+            [name:protected] => ci_session
+            [value:protected] => 
+            [expires:protected] => 1696334486
+            [path:protected] => /
+            [domain:protected] => 
+            [secure:protected] => 
+            [httponly:protected] => 1
+            [samesite:protected] => Lax
+            [raw:protected] => 
+        )
+
+    [cookieDomain:protected] => 
+    [cookiePath:protected] => /
+    [cookieSecure:protected] => 
+    [cookieSameSite:protected] => Lax
+    [sidRegexp:protected] => [0-9a-v]{32}
+    [logger:protected] => CodeIgniter\Log\Logger Object
+        (
+            [logLevels:protected] => Array
+                (
+                    [emergency] => 1
+                    [alert] => 2
+                    [critical] => 3
+                    [error] => 4
+                    [warning] => 5
+                    [notice] => 6
+                    [info] => 7
+                    [debug] => 8
+                )
+
+            [loggableLevels:protected] => Array
+                (
+                    [0] => emergency
+                    [1] => alert
+                    [2] => critical
+                    [3] => error
+                    [4] => warning
+                    [5] => notice
+                    [6] => info
+                    [7] => debug
+                    [8] => 
+                )
+
+            [filePermissions:protected] => 420
+            [dateFormat:protected] => Y-m-d H:i:s
+            [fileExt:protected] => 
+            [handlers:protected] => Array
+                (
+                    [CodeIgniter\Log\Handlers\FileHandler] => CodeIgniter\Log\Handlers\FileHandler Object
+                        (
+                            [handles:protected] => Array
+                                (
+                                    [0] => critical
+                                    [1] => alert
+                                    [2] => emergency
+                                    [3] => debug
+                                    [4] => error
+                                    [5] => info
+                                    [6] => notice
+                                    [7] => warning
+                                )
+
+                            [dateFormat:protected] => Y-m-d H:i:s
+                            [path:protected] => /app/myapp/writable/logs/
+                            [fileExtension:protected] => log
+                            [filePermissions:protected] => 420
+                        )
+
+                )
+
+            [handlerConfig:protected] => Array
+                (
+                    [CodeIgniter\Log\Handlers\FileHandler] => Array
+                        (
+                            [handles] => Array
+                                (
+                                    [0] => critical
+                                    [1] => alert
+                                    [2] => emergency
+                                    [3] => debug
+                                    [4] => error
+                                    [5] => info
+                                    [6] => notice
+                                    [7] => warning
+                                )
+
+                            [fileExtension] => 
+                            [filePermissions] => 420
+                            [path] => 
+                        )
+
+                )
+
+            [logCache] => Array
+                (
+                    [0] => Array
+                        (
+                            [level] => info
+                            [msg] => Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+                        )
+
+                )
+
+            [cacheLogs:protected] => 1
+        )
+
+)

@@ -1,0 +1,18 @@
+
+admin/roles
+create new role
+Array
+(
+    [data] => Array
+        (
+            [role] => Array
+                (
+                )
+
+            [role_rights] => Array
+                (
+                )
+
+        )
+
+)

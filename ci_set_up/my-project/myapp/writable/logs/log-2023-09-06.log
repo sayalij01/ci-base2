@@ -1,0 +1,320 @@
+CRITICAL - 2023-09-06 05:42:58 --> Call to undefined method Config\View::item()
+in APPPATH/Views/template/skeleton.php on line 20.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/core/BASE_Controller.php(628): view()
+ 5 APPPATH/Controllers/Home.php(56): App\core\BASE_Controller->render()
+ 6 APPPATH/Controllers/Home.php(35): App\Controllers\Home->home()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 05:46:11 --> Undefined property: Config\View::$cdn
+in APPPATH/Views/template/skeleton.php on line 20.
+ 1 APPPATH/Views/template/skeleton.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/template/skeleton.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(628): view()
+ 6 APPPATH/Controllers/Home.php(56): App\core\BASE_Controller->render()
+ 7 APPPATH/Controllers/Home.php(35): App\Controllers\Home->home()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->index()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 05:57:17 --> Undefined variable $cdn
+in APPPATH/Views/template/skeleton.php on line 78.
+ 1 APPPATH/Views/template/skeleton.php(78): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/template/skeleton.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(628): view()
+ 6 APPPATH/Controllers/Home.php(56): App\core\BASE_Controller->render()
+ 7 APPPATH/Controllers/Home.php(35): App\Controllers\Home->home()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->index()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 06:27:20 --> Undefined property: App\Controllers\Home::$output
+in APPPATH/core/BASE_Controller.php on line 629.
+ 1 APPPATH/core/BASE_Controller.php(629): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(56): App\core\BASE_Controller->render()
+ 3 APPPATH/Controllers/Home.php(35): App\Controllers\Home->home()
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 06:31:15 --> Undefined property: App\Controllers\Home::$output
+in APPPATH/core/BASE_Controller.php on line 563.
+ 1 APPPATH/core/BASE_Controller.php(563): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(56): App\core\BASE_Controller->render()
+ 3 APPPATH/Controllers/Home.php(35): App\Controllers\Home->home()
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 06:38:52 --> Undefined property: App\Controllers\Home::$output
+in APPPATH/core/BASE_Controller.php on line 563.
+ 1 APPPATH/core/BASE_Controller.php(563): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(56): App\core\BASE_Controller->render()
+ 3 APPPATH/Controllers/Home.php(35): App\Controllers\Home->home()
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 06:38:53 --> Undefined property: App\Controllers\Home::$output
+in APPPATH/core/BASE_Controller.php on line 563.
+ 1 APPPATH/core/BASE_Controller.php(563): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(56): App\core\BASE_Controller->render()
+ 3 APPPATH/Controllers/Home.php(35): App\Controllers\Home->home()
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 07:12:02 --> Call to undefined method Config\View::item()
+in APPPATH/Views/template/main.php on line 19.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/core/BASE_Controller.php(624): view()
+ 5 APPPATH/Controllers/Home.php(56): App\core\BASE_Controller->render()
+ 6 APPPATH/Controllers/Home.php(35): App\Controllers\Home->home()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 07:12:03 --> Call to undefined method Config\View::item()
+in APPPATH/Views/template/main.php on line 19.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/core/BASE_Controller.php(624): view()
+ 5 APPPATH/Controllers/Home.php(56): App\core\BASE_Controller->render()
+ 6 APPPATH/Controllers/Home.php(35): App\Controllers\Home->home()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 07:12:58 --> Undefined property: Config\View::$navbar_fixed
+in APPPATH/Views/template/main.php on line 19.
+ 1 APPPATH/Views/template/main.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/template/main.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(624): view()
+ 6 APPPATH/Controllers/Home.php(56): App\core\BASE_Controller->render()
+ 7 APPPATH/Controllers/Home.php(35): App\Controllers\Home->home()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->index()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 07:13:41 --> Undefined variable $bg_class
+in APPPATH/Views/template/main.php on line 24.
+ 1 APPPATH/Views/template/main.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/app/myapp/app/Views/template/main.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/core/BASE_Controller.php(624): view()
+ 6 APPPATH/Controllers/Home.php(56): App\core\BASE_Controller->render()
+ 7 APPPATH/Controllers/Home.php(35): App\Controllers\Home->home()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->index()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 07:14:25 --> Call to undefined method Config\View::item()
+in APPPATH/Views/template/main.php on line 27.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH/core/BASE_Controller.php(624): view()
+ 5 APPPATH/Controllers/Home.php(56): App\core\BASE_Controller->render()
+ 6 APPPATH/Controllers/Home.php(35): App\Controllers\Home->home()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 11:22:14 --> strtoupper(): Argument #1 ($string) must be of type string, array given
+in APPPATH/core/BASE_Controller.php on line 452.
+ 1 APPPATH/core/BASE_Controller.php(452): strtoupper()
+ 2 APPPATH/core/BASE_Controller.php(629): App\core\BASE_Controller->render()
+ 3 APPPATH/Controllers/Home.php(56): App\core\BASE_Controller->render()
+ 4 APPPATH/Controllers/Home.php(35): App\Controllers\Home->home()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 12:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-06 12:25:40 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /app/myapp/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /app/myapp/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /app/myapp/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /app/myapp/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /app/myapp/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /app/myapp/app/core/BASE_Model.php(332): CodeIgniter\Database\BaseBuilder->get()
+#5 /app/myapp/app/Models/Locale_model.php(67): App\core\BASE_Model->BASE_Select()
+#6 /app/myapp/app/core/BASE_Controller.php(369): App\Models\Locale_model->load_languages()
+#7 /app/myapp/app/Controllers/Home.php(19): App\core\BASE_Controller->initController()
+#8 /app/myapp/system/CodeIgniter.php(905): App\Controllers\Home->initController()
+#9 /app/myapp/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#10 /app/myapp/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#11 /app/myapp/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /app/myapp/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /app/myapp/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /app/myapp/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /app/myapp/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /app/myapp/app/core/BASE_Model.php(332): CodeIgniter\Database\BaseBuilder->get()
+#4 /app/myapp/app/Models/Locale_model.php(67): App\core\BASE_Model->BASE_Select()
+#5 /app/myapp/app/core/BASE_Controller.php(369): App\Models\Locale_model->load_languages()
+#6 /app/myapp/app/Controllers/Home.php(19): App\core\BASE_Controller->initController()
+#7 /app/myapp/system/CodeIgniter.php(905): App\Controllers\Home->initController()
+#8 /app/myapp/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#9 /app/myapp/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 /app/myapp/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-09-06 12:25:40 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/core/BASE_Model.php(332): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Models/Locale_model.php(67): App\core\BASE_Model->BASE_Select()
+ 5 APPPATH/core/BASE_Controller.php(369): App\Models\Locale_model->load_languages()
+ 6 APPPATH/Controllers/Home.php(19): App\core\BASE_Controller->initController()
+ 7 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\Home->initController()
+ 8 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 12:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-06 12:29:13 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /app/myapp/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /app/myapp/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /app/myapp/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /app/myapp/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /app/myapp/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /app/myapp/app/core/BASE_Model.php(332): CodeIgniter\Database\BaseBuilder->get()
+#5 /app/myapp/app/Models/Locale_model.php(67): App\core\BASE_Model->BASE_Select()
+#6 /app/myapp/app/core/BASE_Controller.php(369): App\Models\Locale_model->load_languages()
+#7 /app/myapp/app/Controllers/Home.php(19): App\core\BASE_Controller->initController()
+#8 /app/myapp/system/CodeIgniter.php(905): App\Controllers\Home->initController()
+#9 /app/myapp/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#10 /app/myapp/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#11 /app/myapp/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /app/myapp/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /app/myapp/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /app/myapp/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /app/myapp/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /app/myapp/app/core/BASE_Model.php(332): CodeIgniter\Database\BaseBuilder->get()
+#4 /app/myapp/app/Models/Locale_model.php(67): App\core\BASE_Model->BASE_Select()
+#5 /app/myapp/app/core/BASE_Controller.php(369): App\Models\Locale_model->load_languages()
+#6 /app/myapp/app/Controllers/Home.php(19): App\core\BASE_Controller->initController()
+#7 /app/myapp/system/CodeIgniter.php(905): App\Controllers\Home->initController()
+#8 /app/myapp/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#9 /app/myapp/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 /app/myapp/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-09-06 12:29:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/core/BASE_Model.php(332): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Models/Locale_model.php(67): App\core\BASE_Model->BASE_Select()
+ 5 APPPATH/core/BASE_Controller.php(369): App\Models\Locale_model->load_languages()
+ 6 APPPATH/Controllers/Home.php(19): App\core\BASE_Controller->initController()
+ 7 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\Home->initController()
+ 8 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 12:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-06 12:29:44 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /app/myapp/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /app/myapp/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /app/myapp/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /app/myapp/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /app/myapp/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /app/myapp/app/core/BASE_Model.php(332): CodeIgniter\Database\BaseBuilder->get()
+#5 /app/myapp/app/Models/Locale_model.php(67): App\core\BASE_Model->BASE_Select()
+#6 /app/myapp/app/core/BASE_Controller.php(369): App\Models\Locale_model->load_languages()
+#7 /app/myapp/app/Controllers/Home.php(19): App\core\BASE_Controller->initController()
+#8 /app/myapp/system/CodeIgniter.php(905): App\Controllers\Home->initController()
+#9 /app/myapp/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#10 /app/myapp/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#11 /app/myapp/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /app/myapp/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /app/myapp/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /app/myapp/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /app/myapp/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /app/myapp/app/core/BASE_Model.php(332): CodeIgniter\Database\BaseBuilder->get()
+#4 /app/myapp/app/Models/Locale_model.php(67): App\core\BASE_Model->BASE_Select()
+#5 /app/myapp/app/core/BASE_Controller.php(369): App\Models\Locale_model->load_languages()
+#6 /app/myapp/app/Controllers/Home.php(19): App\core\BASE_Controller->initController()
+#7 /app/myapp/system/CodeIgniter.php(905): App\Controllers\Home->initController()
+#8 /app/myapp/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#9 /app/myapp/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 /app/myapp/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-09-06 12:29:44 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/core/BASE_Model.php(332): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Models/Locale_model.php(67): App\core\BASE_Model->BASE_Select()
+ 5 APPPATH/core/BASE_Controller.php(369): App\Models\Locale_model->load_languages()
+ 6 APPPATH/Controllers/Home.php(19): App\core\BASE_Controller->initController()
+ 7 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\Home->initController()
+ 8 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 12:34:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 12:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 12:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 12:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 12:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 12:50:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 12:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 12:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 12:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 12:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 12:56:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 12:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 13:04:50 --> Constant ENVIRONMENT already defined
+in FCPATH/index.php on line 66.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 FCPATH/index.php(66): define()
+INFO - 2023-09-06 13:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 13:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 13:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 13:10:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 13:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 13:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 13:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 13:14:07 --> syntax error, unexpected token "return"
+in APPPATH/core/BASE_Controller.php on line 640.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 APPPATH/Controllers/Home.php(14): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(314): include_once('/app/myapp/app/Controllers/Home.php')
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 6 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 8 SYSTEMPATH/CodeIgniter.php(890): class_exists()
+ 9 SYSTEMPATH/CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 13:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 13:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 13:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 13:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 13:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 13:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

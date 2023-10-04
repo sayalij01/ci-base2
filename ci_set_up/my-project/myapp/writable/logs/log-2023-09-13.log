@@ -1,0 +1,206 @@
+INFO - 2023-09-13 05:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-13 05:16:26 --> Declaration of App\Controllers\admin\Login::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger) must be compatible with App\core\BASE_Controller::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger, $requires_login = false, $requires_root = false)
+in APPPATH/Controllers/Admin/Login.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-09-13 05:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-13 05:18:54 --> Invalid file: "admin/login.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 3 APPPATH/core/BASE_Controller.php(512): view()
+ 4 APPPATH/Controllers/Admin/Login.php(72): App\core\BASE_Controller->render()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Login->index()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-13 05:19:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-13 05:19:54 --> Invalid file: "admin/login.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 3 APPPATH/core/BASE_Controller.php(512): view()
+ 4 APPPATH/Controllers/Admin/Login.php(72): App\core\BASE_Controller->render()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Login->index()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-13 05:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-13 05:20:22 --> Invalid file: "admin/login.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 3 APPPATH/core/BASE_Controller.php(512): view()
+ 4 APPPATH/Controllers/Admin/Login.php(72): App\core\BASE_Controller->render()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Login->index()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-13 05:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-13 05:20:24 --> Invalid file: "admin/login.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 3 APPPATH/core/BASE_Controller.php(512): view()
+ 4 APPPATH/Controllers/Admin/Login.php(72): App\core\BASE_Controller->render()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Login->index()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-13 05:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-13 05:20:25 --> Invalid file: "admin/login.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 3 APPPATH/core/BASE_Controller.php(512): view()
+ 4 APPPATH/Controllers/Admin/Login.php(72): App\core\BASE_Controller->render()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Login->index()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-13 05:20:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-13 05:20:58 --> Invalid file: "admin/login.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 3 APPPATH/core/BASE_Controller.php(512): view()
+ 4 APPPATH/Controllers/Admin/Login.php(72): App\core\BASE_Controller->render()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Login->index()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-13 05:20:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-13 05:21:00 --> Invalid file: "admin/login.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 3 APPPATH/core/BASE_Controller.php(512): view()
+ 4 APPPATH/Controllers/Admin/Login.php(72): App\core\BASE_Controller->render()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Login->index()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-13 05:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-13 05:21:01 --> Invalid file: "admin/login.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 3 APPPATH/core/BASE_Controller.php(512): view()
+ 4 APPPATH/Controllers/Admin/Login.php(72): App\core\BASE_Controller->render()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Login->index()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-13 05:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-13 05:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-13 05:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-13 05:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-13 05:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-13 05:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-13 05:32:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-13 05:32:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-13 06:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-13 07:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-13 07:25:46 --> Undefined property: App\Controllers\admin\Login::$input
+in APPPATH/Controllers/Admin/Login.php on line 104.
+ 1 APPPATH/Controllers/Admin/Login.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Admin/Login.php(51): App\Controllers\admin\Login->authenticate()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Login->index()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-13 07:33:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-13 07:33:31 --> Undefined property: App\Controllers\admin\Login::$input
+in APPPATH/Controllers/Admin/Login.php on line 104.
+ 1 APPPATH/Controllers/Admin/Login.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Admin/Login.php(51): App\Controllers\admin\Login->authenticate()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Login->index()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-13 07:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-13 07:33:33 --> Undefined property: App\Controllers\admin\Login::$input
+in APPPATH/Controllers/Admin/Login.php on line 104.
+ 1 APPPATH/Controllers/Admin/Login.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Admin/Login.php(51): App\Controllers\admin\Login->authenticate()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Login->index()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-13 07:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-13 07:33:35 --> Undefined property: App\Controllers\admin\Login::$input
+in APPPATH/Controllers/Admin/Login.php on line 104.
+ 1 APPPATH/Controllers/Admin/Login.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Admin/Login.php(51): App\Controllers\admin\Login->authenticate()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Login->index()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-13 07:33:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-13 07:33:37 --> Undefined property: App\Controllers\admin\Login::$input
+in APPPATH/Controllers/Admin/Login.php on line 104.
+ 1 APPPATH/Controllers/Admin/Login.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Admin/Login.php(51): App\Controllers\admin\Login->authenticate()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Login->index()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-13 07:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-13 07:35:26 --> Undefined property: App\Controllers\admin\Login::$input
+in APPPATH/Controllers/Admin/Login.php on line 104.
+ 1 APPPATH/Controllers/Admin/Login.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Admin/Login.php(51): App\Controllers\admin\Login->authenticate()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Login->index()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-13 07:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-13 07:35:27 --> Undefined property: App\Controllers\admin\Login::$input
+in APPPATH/Controllers/Admin/Login.php on line 104.
+ 1 APPPATH/Controllers/Admin/Login.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Admin/Login.php(51): App\Controllers\admin\Login->authenticate()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Login->index()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-13 07:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-13 07:35:28 --> Undefined property: App\Controllers\admin\Login::$input
+in APPPATH/Controllers/Admin/Login.php on line 104.
+ 1 APPPATH/Controllers/Admin/Login.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Admin/Login.php(51): App\Controllers\admin\Login->authenticate()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Login->index()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-13 07:35:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-13 07:35:29 --> Undefined property: App\Controllers\admin\Login::$input
+in APPPATH/Controllers/Admin/Login.php on line 104.
+ 1 APPPATH/Controllers/Admin/Login.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Admin/Login.php(51): App\Controllers\admin\Login->authenticate()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\admin\Login->index()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-13 12:02:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-13 12:11:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-13 12:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-13 12:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-13 12:35:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-13 12:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-13 12:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-13 12:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-13 12:40:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-13 12:42:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-13 12:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-13 12:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-13 12:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-13 12:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-13 12:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-13 12:45:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-13 12:45:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-13 12:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-13 12:46:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-13 12:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-13 12:47:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-13 12:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-13 12:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-13 12:49:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
