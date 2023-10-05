@@ -482,7 +482,7 @@ $.app.highlight = function(element, msg)
  */
 $.app.blockUI = function(element, msg)
 {
-	var msg_txt = $.lang.item('msg_one_moment_please')+'...<br>'+(msg != null ? msg : '');
+	var msg_txt ="'msg_one_moment_please')+'...<br>'+(msg != null ? msg : '');"
 	
 	msg = 
 	'<table style="width:100%">'+

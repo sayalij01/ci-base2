@@ -2235,3 +2235,646 @@ auth result error[] App\core\BASE_Result Object
     [status] => SUCCESS
     [redirect] => 
 )
+
+User_model
+User_model
+User_model
+User_model
+loadPermissions
+SELECT `app_roles__rights`.`role_id`, `app_roles__rights`.`right_id`, `app__rights`.`right_name`, `app__rights`.`right_desc`, `app__rights`.`active`
+FROM `app_user__roles`
+INNER JOIN `app_roles__rights` ON `app_roles__rights`.`client_id` = 0 AND `app_roles__rights`.`role_id` = `app_user__roles`.`role_id`
+INNER JOIN `app__rights` ON `app__rights`.`client_id` = 0 AND `app__rights`.`right_id` = `app_roles__rights`.`right_id` AND `app__rights`.`active` = 1
+INNER JOIN `app_roles` ON `app_roles`.`client_id` = 0 AND `app_roles`.`role_id` = `app_user__roles`.`role_id` AND `app_roles`.`deleted` = 0
+WHERE `app_user__roles`.`user_id` = '848480003'
+GROUP BY `app_roles__rights`.`role_id`, `app_roles__rights`.`right_id`, `app__rights`.`right_name`, `app__rights`.`right_desc`, `app__rights`.`active`
+App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+            [is_root] => stdClass Object
+                (
+                    [role_id] => none
+                    [right_id] => is_virtual_permission
+                    [right_name] => root_user
+                    [active] => 1
+                )
+
+        )
+
+    [error] => 
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => 
+    [status] => SUCCESS
+    [redirect] => 
+)
+
+loadMenu
+SELECT *
+FROM `app__menu`
+WHERE `is_visible` = '1' AND (`right_id` IS NULL OR `right_id` IN ('is_root'))
+ORDER BY `menu_id_parent` ASC, `sort_order` ASC
+return-App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+            [menu_root] => Array
+                (
+                    [items] => Array
+                        (
+                        )
+
+                    [menu_id] => menu_root
+                    [menu_label] => #menu_root
+                    [menu_icon] => fa fa-institution
+                    [menu_ref] => root/overview/
+                    [right_id] => is_root
+                    [active] => 
+                )
+
+            [menu_admin] => Array
+                (
+                    [items] => Array
+                        (
+                        )
+
+                    [menu_id] => menu_admin
+                    [menu_label] => #menu_administration
+                    [menu_icon] => fa fa-dashboard
+                    [menu_ref] => admin/overview/
+                    [right_id] => 
+                    [active] => 
+                )
+
+            [menu_contact] => Array
+                (
+                    [items] => Array
+                        (
+                        )
+
+                    [menu_id] => menu_contact
+                    [menu_label] => #menu_contact
+                    [menu_icon] => fa fa-thumbs-o-up
+                    [menu_ref] => home/contact
+                    [right_id] => 
+                    [active] => 
+                )
+
+        )
+
+    [error] => 
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => 
+    [status] => SUCCESS
+    [redirect] => 
+)
+
+
+
+auth result error[] App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+            [session_id] => 07sfdh5ekbgahbjq0hk73evf067v2d27
+            [is_root] => 1
+            [js_enabled] => 
+            [logged_in] => 1
+            [logged_in_at] => 1696483106
+            [client_id] => 0
+            [client_customer_number] => 0
+            [client_name] => ABENA - Master client
+            [client_desc] => Abena GmbH
+            [client_email] => abena@abena.de 
+            [client_fax] => 0123456789
+            [client_phone] => 0123456789
+            [client_street] => Lösnitz Mark
+            [client_house_nr] => 23
+            [client_zipcode] => 06780
+            [client_location] => Zörbig
+            [client_country] => DE
+            [client_logo] => 
+            [client_created_at] => 1566570600
+            [user_id] => 848480003
+            [username] => sarika_admin
+            [email] => sarika.kharche@codenground.de
+            [phone] => 
+            [firstname] => Sarika
+            [lastname] => Kharche
+            [street] => 
+            [house_number] => 
+            [zipcode] => 
+            [location] => 
+            [country] => DE
+            [language] => DE
+            [scanagent_computer_id] => 
+            [team] => 
+            [created_at] => 1688976243
+            [last_login] => 1689051800
+            [permissions] => Array
+                (
+                    [is_root] => stdClass Object
+                        (
+                            [role_id] => none
+                            [right_id] => is_virtual_permission
+                            [right_name] => root_user
+                            [active] => 1
+                        )
+
+                )
+
+            [menu] => Array
+                (
+                    [menu_root] => Array
+                        (
+                            [items] => Array
+                                (
+                                )
+
+                            [menu_id] => menu_root
+                            [menu_label] => #menu_root
+                            [menu_icon] => fa fa-institution
+                            [menu_ref] => root/overview/
+                            [right_id] => is_root
+                            [active] => 
+                        )
+
+                    [menu_admin] => Array
+                        (
+                            [items] => Array
+                                (
+                                )
+
+                            [menu_id] => menu_admin
+                            [menu_label] => #menu_administration
+                            [menu_icon] => fa fa-dashboard
+                            [menu_ref] => admin/overview/
+                            [right_id] => 
+                            [active] => 
+                        )
+
+                    [menu_contact] => Array
+                        (
+                            [items] => Array
+                                (
+                                )
+
+                            [menu_id] => menu_contact
+                            [menu_label] => #menu_contact
+                            [menu_icon] => fa fa-thumbs-o-up
+                            [menu_ref] => home/contact
+                            [right_id] => 
+                            [active] => 
+                        )
+
+                )
+
+        )
+
+    [error] => 
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => 
+    [status] => SUCCESS
+    [redirect] => 
+)
+
+User_model
+User_model
+auth result error[msg_user_has_been_locked<br>msg_you_can_retry_to_login_after_x_minutes] App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+        )
+
+    [error] => msg_user_has_been_locked<br>msg_you_can_retry_to_login_after_x_minutes
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => 
+    [status] => ERROR
+    [redirect] => 
+)
+
+User_model
+auth result error[msg_user_locked ] App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+        )
+
+    [error] => msg_user_locked 
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => 
+    [status] => ERROR
+    [redirect] => 
+)
+
+User_model
+auth result error[msg_user_locked ] App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+        )
+
+    [error] => msg_user_locked 
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => 
+    [status] => ERROR
+    [redirect] => 
+)
+
+User_model
+auth result error[msg_user_locked ] App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+        )
+
+    [error] => msg_user_locked 
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => 
+    [status] => ERROR
+    [redirect] => 
+)
+
+User_model
+auth result error[msg_user_locked ] App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+        )
+
+    [error] => msg_user_locked 
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => 
+    [status] => ERROR
+    [redirect] => 
+)
+
+User_model
+auth result error[msg_user_locked ] App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+        )
+
+    [error] => msg_user_locked 
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => 
+    [status] => ERROR
+    [redirect] => 
+)
+
+User_model
+auth result error[msg_user_locked ] App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+        )
+
+    [error] => msg_user_locked 
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => 
+    [status] => ERROR
+    [redirect] => 
+)
+
+User_model
+auth result error[msg_user_locked ] App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+        )
+
+    [error] => msg_user_locked 
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => 
+    [status] => ERROR
+    [redirect] => 
+)
+
+User_model
+auth result error[msg_user_locked ] App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+        )
+
+    [error] => msg_user_locked 
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => 
+    [status] => ERROR
+    [redirect] => 
+)
+
+User_model
+auth result error[msg_user_locked ] App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+        )
+
+    [error] => msg_user_locked 
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => 
+    [status] => ERROR
+    [redirect] => 
+)
+
+User_model
+auth result error[msg_user_locked ] App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+        )
+
+    [error] => msg_user_locked 
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => 
+    [status] => ERROR
+    [redirect] => 
+)
+
+User_model
+auth result error[msg_user_locked ] App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+        )
+
+    [error] => msg_user_locked 
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => 
+    [status] => ERROR
+    [redirect] => 
+)
+
+User_model
+auth result error[msg_user_locked ] App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+        )
+
+    [error] => msg_user_locked 
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => 
+    [status] => ERROR
+    [redirect] => 
+)
+
+User_model
+loadPermissions
+SELECT `app_roles__rights`.`role_id`, `app_roles__rights`.`right_id`, `app__rights`.`right_name`, `app__rights`.`right_desc`, `app__rights`.`active`
+FROM `app_user__roles`
+INNER JOIN `app_roles__rights` ON `app_roles__rights`.`client_id` = 0 AND `app_roles__rights`.`role_id` = `app_user__roles`.`role_id`
+INNER JOIN `app__rights` ON `app__rights`.`client_id` = 0 AND `app__rights`.`right_id` = `app_roles__rights`.`right_id` AND `app__rights`.`active` = 1
+INNER JOIN `app_roles` ON `app_roles`.`client_id` = 0 AND `app_roles`.`role_id` = `app_user__roles`.`role_id` AND `app_roles`.`deleted` = 0
+WHERE `app_user__roles`.`user_id` = '848480003'
+GROUP BY `app_roles__rights`.`role_id`, `app_roles__rights`.`right_id`, `app__rights`.`right_name`, `app__rights`.`right_desc`, `app__rights`.`active`
+App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+            [is_root] => stdClass Object
+                (
+                    [role_id] => none
+                    [right_id] => is_virtual_permission
+                    [right_name] => root_user
+                    [active] => 1
+                )
+
+        )
+
+    [error] => 
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => 
+    [status] => SUCCESS
+    [redirect] => 
+)
+
+loadMenu
+SELECT *
+FROM `app__menu`
+WHERE `is_visible` = '1' AND (`right_id` IS NULL OR `right_id` IN ('is_root'))
+ORDER BY `menu_id_parent` ASC, `sort_order` ASC
+return-App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+            [menu_root] => Array
+                (
+                    [items] => Array
+                        (
+                        )
+
+                    [menu_id] => menu_root
+                    [menu_label] => #menu_root
+                    [menu_icon] => fa fa-institution
+                    [menu_ref] => root/overview/
+                    [right_id] => is_root
+                    [active] => 
+                )
+
+            [menu_admin] => Array
+                (
+                    [items] => Array
+                        (
+                        )
+
+                    [menu_id] => menu_admin
+                    [menu_label] => #menu_administration
+                    [menu_icon] => fa fa-dashboard
+                    [menu_ref] => admin/overview/
+                    [right_id] => 
+                    [active] => 
+                )
+
+            [menu_contact] => Array
+                (
+                    [items] => Array
+                        (
+                        )
+
+                    [menu_id] => menu_contact
+                    [menu_label] => #menu_contact
+                    [menu_icon] => fa fa-thumbs-o-up
+                    [menu_ref] => home/contact
+                    [right_id] => 
+                    [active] => 
+                )
+
+        )
+
+    [error] => 
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => 
+    [status] => SUCCESS
+    [redirect] => 
+)
+
+
+
+auth result error[] App\core\BASE_Result Object
+(
+    [data] => Array
+        (
+            [session_id] => 9iep8r1b9p2tf4ppi7c7svias9ict58r
+            [is_root] => 1
+            [js_enabled] => 
+            [logged_in] => 1
+            [logged_in_at] => 1696487764
+            [client_id] => 0
+            [client_customer_number] => 0
+            [client_name] => ABENA - Master client
+            [client_desc] => Abena GmbH
+            [client_email] => abena@abena.de 
+            [client_fax] => 0123456789
+            [client_phone] => 0123456789
+            [client_street] => Lösnitz Mark
+            [client_house_nr] => 23
+            [client_zipcode] => 06780
+            [client_location] => Zörbig
+            [client_country] => DE
+            [client_logo] => 
+            [client_created_at] => 1566570600
+            [user_id] => 848480003
+            [username] => sarika_admin
+            [email] => sarika.kharche@codenground.de
+            [phone] => 
+            [firstname] => Sarika
+            [lastname] => Kharche
+            [street] => 
+            [house_number] => 
+            [zipcode] => 
+            [location] => 
+            [country] => DE
+            [language] => DE
+            [scanagent_computer_id] => 
+            [team] => 
+            [created_at] => 1688976243
+            [last_login] => 1689051800
+            [permissions] => Array
+                (
+                    [is_root] => stdClass Object
+                        (
+                            [role_id] => none
+                            [right_id] => is_virtual_permission
+                            [right_name] => root_user
+                            [active] => 1
+                        )
+
+                )
+
+            [menu] => Array
+                (
+                    [menu_root] => Array
+                        (
+                            [items] => Array
+                                (
+                                )
+
+                            [menu_id] => menu_root
+                            [menu_label] => #menu_root
+                            [menu_icon] => fa fa-institution
+                            [menu_ref] => root/overview/
+                            [right_id] => is_root
+                            [active] => 
+                        )
+
+                    [menu_admin] => Array
+                        (
+                            [items] => Array
+                                (
+                                )
+
+                            [menu_id] => menu_admin
+                            [menu_label] => #menu_administration
+                            [menu_icon] => fa fa-dashboard
+                            [menu_ref] => admin/overview/
+                            [right_id] => 
+                            [active] => 
+                        )
+
+                    [menu_contact] => Array
+                        (
+                            [items] => Array
+                                (
+                                )
+
+                            [menu_id] => menu_contact
+                            [menu_label] => #menu_contact
+                            [menu_icon] => fa fa-thumbs-o-up
+                            [menu_ref] => home/contact
+                            [right_id] => 
+                            [active] => 
+                        )
+
+                )
+
+        )
+
+    [error] => 
+    [warning] => 
+    [info] => 
+    [success] => 
+    [messages] => 
+    [extra] => 
+    [status] => SUCCESS
+    [redirect] => 
+)
+
+User_model
+User_model
+User_model

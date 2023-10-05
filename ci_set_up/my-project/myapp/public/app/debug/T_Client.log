@@ -1,0 +1,24 @@
+
+T_Client src-Array
+(
+)
+
+result-App\Libraries\value_objects\T_Client Object
+(
+    [client_id] => 
+    [customer_number] => 
+    [client_name] => 
+    [client_desc] => 
+    [client_email] => 
+    [client_phone] => 
+    [client_fax] => 
+    [client_street] => 
+    [client_house_nr] => 
+    [client_zipcode] => 
+    [client_location] => 
+    [client_logo] => 
+    [client_theme] => 
+    [deleted] => 0
+    [deleted_by] => 
+    [deleted_at] => 
+)

@@ -42,7 +42,7 @@ $this->lang = \Config\Services::language();
 <body>
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<script>var baseUrl 	= "<?php echo base_url(); ?>";</script>
-	<!-- <script>
+	<script>
 		
 		var baseUrl 	= "<?php echo base_url(); ?>";
 		var env			= "<?php echo ENVIRONMENT; ?>";
@@ -59,7 +59,7 @@ $this->lang = \Config\Services::language();
 			} 
 		}
 		
-	</script> -->
+	</script>
 
 	<script src="<?php echo base_url(PATH_JS."generic/app.js");?>"></script>
 	<script src="<?php echo base_url(PATH_JS."generic/dialogs.js");?>"></script>

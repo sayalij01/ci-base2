@@ -1,0 +1,1719 @@
+
+this->
+App\Helpers\HTML_DTColumn Object
+(
+    [cls_draggable:protected] =>  draggable
+    [attributeBlacklist:protected] => Array
+        (
+            [0] => id
+            [1] => name
+            [2] => class
+            [3] => style
+        )
+
+    [defaultStyles:protected] => Array
+        (
+        )
+
+    [defaultClasses:protected] => Array
+        (
+            [column] => Array
+                (
+                    [0] => control
+                )
+
+        )
+
+    [id:protected] => control_col
+    [name] => control_col
+    [title:protected] => 
+    [visible] => 1
+    [enabled:protected] => 1
+    [draggable:protected] => 
+    [styles] => Array
+        (
+        )
+
+    [classes] => Array
+        (
+            [0] => control
+        )
+
+    [attributes] => Array
+        (
+            [data-field] => control_col
+        )
+
+    [styleString:protected] => 
+    [classString:protected] => 
+    [attrString:protected] => 
+    [table] => 
+    [data] => control_col
+    [label] => &nbsp;
+    [bSortable] => 
+    [sSortDataType] => string
+    [bVisible] => 1
+    [mRender] => 
+    [searchable] => 
+    [filter] => 
+)
+
+this->
+App\Helpers\HTML_DTColumn Object
+(
+    [cls_draggable:protected] =>  draggable
+    [attributeBlacklist:protected] => Array
+        (
+            [0] => id
+            [1] => name
+            [2] => class
+            [3] => style
+        )
+
+    [defaultStyles:protected] => Array
+        (
+        )
+
+    [defaultClasses:protected] => Array
+        (
+            [column] => Array
+                (
+                )
+
+        )
+
+    [id:protected] => client_id
+    [name] => client_id
+    [title:protected] => 
+    [visible] => 
+    [enabled:protected] => 1
+    [draggable:protected] => 
+    [styles] => Array
+        (
+        )
+
+    [classes] => Array
+        (
+            [0] => hidden
+        )
+
+    [attributes] => Array
+        (
+            [data-field] => client_id
+        )
+
+    [styleString:protected] => 
+    [classString:protected] => 
+    [attrString:protected] => 
+    [table] => 
+    [data] => client_id
+    [label] => id
+    [bSortable] => 
+    [sSortDataType] => string
+    [bVisible] => 
+    [mRender] => 
+    [searchable] => 1
+    [filter] => 
+)
+
+this->
+App\Helpers\HTML_DTColumn Object
+(
+    [cls_draggable:protected] =>  draggable
+    [attributeBlacklist:protected] => Array
+        (
+            [0] => id
+            [1] => name
+            [2] => class
+            [3] => style
+        )
+
+    [defaultStyles:protected] => Array
+        (
+        )
+
+    [defaultClasses:protected] => Array
+        (
+            [column] => Array
+                (
+                )
+
+        )
+
+    [id:protected] => client_name
+    [name] => client_name
+    [title:protected] => 
+    [visible] => 1
+    [enabled:protected] => 1
+    [draggable:protected] => 
+    [styles] => Array
+        (
+        )
+
+    [classes] => Array
+        (
+        )
+
+    [attributes] => Array
+        (
+            [data-field] => client_name
+        )
+
+    [styleString:protected] => 
+    [classString:protected] => 
+    [attrString:protected] => 
+    [table] => 
+    [data] => client_name
+    [label] => client_name
+    [bSortable] => 1
+    [sSortDataType] => string
+    [bVisible] => 1
+    [mRender] => 
+    [searchable] => 1
+    [filter] => 
+)
+
+this->
+App\Helpers\HTML_DTColumn Object
+(
+    [cls_draggable:protected] =>  draggable
+    [attributeBlacklist:protected] => Array
+        (
+            [0] => id
+            [1] => name
+            [2] => class
+            [3] => style
+        )
+
+    [defaultStyles:protected] => Array
+        (
+        )
+
+    [defaultClasses:protected] => Array
+        (
+            [column] => Array
+                (
+                )
+
+        )
+
+    [id:protected] => client_desc
+    [name] => client_desc
+    [title:protected] => 
+    [visible] => 1
+    [enabled:protected] => 1
+    [draggable:protected] => 
+    [styles] => Array
+        (
+        )
+
+    [classes] => Array
+        (
+        )
+
+    [attributes] => Array
+        (
+            [data-field] => client_desc
+        )
+
+    [styleString:protected] => 
+    [classString:protected] => 
+    [attrString:protected] => 
+    [table] => 
+    [data] => client_desc
+    [label] => desc
+    [bSortable] => 1
+    [sSortDataType] => string
+    [bVisible] => 1
+    [mRender] => 
+    [searchable] => 1
+    [filter] => 
+)
+
+this->
+App\Helpers\HTML_DTColumn Object
+(
+    [cls_draggable:protected] =>  draggable
+    [attributeBlacklist:protected] => Array
+        (
+            [0] => id
+            [1] => name
+            [2] => class
+            [3] => style
+        )
+
+    [defaultStyles:protected] => Array
+        (
+        )
+
+    [defaultClasses:protected] => Array
+        (
+            [column] => Array
+                (
+                )
+
+        )
+
+    [id:protected] => customer_number
+    [name] => customer_number
+    [title:protected] => 
+    [visible] => 1
+    [enabled:protected] => 1
+    [draggable:protected] => 
+    [styles] => Array
+        (
+        )
+
+    [classes] => Array
+        (
+        )
+
+    [attributes] => Array
+        (
+            [data-field] => customer_number
+        )
+
+    [styleString:protected] => 
+    [classString:protected] => 
+    [attrString:protected] => 
+    [table] => 
+    [data] => customer_number
+    [label] => customer_number
+    [bSortable] => 1
+    [sSortDataType] => string
+    [bVisible] => 1
+    [mRender] => 
+    [searchable] => 1
+    [filter] => 
+)
+
+this->
+App\Helpers\HTML_DTColumn Object
+(
+    [cls_draggable:protected] =>  draggable
+    [attributeBlacklist:protected] => Array
+        (
+            [0] => id
+            [1] => name
+            [2] => class
+            [3] => style
+        )
+
+    [defaultStyles:protected] => Array
+        (
+        )
+
+    [defaultClasses:protected] => Array
+        (
+            [column] => Array
+                (
+                )
+
+        )
+
+    [id:protected] => client_street
+    [name] => client_street
+    [title:protected] => 
+    [visible] => 1
+    [enabled:protected] => 1
+    [draggable:protected] => 
+    [styles] => Array
+        (
+        )
+
+    [classes] => Array
+        (
+        )
+
+    [attributes] => Array
+        (
+            [data-field] => client_street
+        )
+
+    [styleString:protected] => 
+    [classString:protected] => 
+    [attrString:protected] => 
+    [table] => 
+    [data] => client_street
+    [label] => street
+    [bSortable] => 1
+    [sSortDataType] => string
+    [bVisible] => 1
+    [mRender] => 
+    [searchable] => 1
+    [filter] => 
+)
+
+this->
+App\Helpers\HTML_DTColumn Object
+(
+    [cls_draggable:protected] =>  draggable
+    [attributeBlacklist:protected] => Array
+        (
+            [0] => id
+            [1] => name
+            [2] => class
+            [3] => style
+        )
+
+    [defaultStyles:protected] => Array
+        (
+        )
+
+    [defaultClasses:protected] => Array
+        (
+            [column] => Array
+                (
+                )
+
+        )
+
+    [id:protected] => client_zipcode
+    [name] => client_zipcode
+    [title:protected] => 
+    [visible] => 1
+    [enabled:protected] => 1
+    [draggable:protected] => 
+    [styles] => Array
+        (
+        )
+
+    [classes] => Array
+        (
+        )
+
+    [attributes] => Array
+        (
+            [data-field] => client_zipcode
+        )
+
+    [styleString:protected] => 
+    [classString:protected] => 
+    [attrString:protected] => 
+    [table] => 
+    [data] => client_zipcode
+    [label] => zipcode
+    [bSortable] => 1
+    [sSortDataType] => string
+    [bVisible] => 1
+    [mRender] => 
+    [searchable] => 1
+    [filter] => 
+)
+
+this->
+App\Helpers\HTML_DTColumn Object
+(
+    [cls_draggable:protected] =>  draggable
+    [attributeBlacklist:protected] => Array
+        (
+            [0] => id
+            [1] => name
+            [2] => class
+            [3] => style
+        )
+
+    [defaultStyles:protected] => Array
+        (
+        )
+
+    [defaultClasses:protected] => Array
+        (
+            [column] => Array
+                (
+                )
+
+        )
+
+    [id:protected] => client_location
+    [name] => client_location
+    [title:protected] => 
+    [visible] => 1
+    [enabled:protected] => 1
+    [draggable:protected] => 
+    [styles] => Array
+        (
+        )
+
+    [classes] => Array
+        (
+        )
+
+    [attributes] => Array
+        (
+            [data-field] => client_location
+        )
+
+    [styleString:protected] => 
+    [classString:protected] => 
+    [attrString:protected] => 
+    [table] => 
+    [data] => client_location
+    [label] => location
+    [bSortable] => 1
+    [sSortDataType] => string
+    [bVisible] => 1
+    [mRender] => 
+    [searchable] => 1
+    [filter] => 
+)
+
+this->
+App\Helpers\HTML_DTColumn Object
+(
+    [cls_draggable:protected] =>  draggable
+    [attributeBlacklist:protected] => Array
+        (
+            [0] => id
+            [1] => name
+            [2] => class
+            [3] => style
+        )
+
+    [defaultStyles:protected] => Array
+        (
+        )
+
+    [defaultClasses:protected] => Array
+        (
+            [column] => Array
+                (
+                )
+
+        )
+
+    [id:protected] => created_at
+    [name] => created_at
+    [title:protected] => 
+    [visible] => 1
+    [enabled:protected] => 1
+    [draggable:protected] => 
+    [styles] => Array
+        (
+        )
+
+    [classes] => Array
+        (
+        )
+
+    [attributes] => Array
+        (
+            [data-field] => created_at
+        )
+
+    [styleString:protected] => 
+    [classString:protected] => 
+    [attrString:protected] => 
+    [table] => 
+    [data] => created_at
+    [label] => created_at
+    [bSortable] => 1
+    [sSortDataType] => string
+    [bVisible] => 1
+    [mRender] => 
+    [searchable] => 1
+    [filter] => 
+)
+
+this->
+App\Helpers\HTML_DTColumn Object
+(
+    [cls_draggable:protected] =>  draggable
+    [attributeBlacklist:protected] => Array
+        (
+            [0] => id
+            [1] => name
+            [2] => class
+            [3] => style
+        )
+
+    [defaultStyles:protected] => Array
+        (
+        )
+
+    [defaultClasses:protected] => Array
+        (
+            [column] => Array
+                (
+                )
+
+        )
+
+    [id:protected] => deleted
+    [name] => deleted
+    [title:protected] => 
+    [visible] => 1
+    [enabled:protected] => 1
+    [draggable:protected] => 
+    [styles] => Array
+        (
+        )
+
+    [classes] => Array
+        (
+        )
+
+    [attributes] => Array
+        (
+            [data-field] => deleted
+        )
+
+    [styleString:protected] => 
+    [classString:protected] => 
+    [attrString:protected] => 
+    [table] => 
+    [data] => deleted
+    [label] => <i class="fa fa-trash-o"></i>
+    [bSortable] => 1
+    [sSortDataType] => string
+    [bVisible] => 1
+    [mRender] => 
+    [searchable] => 1
+    [filter] => 
+)
+
+this->
+App\Helpers\HTML_DTColumn Object
+(
+    [cls_draggable:protected] =>  draggable
+    [attributeBlacklist:protected] => Array
+        (
+            [0] => id
+            [1] => name
+            [2] => class
+            [3] => style
+        )
+
+    [defaultStyles:protected] => Array
+        (
+        )
+
+    [defaultClasses:protected] => Array
+        (
+            [column] => Array
+                (
+                    [0] => control
+                )
+
+        )
+
+    [id:protected] => control_col
+    [name] => control_col
+    [title:protected] => 
+    [visible] => 1
+    [enabled:protected] => 1
+    [draggable:protected] => 
+    [styles] => Array
+        (
+        )
+
+    [classes] => Array
+        (
+            [0] => control
+        )
+
+    [attributes] => Array
+        (
+            [data-field] => control_col
+        )
+
+    [styleString:protected] => 
+    [classString:protected] => 
+    [attrString:protected] => 
+    [table] => 
+    [data] => control_col
+    [label] => &nbsp;
+    [bSortable] => 
+    [sSortDataType] => string
+    [bVisible] => 1
+    [mRender] => 
+    [searchable] => 
+    [filter] => 
+)
+
+this->
+App\Helpers\HTML_DTColumn Object
+(
+    [cls_draggable:protected] =>  draggable
+    [attributeBlacklist:protected] => Array
+        (
+            [0] => id
+            [1] => name
+            [2] => class
+            [3] => style
+        )
+
+    [defaultStyles:protected] => Array
+        (
+        )
+
+    [defaultClasses:protected] => Array
+        (
+            [column] => Array
+                (
+                )
+
+        )
+
+    [id:protected] => client_id
+    [name] => client_id
+    [title:protected] => 
+    [visible] => 
+    [enabled:protected] => 1
+    [draggable:protected] => 
+    [styles] => Array
+        (
+        )
+
+    [classes] => Array
+        (
+            [0] => hidden
+        )
+
+    [attributes] => Array
+        (
+            [data-field] => client_id
+        )
+
+    [styleString:protected] => 
+    [classString:protected] => 
+    [attrString:protected] => 
+    [table] => 
+    [data] => client_id
+    [label] => id
+    [bSortable] => 
+    [sSortDataType] => string
+    [bVisible] => 
+    [mRender] => 
+    [searchable] => 1
+    [filter] => 
+)
+
+this->
+App\Helpers\HTML_DTColumn Object
+(
+    [cls_draggable:protected] =>  draggable
+    [attributeBlacklist:protected] => Array
+        (
+            [0] => id
+            [1] => name
+            [2] => class
+            [3] => style
+        )
+
+    [defaultStyles:protected] => Array
+        (
+        )
+
+    [defaultClasses:protected] => Array
+        (
+            [column] => Array
+                (
+                )
+
+        )
+
+    [id:protected] => client_name
+    [name] => client_name
+    [title:protected] => 
+    [visible] => 1
+    [enabled:protected] => 1
+    [draggable:protected] => 
+    [styles] => Array
+        (
+        )
+
+    [classes] => Array
+        (
+        )
+
+    [attributes] => Array
+        (
+            [data-field] => client_name
+        )
+
+    [styleString:protected] => 
+    [classString:protected] => 
+    [attrString:protected] => 
+    [table] => 
+    [data] => client_name
+    [label] => client_name
+    [bSortable] => 1
+    [sSortDataType] => string
+    [bVisible] => 1
+    [mRender] => 
+    [searchable] => 1
+    [filter] => 
+)
+
+this->
+App\Helpers\HTML_DTColumn Object
+(
+    [cls_draggable:protected] =>  draggable
+    [attributeBlacklist:protected] => Array
+        (
+            [0] => id
+            [1] => name
+            [2] => class
+            [3] => style
+        )
+
+    [defaultStyles:protected] => Array
+        (
+        )
+
+    [defaultClasses:protected] => Array
+        (
+            [column] => Array
+                (
+                )
+
+        )
+
+    [id:protected] => client_desc
+    [name] => client_desc
+    [title:protected] => 
+    [visible] => 1
+    [enabled:protected] => 1
+    [draggable:protected] => 
+    [styles] => Array
+        (
+        )
+
+    [classes] => Array
+        (
+        )
+
+    [attributes] => Array
+        (
+            [data-field] => client_desc
+        )
+
+    [styleString:protected] => 
+    [classString:protected] => 
+    [attrString:protected] => 
+    [table] => 
+    [data] => client_desc
+    [label] => desc
+    [bSortable] => 1
+    [sSortDataType] => string
+    [bVisible] => 1
+    [mRender] => 
+    [searchable] => 1
+    [filter] => 
+)
+
+this->
+App\Helpers\HTML_DTColumn Object
+(
+    [cls_draggable:protected] =>  draggable
+    [attributeBlacklist:protected] => Array
+        (
+            [0] => id
+            [1] => name
+            [2] => class
+            [3] => style
+        )
+
+    [defaultStyles:protected] => Array
+        (
+        )
+
+    [defaultClasses:protected] => Array
+        (
+            [column] => Array
+                (
+                )
+
+        )
+
+    [id:protected] => customer_number
+    [name] => customer_number
+    [title:protected] => 
+    [visible] => 1
+    [enabled:protected] => 1
+    [draggable:protected] => 
+    [styles] => Array
+        (
+        )
+
+    [classes] => Array
+        (
+        )
+
+    [attributes] => Array
+        (
+            [data-field] => customer_number
+        )
+
+    [styleString:protected] => 
+    [classString:protected] => 
+    [attrString:protected] => 
+    [table] => 
+    [data] => customer_number
+    [label] => customer_number
+    [bSortable] => 1
+    [sSortDataType] => string
+    [bVisible] => 1
+    [mRender] => 
+    [searchable] => 1
+    [filter] => 
+)
+
+this->
+App\Helpers\HTML_DTColumn Object
+(
+    [cls_draggable:protected] =>  draggable
+    [attributeBlacklist:protected] => Array
+        (
+            [0] => id
+            [1] => name
+            [2] => class
+            [3] => style
+        )
+
+    [defaultStyles:protected] => Array
+        (
+        )
+
+    [defaultClasses:protected] => Array
+        (
+            [column] => Array
+                (
+                )
+
+        )
+
+    [id:protected] => client_street
+    [name] => client_street
+    [title:protected] => 
+    [visible] => 1
+    [enabled:protected] => 1
+    [draggable:protected] => 
+    [styles] => Array
+        (
+        )
+
+    [classes] => Array
+        (
+        )
+
+    [attributes] => Array
+        (
+            [data-field] => client_street
+        )
+
+    [styleString:protected] => 
+    [classString:protected] => 
+    [attrString:protected] => 
+    [table] => 
+    [data] => client_street
+    [label] => street
+    [bSortable] => 1
+    [sSortDataType] => string
+    [bVisible] => 1
+    [mRender] => 
+    [searchable] => 1
+    [filter] => 
+)
+
+this->
+App\Helpers\HTML_DTColumn Object
+(
+    [cls_draggable:protected] =>  draggable
+    [attributeBlacklist:protected] => Array
+        (
+            [0] => id
+            [1] => name
+            [2] => class
+            [3] => style
+        )
+
+    [defaultStyles:protected] => Array
+        (
+        )
+
+    [defaultClasses:protected] => Array
+        (
+            [column] => Array
+                (
+                )
+
+        )
+
+    [id:protected] => client_zipcode
+    [name] => client_zipcode
+    [title:protected] => 
+    [visible] => 1
+    [enabled:protected] => 1
+    [draggable:protected] => 
+    [styles] => Array
+        (
+        )
+
+    [classes] => Array
+        (
+        )
+
+    [attributes] => Array
+        (
+            [data-field] => client_zipcode
+        )
+
+    [styleString:protected] => 
+    [classString:protected] => 
+    [attrString:protected] => 
+    [table] => 
+    [data] => client_zipcode
+    [label] => zipcode
+    [bSortable] => 1
+    [sSortDataType] => string
+    [bVisible] => 1
+    [mRender] => 
+    [searchable] => 1
+    [filter] => 
+)
+
+this->
+App\Helpers\HTML_DTColumn Object
+(
+    [cls_draggable:protected] =>  draggable
+    [attributeBlacklist:protected] => Array
+        (
+            [0] => id
+            [1] => name
+            [2] => class
+            [3] => style
+        )
+
+    [defaultStyles:protected] => Array
+        (
+        )
+
+    [defaultClasses:protected] => Array
+        (
+            [column] => Array
+                (
+                )
+
+        )
+
+    [id:protected] => client_location
+    [name] => client_location
+    [title:protected] => 
+    [visible] => 1
+    [enabled:protected] => 1
+    [draggable:protected] => 
+    [styles] => Array
+        (
+        )
+
+    [classes] => Array
+        (
+        )
+
+    [attributes] => Array
+        (
+            [data-field] => client_location
+        )
+
+    [styleString:protected] => 
+    [classString:protected] => 
+    [attrString:protected] => 
+    [table] => 
+    [data] => client_location
+    [label] => location
+    [bSortable] => 1
+    [sSortDataType] => string
+    [bVisible] => 1
+    [mRender] => 
+    [searchable] => 1
+    [filter] => 
+)
+
+this->
+App\Helpers\HTML_DTColumn Object
+(
+    [cls_draggable:protected] =>  draggable
+    [attributeBlacklist:protected] => Array
+        (
+            [0] => id
+            [1] => name
+            [2] => class
+            [3] => style
+        )
+
+    [defaultStyles:protected] => Array
+        (
+        )
+
+    [defaultClasses:protected] => Array
+        (
+            [column] => Array
+                (
+                )
+
+        )
+
+    [id:protected] => created_at
+    [name] => created_at
+    [title:protected] => 
+    [visible] => 1
+    [enabled:protected] => 1
+    [draggable:protected] => 
+    [styles] => Array
+        (
+        )
+
+    [classes] => Array
+        (
+        )
+
+    [attributes] => Array
+        (
+            [data-field] => created_at
+        )
+
+    [styleString:protected] => 
+    [classString:protected] => 
+    [attrString:protected] => 
+    [table] => 
+    [data] => created_at
+    [label] => created_at
+    [bSortable] => 1
+    [sSortDataType] => string
+    [bVisible] => 1
+    [mRender] => 
+    [searchable] => 1
+    [filter] => 
+)
+
+this->
+App\Helpers\HTML_DTColumn Object
+(
+    [cls_draggable:protected] =>  draggable
+    [attributeBlacklist:protected] => Array
+        (
+            [0] => id
+            [1] => name
+            [2] => class
+            [3] => style
+        )
+
+    [defaultStyles:protected] => Array
+        (
+        )
+
+    [defaultClasses:protected] => Array
+        (
+            [column] => Array
+                (
+                )
+
+        )
+
+    [id:protected] => deleted
+    [name] => deleted
+    [title:protected] => 
+    [visible] => 1
+    [enabled:protected] => 1
+    [draggable:protected] => 
+    [styles] => Array
+        (
+        )
+
+    [classes] => Array
+        (
+        )
+
+    [attributes] => Array
+        (
+            [data-field] => deleted
+        )
+
+    [styleString:protected] => 
+    [classString:protected] => 
+    [attrString:protected] => 
+    [table] => 
+    [data] => deleted
+    [label] => <i class="fa fa-trash-o"></i>
+    [bSortable] => 1
+    [sSortDataType] => string
+    [bVisible] => 1
+    [mRender] => 
+    [searchable] => 1
+    [filter] => 
+)
+
+this->
+App\Helpers\HTML_DTColumn Object
+(
+    [cls_draggable:protected] =>  draggable
+    [attributeBlacklist:protected] => Array
+        (
+            [0] => id
+            [1] => name
+            [2] => class
+            [3] => style
+        )
+
+    [defaultStyles:protected] => Array
+        (
+        )
+
+    [defaultClasses:protected] => Array
+        (
+            [column] => Array
+                (
+                    [0] => control
+                )
+
+        )
+
+    [id:protected] => control_col
+    [name] => control_col
+    [title:protected] => 
+    [visible] => 1
+    [enabled:protected] => 1
+    [draggable:protected] => 
+    [styles] => Array
+        (
+        )
+
+    [classes] => Array
+        (
+            [0] => control
+        )
+
+    [attributes] => Array
+        (
+            [data-field] => control_col
+        )
+
+    [styleString:protected] => 
+    [classString:protected] => 
+    [attrString:protected] => 
+    [table] => 
+    [data] => control_col
+    [label] => &nbsp;
+    [bSortable] => 
+    [sSortDataType] => string
+    [bVisible] => 1
+    [mRender] => 
+    [searchable] => 
+    [filter] => 
+)
+
+this->
+App\Helpers\HTML_DTColumn Object
+(
+    [cls_draggable:protected] =>  draggable
+    [attributeBlacklist:protected] => Array
+        (
+            [0] => id
+            [1] => name
+            [2] => class
+            [3] => style
+        )
+
+    [defaultStyles:protected] => Array
+        (
+        )
+
+    [defaultClasses:protected] => Array
+        (
+            [column] => Array
+                (
+                )
+
+        )
+
+    [id:protected] => client_id
+    [name] => client_id
+    [title:protected] => 
+    [visible] => 
+    [enabled:protected] => 1
+    [draggable:protected] => 
+    [styles] => Array
+        (
+        )
+
+    [classes] => Array
+        (
+            [0] => hidden
+        )
+
+    [attributes] => Array
+        (
+            [data-field] => client_id
+        )
+
+    [styleString:protected] => 
+    [classString:protected] => 
+    [attrString:protected] => 
+    [table] => 
+    [data] => client_id
+    [label] => id
+    [bSortable] => 
+    [sSortDataType] => string
+    [bVisible] => 
+    [mRender] => 
+    [searchable] => 1
+    [filter] => 
+)
+
+this->
+App\Helpers\HTML_DTColumn Object
+(
+    [cls_draggable:protected] =>  draggable
+    [attributeBlacklist:protected] => Array
+        (
+            [0] => id
+            [1] => name
+            [2] => class
+            [3] => style
+        )
+
+    [defaultStyles:protected] => Array
+        (
+        )
+
+    [defaultClasses:protected] => Array
+        (
+            [column] => Array
+                (
+                )
+
+        )
+
+    [id:protected] => client_name
+    [name] => client_name
+    [title:protected] => 
+    [visible] => 1
+    [enabled:protected] => 1
+    [draggable:protected] => 
+    [styles] => Array
+        (
+        )
+
+    [classes] => Array
+        (
+        )
+
+    [attributes] => Array
+        (
+            [data-field] => client_name
+        )
+
+    [styleString:protected] => 
+    [classString:protected] => 
+    [attrString:protected] => 
+    [table] => 
+    [data] => client_name
+    [label] => client_name
+    [bSortable] => 1
+    [sSortDataType] => string
+    [bVisible] => 1
+    [mRender] => 
+    [searchable] => 1
+    [filter] => 
+)
+
+this->
+App\Helpers\HTML_DTColumn Object
+(
+    [cls_draggable:protected] =>  draggable
+    [attributeBlacklist:protected] => Array
+        (
+            [0] => id
+            [1] => name
+            [2] => class
+            [3] => style
+        )
+
+    [defaultStyles:protected] => Array
+        (
+        )
+
+    [defaultClasses:protected] => Array
+        (
+            [column] => Array
+                (
+                )
+
+        )
+
+    [id:protected] => client_desc
+    [name] => client_desc
+    [title:protected] => 
+    [visible] => 1
+    [enabled:protected] => 1
+    [draggable:protected] => 
+    [styles] => Array
+        (
+        )
+
+    [classes] => Array
+        (
+        )
+
+    [attributes] => Array
+        (
+            [data-field] => client_desc
+        )
+
+    [styleString:protected] => 
+    [classString:protected] => 
+    [attrString:protected] => 
+    [table] => 
+    [data] => client_desc
+    [label] => desc
+    [bSortable] => 1
+    [sSortDataType] => string
+    [bVisible] => 1
+    [mRender] => 
+    [searchable] => 1
+    [filter] => 
+)
+
+this->
+App\Helpers\HTML_DTColumn Object
+(
+    [cls_draggable:protected] =>  draggable
+    [attributeBlacklist:protected] => Array
+        (
+            [0] => id
+            [1] => name
+            [2] => class
+            [3] => style
+        )
+
+    [defaultStyles:protected] => Array
+        (
+        )
+
+    [defaultClasses:protected] => Array
+        (
+            [column] => Array
+                (
+                )
+
+        )
+
+    [id:protected] => customer_number
+    [name] => customer_number
+    [title:protected] => 
+    [visible] => 1
+    [enabled:protected] => 1
+    [draggable:protected] => 
+    [styles] => Array
+        (
+        )
+
+    [classes] => Array
+        (
+        )
+
+    [attributes] => Array
+        (
+            [data-field] => customer_number
+        )
+
+    [styleString:protected] => 
+    [classString:protected] => 
+    [attrString:protected] => 
+    [table] => 
+    [data] => customer_number
+    [label] => customer_number
+    [bSortable] => 1
+    [sSortDataType] => string
+    [bVisible] => 1
+    [mRender] => 
+    [searchable] => 1
+    [filter] => 
+)
+
+this->
+App\Helpers\HTML_DTColumn Object
+(
+    [cls_draggable:protected] =>  draggable
+    [attributeBlacklist:protected] => Array
+        (
+            [0] => id
+            [1] => name
+            [2] => class
+            [3] => style
+        )
+
+    [defaultStyles:protected] => Array
+        (
+        )
+
+    [defaultClasses:protected] => Array
+        (
+            [column] => Array
+                (
+                )
+
+        )
+
+    [id:protected] => client_street
+    [name] => client_street
+    [title:protected] => 
+    [visible] => 1
+    [enabled:protected] => 1
+    [draggable:protected] => 
+    [styles] => Array
+        (
+        )
+
+    [classes] => Array
+        (
+        )
+
+    [attributes] => Array
+        (
+            [data-field] => client_street
+        )
+
+    [styleString:protected] => 
+    [classString:protected] => 
+    [attrString:protected] => 
+    [table] => 
+    [data] => client_street
+    [label] => street
+    [bSortable] => 1
+    [sSortDataType] => string
+    [bVisible] => 1
+    [mRender] => 
+    [searchable] => 1
+    [filter] => 
+)
+
+this->
+App\Helpers\HTML_DTColumn Object
+(
+    [cls_draggable:protected] =>  draggable
+    [attributeBlacklist:protected] => Array
+        (
+            [0] => id
+            [1] => name
+            [2] => class
+            [3] => style
+        )
+
+    [defaultStyles:protected] => Array
+        (
+        )
+
+    [defaultClasses:protected] => Array
+        (
+            [column] => Array
+                (
+                )
+
+        )
+
+    [id:protected] => client_zipcode
+    [name] => client_zipcode
+    [title:protected] => 
+    [visible] => 1
+    [enabled:protected] => 1
+    [draggable:protected] => 
+    [styles] => Array
+        (
+        )
+
+    [classes] => Array
+        (
+        )
+
+    [attributes] => Array
+        (
+            [data-field] => client_zipcode
+        )
+
+    [styleString:protected] => 
+    [classString:protected] => 
+    [attrString:protected] => 
+    [table] => 
+    [data] => client_zipcode
+    [label] => zipcode
+    [bSortable] => 1
+    [sSortDataType] => string
+    [bVisible] => 1
+    [mRender] => 
+    [searchable] => 1
+    [filter] => 
+)
+
+this->
+App\Helpers\HTML_DTColumn Object
+(
+    [cls_draggable:protected] =>  draggable
+    [attributeBlacklist:protected] => Array
+        (
+            [0] => id
+            [1] => name
+            [2] => class
+            [3] => style
+        )
+
+    [defaultStyles:protected] => Array
+        (
+        )
+
+    [defaultClasses:protected] => Array
+        (
+            [column] => Array
+                (
+                )
+
+        )
+
+    [id:protected] => client_location
+    [name] => client_location
+    [title:protected] => 
+    [visible] => 1
+    [enabled:protected] => 1
+    [draggable:protected] => 
+    [styles] => Array
+        (
+        )
+
+    [classes] => Array
+        (
+        )
+
+    [attributes] => Array
+        (
+            [data-field] => client_location
+        )
+
+    [styleString:protected] => 
+    [classString:protected] => 
+    [attrString:protected] => 
+    [table] => 
+    [data] => client_location
+    [label] => location
+    [bSortable] => 1
+    [sSortDataType] => string
+    [bVisible] => 1
+    [mRender] => 
+    [searchable] => 1
+    [filter] => 
+)
+
+this->
+App\Helpers\HTML_DTColumn Object
+(
+    [cls_draggable:protected] =>  draggable
+    [attributeBlacklist:protected] => Array
+        (
+            [0] => id
+            [1] => name
+            [2] => class
+            [3] => style
+        )
+
+    [defaultStyles:protected] => Array
+        (
+        )
+
+    [defaultClasses:protected] => Array
+        (
+            [column] => Array
+                (
+                )
+
+        )
+
+    [id:protected] => created_at
+    [name] => created_at
+    [title:protected] => 
+    [visible] => 1
+    [enabled:protected] => 1
+    [draggable:protected] => 
+    [styles] => Array
+        (
+        )
+
+    [classes] => Array
+        (
+        )
+
+    [attributes] => Array
+        (
+            [data-field] => created_at
+        )
+
+    [styleString:protected] => 
+    [classString:protected] => 
+    [attrString:protected] => 
+    [table] => 
+    [data] => created_at
+    [label] => created_at
+    [bSortable] => 1
+    [sSortDataType] => string
+    [bVisible] => 1
+    [mRender] => 
+    [searchable] => 1
+    [filter] => 
+)
+
+this->
+App\Helpers\HTML_DTColumn Object
+(
+    [cls_draggable:protected] =>  draggable
+    [attributeBlacklist:protected] => Array
+        (
+            [0] => id
+            [1] => name
+            [2] => class
+            [3] => style
+        )
+
+    [defaultStyles:protected] => Array
+        (
+        )
+
+    [defaultClasses:protected] => Array
+        (
+            [column] => Array
+                (
+                )
+
+        )
+
+    [id:protected] => deleted
+    [name] => deleted
+    [title:protected] => 
+    [visible] => 1
+    [enabled:protected] => 1
+    [draggable:protected] => 
+    [styles] => Array
+        (
+        )
+
+    [classes] => Array
+        (
+        )
+
+    [attributes] => Array
+        (
+            [data-field] => deleted
+        )
+
+    [styleString:protected] => 
+    [classString:protected] => 
+    [attrString:protected] => 
+    [table] => 
+    [data] => deleted
+    [label] => <i class="fa fa-trash-o"></i>
+    [bSortable] => 1
+    [sSortDataType] => string
+    [bVisible] => 1
+    [mRender] => 
+    [searchable] => 1
+    [filter] => 
+)

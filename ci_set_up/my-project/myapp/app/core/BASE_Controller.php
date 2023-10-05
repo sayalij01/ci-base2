@@ -558,7 +558,7 @@ class BASE_Controller extends Controller
 					$toMenu["menu_localizations"]	= $localizations;
 					$toMenu["menu_userRight"]		= $rights;
 					$toMenu["menu_data"]			= $menu;
-
+					$toMenu["username"]            = $this->getSessionData(E_SESSION_ITEM::USERNAME);
 
 					write2Debugfile(self::DEBUG_FILENAME, " - toMenu:".print_r($toMenu, true));
 					// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..

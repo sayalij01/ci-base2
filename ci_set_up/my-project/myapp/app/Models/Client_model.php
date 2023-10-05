@@ -51,7 +51,6 @@ class Client_model extends BASE_Model
 	function create($data)
 	{
 		$root_clientID = $this->config->root_client_id;
-
 		if ($data["client_id"] == ""){
 			$data["client_id"] 	= BASE_Model::generateUID(TBL_CLIENTS, "client_id", "", true, 12);
 		}
@@ -66,55 +65,54 @@ class Client_model extends BASE_Model
 
 		// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
 		// create the initial user with administrator role assigned
-		// $password_plain 	= $this->config->default_password;
-		// $salt				= "bdgdjfhy";
-		// $password_hashed	= hash_password($salt, $password_plain);
-		// $user_id 			= BASE_Model::generateUID(TBL_USER, "user_id", "init_", false, 12);
-		// $username 			= "admin_".$data["customer_number"];
-		// $country			= "DE";
-		// $language			= "DE";
+		$password_plain 	= $this->config->default_password;
+		$salt				= "bdgdjfhy";
+		$password_hashed	= hash_password($salt, $password_plain);
+		$user_id 			= BASE_Model::generateUID(TBL_USER, "user_id", "init_", false, 12);
+		$username 			= "admin_".$data["customer_number"];
+		$country			= "DE";
+		$language			= "DE";
 
-		// $userdata = array(
-		// 	"client_id" => $client_id, "user_id" => $user_id,
-		// 	"username" => $username, "password" => $password_hashed, "salt"=>$salt, "email"=>$data["client_email"],
-		// 	"firstname"=>"Admin", "lastname"=>$data["client_name"],
-		// 	"street"=>$data["client_street"], "house_number"=>$data["client_house_nr"], "zipcode"=>$data["client_zipcode"], "location"=>$data["client_location"],
-		// 	"country"=>$country, "language"=>$language, "failed_logins"=>0, "created_at"=>time(), "activated"=>1, "activated_at"=>time()
-		// );
-		// $queries[] = $this->getInsertString(TBL_USER, $userdata);
+		$userdata = array(
+			"client_id" => $client_id, "user_id" => $user_id,
+			"username" => $username, "password" => $password_hashed, "salt"=>$salt, "email"=>$data["client_email"],
+			"firstname"=>"Admin", "lastname"=>$data["client_name"],
+			"street"=>$data["client_street"], "house_number"=>$data["client_house_nr"], "zipcode"=>$data["client_zipcode"], "location"=>$data["client_location"],
+			"country"=>$country, "language"=>$language, "failed_logins"=>0, "created_at"=>time(), "activated"=>1, "activated_at"=>time()
+		);
+		$queries[] = $this->getInsertString(TBL_USER, $userdata);
 
 		// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
 		// Get base roles from ROOT-CLIENT to copy
-		// $roles 	= $this->BASE_Select(TBL_ROLES, array("client_id"=>"$root_clientID", "is_static"=>1, "is_root"=>0, "deleted"=>0));
-		// //write2Debugfile(self::DEBUG_FILENAME, "- get roles:\n".$this->lastQuery());
+		$roles 	= $this->BASE_Select(TBL_ROLES, array("client_id"=>"$root_clientID", "is_static"=>1, "is_root"=>0, "deleted"=>0));
+		foreach ($roles->data as $key => $role)
+		{
+			$role->client_id 	= $client_id;
+			$role->created_at 	= time();
 
-		// foreach ($roles->data as $key => $role)
-		// {
-		// 	$role->client_id 	= $client_id;
-		// 	$role->created_at 	= time();
+			$queries[] = $this->getInsertString(TBL_ROLES, $role);
+			$queries[] = $this->getInsertString(TBL_USER_ROLES, array("client_id"=>$client_id, "user_id"=>$user_id, "role_id"=>$role->role_id));
 
-		// 	$queries[] = $this->getInsertString(TBL_ROLES, $role);
-		// 	$queries[] = $this->getInsertString(TBL_USER_ROLES, array("client_id"=>$client_id, "user_id"=>$user_id, "role_id"=>$role->role_id));
+			// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
+			$roles_rights = $this->BASE_Select(TBL_ROLES_RIGHTS, array("client_id"=>"$root_clientID", "role_id"=>$role->role_id));
+		//write2Debugfile(self::DEBUG_FILENAME, "- role rights:\n".$this->lastQuery());
 
-		// 	// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
-		// 	$roles_rights = $this->BASE_Select(TBL_ROLES_RIGHTS, array("client_id"=>"$root_clientID", "role_id"=>$role->role_id));
-		// 	//write2Debugfile(self::DEBUG_FILENAME, "- role rights:\n".$this->lastQuery());
-
-		// 	foreach ($roles_rights->data as $key => $roles_right) {
-		// 		$queries[] = $this->getInsertString(TBL_ROLES_RIGHTS, array("client_id"=>$client_id, "role_id"=>$role->role_id, "right_id"=>$roles_right->right_id));
-		// 	}
-		// }
+			foreach ($roles_rights->data as $key => $roles_right) {
+				$queries[] = $this->getInsertString(TBL_ROLES_RIGHTS, array("client_id"=>$client_id, "role_id"=>$role->role_id, "right_id"=>$roles_right->right_id));
+			}
+		}
 		// write2Debugfile(self::DEBUG_FILENAME, "roles count[".count($roles->data)."]");
 
 		// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
 		// Get all rights from ROOT-CLIENT to copy
-		// $rights = $this->BASE_Select(TBL_RIGHTS, array("client_id"=>"0", "is_root_right"=>0));
-		// foreach ($rights->data as $key => $right)
-		// {
-		// 	$right->client_id = $client_id;
-		// 	$queries[] = $this->getInsertString(TBL_RIGHTS, $right);
-		// }
-		// write2Debugfile(self::DEBUG_FILENAME, "rights count[".count($rights->data)."]");
+		$rights = $this->BASE_Select(TBL_RIGHTS, array("client_id"=>"0", "is_root_right"=>0));
+
+		foreach ($rights->data as $key => $right)
+		{
+			$right->client_id = $client_id;
+			$queries[] = $this->getInsertString(TBL_RIGHTS, $right);
+		}
+		write2Debugfile(self::DEBUG_FILENAME, "rights count[".count($rights->data)."]");
 
 		// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
 		$queries_string = "";
@@ -124,11 +122,14 @@ class Client_model extends BASE_Model
 
 
 		write2Debugfile(self::DEBUG_FILENAME, count($queries)." queries -\n".$queries_string);
+		// echo "<pre>";print_r($queries);die;
+
 		$return = $this->BASE_Transaction($queries);
 
 		if ($return->error == ""){
 			// $return->messages = "initial-user: ".$username;
 		}
+
 
 
 		write2Debugfile(self::DEBUG_FILENAME, "return-".print_r($return, true));
@@ -166,12 +167,6 @@ class Client_model extends BASE_Model
 
         $builder->where('deleted',0);
 
- 
-
-       
-
- 
-
         $includeRoot = true;
 
         if ($includeRoot === false){
@@ -180,17 +175,11 @@ class Client_model extends BASE_Model
 
         }
 
- 
-
         $query = $builder->get();
 
         $clients = $query->getResult('array');
 
- 
-
         $result = [];
-
- 
 
         foreach ($clients as $row) {
 
@@ -198,11 +187,9 @@ class Client_model extends BASE_Model
 
             // Customize your data here as per your edit_column logic
 
-            $row['client_name'] = $this->callback_build_buttons($row['client_id'], $row['client_name'], "clients", $btnEdit, $btnDel, 0, 0, 0);
+            $row['client_name'] = $this->callback_build_buttons($row['client_id'], $row['client_name'], "clients", true, true, 0, 0, 0);
 
             $row['deleted'] = $this->callback_deleted_client($row['client_id'], $row['deleted']);
-
- 
 
             $result[] = $row;
 
@@ -211,8 +198,6 @@ class Client_model extends BASE_Model
             // echo $row['role_name'];die;
 
         }
-
- 
 
         return new BASE_Result($result, "", $result, E_STATUS_CODE::SUCCESS);
 	}
@@ -397,90 +382,41 @@ class Client_model extends BASE_Model
 	}
 
 	public function callback_build_buttons($id, $name, $class, $btn_edit=true, $btn_delete=true, $static_permission=false, $is_static=false, $encrypt=false)
-
     {
-
-        // write2Debugfile("callback_build_role_buttons.log", "\nid[$id] name[$name] class[$class] edit[$btn_edit] delete[$btn_delete] hasPermission4Static[$static_permission] isStatic[$is_static] encrypt[$encrypt]");
-
+		// echo $id ." ". $name." ".$class." ".$btn_edit." ".$btn_delete;die;
         if ($encrypt == true){
-
-            $id = encrypt_string($id);
-
-        }
-
- 
-
-        if ($is_static){
-
-            $name=lang($name);
-
-        }
-
-       
-
-        $buttons    = "";
-
- 
-
-        if ($btn_delete){
-
-           
-
-            if ($is_static && $static_permission == false){
-
-                $buttons .= '<label class="dtbt_remove btn btn-xs btn-danger disabled"><i class="fa fa-trash" title="\''.$name.'\'&nbsp;'.lang("delete").'"></i></label>&nbsp;';
-
-            }
-
-            else{
-
-                // $buttons .= "delete";
-
- 
-
-                $buttons .= '<a href="'.base_url().'remove/'.$id.'" onclick="$.'.$class.'.remove(\''.$id.'\')" class=" btn btn-danger"><i class="fa fa-trash"></i></a>&nbsp;';
-
-            }
-
-        }
-
- 
-
-        if ($btn_edit){
-
-            // $buttons .= "edit";
-
-            // $buttons .='<a href="#">Edit</a>';
-
-            $buttons .= '<a href="'.base_url().'edit/'.$id.'" onclick="$.'.$class.'.edit(\''.$id.'\')" class="dtbt_edit btn btn-xs btn-primary"><i class="fa fa-pencil" title="\''.$name.'\'&nbsp;'.lang("edit").'"></i></a>&nbsp;';
-
- 
-
-            // $buttons .= '<a href="'.base_url().'admin/'.$class.'/edit/'.$id.'" onclick="$.'.$class.'.edit(\''.$id.'\')" class="dtbt_edit btn btn-xs btn-primary"><i class="fa fa-pencil" title="\''.$name.'\'&nbsp;'.lang("edit").'"></i></a>&nbsp;';
-
-        }
-
-        // print_r($buttons );
-
- 
-
-        return $buttons. " ". $name;
+			$id = encrypt_string($id);
+		}
+	
+		if ($is_static){
+			$name=lang($name);
+		}
+		
+		$buttons 	= "";
+	
+		if ($btn_delete){
+			
+			if ($is_static && $static_permission == false){
+				$buttons .= '<label class="dtbt_remove btn btn-xs btn-danger disabled"><i class="fa fa-trash" title="\''.$name.'\'&nbsp;'.lang("delete").'"></i></label>&nbsp;';
+			}
+			else{
+				// $buttons .= "delete";
+	
+				$buttons .= '<a href="'.base_url().'remove-client/'.$id.'" onclick="$.'.$class.'.remove(\''.$id.'\')" class=" btn btn-danger"><i class="fa fa-trash"></i></a>&nbsp;';
+			}
+		}
+	
+		if ($btn_edit){
+			// $buttons .= "edit";
+			// $buttons .='<a href="#">Edit</a>';
+			$buttons .= '<a href="'.base_url().'edit-client/'.$id.'" onclick="$.'.$class.'.edit(\''.$id.'\')" class="dtbt_edit btn btn-xs btn-primary"><i class="fa fa-pencil" title="\''.$name.'\'&nbsp;'.lang("edit").'"></i></a>&nbsp;';
+	
+			// $buttons .= '<a href="'.base_url().'admin/'.$class.'/edit/'.$id.'" onclick="$.'.$class.'.edit(\''.$id.'\')" class="dtbt_edit btn btn-xs btn-primary"><i class="fa fa-pencil" title="\''.$name.'\'&nbsp;'.lang("edit").'"></i></a>&nbsp;';
+		}
+	
+		return $buttons. " ". $name;
 
     }
 
 }
-/**
- * datatable callback function for the 'deleted' column
- *
- * @author _BA5E
- * @category Model
- * @package application\models\clients_model
- * @since 1.2
- * @version 1.2
- *
- * @param string $id
- * @param string $deleted
- *
- * @return string
- */
 

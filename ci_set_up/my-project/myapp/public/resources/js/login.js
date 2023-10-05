@@ -9,7 +9,7 @@ $.login = {
 
 $.login.authenticate = function(frm_id)
 {
-	$.app.toConsole({"fkt":"$.login.authenticate"});
+	console.log({"fkt":"$.login.authenticate"});
 	
 	if ($('#'+frm_id).length > 0)
 	{
@@ -17,7 +17,7 @@ $.login.authenticate = function(frm_id)
 		
 		$.app.sendAjaxRequest(baseUrl+"admin/login/ajax_authenticate", params, function success(result)
 		{
-			$.app.toConsole({"fkt":"userlogin ajax callback ", "data":result});
+			console.log({"fkt":"userlogin ajax callback ", "data":result});
 			
 			$.app.setFormValidationStates(frm_id, result.error, result.extra, null);
 
@@ -27,11 +27,11 @@ $.login.authenticate = function(frm_id)
 			else{
 				$.app.redirect(baseUrl + result.data.redirect_to);
 			}
-		}, true, null, $.lang.item('progress_login'));
+		}, true, null, null);
 
 	}
 	else{
-		$.app.toConsole(" - form not found");
+		console.log(" - form not found");
 	}
 }
 
@@ -54,7 +54,7 @@ $.login.preload = function()
 
 $(document).ready(function()
 {
-	$.app.toConsole("login.js ready");
+	console.log("login.js ready");
 
 	$('#form_login').submit(function(e) {
         e.preventDefault();

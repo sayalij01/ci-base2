@@ -58,7 +58,7 @@ class BASE_Model extends Model
 	 * @param bool $escape_queries	>> runs the escape-method for each query if true (default:false)
 	 * @return BASE_Result
 	 */
-    public function BASE_Transaction($queries, $escape_queries=false)
+   /*  public function BASE_Transaction($queries, $escape_queries=false)
     {
         if (!is_array($queries) or count($queries) == 0){
             throw new Exception("array with one or more queries expected");
@@ -111,6 +111,39 @@ class BASE_Model extends Model
         }
 
         return new BASE_Result( ($error == "" ? true:false), $error, null, $status);
+    } */
+	public function BASE_Transaction($queries, $escape_queries = false)
+    {
+        if (!is_array($queries) || count($queries) === 0) {
+            throw new Exception("Array with one or more queries expected");
+        }
+
+        $this->db->transBegin();
+        $errors = [];
+
+        foreach ($queries as $query) {
+            if ($escape_queries === true) {
+                $query = $this->db->escape($query);
+            }
+
+            $this->db->query($query);
+
+            if ($this->db->error()["message"] !== "") {
+                $errors[] = "Query: " . $query . "\nError: " . $this->db->error()["message"];
+            }
+        }
+
+        $error = implode("\n\n", $errors);
+
+        if ($this->db->transStatus() === false) {
+            $this->db->transRollback();
+            $status = E_STATUS_CODE::DB_ERROR;
+        } else {
+            $this->db->transCommit();
+            $status = E_STATUS_CODE::SUCCESS;
+        }
+
+        return new BASE_Result(($error === "" ? true : false), $error, null, $status);
     }
 
 	/**
@@ -216,87 +249,150 @@ class BASE_Model extends Model
 	 *
 	 * @return BASE_Result
 	 */
-	function BASE_Select($tablename, $where=array(), $fields="*", $orderBy=array(), $limit=null, $limitOffset=null, $returnObjectOnLimit_1=true, $resultAsArray=false)
-	{
-		$a = $this->db->table($tablename)->select($fields)->getCompiledSelect();
-		// $this->db->select($fields)->from($tablename);
-		// $builder = $this->db->table($tablename);
+	// function BASE_Select($tablename, $where=array(), $fields="*", $orderBy=array(), $limit=null, $limitOffset=null, $returnObjectOnLimit_1=true, $resultAsArray=false)
+	// {
+	// 	$a = $this->db->table($tablename)->select($fields)->getCompiledSelect();
+	// 	// $this->db->select($fields)->from($tablename);
+	// 	// $builder = $this->db->table($tablename);
 
-		// // Specify the columns to select
-		// $builder->select($fields);
+	// 	// // Specify the columns to select
+	// 	// $builder->select($fields);
 		
-		// // Retrieve the compiled SQL SELECT statement
-		// $compiledSelect = $builder->getCompiledSelect();
-		// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
-		if (is_array($where) && count($where) > 0)
-		{
-			foreach ($where as $field=>$value)
-			{
-				if (is_array($value)===false)
-				{
-					$query = $this->db->table($tablename);
-					$query->where($field, $value);
-					// $this->db->table($tablename)->where($field, $value);
-				}
-			}
-		}
-		elseif (is_string($where) == true)
-		{
-			$this->db->table($tablename)->where($where);
-		}
+	// 	// // Retrieve the compiled SQL SELECT statement
+	// 	// $compiledSelect = $builder->getCompiledSelect();
 
-		// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
-		if (is_array($orderBy) && count($orderBy) > 0)
-		{
-			foreach ($orderBy as $field=>$sort)
-			{
-				$this->db->table($tablename)->orderBy($field, $sort);
-			}
-		}
+	// 	// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
+	// 	if (is_array($where) && count($where) > 0)
+	// 	{
+	// 		foreach ($where as $field=>$value)
+	// 		{
+	// 			print_r($value);die;
+	// 			if (is_array($value)===false)
+	// 			{
+	// 				$query = $this->db->table($tablename);
+	// 				$query->where($field, $value);
+	// 				// $this->db->table($tablename)->where($field, $value);
+	// 			}
+	// 		}
+	// 	}
+	// 	elseif (is_string($where) == true)
+	// 	{
+	// 		$this->db->table($tablename)->where($where);
+	// 	}
 
-		// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
-		if ($limit && is_int($limit) && $limit > 0)
-		{
-			if($limitOffset && is_int($limitOffset) && $limitOffset > 0) {
-				$this->db->table($tablename)->limit($limit, $limitOffset);
-			}
-			else {
-				$this->db->table($tablename)->limit($limit);
-			}
-		}
+	// 	// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
+	// 	if (is_array($orderBy) && count($orderBy) > 0)
+	// 	{
+	// 		foreach ($orderBy as $field=>$sort)
+	// 		{
+	// 			$this->db->table($tablename)->orderBy($field, $sort);
+	// 		}
+	// 	}
 
-		// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
-		$query = $this->db->table($tablename)->get();
-		$data	= null;
-		$error 	= self::generateErrorMessage();
-		$status = ($error != null ? E_STATUS_CODE::DB_ERROR : E_STATUS_CODE::SUCCESS);
-		$rowCount = count($query->getResult());
+	// 	// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
+	// 	if ($limit && is_int($limit) && $limit > 0)
+	// 	{
+	// 		if($limitOffset && is_int($limitOffset) && $limitOffset > 0) {
+	// 			$this->db->table($tablename)->limit($limit, $limitOffset);
+	// 		}
+	// 		else {
+	// 			$this->db->table($tablename)->limit($limit);
+	// 		}
+	// 	}
 
-		if ($query && $error == "")
-		{
-			$extra	= array(
-				"num_rows" => count($query->getResult()),
-				"num_fields" => $query->getFieldCount(),
-                "sql" => $this->db->getLastQuery()
-			);
+	// 	// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
+	// 	$query = $this->db->table($tablename)->get();
+	// 	$data	= null;
+	// 	$error 	= self::generateErrorMessage();
+	// 	$status = ($error != null ? E_STATUS_CODE::DB_ERROR : E_STATUS_CODE::SUCCESS);
+	// 	$rowCount = count($query->getResult());
 
-			if ($limit == 1 && $returnObjectOnLimit_1 === true)
-			{
-				$data = $query->getRow();
-			}
-			else {
-				if ($resultAsArray){
-					$data = $query->getResultArray();
-				}else{
-					$data =$query->getResultObject();
-				}
-			}
-		}
+	// 	if ($query && $error == "")
+	// 	{
+	// 		$extra	= array(
+	// 			"num_rows" => count($query->getResult()),
+	// 			"num_fields" => $query->getFieldCount(),
+    //             "sql" => $this->db->getLastQuery()
+	// 		);
 
-		$result = new BASE_Result($data, $error, $extra, $status);
-		//write2Debugfile(self::DEBUG_FILENAME, "BASE_Select -> \n".$this->lastQuery()."\nresult-".print_r($result, true));
-		return $result;
-	}
+	// 		if ($limit == 1 && $returnObjectOnLimit_1 === true)
+	// 		{
+	// 			$data = $query->getRow();
+	// 		}
+	// 		else {
+	// 			if ($resultAsArray){
+	// 				$data = $query->getResultArray();
+	// 			}else{
+	// 				$data =$query->getResultObject();
+	// 			}
+	// 		}
+	// 	}
+
+	// 	$result = new BASE_Result($data, $error, $extra, $status);
+	// 	//write2Debugfile(self::DEBUG_FILENAME, "BASE_Select -> \n".$this->lastQuery()."\nresult-".print_r($result, true));
+	// 	return $result;
+	// }
+
+    public function BASE_Select($tablename, $where = [], $fields = "*", $orderBy = [], $limit = null, $limitOffset = null, $returnObjectOnLimit_1 = true, $resultAsArray = false) {
+        $builder = $this->db->table($tablename)->select($fields);
+        // Handle the 'where' condition
+        if (!empty($where)) {
+            if (is_array($where)) {
+                foreach ($where as $field => $value) {
+                    if (is_array($value) === false) {
+                        $builder->where($field, $value);
+                    }
+                }
+            } elseif (is_string($where)) {
+                $builder->where($where);
+            }
+        }
+
+        // Handle the 'orderBy' condition
+        if (!empty($orderBy)) {
+            foreach ($orderBy as $field => $sort) {
+                $builder->orderBy($field, $sort);
+            }
+        }
+
+        // Handle 'limit' and 'limitOffset'
+        if ($limit && is_int($limit) && $limit > 0) {
+            if ($limitOffset && is_int($limitOffset) && $limitOffset > 0) {
+                $builder->limit($limit, $limitOffset);
+            } else {
+                $builder->limit($limit);
+            }
+        }
+
+        $query = $builder->get();
+        $data = null;
+        $error = $this->generateErrorMessage();
+        $status = ($error != null) ? E_STATUS_CODE::DB_ERROR : E_STATUS_CODE::SUCCESS;
+
+        if ($query && $error == "") {
+            $extra = [
+                "num_rows" => $query->getNumRows(),
+                "num_fields" => $query->getFieldCount(),
+                "sql" => $this->db->getLastQuery(),
+            ];
+
+            if ($limit == 1 && $returnObjectOnLimit_1 === true) {
+                $data = $query->getRow();
+            } else {
+                if ($resultAsArray) {
+                    $data = $query->getResultArray();
+                } else {
+                    $data = $query->getResultObject();
+                }
+            }
+        }
+
+        $result = new BASE_Result($data, $error, $extra, $status);
+
+        //write2Debugfile(self::DEBUG_FILENAME, "BASE_Select -> \n".$this->lastQuery()."\nresult-".print_r($result, true));
+        return $result;
+    }
+
 
 	/**
 	 * Shortcut to perform BASE_Select with result as array

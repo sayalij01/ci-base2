@@ -285,15 +285,15 @@ class Clients extends BASE_Controller
     	$validation->setRules($rules);
     	
     	// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
-    	// $deleted_at = $this->request->getPost("deleted_at");
-    	// if ($this->request->getPost("deleted") == "1" && $this->request->getPost("deleted_at") == ""){
-    	// 	$deleted_at = time();
-    	// }
+    	$deleted_at = $this->request->getPost("deleted_at");
+    	if ($this->request->getPost("deleted") == "1" && $this->request->getPost("deleted_at") == ""){
+    		$deleted_at = time();
+    	}
     	
-    	// $deleted_by = $this->request->getPost("deleted_by");
-    	// if ($this->request->getPost("deleted") == "1" && $this->request->getPost("deleted_by") == ""){
-    	// 	$deleted_by = $this->getSessionData(E_SESSION_ITEM::USER_ID);
-    	// }
+    	$deleted_by = $this->request->getPost("deleted_by");
+    	if ($this->request->getPost("deleted") == "1" && $this->request->getPost("deleted_by") == ""){
+    		$deleted_by = $this->getSessionData(E_SESSION_ITEM::USER_ID);
+    	}
     	
     	// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
     	if ($this->request->getPost("client_id") == ""){
@@ -314,15 +314,15 @@ class Clients extends BASE_Controller
 			"client_house_nr" => $this->request->getPost("house_nr"),
 			"client_zipcode" => $this->request->getPost("zipcode"),
 			"client_location" => $this->request->getPost("location"),
-			// "client_logo" => $this->request->getPost("logo"),
-			// "deleted" => ($this->request->getPost("deleted") == "1" ? 1:0),
-    		// "deleted_at" => $deleted_at,
-    		// "deleted_by" => $deleted_by
+			"client_logo" => $this->request->getPost("logo"),
+			"deleted" => ($this->request->getPost("deleted") == "1" ? 1:0),
+    		"deleted_at" => $deleted_at,
+    		"deleted_by" => $deleted_by
     	);
     
-    	// if ($this->request->getPost("created_at") == "" && $edit == false){
-    	// 	$data["created_at"] = time();
-    	// }
+    	if ($this->request->getPost("created_at") == "" && $edit == false){
+    		$data["created_at"] = time();
+    	}
     	// print_r($data);
     	// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
 		if($validation->run($this->request->getPost()))
@@ -330,37 +330,61 @@ class Clients extends BASE_Controller
     		write2Debugfile(self::DEBUG_FILENAME, "\n - form validation passed...", true);
     		if ($edit == true)
     		{
-				echo "if";
     			$result = $this->client_model->update($client_id, $data );
     		}
     		else
     		{
-				echo "else";
+				// echo "else";die;
     			$result = $this->client_model->create($data );
     		}
 			
     	}
     	else {
     		$result = new BASE_Result(null, $validation->getError(), $validation->getErrors(), E_STATUS_CODE::ERROR);
-			// write2Debugfile(self::DEBUG_FILENAME, "\n - form validation failed...\n".validation_errors(), true);
     	}
 		// die;
 		// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
 		// ..:: set the view data
+
 		$this->setData($result);
 		if ($result->error == "")
 		{
-			$data["client_id"] = $client_id; // fill the role id so we run an update next time
-			
 			$this->setViewSuccess(lang("client_has_been_saved"));
 			$saved = true;
 		}
-		$this->setViewData("client", $data);	// fill the client with the given post data so the view can populate a filled out form
+		else
+		{
+			if ($edit == false)
+			{
+				$data["client_id"] = "";
+			}
+		}
+		$this->setViewData("client", $data); // fill the role with the given post data so the view can populate a filled out form
 		$this->setViewData("saved", $saved);
+		// $this->render('admin/role/role_form', "FULLPAGE");
+		
+		// write2Debugfile(self::DEBUG_FILENAME, "\nthis->data\n" . print_r($this->data, true));
+		
+		return $saved;
 
-    	write2Debugfile(self::DEBUG_FILENAME, "\nthis->data\n".print_r($this->data, true));
+
+		// $this->setData($result);
+		// echo "<pre>";
+		// 		print_r($result);die;
+		// if ($result->error == "")
+		// {
+		// 	$data["client_id"] = $client_id; 
+			
+		// 	$this->setViewSuccess(lang("client_has_been_saved"));
+		// 	$saved = true;
+		// }
+		// $this->setViewData("client", $data);	// fill the client with the given post data so the view can populate a filled out form
+		// $this->setViewData("saved", $saved);
+
+    	// write2Debugfile(self::DEBUG_FILENAME, "\nthis->data\n".print_r($this->data, true));
+		
     	
-    	return $saved;
+    	// return $saved;
 	}
 	
 	/**

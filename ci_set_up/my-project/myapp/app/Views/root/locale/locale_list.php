@@ -73,7 +73,11 @@
 		<?php echo $tbl->generateHTML();?>
 	</div>
 </div> 
+<script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
 <script>
 	var tbl_columns_locales = <?php echo json_encode($data["table_columns"]); ?>;
 	var selected_locale		= "<?php echo $data["selected_locale"]; ?>";
+	new DataTable('#tbl_locales');
 </script>

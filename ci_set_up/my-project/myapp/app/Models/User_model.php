@@ -4,7 +4,7 @@ namespace App\Models;
 use CodeIgniter\Model;
 use App\core\BASE_Model;
 use App\core\BASE_Result;
-use App\Enums\E_SESSION_ITEM ,App\Enums\E_STATUS_CODE , App\Enums\E_SYSTEM_LOCK_REASONS;
+use App\Enums\E_SESSION_ITEM ,App\Enums\E_STATUS_CODE , App\Enums\E_SYSTEM_LOCK_REASONS,App\Enums\E_PERMISSIONS;
 
 class User_model extends BASE_Model 
 {

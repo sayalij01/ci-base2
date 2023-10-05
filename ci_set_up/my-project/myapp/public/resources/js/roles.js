@@ -101,14 +101,6 @@ $.roles.save = function(e)
 					$.roles.edit(result.data.role.role_id);
 					$.app.redirect(baseUrl + "roles");
 
-
-		
-					/* $.dialog.success($.lang.item('done'), $.lang.item('role_has_been_saved'), {
-						callback: function() {
-						alert("in callback");
-							$.app.redirect(baseUrl + "roles");
-						}
-					}); */
 				}
 			},
 			error: function(jqXHR, textStatus, errorThrown) {

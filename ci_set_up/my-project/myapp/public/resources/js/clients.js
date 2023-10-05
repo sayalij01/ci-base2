@@ -50,56 +50,43 @@ $.clients.edit = function(id)
     });
 }
 
-$.clients.save = function(e)
-{
-	console.log("client.save", "log");
+$.clients.save = function (e) {
+    var params = $('#form_clients').serializeArray();
+    params.push({ "name": "settings", "value": $('#form_client_settings').serialize() });
+    params.push({ "name": "deleted", "value": $('#i_deleted').prop("checked") }); // Use .prop() to check the checkbox
+    params.push({ "name": "rendermode", "value": "json" });
 	
-	var params	= $('#form_clients').serializeArray();
-		params.push({"name":"settings", "value":$('#form_client_settings').serialize()});
-		params.push({"name":"deleted", "value":$('#i_deleted').checked});
-		params.push({"name":"rendermode", "value":"json"})
-	
-	var target = $("#form_clients").attr("action");		
-
+    var target = $("#form_clients").attr("action");
 	$.ajax({
-		url: e.delegateTarget.action,
+		url: target,
 		type: 'POST', // Adjust the HTTP method if needed
 		data: params,
 		success: function(result) {
-			alert("in ajax");
 			console.log(result.data);
 			$.app.setFormValidationStates("form_clients", result.error, result.extra, null);
 	
 			if (result.error && result.error !== "") {
-				alert("in if");
 	
 				$.dialog.error($.lang.item('error'), result.error);
 			} else {
 				$.clients.edit(result.data.client.client_id);
 				$.app.redirect(baseUrl + "clients");
+
+	
+				/* $.dialog.success($.lang.item('done'), $.lang.item('role_has_been_saved'), {
+					callback: function() {
+					alert("in callback");
+						$.app.redirect(baseUrl + "roles");
+					}
+				}); */
 			}
 		},
 		error: function(jqXHR, textStatus, errorThrown) {
 			// Handle AJAX error here
-			// console.error("AJAX error:", textStatus, errorThrown);
-		},
+			console.error("AJAX error:", textStatus, errorThrown);
+		}
 	});
-	// $.app.sendAjaxRequest(target, params, function success(result)
-	// {
-	// 	console.log({"fkt":"callback_ajax", "data":result});
-	// 	$.app.setFormValidationStates("form_clients", result.error, result.extra, null);
-		
-	// 	if (result.error && result.error != ""){
-	// 		$.dialog.error($.lang.item('error'), result.error);
-	// 	}
-	// 	else{
-	// 		$.dialog.success($.lang.item('done'), $.lang.item('client_has_been_saved'), function callback()
-	// 		{
-	// 			$.app.redirect(baseUrl+"root/clients/");
-	// 		});
-	// 	}
-	// }, true, null, $.lang.item('client_save_progress'));
-}
+};
 
 $.clients.remove = function(id)
 {
@@ -195,12 +182,12 @@ $.clients.init_table = function()
 		
 		var selected_rows = [];
 		
-		console.log({"tbl_columns_clients":tbl_columns_clients});
+		// console.log({"tbl_columns_clients":tbl_columns_clients});
 	
-		$.clients.table = $.app.datatable.initialize_ajax("tbl_clients", baseUrl+"root/clients/datatable", tbl_columns_clients, 
+		/* $.clients.table = $.app.datatable.initialize_ajax("tbl_clients", baseUrl+"root/clients/datatable", tbl_columns_clients, 
 			$.app.datatable.callbacks.rowCallback, 
 			$.app.datatable.callbacks.initComplete
-		);
+		); */
 	}
 };
 
