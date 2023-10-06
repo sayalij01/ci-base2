@@ -187,7 +187,7 @@ class Client_model extends BASE_Model
 
             // Customize your data here as per your edit_column logic
 
-            $row['client_name'] = $this->callback_build_buttons($row['client_id'], $row['client_name'], "clients", true, true, 0, 0, 0);
+            $row['client_id'] = $this->callback_build_buttons($row['client_id'], $row['client_name'], "clients", true, true, 0, 0, 0);
 
             $row['deleted'] = $this->callback_deleted_client($row['client_id'], $row['deleted']);
 
@@ -315,22 +315,14 @@ class Client_model extends BASE_Model
 			"deleted_at" => time()
 		);
 
-        /*
-		$queries = array(
-			$this->getUpdateString(TBL_CLIENTS, $data, array("client_id"=>$client_id)),
-			$this->getUpdateString(TBL_USER, $data, array("client_id"=>$client_id)),
-			$this->getUpdateString(TBL_ROLES, $data, array("client_id"=>$client_id)),
-			$this->getUpdateString(TBL_RIGHTS, $data, array("client_id"=>$client_id))
+		$where = array(
+			"client_id"=>$client_id,
 		);
+		$return1 = $this->BASE_Delete(TBL_USER, $where );
+		$return2 = $this->BASE_Delete(TBL_CLIENTS, $where );
 
-		$queries_string = "";
-		foreach ($queries as $key => $query) {
-			$queries_string .= "\n".$query.";";
-		}*/
-
-
-		$return1 = $this->BASE_Update(TBL_USER, $data, array("client_id"=>$client_id));
-		$return2 = $this->BASE_Update(TBL_CLIENTS, $data, array("client_id"=>$client_id));
+		// $return1 = $this->BASE_Update(TBL_USER, $data, array("client_id"=>$client_id));
+		// $return2 = $this->BASE_Update(TBL_CLIENTS, $data, array("client_id"=>$client_id));
 
 		//$return = $this->BASE_Transaction($queries);
 
@@ -402,7 +394,7 @@ class Client_model extends BASE_Model
 			else{
 				// $buttons .= "delete";
 	
-				$buttons .= '<a href="'.base_url().'remove-client/'.$id.'" onclick="$.'.$class.'.remove(\''.$id.'\')" class=" btn btn-danger"><i class="fa fa-trash"></i></a>&nbsp;';
+				$buttons .= '<a href="'.base_url().'remove-client/'.$id.'" onclick="$.'.$class.'.remove_(\''.$id.'\')" class=" btn btn-danger"><i class="fa fa-trash"></i></a>&nbsp;';
 			}
 		}
 	
@@ -414,7 +406,7 @@ class Client_model extends BASE_Model
 			// $buttons .= '<a href="'.base_url().'admin/'.$class.'/edit/'.$id.'" onclick="$.'.$class.'.edit(\''.$id.'\')" class="dtbt_edit btn btn-xs btn-primary"><i class="fa fa-pencil" title="\''.$name.'\'&nbsp;'.lang("edit").'"></i></a>&nbsp;';
 		}
 	
-		return $buttons. " ". $name;
+		return $buttons. " ". $id;
 
     }
 

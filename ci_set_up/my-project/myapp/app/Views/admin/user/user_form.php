@@ -9,8 +9,8 @@ use App\Enums\E_THEMES;
 	$all_countries= $data["available_countries"];
 	$all_teams		= $data["available_teams"];
 	
-	$all_themes= E_THEMES::getConstants();
 	
+	$all_themes= E_THEMES::getConstants();
 	// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
 	// ..:: create user object
 	$user = new T_User($data["user"]);
@@ -64,16 +64,22 @@ use App\Enums\E_THEMES;
 	$fi_phone->addComponent(new HTML_Input("i_phone", "phone", E_INPUTTYPE::TEXT, lang("phone"), $user->phone) );
 	
 	$fi_locale	= new HTML_FormItem(lang("language"), "fi_locale", "i_locale", array(), E_REQUIRED::YES);
-	$fi_locale	->setValidationState(service('validation')->hasError('locale') != "" ? E_VALIDATION_STATES::HAS_ERROR : E_VALIDATION_STATES::NONE );
+	// $fi_locale	->setValidationState(service('validation')->hasError('locale') != "" ? E_VALIDATION_STATES::HAS_ERROR : E_VALIDATION_STATES::NONE );
 	$fi_locale->addComponent( new HTML_Select("i_locale", "locale", HTML_Select::buildOptions($all_locales, "locale_code", "locale_label", $user->language, "all", false), false, "", E_VISIBLE::YES ) );
 
     $fi_scanagent_computer_id = new HTML_FormItem(lang("scanagent_computer_id"), "fi_scanagent_computer_id", "i_scanagent_computer_id", array(), E_REQUIRED::NO);
     $fi_scanagent_computer_id->setValidationState(service('validation')->hasError('email') != "" ? E_VALIDATION_STATES::HAS_ERROR : E_VALIDATION_STATES::NONE);
     $fi_scanagent_computer_id->addComponent(new HTML_Input("i_scanagent_computer_id", "scanagent_computer_id", E_INPUTTYPE::TEXT, lang("scanagent_computer_id"), $user->scanagent_computer_id) );
 
+/* 	$i_countries_options = HTML_Select::buildOptions($all_countries, "iso_2", "country_label", $user->country, "all", true);
+	$i_country = new HTML_Select("i_country", "country", $i_countries_options, false, lang("please_choose"));
+	$fi_country = new HTML_FormItem(lang("country"), "fi_country", "i_country", array(), E_REQUIRED::YES);
+	$fi_country->setValidationState(service('validation')->hasError('country') != "" ? E_VALIDATION_STATES::HAS_ERROR : E_VALIDATION_STATES::NONE);
+	$fi_country->addComponent( $i_country ); */
+	
 	$fi_country	= new HTML_FormItem(lang("country"), "fi_country", "i_country", array(), E_REQUIRED::YES);
-	$fi_country->setValidationState(service('validation')->hasError('country') != "" ? E_VALIDATION_STATES::HAS_ERROR : E_VALIDATION_STATES::NONE );
-	$fi_country->addComponent( new HTML_Select("i_country", "country", HTML_Select::buildOptions($all_countries, "iso_2", "country_label", $user->country, "all", false), false, "", E_VISIBLE::YES ) );
+	// $fi_country->setValidationState(service('validation')->hasError('country') != "" ? E_VALIDATION_STATES::HAS_ERROR : E_VALIDATION_STATES::NONE );
+	$fi_country->addComponent( new HTML_Select("i_country", "country", HTML_Select::buildOptions($all_countries, "iso_2", "country_label", $user->country, "all", true), false, "", E_VISIBLE::YES ) );
 	
 	$fi_accept= new HTML_FormItem("", "lbl_accept", "i_accept");
 	$fi_accept->setValidationState(service('validation')->hasError('input_accept') != "" ? E_VALIDATION_STATES::HAS_ERROR : E_VALIDATION_STATES::NONE );
@@ -88,11 +94,11 @@ use App\Enums\E_THEMES;
 	$fi_submit= new HTML_FormItem("", "fi_submit", "bt_submit");
 	$fi_submit->addComponent( $btn_submit );
 	
-	$btn_send_user_mail = new HTML_Button("bt_send_user_mail", "send_user_mail", lang("send_activation_mail"), E_COLOR::STANDARD, E_SIZES::STANDARD, E_ICONS::EMAIL, "left", E_VISIBLE::YES, E_ENABLED::YES, array(), array(), array());
+	/* $btn_send_user_mail = new HTML_Button("bt_send_user_mail", "send_user_mail", lang("send_activation_mail"), E_COLOR::STANDARD, E_SIZES::STANDARD, E_ICONS::EMAIL, "left", E_VISIBLE::YES, E_ENABLED::YES, array(), array(), array());
 	$btn_send_user_mail->setAttributes(array("form" => "form_user"));
 	$btn_send_user_mail->setType(E_BUTTON_TYPES::BUTTON);
 	$fi_send_user_mail= new HTML_FormItem("", "fi_send_user_mail", "bt_send_user_mail");
-	$fi_send_user_mail->addComponent( $btn_send_user_mail );
+	$fi_send_user_mail->addComponent( $btn_send_user_mail ); */
 	
 	$hidden_user_id= new HTML_Input("i_user_id", "user_id", E_INPUTTYPE::HIDDEN, lang("user_id"), ($user->user_id != "" ? $user->user_id : "")) ;
 	$hidden_username= new HTML_Input("i_username_orig", "username_orig", E_INPUTTYPE::HIDDEN, lang("username"), $user->username) ;
@@ -174,10 +180,10 @@ use App\Enums\E_THEMES;
 	
 	$form_settings = new HTML_Form("form_user_settings", "form_user_settings", "#", lang("settings"), E_FORMMETHOD::POST, E_VISIBLE::YES, E_ENABLED::YES, E_FORMLAYOUT::HORIZONTAL, array(), array(), array() );
 	$form_settings->addFormItem($fi_locked);
-	if($user->user_id != null)
+	/* if($user->user_id != null)
 	{
 		$form_settings->addFormItem($fi_send_user_mail)	;
-	}
+	} */
 	
 		
 	
@@ -219,13 +225,16 @@ use App\Enums\E_THEMES;
 	$form->setAttributes(array("enctype"=>"multipart/form-data"));
 	$form->addFormItem(
 		$page_alerts.'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
-		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">'.
+		<div class="row"><div class="col-md-6 ">'.
 			$form_user->generateHTML(true).'
-		</div>
-		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">'.
-			$form_roles->generateHTML(true).
-			$form_settings->generateHTML(true).'
-		</div>'
+			</div><div class="col-md-6 ">'.
+		$form_roles->generateHTML(true).
+		$form_settings->generateHTML(true).'
+		</div>	</div>'
+		
+			
+			
+	
 	);
 	
 	// .$form_upload_avatar->generateHTML(true)
@@ -234,9 +243,6 @@ use App\Enums\E_THEMES;
 	$panel= new HTML_Panel("pnl_user", ($user->user_id != "" ? lang("user_edit"):lang("user_create")) , "", "", E_DISMISSABLE::NO, E_VISIBLE::YES, E_COLOR::STANDARD, E_COLOR::STANDARD);
 	$panel->setContent($form->generateHTML());
 	$panel->setFooter($btn_submit->generateHTML()."&nbsp;".$btn_reset->generateHTML());
-	/*
-	
-	 */
 ?>
 <div class="row button-row">
 	<div class="col-xs-12 ">
@@ -246,7 +252,7 @@ use App\Enums\E_THEMES;
 		?>
 	</div>
 </div>
-<div class="row">
+<!-- <div class="row"> -->
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">
 		<?php echo $form->generateHTML(); ?>
 	</div>
@@ -254,4 +260,4 @@ use App\Enums\E_THEMES;
 	<!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
 		<?php //echo $panel_functions->generateHTML();?>
 	</div> -->
-</div>
+<!-- </div> -->

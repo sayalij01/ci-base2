@@ -3,6 +3,8 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 use App\core\BASE_Model;
+use App\core\BASE_Result;
+use App\Enums\E_SESSION_ITEM ,App\Enums\E_STATUS_CODE , App\Enums\E_SYSTEM_LOCK_REASONS;
 
 /**
  * Common application model
@@ -232,9 +234,9 @@ class App_model extends BASE_Model
 	 */
 	function getConfig($client_id=0)
 	{
-		//$this->db->cache_on();
+		////$this->db->cache_on();
 		$return = $this->BASE_Select( TBL_APP_SETTINGS, array("id"=>0), "*", array(), 1);
-		//$this->db->cache_off();
+		////$this->db->cache_off();
 
 		return $return;
 	}
@@ -246,9 +248,9 @@ class App_model extends BASE_Model
 	 */
 	function getSubdivisions()
 	{
-		$this->db->cache_on();
+		// //$this->db->cache_on();
 		$return = $this->BASE_Select( TBL_SUBDIVISIONS, array(), "*", array(),null,null,true,true);
-		$this->db->cache_off();
+		//$this->db->cache_off();
 
 		$grouped = array();
 		foreach ($return->data as $index => &$subdivision)
@@ -270,9 +272,9 @@ class App_model extends BASE_Model
 	 */
 	function getSelect2Data($tablename, $where, $fields = "*", $orderBy = array())
 	{
-		//$this->db->cache_on();
+		////$this->db->cache_on();
 		$return = $this->BASE_Select( $tablename, $where, $fields, $orderBy,null,null,true,true)->data;
-		//$this->db->cache_off();
+		////$this->db->cache_off();
 
 		return $return;
 	}
@@ -284,9 +286,9 @@ class App_model extends BASE_Model
 	 */
 	function getNav()
 	{
-		// $this->db->cache_on();
+		// //$this->db->cache_on();
 		$return = $this->BASE_Select( TBL_APP_NAV , array("visible"=>1));
-		// $this->db->cache_off();
+		// //$this->db->cache_off();
 
 		return $return;
 	}
@@ -310,7 +312,7 @@ class App_model extends BASE_Model
 			$andLocale = " AND ".TBL_CONTINENS_L18N.".locale_code = '".$locale."' ";
 		}
 
-		$this->db->cache_on();
+		//$this->db->cache_on();
 
 		$this->db
 		->select('*')->from( TBL_CONTINENS)
@@ -322,7 +324,7 @@ class App_model extends BASE_Model
 
 		$query = $this->db->get();
 
-		$this->db->cache_off();
+		//$this->db->cache_off();
 
 		if (! $query){
 			return new BASE_Result(null, $this->generateErrorMessage(), null, E_STATUS_CODE::DB_ERROR);
@@ -368,41 +370,48 @@ class App_model extends BASE_Model
 		if ($locale){
 			$andLocale = " AND ".TBL_COUNTRIES_L18N.".locale_code = '".$locale."' ";
 		}
-		$this->db->cache_on();
+		// //$this->db->cache_on();
 
-		$this->db
-		->select("*, CONCAT(".TBL_COUNTRIES.".country_code, ' (', ".TBL_COUNTRIES_L18N.".country_name, ')' ) AS country_label")->from( TBL_COUNTRIES )
-		->join( TBL_COUNTRIES_L18N, TBL_COUNTRIES .".country_code = ".TBL_COUNTRIES_L18N.".country_code $andLocale ", "inner");
+		// $this->db
+		// ->select("*, CONCAT(".TBL_COUNTRIES.".country_code, ' (', ".TBL_COUNTRIES_L18N.".country_name, ')' ) AS country_label")->from( TBL_COUNTRIES )
+		// ->join( TBL_COUNTRIES_L18N, TBL_COUNTRIES .".country_code = ".TBL_COUNTRIES_L18N.".country_code $andLocale ", "inner");
+
+		$builder = $this->db->table(TBL_COUNTRIES);
+		$builder->select("*, CONCAT(" . TBL_COUNTRIES . ".country_code, ' (', " . TBL_COUNTRIES_L18N . ".country_name, ')' ) AS country_label")
+    ->join(TBL_COUNTRIES_L18N, TBL_COUNTRIES . ".country_code = " . TBL_COUNTRIES_L18N . ".country_code $andLocale", "inner")
+    ->get();
 
 		if ($country_code){
-			$this->db->where("country_code", $country_code);
+			$builder->where("country_code", $country_code);
 		}
 
-		$query = $this->db->get();
+		$query = $builder->get();
 
-		$this->db->cache_off();
+		// //$this->db->cache_off();
 
 		if (! $query){
 			return new BASE_Result(null, $this->generateErrorMessage(), null, E_STATUS_CODE::DB_ERROR);
 		}
 
-		$data_obj	= $query->result_object();
+		$data_obj	= $query->getResultObject();
 		$data		= array();
+		
 		foreach ($data_obj as $key => $value)
 		{
+			// print_r($value);die;
 			$cc = $value->country_code;
-
+			
 			$data[$cc]["iso_2"] 			= $value->country_code;
 			$data[$cc]["iso_3"] 			= $value->iso_3;
 			$data[$cc]["population"] 		= $value->population;
 			$data[$cc]["area"] 				= $value->area;
 			$data[$cc]["gdp"] 				= $value->gdp;
 			$data[$cc]["phone_code"]		= $value->phone_code;
-			$data[$cc]["country_label"]		= $value->country_label;
-			$data[$cc]["european_union"]	= $value->european_union;
+			// $data[$cc]["country_label"]		= $value->country_label;
+			// $data[$cc]["european_union"]	= $value->european_union;
 
 			if ($locale){
-				$data[$cc]["country_name"]	= $value->country_name;
+				$data[$cc]["country_name"]	= $value->country_name_native;
 			}
 			else{
 				$data[$cc]["text"][$value->locale_code] = $value->country_name;
@@ -410,7 +419,6 @@ class App_model extends BASE_Model
 		}
 
 		$return = new BASE_Result($data, $this->generateErrorMessage(), null, E_STATUS_CODE::SUCCESS);
-
 		write2Debugfile(self::DEBUG_FILENAME, "getCountries locale[$locale] country[$country_code]:\n".$this->lastQuery()."\n".print_r($return, true));
 		return $return;
 	}

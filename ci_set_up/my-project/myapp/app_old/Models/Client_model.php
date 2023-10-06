@@ -4,17 +4,21 @@ namespace App\Models;
 use CodeIgniter\Model;
 use App\core\BASE_Model;
 use App\core\BASE_Result;
-use App\Enums\E_SESSION_ITEM ,App\Enums\E_STATUS_CODE , App\Enums\E_SYSTEM_LOCK_REASONS;
+use App\Enums\E_SESSION_ITEM ,App\Enums\E_STATUS_CODE , App\Enums\E_SYSTEM_LOCK_REASONS ,App\Enums\E_ICONS;
+
 
 class Client_model extends BASE_Model
 {
 	const DEBUG_FILENAME = "client_model.log";
-
+	protected $table = TBL_CLIENTS;
 	/**
 	 * Constructor for the client model
 	 */
 	function __construct()
 	{
+		$this->db = \Config\Database::connect();
+		$this->config = \Config\Services::config();
+		$this->config = new \Config\App();
 		write2Debugfile(self::DEBUG_FILENAME, "Client model", false);
 	}
 
@@ -47,7 +51,6 @@ class Client_model extends BASE_Model
 	function create($data)
 	{
 		$root_clientID = $this->config->root_client_id;
-
 		if ($data["client_id"] == ""){
 			$data["client_id"] 	= BASE_Model::generateUID(TBL_CLIENTS, "client_id", "", true, 12);
 		}
@@ -63,7 +66,7 @@ class Client_model extends BASE_Model
 		// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
 		// create the initial user with administrator role assigned
 		$password_plain 	= $this->config->default_password;
-		$salt				= random_string("alnum", 8);
+		$salt				= "bdgdjfhy";
 		$password_hashed	= hash_password($salt, $password_plain);
 		$user_id 			= BASE_Model::generateUID(TBL_USER, "user_id", "init_", false, 12);
 		$username 			= "admin_".$data["customer_number"];
@@ -82,8 +85,6 @@ class Client_model extends BASE_Model
 		// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
 		// Get base roles from ROOT-CLIENT to copy
 		$roles 	= $this->BASE_Select(TBL_ROLES, array("client_id"=>"$root_clientID", "is_static"=>1, "is_root"=>0, "deleted"=>0));
-		//write2Debugfile(self::DEBUG_FILENAME, "- get roles:\n".$this->lastQuery());
-
 		foreach ($roles->data as $key => $role)
 		{
 			$role->client_id 	= $client_id;
@@ -94,17 +95,18 @@ class Client_model extends BASE_Model
 
 			// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
 			$roles_rights = $this->BASE_Select(TBL_ROLES_RIGHTS, array("client_id"=>"$root_clientID", "role_id"=>$role->role_id));
-			//write2Debugfile(self::DEBUG_FILENAME, "- role rights:\n".$this->lastQuery());
+		//write2Debugfile(self::DEBUG_FILENAME, "- role rights:\n".$this->lastQuery());
 
 			foreach ($roles_rights->data as $key => $roles_right) {
 				$queries[] = $this->getInsertString(TBL_ROLES_RIGHTS, array("client_id"=>$client_id, "role_id"=>$role->role_id, "right_id"=>$roles_right->right_id));
 			}
 		}
-		write2Debugfile(self::DEBUG_FILENAME, "roles count[".count($roles->data)."]");
+		// write2Debugfile(self::DEBUG_FILENAME, "roles count[".count($roles->data)."]");
 
 		// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
 		// Get all rights from ROOT-CLIENT to copy
 		$rights = $this->BASE_Select(TBL_RIGHTS, array("client_id"=>"0", "is_root_right"=>0));
+
 		foreach ($rights->data as $key => $right)
 		{
 			$right->client_id = $client_id;
@@ -120,11 +122,14 @@ class Client_model extends BASE_Model
 
 
 		write2Debugfile(self::DEBUG_FILENAME, count($queries)." queries -\n".$queries_string);
+		// echo "<pre>";print_r($queries);die;
+
 		$return = $this->BASE_Transaction($queries);
 
 		if ($return->error == ""){
-			$return->messages = "initial-user: ".$username;
+			// $return->messages = "initial-user: ".$username;
 		}
+
 
 
 		write2Debugfile(self::DEBUG_FILENAME, "return-".print_r($return, true));
@@ -142,34 +147,59 @@ class Client_model extends BASE_Model
 	 *
 	 * @return BASE_Result >> containing an array or null
 	 */
-	function datatable($client_id, $columns, $btnEdit=false, $btnDel=false, $includeDeleted=true)
+	function datatable($client_id, $columns, $btnEdit=false, $btnDel=false)
 	{
-		$this->load->library('Datatables');
-		$this->load->helper('datatable');
+		$builder = $this->db->table(TBL_CLIENTS);
 
-		$btnEdit 	= intval($btnEdit);
-		$btnDel 	= intval($btnDel);
-		$fields 	= prepare_fields($columns, $this->listFields(TBL_CLIENTS));
+        $getFields = $this->getFieldNames(TBL_CLIENTS);
 
-		$this->datatables->select( $fields )->from(TBL_CLIENTS);
-        $this->datatables->edit_column('client_name', '$1', "callback_build_buttons(client_id, client_name, root, clients, $btnEdit, $btnDel, 0, 0, 0)");
-		$this->datatables->edit_column('deleted', '$1' , 'callback_deleted(client_id, deleted) ');
-		$this->datatables->edit_column('created_at', '$1' , 'format_timestamp2datetime(created_at) ');
+		$btnEdit  = intval($btnEdit);
 
-		if ($includeDeleted === false){
-			$this->datatables->where("deleted", "0");
-		}
+        $btnDel     = intval($btnDel);
 
-		$includeRoot = true;
-		if ($includeRoot === false){
-			$this->datatables->where("client_id <> '".$this->config->root_client_id."'");
-		}
+        $fields = prepare_fields($columns, $getFields );
 
-		$result 		= $this->datatables->generate();
-		$result_json 	= json_decode($result);
+        // print_r($client_id);die;
 
-		write2Debugfile(self::DEBUG_FILENAME, "\n".$this->datatables->last_query()."\n\n".print_r(json_decode($result), true));
-		return new BASE_Result($result, "", json_decode($result), E_STATUS_CODE::SUCCESS);
+        $builder->select($fields);
+
+        // $builder->where('client_id', $client_id);
+
+        $builder->where('deleted',0);
+
+        $includeRoot = true;
+
+        if ($includeRoot === false){
+
+            $builder->where("client_id <> '".$this->config->root_client_id."'");
+
+        }
+
+        $query = $builder->get();
+
+        $clients = $query->getResult('array');
+
+        $result = [];
+
+        foreach ($clients as $row) {
+
+            // print_r($row);
+
+            // Customize your data here as per your edit_column logic
+
+            $row['client_name'] = $this->callback_build_buttons($row['client_id'], $row['client_name'], "clients", true, true, 0, 0, 0);
+
+            $row['deleted'] = $this->callback_deleted_client($row['client_id'], $row['deleted']);
+
+            $result[] = $row;
+
+            // print_r( $result);die;
+
+            // echo $row['role_name'];die;
+
+        }
+
+        return new BASE_Result($result, "", $result, E_STATUS_CODE::SUCCESS);
 	}
 
 	/**
@@ -343,26 +373,50 @@ class Client_model extends BASE_Model
 
         return $data;
     }
+	
+	public function callback_deleted_client($id, $deleted)
+	{
+		list($deleted, $deleted_at, $deleted_by) = explode("#", $deleted);
+		$com = ($deleted != 1 ?  E_ICONS::SQUARE_WHITE : E_ICONS::CHECK_SQUARE_WHITE." ".format_timestamp2date($deleted_at, '') );
+		return $com;
+	}
 
+	public function callback_build_buttons($id, $name, $class, $btn_edit=true, $btn_delete=true, $static_permission=false, $is_static=false, $encrypt=false)
+    {
+		// echo $id ." ". $name." ".$class." ".$btn_edit." ".$btn_delete;die;
+        if ($encrypt == true){
+			$id = encrypt_string($id);
+		}
+	
+		if ($is_static){
+			$name=lang($name);
+		}
+		
+		$buttons 	= "";
+	
+		if ($btn_delete){
+			
+			if ($is_static && $static_permission == false){
+				$buttons .= '<label class="dtbt_remove btn btn-xs btn-danger disabled"><i class="fa fa-trash" title="\''.$name.'\'&nbsp;'.lang("delete").'"></i></label>&nbsp;';
+			}
+			else{
+				// $buttons .= "delete";
+	
+				$buttons .= '<a href="'.base_url().'remove-client/'.$id.'" onclick="$.'.$class.'.remove(\''.$id.'\')" class=" btn btn-danger"><i class="fa fa-trash"></i></a>&nbsp;';
+			}
+		}
+	
+		if ($btn_edit){
+			// $buttons .= "edit";
+			// $buttons .='<a href="#">Edit</a>';
+			$buttons .= '<a href="'.base_url().'edit-client/'.$id.'" onclick="$.'.$class.'.edit(\''.$id.'\')" class="dtbt_edit btn btn-xs btn-primary"><i class="fa fa-pencil" title="\''.$name.'\'&nbsp;'.lang("edit").'"></i></a>&nbsp;';
+	
+			// $buttons .= '<a href="'.base_url().'admin/'.$class.'/edit/'.$id.'" onclick="$.'.$class.'.edit(\''.$id.'\')" class="dtbt_edit btn btn-xs btn-primary"><i class="fa fa-pencil" title="\''.$name.'\'&nbsp;'.lang("edit").'"></i></a>&nbsp;';
+		}
+	
+		return $buttons. " ". $name;
+
+    }
 
 }
-/**
- * datatable callback function for the 'deleted' column
- *
- * @author _BA5E
- * @category Model
- * @package application\models\clients_model
- * @since 1.2
- * @version 1.2
- *
- * @param string $id
- * @param string $deleted
- *
- * @return string
- */
-function callback_deleted_client($id, $deleted)
-{
-	list($deleted, $deleted_at, $deleted_by) = explode("#", $deleted);
-	$com = ($deleted != 1 ?  E_ICONS::SQUARE_WHITE : E_ICONS::CHECK_SQUARE_WHITE." ".format_timestamp2date($deleted_at, '') );
-	return $com;
-}
+

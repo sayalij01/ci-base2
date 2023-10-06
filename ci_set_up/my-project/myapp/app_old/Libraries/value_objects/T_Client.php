@@ -1,12 +1,8 @@
 <?php 
-/**
- * Client Value Object
- *
- * @author Marco Eberhardt
- * @category value object
- * @package application\libraries\value_objects\T_Client
- * @version 1.0
- */
+namespace App\Libraries\value_objects;
+use App\Libraries\value_objects\T_Pseudo;
+use App\Enums\E_SORTABLE, App\Enums\E_VISIBLE, App\Enums\E_SEARCHABLE , App\Enums\E_ICONS;;
+use App\Helpers\HTML_DTColumn;
 class T_Client extends T_Pseudo
 {
 	const DEBUG_FILENAME 	= "T_Client.log";

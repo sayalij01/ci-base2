@@ -7,6 +7,7 @@ use Exception;
 use App\Enums\EnumCollection ;
 use App\Enums\E_STATUS_CODE, App\Enums\E_SESSION_ITEM , App\Enums\E_THEMES,  App\Enums\E_RENDERMODE,
 App\Enums\E_RESEREVED_DATAKEYS;
+use App\core\BASE_Result;
 
 class BASE_Model extends Model
 {
@@ -57,45 +58,52 @@ class BASE_Model extends Model
 	 * @param bool $escape_queries	>> runs the escape-method for each query if true (default:false)
 	 * @return BASE_Result
 	 */
-    public function BASE_Transaction($queries, $escape_queries=false)
+   /*  public function BASE_Transaction($queries, $escape_queries=false)
     {
         if (!is_array($queries) or count($queries) == 0){
             throw new Exception("array with one or more queries expected");
         }
-
-        // write2Debugfile(self::DEBUG_FILENAME, "BASE_transaction with ".count($queries)." queries-".print_r($queries, true));
-
-        $this->db->trans_begin();
+		$db = \Config\Database::connect(); 
+        // write2Debugfile(self::DEBUG_FILENAME, "BASE_transaction with ".count($queries)." queries-".print_r($queries));
+        $db->transStart();
         $errors = [];
+		
 
         foreach ($queries as $query)
         {
-            write2Debugfile(self::DEBUG_FILENAME, "\n STATUS[".$this->db->trans_status()."]\n".$query);
+			// print_r($queries);die;
+			
+            write2Debugfile(self::DEBUG_FILENAME, "\n STATUS[".$db->transStatus()."]\n".$query);
             if ($escape_queries === true){
-                $this->db->query($this->db->escape($query));
+                $db->query($db->escape($query));
             }
             else{
-                $this->db->query($query);
+				$db->query($db->escape($query));
+				$result = $db->query($query);
             }
 
-            if($this->db->error()["message"] != ""){
+            if($db->error()["message"] != ""){
+
                 $errors[] = "Query: ".$query."\nError: ". $this->db->error()["message"];
             }
         }
 
         $error = implode("\n\n", $errors);
-        if ($this->db->trans_status() === FALSE)
+        if ($db->transStatus() === FALSE)
         {
-            $this->db->trans_rollback();
+            $db->transRollback();
             $status = E_STATUS_CODE::DB_ERROR;
 
             write2Debugfile(self::DEBUG_FILENAME, "\n\n => Transaction failed ==> Rolling back");
         }
         else
         {
+
             $status = E_STATUS_CODE::SUCCESS;
-            if ($this->db->trans_commit() === false)
+
+            if ($db->transCommit() === false)
             {
+
                 $status = E_STATUS_CODE::DB_ERROR;
             }
 
@@ -103,6 +111,39 @@ class BASE_Model extends Model
         }
 
         return new BASE_Result( ($error == "" ? true:false), $error, null, $status);
+    } */
+	public function BASE_Transaction($queries, $escape_queries = false)
+    {
+        if (!is_array($queries) || count($queries) === 0) {
+            throw new Exception("Array with one or more queries expected");
+        }
+
+        $this->db->transBegin();
+        $errors = [];
+
+        foreach ($queries as $query) {
+            if ($escape_queries === true) {
+                $query = $this->db->escape($query);
+            }
+
+            $this->db->query($query);
+
+            if ($this->db->error()["message"] !== "") {
+                $errors[] = "Query: " . $query . "\nError: " . $this->db->error()["message"];
+            }
+        }
+
+        $error = implode("\n\n", $errors);
+
+        if ($this->db->transStatus() === false) {
+            $this->db->transRollback();
+            $status = E_STATUS_CODE::DB_ERROR;
+        } else {
+            $this->db->transCommit();
+            $status = E_STATUS_CODE::SUCCESS;
+        }
+
+        return new BASE_Result(($error === "" ? true : false), $error, null, $status);
     }
 
 	/**
@@ -208,88 +249,150 @@ class BASE_Model extends Model
 	 *
 	 * @return BASE_Result
 	 */
-	function BASE_Select($tablename, $where=array(), $fields="*", $orderBy=array(), $limit=null, $limitOffset=null, $returnObjectOnLimit_1=true, $resultAsArray=false)
-	{
-		$a = $this->db->table($tablename)->select($fields)->getCompiledSelect();
+	// function BASE_Select($tablename, $where=array(), $fields="*", $orderBy=array(), $limit=null, $limitOffset=null, $returnObjectOnLimit_1=true, $resultAsArray=false)
+	// {
+	// 	$a = $this->db->table($tablename)->select($fields)->getCompiledSelect();
+	// 	// $this->db->select($fields)->from($tablename);
+	// 	// $builder = $this->db->table($tablename);
 
-		// print_r($a);
-		// $this->db->select($fields)->from($tablename);
-		// $builder = $this->db->table($tablename);
-
-		// // Specify the columns to select
-		// $builder->select($fields);
+	// 	// // Specify the columns to select
+	// 	// $builder->select($fields);
 		
-		// // Retrieve the compiled SQL SELECT statement
-		// $compiledSelect = $builder->getCompiledSelect();
-		// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
-		if (is_array($where) && count($where) > 0)
-		{
-			foreach ($where as $field=>$value)
-			{
-				if (is_array($value)===false)
-				{
-					$this->db->table($tablename)->where($field, $value);
-				}
-			}
-		}
-		elseif (is_string($where) == true)
-		{
-			$this->db->table($tablename)->where($where);
-		}
+	// 	// // Retrieve the compiled SQL SELECT statement
+	// 	// $compiledSelect = $builder->getCompiledSelect();
 
-		// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
-		if (is_array($orderBy) && count($orderBy) > 0)
-		{
-			foreach ($orderBy as $field=>$sort)
-			{
-				$this->db->table($tablename)->orderBy($field, $sort);
-			}
-		}
+	// 	// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
+	// 	if (is_array($where) && count($where) > 0)
+	// 	{
+	// 		foreach ($where as $field=>$value)
+	// 		{
+	// 			print_r($value);die;
+	// 			if (is_array($value)===false)
+	// 			{
+	// 				$query = $this->db->table($tablename);
+	// 				$query->where($field, $value);
+	// 				// $this->db->table($tablename)->where($field, $value);
+	// 			}
+	// 		}
+	// 	}
+	// 	elseif (is_string($where) == true)
+	// 	{
+	// 		$this->db->table($tablename)->where($where);
+	// 	}
 
-		// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
-		if ($limit && is_int($limit) && $limit > 0)
-		{
-			if($limitOffset && is_int($limitOffset) && $limitOffset > 0) {
-				$this->db->table($tablename)->limit($limit, $limitOffset);
-			}
-			else {
-				$this->db->table($tablename)->limit($limit);
-			}
-		}
+	// 	// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
+	// 	if (is_array($orderBy) && count($orderBy) > 0)
+	// 	{
+	// 		foreach ($orderBy as $field=>$sort)
+	// 		{
+	// 			$this->db->table($tablename)->orderBy($field, $sort);
+	// 		}
+	// 	}
 
-		// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
-		$query = $this->db->table($tablename)->get();
-		$data	= null;
-		$error 	= self::generateErrorMessage();
-		$status = ($error != null ? E_STATUS_CODE::DB_ERROR : E_STATUS_CODE::SUCCESS);
-		$rowCount = count($query->getResult());
+	// 	// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
+	// 	if ($limit && is_int($limit) && $limit > 0)
+	// 	{
+	// 		if($limitOffset && is_int($limitOffset) && $limitOffset > 0) {
+	// 			$this->db->table($tablename)->limit($limit, $limitOffset);
+	// 		}
+	// 		else {
+	// 			$this->db->table($tablename)->limit($limit);
+	// 		}
+	// 	}
 
-		if ($query && $error == "")
-		{
-			$extra	= array(
-				"num_rows" => count($query->getResult()),
-				"num_fields" => $query->getFieldCount(),
-                "sql" => $this->db->getLastQuery()
-			);
+	// 	// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
+	// 	$query = $this->db->table($tablename)->get();
+	// 	$data	= null;
+	// 	$error 	= self::generateErrorMessage();
+	// 	$status = ($error != null ? E_STATUS_CODE::DB_ERROR : E_STATUS_CODE::SUCCESS);
+	// 	$rowCount = count($query->getResult());
 
-			if ($limit == 1 && $returnObjectOnLimit_1 === true)
-			{
-				$data = $query->getRow();
-			}
-			else {
-				if ($resultAsArray){
-					$data = $query->getResultArray();
-				}else{
-					$data =$query->getResultObject();
-				}
-			}
-		}
+	// 	if ($query && $error == "")
+	// 	{
+	// 		$extra	= array(
+	// 			"num_rows" => count($query->getResult()),
+	// 			"num_fields" => $query->getFieldCount(),
+    //             "sql" => $this->db->getLastQuery()
+	// 		);
 
-		$result = new BASE_Result($data, $error, $extra, $status);
+	// 		if ($limit == 1 && $returnObjectOnLimit_1 === true)
+	// 		{
+	// 			$data = $query->getRow();
+	// 		}
+	// 		else {
+	// 			if ($resultAsArray){
+	// 				$data = $query->getResultArray();
+	// 			}else{
+	// 				$data =$query->getResultObject();
+	// 			}
+	// 		}
+	// 	}
 
-		//write2Debugfile(self::DEBUG_FILENAME, "BASE_Select -> \n".$this->lastQuery()."\nresult-".print_r($result, true));
-		return $result;
-	}
+	// 	$result = new BASE_Result($data, $error, $extra, $status);
+	// 	//write2Debugfile(self::DEBUG_FILENAME, "BASE_Select -> \n".$this->lastQuery()."\nresult-".print_r($result, true));
+	// 	return $result;
+	// }
+
+    public function BASE_Select($tablename, $where = [], $fields = "*", $orderBy = [], $limit = null, $limitOffset = null, $returnObjectOnLimit_1 = true, $resultAsArray = false) {
+        $builder = $this->db->table($tablename)->select($fields);
+        // Handle the 'where' condition
+        if (!empty($where)) {
+            if (is_array($where)) {
+                foreach ($where as $field => $value) {
+                    if (is_array($value) === false) {
+                        $builder->where($field, $value);
+                    }
+                }
+            } elseif (is_string($where)) {
+                $builder->where($where);
+            }
+        }
+
+        // Handle the 'orderBy' condition
+        if (!empty($orderBy)) {
+            foreach ($orderBy as $field => $sort) {
+                $builder->orderBy($field, $sort);
+            }
+        }
+
+        // Handle 'limit' and 'limitOffset'
+        if ($limit && is_int($limit) && $limit > 0) {
+            if ($limitOffset && is_int($limitOffset) && $limitOffset > 0) {
+                $builder->limit($limit, $limitOffset);
+            } else {
+                $builder->limit($limit);
+            }
+        }
+
+        $query = $builder->get();
+        $data = null;
+        $error = $this->generateErrorMessage();
+        $status = ($error != null) ? E_STATUS_CODE::DB_ERROR : E_STATUS_CODE::SUCCESS;
+
+        if ($query && $error == "") {
+            $extra = [
+                "num_rows" => $query->getNumRows(),
+                "num_fields" => $query->getFieldCount(),
+                "sql" => $this->db->getLastQuery(),
+            ];
+
+            if ($limit == 1 && $returnObjectOnLimit_1 === true) {
+                $data = $query->getRow();
+            } else {
+                if ($resultAsArray) {
+                    $data = $query->getResultArray();
+                } else {
+                    $data = $query->getResultObject();
+                }
+            }
+        }
+
+        $result = new BASE_Result($data, $error, $extra, $status);
+
+        //write2Debugfile(self::DEBUG_FILENAME, "BASE_Select -> \n".$this->lastQuery()."\nresult-".print_r($result, true));
+        return $result;
+    }
+
 
 	/**
 	 * Shortcut to perform BASE_Select with result as array
@@ -389,15 +492,18 @@ class BASE_Model extends Model
 	 */
 	public function BASE_Delete($tables, $where, $useOrWhere=false)
 	{
-		foreach ($where as $field => $value)
-		{
-			if ($useOrWhere === true){
-				$this->db->table($tables)->orWhere($field, $value);
-			}else{
-				$this->db->table($tables)->where($field, $value);
+		$builder = $this->db->table($tables);
+
+		foreach ($where as $field => $value) {
+			if ($useOrWhere === true) {
+				$builder->orWhere($field, $value);
+			} else {
+				$builder->where($field, $value);
 			}
 		}
-		$this->db->table($tables)->delete();
+
+		// Execute the DELETE query
+		$builder->delete();
 
 		$error 		= $this->db->error();	// Has keys 'code' and 'message'
 		$status 	= ($error["message"] != "" ? E_STATUS_CODE::DB_ERROR : E_STATUS_CODE::SUCCESS);
@@ -863,8 +969,9 @@ class BASE_Model extends Model
 		{
 			if (!$justNumber)
 			{
-				$CI =& get_instance();
-				$CI->load->helper('string');
+				/* $CI =& get_instance();
+				$CI->load->helper('string'); */
+				helper('string');
 
 				if ($length != null){
 					$id = $prefix . random_string("alnum", ($length - strlen($prefix)) );
@@ -954,17 +1061,22 @@ class BASE_Model extends Model
 	 */
 	static function issetID($id, $table, $field, $include_deleted=false)
 	{
+
+
 		$return = false;
-		$CI =& get_instance();
-		$CI->db = $CI->load->database("default", true);
-		$CI->db->from($table)->where($field, $id);
-		if (!$include_deleted && in_array("deleted", $CI->db->list_fields($table)))
-		{
-			$CI->db->where("deleted", 0);
-		}
-		$records = $CI->db->count_all_results();
-		$return 	= ($records <= 0 ? false:true);
-		return $return;
+		$db = \Config\Database::connect();
+		$builder =$db->table($table);
+		// $fields = $builder->getFieldNames();
+
+		$query = $builder->where($field, $id);
+		
+        if (!$include_deleted ) {
+            $query->where('deleted', 0);
+        }
+
+        $records = $query->countAllResults();
+        $return = ($records <= 0 ? false : true);
+        return $return;
 	}
 
 
@@ -1115,7 +1227,17 @@ class BASE_Model extends Model
 	 * @return string
 	 */
 	public function getInsertString($table, $data){
-		return $this->db->insert_string($table, $data);
+		// return $this->db->insert_string($table, $data);
+		$query = $this->db->table($table);
+
+		$insertString = $query->set($data)->getCompiledInsert(false);
+
+		return $insertString;
+
+		/* $query = $this->db->table($table);
+		$query->insert($data);
+
+		return $query->getCompiledInsert(); */
 	}
 
 	/**
@@ -1160,7 +1282,8 @@ class BASE_Model extends Model
 	 * @return string
 	 */
 	public function getUpdateString($table, $data, $where){
-		return $this->db->update_string($table, $data, $where);
+		// return $this->db->update_string($table, $data, $where);
+		return $this->db->table($table)->where($where)->set($data)->update();
 	}
 
 	/**

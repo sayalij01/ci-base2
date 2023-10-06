@@ -73,7 +73,7 @@ class Roles extends BASE_Controller
     	$validation = \Config\Services::validation();
 		
 		$this->javascript = array("roles.js");
-		
+		$this->hasBreadcrump 	= true;
 		$this->table_columns = T_Role::get_table_columns();
 		
 		$this->available_rights = $this->role_model->loadRights($this->client_id)->data;
@@ -111,7 +111,7 @@ class Roles extends BASE_Controller
 		if (is_array($this->request->getPost()) && $this->request->getPost("save") == 1)
 		{ // only if we have a post, we try to save
 		  // note that the save method overwrites the user-viewdata and user_roles-viewdata
-			self::save(false, null);
+			self::save(false);
 		}
 		else
 		{
@@ -187,14 +187,16 @@ class Roles extends BASE_Controller
 		// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
 		//$role_id 		= decrypt_string($role_id);
 		$result_role 	= $this->role_model->load($this->client_id, $role_id);
-		
+		$role 	= $this->role_model->getRole($this->client_id, $role_id);
+
 		write2Debugfile(self::DEBUG_FILENAME, "edit role client_id[" . $this->client_id . "] role_id[$role_id] -" . print_r($result_role, true));
 		
-		if (count($result_role->getData()) == 1 && $result_role->getError() == "")
+		if ($result_role->getError() == "")
 		{
+			// echo "in if";die;
 			$name = ($result_role->data[0]->is_static == 1 ? lang($result_role->data[0]->role_name) : $result_role->data[0]->role_name);
 			$this->breadcrump = $name;
-			
+			// print_r($result_role);die;
 			if (is_array($this->request->getPost()) && $this->request->getPost("save") == 1)
 			{ // if we have a post, we try to save
 			  // note that the save method sets the role-viewdata and role_rights-viewdata
@@ -202,39 +204,22 @@ class Roles extends BASE_Controller
 			}
 			else
 			{
-
-
-
-
-
-
-
 				$role_rights = $this->role_model->loadRoleRights($this->client_id, $role_id);
-				$clients = $this->client_model->loadAllClients()->data;
-				$assigned_clients = $this->role_model->getAssignedClients($role_id);
-				$users = $this->role_model->getAvailableUsers();
-				$assigned_users = $this->role_model->getAssignedUser($role_id);
-				
 				$this->setViewData("role_rights", $role_rights->getData());
-				$this->setViewData("role", $result_role->data[0]);
-				$this->setViewData("clients", $clients);
-				$this->setViewData("assigned_clients", $assigned_clients);
-				$this->setViewData("users", $users);
-				$this->setViewData("assigned_users", $assigned_users);
+				$this->setViewData("role", $role->data[0]);
 			}
 		}
 		else
 		{
 			write2Debugfile(self::DEBUG_FILENAME, "role[$role_id] NOT found", true);
-			$this->breadcrump = lang("msg_entry_not_found");
-			$this->setViewError(lang("msg_entry_not_found"));
+			// $this->breadcrump = lang("msg_entry_not_found");
+			// $this->setViewError(lang("msg_entry_not_found"));
 		}
 
 
 		// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
 
 		$this->setViewData("available_rights", $this->available_rights);
-		$this->setViewData("available_groupnames",$this->role_model->LoadAvailableGroupnames());
 		$this->render('admin/role/role_form', $rendermode);
 	}
 
@@ -283,21 +268,12 @@ class Roles extends BASE_Controller
 		
 		if (count($result_role->getData()) == 1 && $result_role->getError() == "")
 		{
-			$assigned_users = $this->role_model->getAssignedUser($role_id);
-			if (count($assigned_users) > 0)
+			$name = ($result_role->data[0]->is_static == 1 ? lang($result_role->data[0]->role_name) : $result_role->data[0]->role_name);
+			$this->breadcrump = $name;
+			
+			if ($confirmed == 1)
 			{
-				$data = ['assigned_users' => $assigned_users];
-				$html_assigned_users = $this->load->view("admin/role/role_assigned_users",$data,true);
-				$result = new BASE_Result(false, null, ["assigned_users" => $html_assigned_users], E_STATUS_CODE::ERROR);
-			}
-			else{
-				$name = ($result_role->data[0]->is_static == 1 ? lang($result_role->data[0]->role_name) : $result_role->data[0]->role_name);
-				$this->breadcrump = $name;
-
-				if ($confirmed == 1)
-				{
-					$result = $this->role_model->remove($this->client_id, $role_id, $this->getSessionData(E_SESSION_ITEM::USERNAME));
-				}
+				$result = $this->role_model->remove($this->client_id, $role_id, $this->getSessionData(E_SESSION_ITEM::USER_ID));
 			}
 		}
 		else
@@ -319,11 +295,12 @@ class Roles extends BASE_Controller
 		}
 		$this->setViewData("removed", $removed);
 		$this->setViewData("confirmed", $confirmed);
-		$this->setViewData("role", $result_role->data);
+		$this->setViewData("role", $result_role->data[0]);
 		
 		$this->render('admin/role/role_delete', $rendermode);
 		return $removed;
 	}
+
 
 	/**
 	 * Ajax-Method to delete a role
@@ -358,71 +335,25 @@ class Roles extends BASE_Controller
 		
 		// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
 		// ..:: set validation rules
-		/* if ($edit){
-			$this->form_validation->set_rules('name_orig', 'lang:role_name', 'trim|required|min_length[4]|max_length[50]');
-		}
-		else{
-			$this->form_validation->set_rules('role_name', 'lang:role_name', 'trim|required|min_length[4]|max_length[50]|validate_is_unique[' . $this->request->getPost("name_orig") . ',' . TBL_ROLES . ',role_name,' . lang("role_already_exist") . ']');
-		}
-		
-		$this->form_validation->set_rules('right[]', 'lang:rights', 'trim|required|min_length[1]');
-		$this->form_validation->set_rules('role_desc', 'lang:role_desc', 'trim|max_length[255]');
-		$this->form_validation->set_rules('deleted', 'lang:deleted', 'trim|max_length[1]'); */
-    	// $validation = \Config\Services::validation();
+    	$validation = \Config\Services::validation();
 		$validation = service('validation');
-		$validation->setRules([
-			// 'right[]' => 'trim|required|min_length[1]',
-			// 'role_desc' => 'trim|max_length[255]',
-			// 'deleted' => 'trim|max_length[1]',
-			'right[]' => ['label' => 'lang:rights','rules' => 'trim|required|min_length[1]'],
-			'role_desc' => ['label' => 'lang:role_desc','rules' => 'trim|max_length[255]'],
-			'deleted' => ['label' => 'lang:deleted','rules' => 'trim|max_length[1]'],
-		]);
+		$rules = [
+			'right[]' => 'trim|required|min_length[1]',
+			'role_desc'    => 'trim|max_length[255]',
+			'deleted' => 'trim|max_length[1]',
+		];
 		if ($edit) {
-			$validation->setRule('name_orig', 'lang:role_name', 'trim|required|min_length[4]|max_length[50]');
-		} else {
-			$validation->setRule('role_name', 'lang:role_name', "trim|required|min_length[4]|max_length[50]|is_unique[" . TBL_ROLES . ".role_name,role_name," . lang("role_already_exist") . "]");
-		}
-			// $validationRules = [
-			// 	'right[]' => [
-			// 		'label' => 'lang:rights',
-			// 		'rules' => 'trim|required|min_length[1]',
-			// 	],
-			// 	'role_desc' => [
-			// 		'label' => 'lang:role_desc',
-			// 		'rules' => 'trim|max_length[255]',
-			// 	],
-			// 	'deleted' => [
-			// 		'label' => 'lang:deleted',
-			// 		'rules' => 'trim|max_length[1]',
-			// 	],
-			// ];
-		
-		/* if ($edit) {
-			// Editing an existing record
-			$validationRules['name_orig'] = [
-				'label' => 'lang:role_name',
-				'rules' => 'trim|required|min_length[4]|max_length[50]',
+			$rules = [
+				'name_orig'    => 'trim|required|min_length[4]|max_length[50]',
 			];
 		} else {
-			// Adding a new record
-			$validationRules['role_name'] = [
-				'label' => 'lang:role_name',
-				'rules' => "trim|required|min_length[4]|max_length[50]|is_unique[" . TBL_ROLES . ".role_name,role_name," . lang("role_already_exist") . "]",
+			$rules = [
+				'role_name'    => "trim|required|min_length[4]|max_length[50]|is_unique[" . TBL_ROLES . ".role_name,role_name," . lang("role_already_exist") . "]",
 			];
 		}
-		 */
-		// $this->validation->setRules($validationRules);
-		
-	/* 	if ($this->validation->run($this->request->getPost())) {
-			// Validation passed
-		} else {
-			// Validation failed
-			$errors = $this->validation->getErrors();
-			// Handle errors as needed
-		} */
 
-		
+		$validation->setRules($rules);
+
 		// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
 		$deleted_at = $this->request->getPost("deleted_at", TRUE);
 		if ($this->request->getPost("deleted") == "1" && $this->request->getPost("deleted_at") == "")
@@ -436,9 +367,6 @@ class Roles extends BASE_Controller
 			$deleted_by = $this->getSessionData(E_SESSION_ITEM::USERNAME);
 		}
 
-		//$is_static = $this->request->getPost("is_static");
-		//no static roles in project!
-        // $is_static = $this->request->getPost("static");
 		$is_static = 0;
 		// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
 		if ($this->request->getPost("role_id") == "")
@@ -449,7 +377,7 @@ class Roles extends BASE_Controller
 		else
 		{
 			//$role_id = decrypt_string($this->request->getPost("role_id", TRUE));
-			$role_id = $this->request->getPost("role_id", TRUE);
+			$role_id = $this->request->getPost("role_id");
 		}
 		
 		// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
@@ -457,49 +385,43 @@ class Roles extends BASE_Controller
 			//"client_id" => $this->client_id,
             "client_id" => 0,
 			"role_id" => $role_id,
-			//"is_static" => ($this->request->getPost("is_static") == "1" ? 1 : 0),
             "is_static"=>$is_static,
 			"deleted" => ($this->request->getPost("deleted") == "1" ? 1 : 0),
-			"group_specific" => $this->request->getPost("groupname", true),
 			"deleted_at" => $deleted_at,
 			"deleted_by" => $deleted_by
 		);
-		
 		if ($is_static == 0)
 		{
-			$data["role_name"] = $this->request->getPost("role_name", TRUE);
-			$data["role_desc"] = $this->request->getPost("role_desc", TRUE);
+			$data["role_name"] = $this->request->getPost("role_name");
+			$data["role_desc"] = $this->request->getPost("role_desc");
 		}
 		
-		/*
-		 * if ($this->request->getPost("created_at") == "" && $edit == false){
-		 * $data["created_at"] = time();
-		 * }
-		 */
-        //die(print_r($data,true));
-		// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
-		if ($this->validation->run($this->request->getPost()))
+
+		if($validation->run($this->request->getPost()))
 		{
 			write2Debugfile(self::DEBUG_FILENAME, "\n - form validation passed edit[$edit]...", true);
 			$clients = $this->request->getPost("client", true);
 			$users = $this->request->getPost("user_client", true);
 			if ($edit == true)
 			{
-				$result = $this->role_model->update($this->client_id, $role_id, $data, $this->request->getPost("right", true), $clients, $users);
+				$result = $this->role_model->RoleUpdate($this->client_id, $role_id, $data, $this->request->getPost("right"), $clients, $users);
 			}
 			else
 			{
-				$result = $this->role_model->create($this->client_id, $data, $this->request->getPost("right", true), $clients, $users);
+				$result = $this->role_model->create($this->client_id, $data, $this->request->getPost("right"));
 			}
 		}
 		else
 		{
-			$result = new BASE_Result(null, $this->validation->getError(), $this->validation->getErrors(), E_STATUS_CODE::ERROR);
-			write2Debugfile(self::DEBUG_FILENAME, "\n - form validation failed...\n" . validation_errors(), true);
+
+			$result = new BASE_Result(null, $validation->getError(), $validation->getErrors(), E_STATUS_CODE::ERROR);
 		}
 		
 		// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
 		// ..:: set the view data
+		// print_r($result);die;
+	
+
 		$this->setData($result);
 		if ($result->error == "")
 		{
@@ -516,8 +438,9 @@ class Roles extends BASE_Controller
 		$this->setViewData("role", $data); // fill the role with the given post data so the view can populate a filled out form
 		$this->setViewData("role_rights", $this->request->getPost("right"));
 		$this->setViewData("saved", $saved);
+		// $this->render('admin/role/role_form', "FULLPAGE");
 		
-		write2Debugfile(self::DEBUG_FILENAME, "\nthis->data\n" . print_r($this->data, true));
+		// write2Debugfile(self::DEBUG_FILENAME, "\nthis->data\n" . print_r($this->data, true));
 		
 		return $saved;
 	}

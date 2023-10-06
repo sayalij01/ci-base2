@@ -1,4 +1,4 @@
-    <div class="app-header header-shadow">
+<div class="app-header header-shadow">
         <div class="app-header__logo">
           <div class="logo-src"></div>
           <div class="header__pane ms-auto">
@@ -60,24 +60,15 @@
                         <i class="fa fa-angle-down ms-2 opacity-8"></i>
                       </a>
                       <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu dropdown-menu-right">
-                        <button type="button" tabindex="0" class="dropdown-item">User Account</button>
-                        <button type="button" tabindex="0" class="dropdown-item">Settings</button>
-                        <h6 tabindex="-1" class="dropdown-header">Header</h6>
-                        <button type="button" tabindex="0" class="dropdown-item">Actions</button>
-                        <div tabindex="-1" class="dropdown-divider"></div>
-                        <button type="button" tabindex="0" class="dropdown-item">Dividers</button>
+                        <a href="<?php echo base_url('logout')?>"  type="button" tabindex="0" class="dropdown-item">Logout</a>
                       </div>
                     </div>
                   </div>
                   <div class="widget-content-left  ms-3 header-user-info">
-                    <div class="widget-heading"> Alina Mclourd </div>
-                    <div class="widget-subheading"> VP People Manager </div>
+                    <div class="widget-heading"> <?php echo $username; ?> </div>
+                    
                   </div>
-                  <div class="widget-content-right header-user-info ms-3">
-                    <button type="button" class="btn-shadow p-1 btn btn-primary btn-sm show-toastr-example">
-                      <i class="fa text-white fa-calendar pe-1 ps-1"></i>
-                    </button>
-                  </div>
+              
                 </div>
               </div>
             </div>

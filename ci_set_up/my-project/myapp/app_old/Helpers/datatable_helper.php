@@ -1,5 +1,5 @@
 <?php
-
+use App\Helpers\HTML_Button;
 /**
  * Helper containing common callback-methods for the datatable library
  *

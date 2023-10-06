@@ -273,44 +273,6 @@ class User_model extends BASE_Model
 	 *
 	 * @return BASE_Result >> containing an array or null
 	 */
-	// function datatable($client_id, $user_id, $columns, $btnEdit=false, $btnDel=false, $includeDeleted=false)
-	// {
-	// 	write2Debugfile(self::DEBUG_FILENAME, "\ndatatable\n\n");
-		
-	// 	$this->load->library('Datatables');
-	// 	$this->load->helper('datatable');
-	
-	// 	$fields = prepare_fields($columns, array_merge($this->listFields(TBL_USER), $this->listFields(TBL_TEAMS)), array() );
-
-			
-	// 	$this->datatables->select(TBL_USER.".user_id, activated,activated_at, ".$fields );
-	// 	$this->datatables->from(TBL_USER);
-	// 	$this->datatables->where(TBL_USER.".client_id", $client_id);
-
-	// 	$this->datatables->join(TBL_TEAMS,
-	// 		TBL_TEAMS.'.client_id = '.$client_id.' AND '.
-	// 		TBL_TEAMS.'.team_id = '.TBL_USER.'.team_id ',
-	// 		'left');	// @todo should be a inner join since team is now a required field for users
-		
-		
-	// 	$this->datatables->edit_column('control_col', '$1', "callback_build_buttons(user_id, '', admin, users, $btnEdit, $btnDel, 0, 0, 1)");
-	// 	$this->datatables->edit_column('locked', '$1' , 'callback_locked(user_id,locked)');
-	// 	$this->datatables->edit_column('activated', '$1' , 'callback_activated(user_id,activated,activated_at)');
-	// 	$this->datatables->edit_column('deleted', '$1' , 'callback_deleted(user_id, deleted) ');
-	// 	$this->datatables->edit_column('last_login', '$1' , 'format_timestamp2datetime(last_login) ');
-	// 	$this->datatables->edit_column('created_at', '$1' , 'format_timestamp2datetime(created_at) ');
-		
-	
-	// 	if ($includeDeleted === false){
-	// 		$this->datatables->where(TBL_USER.".deleted", "0");
-	// 	}
-	
-	// 	$result 		= $this->datatables->generate();
-	// 	$result_json 	= json_decode($result);
-	
-	// 	write2Debugfile(self::DEBUG_FILENAME, "\n".print_r($this->db->queries, true)."\n\n".print_r(json_decode($result), true));
-	// 	return new BASE_Result($result, "", json_decode($result), E_STATUS_CODE::SUCCESS);
-	// }
 
 	function datatable($client_id, $user_id, $columns, $btnEdit=false, $btnDel=false, $includeDeleted=false)
 	{
@@ -329,13 +291,13 @@ class User_model extends BASE_Model
 		$builder->join(TBL_TEAMS, TBL_TEAMS . '.client_id = ' . $client_id . ' AND ' . TBL_TEAMS . '.team_id = ' . TBL_USER . '.team_id', 'left');
 
 		$query = $builder->get();
-        $roles = $query->getResult('array');
+        $users = $query->getResult('array');
 
         $result = [];
 
-		foreach ($roles as $row) {
+		foreach ($users as $row) {
 			// print_r($row);
-            $row['control_col'] = callback_build_buttons($row['user_id'], '', 'admin', 'users', $btnEdit, $btnDel, 0, 0, 1);
+			$row['control_col'] = $this->callback_build_buttons($row['user_id'], $row['username'], "users", true, true, 0, 0, 0);
 	        $row['locked'] = callback_locked($row['user_id'], $row['locked']);
 	        $row['activated'] = callback_activated($row['user_id'], $row['activated'], $row['activated_at']);
 	        // $row['deleted'] = callback_deleted($row['user_id'], $row['deleted']);
@@ -693,6 +655,43 @@ class User_model extends BASE_Model
 			log_message(E_LOGLEVEL::ERROR, " - error while saving last login time for user [".$user_id."]\n".$result->getError());
 		}
 	}
+
+	public function callback_build_buttons($id, $name, $class, $btn_edit=true, $btn_delete=true, $static_permission=false, $is_static=false, $encrypt=false)
+    {
+		// echo $id ." ". $name." ".$class." ".$btn_edit." ".$btn_delete;die;
+        if ($encrypt == true){
+			$id = encrypt_string($id);
+		}
+	
+		if ($is_static){
+			$name=lang($name);
+		}
+		
+		$buttons 	= "";
+	
+		if ($btn_delete){
+			
+			if ($is_static && $static_permission == false){
+				$buttons .= '<label class="dtbt_remove btn btn-xs btn-danger disabled"><i class="fa fa-trash" title="\''.$name.'\'&nbsp;'.lang("delete").'"></i></label>&nbsp;';
+			}
+			else{
+				// $buttons .= "delete";
+	
+				$buttons .= '<a href="'.base_url().'remove-user/'.$id.'" onclick="$.'.$class.'.remove_(\''.$id.'\')" class=" btn btn-danger"><i class="fa fa-trash"></i></a>&nbsp;';
+			}
+		}
+	
+		if ($btn_edit){
+			// $buttons .= "edit";
+			// $buttons .='<a href="#">Edit</a>';
+			$buttons .= '<a href="'.base_url().'edit-user/'.$id.'" onclick="$.'.$class.'.edit(\''.$id.'\')" class="dtbt_edit btn btn-xs btn-primary"><i class="fa fa-pencil" title="\''.$name.'\'&nbsp;'.lang("edit").'"></i></a>&nbsp;';
+	
+			// $buttons .= '<a href="'.base_url().'admin/'.$class.'/edit/'.$id.'" onclick="$.'.$class.'.edit(\''.$id.'\')" class="dtbt_edit btn btn-xs btn-primary"><i class="fa fa-pencil" title="\''.$name.'\'&nbsp;'.lang("edit").'"></i></a>&nbsp;';
+		}
+	
+		return $buttons;
+
+    }
 } // End of Class
 
 // ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..

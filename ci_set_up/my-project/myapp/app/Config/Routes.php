@@ -36,10 +36,16 @@ $routes->get('logout', 'admin\Logout::index');
 $routes->get('roles', 'admin\Roles::index');
 $routes->get('create', 'admin\Roles::create');
 $routes->post('create', 'admin\Roles::create');
+$routes->get('remove-role/(:any)', 'admin\Roles::remove/$1');
+$routes->post('remove-role/(:any)', 'admin\Roles::remove/$1');
+$routes->get('edit-role/(:any)', 'admin\Roles::edit/$1');
+$routes->post('edit-role/(:any)', 'admin\Roles::edit/$1');
 
 $routes->get('users', 'admin\Users::index');
 $routes->get('create-users', 'admin\Users::create');
 $routes->post('create-users', 'admin\Users::create');
+$routes->get('remove-user/(:any)', 'admin\Users::remove/$1');
+$routes->post('remove-user/(:any)', 'admin\Users::remove/$1');
 
 $routes->get('locales', 'root\Locales::index');
 $routes->get('create-locales', 'root\Locales::create');
@@ -49,6 +55,10 @@ $routes->get('clients', 'root\Clients::index');
 $routes->get('create-clients', 'root\Clients::create');
 $routes->post('create-clients', 'root\Clients::create');
 $routes->post('edit-clients', 'root\Clients::edit');
+$routes->get('remove-client/(:any)', 'root\Clients::remove/$1');
+$routes->post('remove-client/(:any)', 'root\Clients::remove/$1');
+$routes->get('edit-client/(:any)', 'root\Clients::edit/$1');
+$routes->post('edit-client/(:any)', 'root\Clients::edit/$1');
 
 $routes->get('overview', 'admin\Overview::index');
 

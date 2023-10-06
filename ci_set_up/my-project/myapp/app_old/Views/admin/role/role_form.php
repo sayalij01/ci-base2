@@ -1,13 +1,16 @@
-
 <?php 
-	use App\Libraries\value_objects\T_Role;
-	use App\Helpers\HTML_Input ,App\Helpers\HTML_FormItem, App\Helpers\HTML_TextArea, App\Helpers\HTML_Toggle,App\Helpers\HTML_Button,App\Helpers\HTML_Form,App\Helpers\HTML_Panel;
-	$page_alerts = '';
+use App\Libraries\value_objects\T_Role;
+use App\Helpers\HTML_Input , App\Helpers\HTML_Button,  App\Helpers\HTML_FormItem ,  
+App\Helpers\HTML_TextArea, App\Helpers\HTML_Toggle,  App\Helpers\HTML_Checkbox,  App\Helpers\HTML_Form,   App\Helpers\HTML_Panel;
+
+	
+	// $page_alerts = buildPageAlerts($error, $success, $warning, $info);
 
 	// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
 	// ..:: create role object	
 	$role = new T_Role($data["role"]);
-// print_r($role);die;
+
+
 	// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
 	// ..:: build the role form
 	// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
@@ -17,7 +20,7 @@
 		$i_rolename->setEnabled(false);
 	}
 	$fi_rolename = new HTML_FormItem(lang("name"), "fi_role_name", "i_role_name", array(), E_REQUIRED::YES);
-	// $fi_rolename->setValidationState( form_error('role_name') != "" ? E_VALIDATION_STATES::HAS_ERROR : E_VALIDATION_STATES::NONE);
+	$fi_rolename->setValidationState( service('validation')->hasError('role_name')  != "" ? E_VALIDATION_STATES::HAS_ERROR : E_VALIDATION_STATES::NONE);
 	$fi_rolename->addComponent( $i_rolename );
 	
 	// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
@@ -28,13 +31,13 @@
 		$i_roledesc->setEnabled(false);
 	}
 	$fi_roledesc = new HTML_FormItem(lang("desc"), "fi_role_desc", "i_role_desc", array(), E_REQUIRED::NO);
-	// $fi_roledesc->setValidationState( form_error('role_desc') != "" ? E_VALIDATION_STATES::HAS_ERROR : E_VALIDATION_STATES::NONE);
+	$fi_roledesc->setValidationState( service('validation')->hasError('role_desc') != "" ? E_VALIDATION_STATES::HAS_ERROR : E_VALIDATION_STATES::NONE);
 	$fi_roledesc->addComponent( $i_roledesc );
 	
 	// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
 	$toggle = new HTML_Toggle("toggle_is_static", "is_static", ($role->is_static == 1 ? E_SELECTED::YES : E_SELECTED::NO), lang("static"), 2, E_SIZES::SM, E_ICONS::CHECK_SQUARE_WHITE."&nbsp;".lang("static"), E_ICONS::SQUARE_WHITE."&nbsp;".lang("non_static"), E_COLOR::PRIMARY, E_COLOR::STANDARD, E_ENABLED::NO, E_INLINE::YES);
 	$fi_static = new HTML_FormItem("", "fi_role_static", "toggle_is_static", array(), E_REQUIRED::NO);
-	// $fi_static->setValidationState( form_error('role_static') != "" ? E_VALIDATION_STATES::HAS_ERROR : E_VALIDATION_STATES::NONE);
+	$fi_static->setValidationState( service('validation')->hasError('role_static') != "" ? E_VALIDATION_STATES::HAS_ERROR : E_VALIDATION_STATES::NONE);
 	$fi_static->addComponent( $toggle );
 	$fi_static->setVisible(false);
 	
@@ -58,7 +61,7 @@
 	
 	
 	// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
-	$form_role_data = new HTML_Form("form_role_data", "form_role_data", "#", lang("data_common"), E_FORMMETHOD::POST, E_VISIBLE::YES, E_ENABLED::YES, E_FORMLAYOUT::HORIZONTAL, array(), array(), array());
+	$form_role_data = new HTML_Form("form_role_data", "form_role_data", "#", lang("data_common"), E_FORMMETHOD::POST, E_VISIBLE::YES, E_ENABLED::YES, E_FORMLAYOUT::HORIZONTAL, array(), array("custom"), array());
 	$form_role_data
 	->addFormItem($fi_rolename)
 	->addFormItem($fi_roledesc)
@@ -67,6 +70,7 @@
 	->addFormItem($hidden_rolename)
 	->addFormItem($hidden_is_static)
 	->addFormItem($hidden_save);
+	
 
 	// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
 	// ..:: build the rights form
@@ -78,7 +82,7 @@
 			$role_rights[$right_id] = $right_id;
 		}
 	}
-	// print_r($data["available_rights"]);die;
+	
 	$toggle_all	= "";
 	$rights_li 	= "";
 	if (isset($data["available_rights"]))
@@ -108,7 +112,7 @@
 	$fi_toggle_all->addComponent($toggle_all);
 	
 	$fi_rights = new HTML_FormItem(lang("rights"), "fi_rights", "checked-list-box", array(), E_REQUIRED::YES);
-	// $fi_rights->setValidationState( form_error('rights') != "" ? E_VALIDATION_STATES::HAS_ERROR : E_VALIDATION_STATES::NONE);
+	$fi_rights->setValidationState( service('validation')->hasError('rights') != "" ? E_VALIDATION_STATES::HAS_ERROR : E_VALIDATION_STATES::NONE);
 	$fi_rights->addComponent($rights_li);
 	
 	$form_rights = new HTML_Form("form_role_rights", "form_role_rights", "#", lang("assigned_rights"), E_FORMMETHOD::POST, E_VISIBLE::YES, E_ENABLED::YES, E_FORMLAYOUT::HORIZONTAL, array(), array(), array() );
@@ -119,16 +123,22 @@
 	// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
 	// ..:: put all forms together
 	// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
-	$form = new HTML_Form("form_role", "form_role", base_url('admin/roles/').($role->role_id == '' ? 'create':'edit'), "", E_FORMMETHOD::POST, E_VISIBLE::YES, E_ENABLED::YES, E_FORMLAYOUT::HORIZONTAL, array(), array(), array());
-	//$form->setAttributes(array("enctype"=>"multipart/form-data"));
+	// $form = new HTML_Form("form_role", "form_role", base_url('admin/roles/').($role->role_id == '' ? 'create':'edit'), "", E_FORMMETHOD::POST, E_VISIBLE::YES, E_ENABLED::YES, E_FORMLAYOUT::HORIZONTAL, array(), array(), array());
+	$form = new HTML_Form("form_role", "form_role", base_url().($role->role_id == '' ? 'create':'edit'), "", E_FORMMETHOD::POST, E_VISIBLE::YES, E_ENABLED::YES, E_FORMLAYOUT::HORIZONTAL, array(), array(), array());
+	
 	$form->addFormItem(
-		$page_alerts.' 
-		<div class="">'.
-			$form_role_data->generateHTML(true).'
-		</div>
-		<div class="">'.
-			$form_rights->generateHTML(true).'
-		</div>'
+		'
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">'.
+							$form_role_data->generateHTML(true).'
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">'.
+							$form_rights->generateHTML(true).'
+						</div>
+					</div>
+				</div>
+		'
 	);
 
 	// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
@@ -138,33 +148,26 @@
 	
 	
 ?>
-<div class="container" >
-<div class="row button-row">
-	<div class="col-md-2"></div>
-	<div class="col-md-8">
-		<?php 
-			if ($role->is_static == 0 || ($this->config->item("root_can_change_static_roles") == 1 && $this->client_id == $this->config->item("root_client_id")))
-			{
-				echo $btn_reset->generateHTML()."&nbsp;";
-				echo $btn_submit->generateHTML();
-			}
-			else
-			{
-				$hint_static = new HTML_Alert("hint_static", lang("hint"), lang("msg_you_cannot_change_static_roles"), E_COLOR::WARNING);
-				echo $hint_static->generateHTML();
-			}
-		?>
+
+	<div class="row button-row mt-5">
+		<div class="col-xs-12">
+			<?php 
+				if ($role->is_static == 0 || ($this->config->item("root_can_change_static_roles") == 1 && $this->client_id == $this->config->item("root_client_id")))
+				{
+					echo $btn_reset->generateHTML()."&nbsp;";
+					echo $btn_submit->generateHTML();
+				}
+				else
+				{
+					$hint_static = new HTML_Alert("hint_static", lang("hint"), lang("msg_you_cannot_change_static_roles"), E_COLOR::WARNING);
+					echo $hint_static->generateHTML();
+				}
+			?>
+		</div>
 	</div>
-	<div class="col-md-2"></div>
-</div>
-<div class="row justify-content-center mt-5">
-	<div class="col-md-2"></div>
-	<div class="col-md-8">
-		<?php echo $form->generateHTML(); ?>
+
+	<div class="row justify-content-center mt-5 mb-5"> 
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<?php echo $form->generateHTML(); ?>
+		</div>	
 	</div>
-	<div class="col-md-2"></div>
-</div>
-</div>
-
-
-

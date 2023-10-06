@@ -4,7 +4,7 @@ namespace App\Models;
 use CodeIgniter\Model;
 use App\core\BASE_Model;
 use App\core\BASE_Result;
-use App\Enums\E_SESSION_ITEM ,App\Enums\E_STATUS_CODE , App\Enums\E_SYSTEM_LOCK_REASONS;
+use App\Enums\E_SESSION_ITEM ,App\Enums\E_STATUS_CODE , App\Enums\E_SYSTEM_LOCK_REASONS,App\Enums\E_PERMISSIONS;
 
 class User_model extends BASE_Model 
 {
@@ -273,43 +273,82 @@ class User_model extends BASE_Model
 	 *
 	 * @return BASE_Result >> containing an array or null
 	 */
-	function datatable($client_id, $user_id, $columns, $btnEdit=false, $btnDel=false, $includeDeleted=false)
-	{
-		write2Debugfile(self::DEBUG_FILENAME, "\ndatatable\n\n");
+	// function datatable($client_id, $user_id, $columns, $btnEdit=false, $btnDel=false, $includeDeleted=false)
+	// {
+	// 	write2Debugfile(self::DEBUG_FILENAME, "\ndatatable\n\n");
 		
-		$this->load->library('Datatables');
-		$this->load->helper('datatable');
+	// 	$this->load->library('Datatables');
+	// 	$this->load->helper('datatable');
 	
-		$fields = prepare_fields($columns, array_merge($this->listFields(TBL_USER), $this->listFields(TBL_TEAMS)), array() );
+	// 	$fields = prepare_fields($columns, array_merge($this->listFields(TBL_USER), $this->listFields(TBL_TEAMS)), array() );
 
 			
-		$this->datatables->select(TBL_USER.".user_id, activated,activated_at, ".$fields );
-		$this->datatables->from(TBL_USER);
-		$this->datatables->where(TBL_USER.".client_id", $client_id);
+	// 	$this->datatables->select(TBL_USER.".user_id, activated,activated_at, ".$fields );
+	// 	$this->datatables->from(TBL_USER);
+	// 	$this->datatables->where(TBL_USER.".client_id", $client_id);
 
-		$this->datatables->join(TBL_TEAMS,
-			TBL_TEAMS.'.client_id = '.$client_id.' AND '.
-			TBL_TEAMS.'.team_id = '.TBL_USER.'.team_id ',
-			'left');	// @todo should be a inner join since team is now a required field for users
+	// 	$this->datatables->join(TBL_TEAMS,
+	// 		TBL_TEAMS.'.client_id = '.$client_id.' AND '.
+	// 		TBL_TEAMS.'.team_id = '.TBL_USER.'.team_id ',
+	// 		'left');	// @todo should be a inner join since team is now a required field for users
 		
 		
-		$this->datatables->edit_column('control_col', '$1', "callback_build_buttons(user_id, '', admin, users, $btnEdit, $btnDel, 0, 0, 1)");
-		$this->datatables->edit_column('locked', '$1' , 'callback_locked(user_id,locked)');
-		$this->datatables->edit_column('activated', '$1' , 'callback_activated(user_id,activated,activated_at)');
-		$this->datatables->edit_column('deleted', '$1' , 'callback_deleted(user_id, deleted) ');
-		$this->datatables->edit_column('last_login', '$1' , 'format_timestamp2datetime(last_login) ');
-		$this->datatables->edit_column('created_at', '$1' , 'format_timestamp2datetime(created_at) ');
+	// 	$this->datatables->edit_column('control_col', '$1', "callback_build_buttons(user_id, '', admin, users, $btnEdit, $btnDel, 0, 0, 1)");
+	// 	$this->datatables->edit_column('locked', '$1' , 'callback_locked(user_id,locked)');
+	// 	$this->datatables->edit_column('activated', '$1' , 'callback_activated(user_id,activated,activated_at)');
+	// 	$this->datatables->edit_column('deleted', '$1' , 'callback_deleted(user_id, deleted) ');
+	// 	$this->datatables->edit_column('last_login', '$1' , 'format_timestamp2datetime(last_login) ');
+	// 	$this->datatables->edit_column('created_at', '$1' , 'format_timestamp2datetime(created_at) ');
 		
 	
-		if ($includeDeleted === false){
-			$this->datatables->where(TBL_USER.".deleted", "0");
-		}
+	// 	if ($includeDeleted === false){
+	// 		$this->datatables->where(TBL_USER.".deleted", "0");
+	// 	}
 	
-		$result 		= $this->datatables->generate();
-		$result_json 	= json_decode($result);
+	// 	$result 		= $this->datatables->generate();
+	// 	$result_json 	= json_decode($result);
 	
-		write2Debugfile(self::DEBUG_FILENAME, "\n".print_r($this->db->queries, true)."\n\n".print_r(json_decode($result), true));
-		return new BASE_Result($result, "", json_decode($result), E_STATUS_CODE::SUCCESS);
+	// 	write2Debugfile(self::DEBUG_FILENAME, "\n".print_r($this->db->queries, true)."\n\n".print_r(json_decode($result), true));
+	// 	return new BASE_Result($result, "", json_decode($result), E_STATUS_CODE::SUCCESS);
+	// }
+
+	function datatable($client_id, $user_id, $columns, $btnEdit=false, $btnDel=false, $includeDeleted=false)
+	{
+		$builder = $this->db->table($this->table);
+		
+		$getFields = $this->getFieldNames($this->table);
+		$teamsFields= $this->getFieldNames(TBL_TEAMS);
+		$allFields = array_merge($getFields, $teamsFields);
+		$fields = prepare_fields($columns, $allFields,array());
+		
+		// $fields = prepare_fields($columns, array_merge($getFields, $teamsFields), array() );
+	
+		$builder->select(TBL_USER . ".user_id, activated, activated_at, " . $fields);
+		$builder->where(TBL_USER . ".client_id", $client_id);
+		$builder->where('deleted', 0);
+		$builder->join(TBL_TEAMS, TBL_TEAMS . '.client_id = ' . $client_id . ' AND ' . TBL_TEAMS . '.team_id = ' . TBL_USER . '.team_id', 'left');
+
+		$query = $builder->get();
+        $roles = $query->getResult('array');
+
+        $result = [];
+
+		foreach ($roles as $row) {
+			// print_r($row);
+            $row['control_col'] = callback_build_buttons($row['user_id'], '', 'admin', 'users', $btnEdit, $btnDel, 0, 0, 1);
+	        $row['locked'] = callback_locked($row['user_id'], $row['locked']);
+	        $row['activated'] = callback_activated($row['user_id'], $row['activated'], $row['activated_at']);
+	        // $row['deleted'] = callback_deleted($row['user_id'], $row['deleted']);
+	        $row['last_login'] = format_timestamp2datetime($row['last_login']);
+	        // $row['created_at'] = format_timestamp2datetime($row['created_at']);
+
+
+            $result[] = $row;
+			
+        }
+		// print_r( $result);die;
+		return new BASE_Result($result, "", $result, E_STATUS_CODE::SUCCESS);
+
 	}
 	
 	/**

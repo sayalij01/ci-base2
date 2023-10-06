@@ -5,28 +5,11 @@ use App\Enums\E_VISIBLE;
 
 use App\Enums\E_ENABLED , App\Enums\E_INPUTTYPE ,  App\Enums\E_VALIDATION_STATES ,
  App\Enums\E_REQUIRED,App\Enums\E_SELECTED,App\Enums\E_INLINE ,App\Enums\E_FORMLAYOUT ,App\Enums\E_FORMMETHOD ,   App\Helpers\HTML_Panel ,App\Enums\E_COLLAPSEABLE ,App\Enums\E_DRAGGABLE;
-use App\Enums\E_DISMISSABLE;
+use App\Enums\E_DISMISSABLE, App\Enums\E_IMAGE_STYLES;
 
 use App\Enums\E_COLOR , App\Enums\E_SIZES, App\Enums\E_BUTTON_TYPES;
 use App\Enums\E_ICONS ,App\Enums\E_HORIZONTAL_POSITION , App\Enums\E_SORTABLE;
-
-// include('/app/myapp/app/Views/template/skeleton.php');
-/* 
-$baseEnum = new BASE_Enum();
-        
-// Call the function from base_enum.php
-$result = $baseEnum->myBaseEnumFunction();
-return "Result from myBaseEnumFunction: $result";die;
- */
-// include APPPATH . 'core/BASE_Enum.php';
-/**
- * This class helps us generating HTML-Markup
- *
- * @category helper
- * @package application\helper\HTML_helper
- * @version 1.0
- */
-
+use CodeIgniter\Exceptions;
 class HTML 
 {
 	const DEBUG_FILENAME 			= "HTML.log";
@@ -143,12 +126,7 @@ class HTML
 
 		if($includeCustoms == true)
 		{
-			// echo $arrayKey;
-			// print_r($this->classes);
-			// print_r($this->defaultClasses['form']);
-			// echo $arrayKey;die;
 			$this->defaultClasses[$arrayKey] = array_merge($this->defaultClasses[$arrayKey], $this->classes);
-			// print_r($this->defaultClasses[$arrayKey]);die();
 		}
 
 		if ($arrayKey != "" && array_key_exists($arrayKey, $this->defaultClasses) === false){
@@ -163,8 +141,6 @@ class HTML
 			}
 		}
 		$this->classString = 'class="'.substr($this->classString, 0, -1).'"';
-		// print_r($this->classString);die;
-		// print_r($this->defaultClasses[$arrayKey]);die();
 		return $this->classString;
 	}
 
@@ -5521,22 +5497,23 @@ class HTML_Select extends HTML
 			foreach ($data as $entry)
 			{
 				$opt_data = (array)$entry;
-
-				if (! array_key_exists($keyField, $entry)){
+				// echo $keyField;
+				// print_r($entry);die;
+				if (! array_key_exists($keyField, $opt_data)){
 					throw new Exception(nl2br("Der Index [$keyField] für den Schlüsselwert existiert nicht im Datenbestand!\n".print_r($entry, true)));
 				}
-				if (! array_key_exists($labelField, $entry)){
-					throw new Exception(nl2br("Der Index [$labelField] für die Beschriftung existiert nicht im Datenbestand!\n".print_r($entry, true)));
-				}
+				// if (! array_key_exists($labelField, $entry)){
+				// 	throw new Exception(nl2br("Der Index [$labelField] für die Beschriftung existiert nicht im Datenbestand!\n".print_r($entry, true)));
+				// }
 				if (is_array($entry) ){
-					$key				= $entry[$keyField];
-					$opt_data["label"]	= $entry[$labelField];
-					$text 				= $entry[$labelField];
+					$key				= $keyField;
+					$opt_data["label"]	= $labelField;
+					$text 				= $labelField;
 				}
 				else{
-					$key 				= $entry->$keyField;
-					$opt_data["label"]	= $entry->$labelField;
-					$text 				= $entry->$labelField;
+					$key 				= $keyField;
+					$opt_data["label"]	= $labelField;
+					$text 				= $labelField;
 				}
 
 				$options[$key]		= $opt_data;

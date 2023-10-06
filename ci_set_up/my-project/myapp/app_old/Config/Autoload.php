@@ -107,7 +107,7 @@ class Autoload extends AutoloadConfig
      * @phpstan-var list<string>
      */
     public $helpers = [
-        'enum_helper','page_helper','html_helper','menu_helper','debug_helper','base_helper','datatable_helper'
+        'enum_helper','page_helper','html_helper','menu_helper','debug_helper','base_helper','datatable_helper','file_helper'
     ];
 
 }

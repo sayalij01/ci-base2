@@ -6,12 +6,12 @@ use App\Helpers\HTML_Datatable , App\Helpers\HTML_Button;
 // $page_alerts = buildPageAlerts($error, $success, $warning, $info);
 // print_r($data["table_columns"]);die;
 $btn_new = "";
-if (BASE_Controller::hasPermission(E_PERMISSIONS::ROLE_CREATE))
-{
+// if (BASE_Controller::hasPermission(E_PERMISSIONS::ROLE_CREATE))
+// {
 	$btn_new = new HTML_Button("btn_new", "btn_new", lang("role_create"), E_COLOR::PRIMARY, E_SIZES::STANDARD, E_ICONS::USER_PLUS, "left", E_VISIBLE::YES, E_ENABLED::YES, array(), array(), array());
-	$btn_new->setAnchor(base_url("admin/roles/create"));
+	$btn_new->setAnchor(base_url("create"));
 	$btn_new = $btn_new->generateHTML();
-}
+// }
 
 $tbl = new HTML_Datatable("tbl_roles", $data["table_columns"], $data["table_data"]);
 // $pnl = new HTML_Panel("pnl_roles", lang("roles"), $page_alerts.$tbl->generateHTML(), $btn_new);
