@@ -35,8 +35,20 @@ $routes->post('login', 'admin\Login::index');
 $routes->get('logout', 'admin\Logout::index');
 $routes->get('roles', 'admin\Roles::index');
 $routes->get('create', 'admin\Roles::create');
-$routes->get('edit/(:num)', 'admin\Roles::edit/$1');
+$routes->post('create', 'admin\Roles::create');
 
+$routes->get('users', 'admin\Users::index');
+$routes->get('create-users', 'admin\Users::create');
+$routes->post('create-users', 'admin\Users::create');
+
+$routes->get('locales', 'root\Locales::index');
+$routes->get('create-locales', 'root\Locales::create');
+$routes->post('create-locales', 'root\Locales::create');
+
+$routes->get('clients', 'root\Clients::index');
+$routes->get('create-clients', 'root\Clients::create');
+$routes->post('create-clients', 'root\Clients::create');
+$routes->post('edit-clients', 'root\Clients::edit');
 
 $routes->get('overview', 'admin\Overview::index');
 

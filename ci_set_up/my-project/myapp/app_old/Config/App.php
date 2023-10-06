@@ -481,7 +481,7 @@ class App extends BaseConfig
     public $enable_profiler = 0;
     public $enable_access_log =0;
     public $enable_database_log =0;
-    public $root_can_change_static_roles =0;
+    public $root_can_change_static_roles =1;
 
     // ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
     // ..:: Layout options
@@ -518,7 +518,7 @@ class App extends BaseConfig
     public $login_attempts_till_lock = 3;																		// The number of failed login attempts till the user gets locked
     public $root_client_id			= "0";
     // public $main_client_id			= "0";	
-    // public $default_password			= "lrkp2020!";														// Default password for initial user
+    public $default_password			= "cibase2023!";														// Default password for initial user
     // public $dbbackup_path			= "application/backups/";
     // public $upload_folder 			= "uploads/";
 
@@ -531,7 +531,6 @@ class App extends BaseConfig
 
 
     // public $log_path = 'app/logs/';
-
     public $displayErrors = true;
 
 }

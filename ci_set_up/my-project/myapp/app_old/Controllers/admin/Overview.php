@@ -22,8 +22,7 @@ class Overview extends BASE_Controller
     {
         parent::initController($request, $response, $logger);
 		helper('page_helper');
-		$this->hasBreadcrump	= false;
-		$this->hasNav			= true;
+		$this->hasBreadcrump	= true;
 		$this->hasSidebar		= true;
 		$this->javascript		= array("home.js");
         $this->user_model = model('App\Models\User_model');

@@ -39,9 +39,7 @@
 					if (isset($pageHeading)){ 
 						echo $pageHeading;
 					}
-					if (isset($breadcrump)){
-						echo $breadcrump;
-					}
+					
 				?>
 				<?php 
 					//echome("Expand [".$bg_class."]");
@@ -58,7 +56,11 @@
 						</div>	
 					<div class="app-main__outer">
 							<div class="app-main__inner">
+								
 								<?php 
+								if (isset($breadcrump)){
+									echo $breadcrump;
+								}
 									if (isset($content_body)){
 										echo $content_body;
 									}

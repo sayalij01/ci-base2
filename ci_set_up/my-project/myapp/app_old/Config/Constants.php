@@ -131,7 +131,8 @@ define('TBL_LOG_EMAIL', TABLE_PREFIX.'log__email');					                    // l
 define('TBL_ROLES', TABLE_PREFIX.'roles');							                    // roles table (permission groups)
 define('TBL_ROLES_RIGHTS', TABLE_PREFIX.'roles__rights');			                    // permissions 2 roles relation table
 
-define('TBL_RIGHTS', TABLE_PREFIX.'_rights');						                    // permissions table
+define('TBL_RIGHTS', TABLE_PREFIX.'_rights');	
+define('TBL_TEAMS', 'ab_model__teams');					                    // permissions table
 
 // ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
 // ..:: TEMPLATES ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..

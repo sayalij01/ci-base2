@@ -141,6 +141,7 @@ class Clients extends BASE_Controller
 		write2Debugfile(self::DEBUG_FILENAME, "edit client client_id[".$client_id."]", false);
 		// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
 		$result_client = $this->client_model->load($client_id);
+		// print_r(count($result_client->getData()));die;
 	
 		if (count($result_client->getData()) == 1 && $result_client->getError() == "")
 		{
@@ -156,6 +157,7 @@ class Clients extends BASE_Controller
 			else
 			{
 				$this->setViewData("client", $result_client->data[0]);
+				// self::save(true);
 			}
 		}
 		else {
@@ -198,7 +200,7 @@ class Clients extends BASE_Controller
 			$this->render('errors/error_invalid_parameter', $rendermode);
 			return; 
 		}
-		if($client_id == $this->config->item("root_client_id")){
+		if($client_id == $this->config->root_client_id){
 			$this->setViewError(lang("msg_you_cant_delete_this_entry"));
 			$this->render('errors/error_general', $rendermode);
 			return;
@@ -217,6 +219,8 @@ class Clients extends BASE_Controller
 			$this->breadcrump = $result_client->data[0]->client_name;
 			if ($confirmed == 1){
 				$result	= $this->client_model->remove($client_id, $this->getSessionData(E_SESSION_ITEM::USER_ID));
+				return redirect()->to(base_url('clients'));
+
 			}
 		}
 		else {
@@ -237,10 +241,9 @@ class Clients extends BASE_Controller
 		}
 		$this->setViewData("removed", $removed);
 		$this->setViewData("confirmed", $confirmed);
-		$this->setViewData("client", $result_client->data);
+		$this->setViewData("client", $result_client->data[0]);
 		
 		$this->render('root/client/client_delete', $rendermode);
-		return $removed;
 	}
 	
 	/**
@@ -254,6 +257,7 @@ class Clients extends BASE_Controller
 	 */
 	private function save($edit)
 	{
+		// echo "in save";die;
 		write2Debugfile(self::DEBUG_FILENAME, "save client\n".print_r($this->request->getPost(), true), false);
 		
     	//$post 	= $this->request->getPost();
@@ -334,7 +338,6 @@ class Clients extends BASE_Controller
     		}
     		else
     		{
-				// echo "else";die;
     			$result = $this->client_model->create($data );
     		}
 			
@@ -342,7 +345,6 @@ class Clients extends BASE_Controller
     	else {
     		$result = new BASE_Result(null, $validation->getError(), $validation->getErrors(), E_STATUS_CODE::ERROR);
     	}
-		// die;
 		// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
 		// ..:: set the view data
 
@@ -361,30 +363,8 @@ class Clients extends BASE_Controller
 		}
 		$this->setViewData("client", $data); // fill the role with the given post data so the view can populate a filled out form
 		$this->setViewData("saved", $saved);
-		// $this->render('admin/role/role_form', "FULLPAGE");
-		
-		// write2Debugfile(self::DEBUG_FILENAME, "\nthis->data\n" . print_r($this->data, true));
 		
 		return $saved;
-
-
-		// $this->setData($result);
-		// echo "<pre>";
-		// 		print_r($result);die;
-		// if ($result->error == "")
-		// {
-		// 	$data["client_id"] = $client_id; 
-			
-		// 	$this->setViewSuccess(lang("client_has_been_saved"));
-		// 	$saved = true;
-		// }
-		// $this->setViewData("client", $data);	// fill the client with the given post data so the view can populate a filled out form
-		// $this->setViewData("saved", $saved);
-
-    	// write2Debugfile(self::DEBUG_FILENAME, "\nthis->data\n".print_r($this->data, true));
-		
-    	
-    	// return $saved;
 	}
 	
 	/**

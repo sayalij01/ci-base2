@@ -8,7 +8,7 @@ use App\Enums\E_ENABLED , App\Enums\E_INPUTTYPE ,  App\Enums\E_VALIDATION_STATES
 use App\Enums\E_DISMISSABLE, App\Enums\E_IMAGE_STYLES;
 
 use App\Enums\E_COLOR , App\Enums\E_SIZES, App\Enums\E_BUTTON_TYPES;
-use App\Enums\E_ICONS ,App\Enums\E_HORIZONTAL_POSITION , App\Enums\E_SORTABLE;
+use App\Enums\E_ICONS ,App\Enums\E_HORIZONTAL_POSITION , App\Enums\E_SORTABLE, App\Enums\E_DATA_BACKDROPS;
 use CodeIgniter\Exceptions;
 class HTML 
 {

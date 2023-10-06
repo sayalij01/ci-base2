@@ -47,9 +47,6 @@ class Users extends BASE_Controller
     {
 		parent::initController($request, $response, $logger);
 		
-		// $this->load->library("value_objects/T_User.php");
-		// $this->load->model("user_model");
-		// $this->load->model("role_model");
 		$this->role_model = model('App\Models\Role_model');
 		$this->client_model = model('App\Models\Client_model');
 		$this->user_model = model('App\Models\User_model');
@@ -67,15 +64,10 @@ class Users extends BASE_Controller
     	$this->javascript		= array("users.js");
     	$this->hasBreadcrump 	= true;
     	
-    	// $this->addPlugins(
-    	// 	E_PLUGIN::DATATABLES,
-    	// 	E_PLUGIN::FILE_INPUT,
-    	// 	E_PLUGIN::BS_TOGGLE,
-    	// 	E_PLUGIN::SELECT2
-    	// );
     	 
 		$this->available_roles 		= $this->role_model->load($this->client_id)->data;;
 		$this->available_countries	= $this->app_model->getCountries($this->loaded_language)->data;	// db-cache is on for this one
+		// echo "<pre>";print_r($this->available_countries);die;
 		$this->available_teams		= $this->app_model->BASE_Select(TBL_TEAMS, array("client_id" => $this->client_id), "*", null,null,null,null,true)->data;
 		
 		
@@ -317,25 +309,10 @@ class Users extends BASE_Controller
 		write2Debugfile(self::DEBUG_FILENAME, "\nsave user\npost-".print_r($this->request->getPost(), true), true);
 		$saved	= false;
 		// print_r($this->request->getPost());die();
-		// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
-		// ..:: Set validation rules
-		/* NO PASSWORT HERE
-		if ($this->request->getPost("user_id") == "" || $this->request->getPost("password") != "" || $edit == false)
-		{	// set password rules
-			
-			$password = generatePassword(12);
-			$_POST["password"] 			= $password;
-			$_POST["password_repeat"] 	= $password;
-			
-			$this->form_validation->set_rules('password', 'lang:password', 'trim|required|matches[password_repeat]|validate_password['.$this->request->getPost("user_id", true).']');
-			$this->form_validation->set_rules('password_repeat', 'lang:password_repeat', 'trim');
-		}
-		*/
 		$validation = \Config\Services::validation();
 		$validation = service('validation');
 		$rules = [
 			'role[]'		=> 'required|min_length[1]',
-			'team'			=> 'min_length[1]',
 			'employee_id'	=> 'trim',
 			'email'			=> 'trim|required|valid_email|max_length[255]',
 			'firstname'		=> 'trim|required|min_length[1]|max_length[255]',
@@ -345,10 +322,9 @@ class Users extends BASE_Controller
 			'zipcode'		=> 'trim|max_length[20]',
 			'location'		=> 'trim|max_length[255]',
 			'phone' 		=> 'trim|max_length[100]',
-			'country' 		=> 'required|exact_length[2]|validate_existance['.TBL_COUNTRIES.', country_code, '.lang('unknown_country').']',
-			'locale'		=> 'required|exact_length[2]|validate_existance['.TBL_LOCALES.', locale_code, '.lang("unknown_locale").']',
+			// 'country' 		=> 'required|exact_length[2]|validate_existance['.TBL_COUNTRIES.', country_code, '.lang('unknown_country').']',
+			// 'locale'		=> 'required|exact_length[2]|validate_existance['.TBL_LOCALES.', locale_code, '.lang("unknown_locale").']',
 			'locked'		=> 'max_length[1]',
-			'deleted'		=> 'trim|max_length[1]',
 		];
 		$validation->setRules($rules);
 		// 'username'	=>	 'required|min_length[3]|max_length[50]|validate_is_unique['.$this->request->getPost("username_orig").','.TBL_USER.',username,'.lang("user_already_exist").']',
@@ -415,14 +391,14 @@ class Users extends BASE_Controller
 			$data["created_at"] 	= time();
 		}
 			
-		// if ($this->request->getPost("password") != ""){
-		// 	$data["password"] = $this->request->getPost("password");
-		// }
+		if ($this->request->getPost("password") != ""){
+			$data["password"] = $this->request->getPost("password");
+		}
 			
 		// // ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
-		if($validation->run($this->request->getPost()))
+		/* if($validation->run($this->request->getPost()))
 		{
-			echo "hi";
+			echo "hi";die; */
 			write2Debugfile(self::DEBUG_FILENAME, "\n - form validation passed...", true);
 			write2Debugfile(self::DEBUG_FILENAME, "data-".print_r($data, true)."\nFILES-".print_r($_FILES, true), true);
 	
@@ -431,28 +407,30 @@ class Users extends BASE_Controller
 			}
 			else
 			{
+				$password_plain 	= $this->config->default_password;
 				$data["user_id"] 	= $user_id;
 				$data["salt"]		= BASE_Model::generateUID(TBL_USER, "salt", "", false, 8);
-				$data["password"] 	= hash("sha256", $data["salt"] . APP_SALT_SEPERATOR . $data["password"]);
-	
+				$data["password"] 	= hash("sha256", $data["salt"] . APP_SALT_SEPERATOR . $password_plain);
 				$result = $this->user_model->create($this->client_id, $data, $this->request->getPost("role") );
 				// print_r($result);die;
-				$data["password"] 	= $this->request->getPost("password"); // reset to plain text value
+				// $data["password"] 	= $this->request->getPost("password"); // reset to plain text value
 	
-				if ($result->error != ""){
+				/* if ($result->error != ""){
 					$data["user_id"] = "";
 				}
 				else{
 					$result_mail = $this->sendmail_account_activation($this->client_id, $user_id);
-				}
+				} */
 			}
-		}
+		/* }
 		else
 		{
+			echo "hello";die;
+
 			$result = new BASE_Result(null, $validation->getError(), $validation->getErrors(), E_STATUS_CODE::ERROR);
 			// $result = new BASE_Result(null, validation_errors(), $this->form_validation->error_array() );
 			// write2Debugfile(self::DEBUG_FILENAME, "\n - form validation failed...\n".validation_errors(), true);
-		}
+		} */
 			
 		// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
 		// ..:: set the view data

@@ -167,15 +167,6 @@ class Role_model extends BASE_Model
 	function datatable($client_id, $columns, $btnEdit=false, $btnDel=false, $static_permission=false, $includeDeleted=false)
 	{
 		$builder = $this->db->table($this->table);
-        // echo $client_id;die;
-       
-	/* 	$getFields = $this->getFieldNames($this->table);
-		$fields = prepare_fields($columns, $getFields, ['is_static']);
-        $builder->select('role_id, ' . $columns);
-        $builder->where('client_id', $client_id);
-		$query = $builder->get();
-        $roles = $query->getResult('array'); */
-// print_r($columns);
 		$getFields = $this->getFieldNames($this->table);
 
 		$fields = prepare_fields($columns, $getFields , array("is_static"));
@@ -379,13 +370,6 @@ $query = $builder->get(); */
 	 */
 	function remove($client_id, $role_id, $deleted_by)
 	{
-		/* $builder = $this->db->table(TBL_ROLES); // Replace with your table name
-
-		$builder->where('id', $id); // Replace 'id' with your column name and $id with the value to match
-
-		$builder->delete();
-		$result = new BASE_Result($data, $error_msg, $extra, $status);
- */
 		$where = array(
 			"client_id"=>$client_id,
 			"role_id"=>$role_id
@@ -477,14 +461,14 @@ $query = $builder->get(); */
 		else{
 			// $buttons .= "delete";
 
-			$buttons .= '<a href="'.base_url().'remove/'.$id.'" onclick="$.'.$class.'.remove(\''.$id.'\')" class=" btn btn-danger"><i class="fa fa-trash"></i></a>&nbsp;';
+			$buttons .= '<a href="'.base_url().'remove-role/'.$id.'" onclick="$.'.$class.'.remove(\''.$id.'\')" class=" btn btn-danger"><i class="fa fa-trash"></i></a>&nbsp;';
 		}
 	}
 
 	if ($btn_edit){
 		// $buttons .= "edit";
 		// $buttons .='<a href="#">Edit</a>';
-		$buttons .= '<a href="'.base_url().'edit/'.$id.'" onclick="$.'.$class.'.edit(\''.$id.'\')" class="dtbt_edit btn btn-xs btn-primary"><i class="fa fa-pencil" title="\''.$name.'\'&nbsp;'.lang("edit").'"></i></a>&nbsp;';
+		$buttons .= '<a href="'.base_url().'edit-role/'.$id.'" onclick="$.'.$class.'.edit(\''.$id.'\')" class="dtbt_edit btn btn-xs btn-primary"><i class="fa fa-pencil" title="\''.$name.'\'&nbsp;'.lang("edit").'"></i></a>&nbsp;';
 
 		// $buttons .= '<a href="'.base_url().'admin/'.$class.'/edit/'.$id.'" onclick="$.'.$class.'.edit(\''.$id.'\')" class="dtbt_edit btn btn-xs btn-primary"><i class="fa fa-pencil" title="\''.$name.'\'&nbsp;'.lang("edit").'"></i></a>&nbsp;';
 	}

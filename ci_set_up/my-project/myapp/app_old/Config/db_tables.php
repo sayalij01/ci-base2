@@ -195,7 +195,7 @@ define('TBL_CONTINENS_L18N', MODEL_PREFIX."_continents_l18n");				            //
 define('TBL_COUNTRIES', MODEL_PREFIX."_countries");						                // country table
 define('TBL_COUNTRIES_L18N', MODEL_PREFIX."_countries_l18n");				            // country localizations
 define('TBL_LOCALES', TABLE_PREFIX."locales");							                // available localizations / supported application languages
-define('TBL_LOCALES_L18N', TABLE_PREFIX."locales__l18n");								// actually the translations
+define('TBL_LOCALES_L18N', 'app_locales__l18n');								// actually the translations
 define('TBL_SUBDIVISIONS', MODEL_PREFIX."_subdivisions");				    			// Bundesländer
 define('TBL_HISTORY', TABLE_PREFIX."history");								            // History
 define('TBL_HISTORY_DETAILS', TABLE_PREFIX."history__details");                         //History Daten

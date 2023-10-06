@@ -1,10 +1,18 @@
 <?php
+
+use App\Helpers\HTML_Input , App\Helpers\HTML_Button,  App\Helpers\HTML_FormItem ,  
+App\Helpers\HTML_Alert, App\Helpers\HTML_Toggle,  App\Helpers\HTML_Checkbox,  App\Helpers\HTML_Form,   App\Helpers\HTML_Dialog;
+
 $page_alerts = buildPageAlerts($error, $success, $warning, $info);
 
 $confirm = "";
+
 if (isset($data["confirmed"]) && $data["confirmed"] == 0 && $error == "")
 {
 	$btn_delete = new HTML_Button("remove" . $data["role"]->role_id, "confirmed", ucfirst(lang("delete")), E_COLOR::DANGER, E_SIZES::STANDARD, E_ICONS::TRASH_WHITE);
+	// $btn_delete->setAnchor(base_url("roles"));
+	// $btn_delete->setAnchor(base_url("remove/".$data["role"]->role_id));
+
 	$btn_delete->setAttributes(array(
 		"form" => "form_delete_role",
 		"value" => true
@@ -12,7 +20,7 @@ if (isset($data["confirmed"]) && $data["confirmed"] == 0 && $error == "")
 	$btn_delete->setType(E_BUTTON_TYPES::SUBMIT);
 	
 	$btn_cancel = new HTML_Button("cancel", "cancel", lang("cancel"), E_COLOR::STANDARD, E_SIZES::STANDARD, E_ICONS::CANCEL);
-	$btn_cancel->setAnchor(base_url("admin/roles"));
+	$btn_cancel->setAnchor(base_url("roles"));
 	
 	$fi_name = new HTML_FormItem(lang("role_name") . ":", "fi_rolename", "rolename", HTML_FormItem::buildFormControl($data["role"]->role_name));
 	

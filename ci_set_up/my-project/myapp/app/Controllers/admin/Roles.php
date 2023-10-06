@@ -274,6 +274,8 @@ class Roles extends BASE_Controller
 			if ($confirmed == 1)
 			{
 				$result = $this->role_model->remove($this->client_id, $role_id, $this->getSessionData(E_SESSION_ITEM::USER_ID));
+				return redirect()->to(base_url('roles'));
+
 			}
 		}
 		else

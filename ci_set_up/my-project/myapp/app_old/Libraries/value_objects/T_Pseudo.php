@@ -49,7 +49,7 @@ class T_Pseudo
 		}
 		else if (is_scalar($value) || is_null($value))
 		{
-			$this->$name = html_escape($value);
+			$this->$name = esc($value);
 			//write2Debugfile(self::DEBUG_FILENAME, " - SCALAR - name[$name] value[".$this->$name."]", true);
 		}
 	}

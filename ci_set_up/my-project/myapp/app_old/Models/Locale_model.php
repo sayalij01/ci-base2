@@ -9,13 +9,16 @@ use App\Enums\E_SESSION_ITEM ,App\Enums\E_STATUS_CODE , App\Enums\E_SYSTEM_LOCK_
 class Locale_model extends BASE_Model 
 {
 	const DEBUG_FILENAME = "locale_model.log";
-	
+	protected $table = TBL_LOCALES;
 	/**
 	 * Constructor for the locale model
 	 */
 	function __construct()
 	{	
+
 		$this->db = \Config\Database::connect();
+		$this->config = \Config\Services::config();
+		$this->config = new \Config\App();
 		write2Debugfile(self::DEBUG_FILENAME, "Locale model", false);
 	}
 	
@@ -107,7 +110,9 @@ class Locale_model extends BASE_Model
 	 */
 	function create($locale_code, $locale_id, $data)
 	{
+		
 		$all_locale_codes = self::load_languages(0, null);
+		
 		write2Debugfile(self::DEBUG_FILENAME, "locale_code[".$locale_code."] locale_id[$locale_id] create locale-".print_r($all_locale_codes, true));
 		
 		$queries = array();
@@ -121,16 +126,17 @@ class Locale_model extends BASE_Model
 			
 			
 			$queries[]= $this->getInsertString(TBL_LOCALES_L18N, $data);
+			
 		}
 		
 		$queries_string = "";
 		foreach ($queries as $key => $query) {
 			$queries_string .= "\n".$query.";";
 		}
-			
+		// print_r($queries);die;
 		$return = $this->BASE_Transaction($queries);
 		
-		write2Debugfile(self::DEBUG_FILENAME, count($queries)." queries -\n".$queries_string."\nreturn-".print_r($return, true));
+		// write2Debugfile(self::DEBUG_FILENAME, count($queries)." queries -\n".$queries_string."\nreturn-".print_r($return, true));
 		return $return;
 	}
 	
@@ -145,39 +151,108 @@ class Locale_model extends BASE_Model
 	 * @param int $includeDeleted
 	 * @return BASE_Result >> containing an array or null
 	 */
-	function datatable($client_id, $locale_code, $columns, $btnEdit=0, $btnDel=0, $includeDeleted=0)
-	{
-		$this->load->library('Datatables');
-		$this->load->helper('datatable');
+	// function datatable($client_id, $locale_code, $columns, $btnEdit=0, $btnDel=0, $includeDeleted=0)
+	// {
+	// 	$this->load->library('Datatables');
+	// 	$this->load->helper('datatable');
 	
-		$table_columns_a = $this->listFields(TBL_LOCALES);
-		$table_columns_b = $this->listFields(TBL_LOCALES_L18N);
+	// 	$table_columns_a = $this->listFields(TBL_LOCALES);
+	// 	$table_columns_b = $this->listFields(TBL_LOCALES_L18N);
 	
-		write2Debugfile(self::DEBUG_FILENAME, "datatable clientID [$client_id] edit[$btnEdit] del[$btnDel] includeDeleted[$includeDeleted] columns-".print_r($columns, true)."\ndatabase columns-".print_r($table_columns_b, true), true);
+	// 	write2Debugfile(self::DEBUG_FILENAME, "datatable clientID [$client_id] edit[$btnEdit] del[$btnDel] includeDeleted[$includeDeleted] columns-".print_r($columns, true)."\ndatabase columns-".print_r($table_columns_b, true), true);
 		
-		$fields 		= prepare_fields($columns, array_merge($table_columns_a, $table_columns_b));
+	// 	$fields 		= prepare_fields($columns, array_merge($table_columns_a, $table_columns_b));
 		
-		write2Debugfile(self::DEBUG_FILENAME, "select fields -> ".print_r($fields, true));
+	// 	write2Debugfile(self::DEBUG_FILENAME, "select fields -> ".print_r($fields, true));
 	
-		$this->datatables->select($fields)->from(TBL_LOCALES_L18N);
-		$this->datatables->join( 
-			TBL_LOCALES, 
-			TBL_LOCALES.".locale_code = ".TBL_LOCALES_L18N.".locale_code AND ".
-			TBL_LOCALES.".enabled = '1'  ", "inner");
+	// 	$this->datatables->select($fields)->from(TBL_LOCALES_L18N);
+	// 	$this->datatables->join( 
+	// 		TBL_LOCALES, 
+	// 		TBL_LOCALES.".locale_code = ".TBL_LOCALES_L18N.".locale_code AND ".
+	// 		TBL_LOCALES.".enabled = '1'  ", "inner");
 		
-		$this->datatables->where(TBL_LOCALES.".locale_code", $locale_code);
-		$this->datatables->edit_column('is_translated', '$1', 'callback_integer2checkbox(locale_id, is_translated) ');
-		$this->datatables->edit_column('locale_id', '$1', "callback_build_locale_buttons(locale_code,locale_id,locales,$btnEdit,$btnDel)");
+	// 	$this->datatables->where(TBL_LOCALES.".locale_code", $locale_code);
+	// 	$this->datatables->edit_column('is_translated', '$1', 'callback_integer2checkbox(locale_id, is_translated) ');
+	// 	$this->datatables->edit_column('locale_id', '$1', "callback_build_locale_buttons(locale_code,locale_id,locales,$btnEdit,$btnDel)");
 		
 		
-		$this->datatables->edit_column('locale_code', '<code>$1</code>', 'locale_code');
+	// 	$this->datatables->edit_column('locale_code', '<code>$1</code>', 'locale_code');
 		
-		$result = $this->datatables->generate();
+	// 	$result = $this->datatables->generate();
 	
-		write2Debugfile(self::DEBUG_FILENAME, "\n".$this->datatables->last_query()."\n\n".print_r(json_decode($result), true));
-		return new BASE_Result($result, "", json_decode($result), E_STATUS_CODE::SUCCESS);
-	}
+	// 	write2Debugfile(self::DEBUG_FILENAME, "\n".$this->datatables->last_query()."\n\n".print_r(json_decode($result), true));
+	// 	return new BASE_Result($result, "", json_decode($result), E_STATUS_CODE::SUCCESS);
+	// }
 	
+
+	public function datatable($client_id, $locale_code, $columns, $btnEdit = 0, $btnDel = 0, $includeDeleted = 0)
+    {
+		$builder = $this->db->table(TBL_LOCALES_L18N);
+
+		$table_columns_a=$this->getFieldNames(TBL_LOCALES);
+		$table_columns_b =$this->getFieldNames(TBL_LOCALES_L18N);
+		// $table_columns_a = $this->db->table('TBL_LOCALES')->listFields();
+        // $table_columns_b = $this->db->table('TBL_LOCALES_L18N')->listFields();
+        $fields = prepare_fields($columns, array_merge($table_columns_a, $table_columns_b));
+
+ 
+
+        // $getFields = $this->getFieldNames($this->table);
+
+ 
+
+        // $fields = prepare_fields($columns, $getFields , array("is_static"));
+
+        // print_r($fields);die;
+
+        $builder->select($fields);
+
+        $builder->join(TBL_LOCALES,
+
+        TBL_LOCALES.".locale_code = ".TBL_LOCALES_L18N.".locale_code AND ".
+
+        TBL_LOCALES.".enabled = '1'  ", "inner");
+
+        $builder->where(TBL_LOCALES.".locale_code", $locale_code);
+
+ 
+
+        $query = $builder->get();
+
+        $locales = $query->getResult('array');
+
+ 
+
+        $result = [];
+
+ 
+
+        foreach ($locales as $locale) {
+
+            // print_r($locales);die;
+
+            // Customize your data here as per your edit_column logic
+
+            // $locale['is_translated'] = $this->callback_integer2checkbox($locale['locale_id'], $locale['is_translated']);
+
+            $locale['locale_id'] = $this->callback_build_locale_buttons($locale['locale_code'],$locale['locale_id'],'locales',$btnEdit,$btnDel);
+
+ 
+
+            $result[] = $locale;
+
+            // print_r( $result);die;
+
+            // echo $row['role_name'];die;
+
+        }
+
+ 
+
+        return new BASE_Result($result, "", $result, E_STATUS_CODE::SUCCESS);
+    }
+
+
 	/**
 	 * delete (or set deleted flag) a localization entry
 	 *
@@ -219,19 +294,8 @@ class Locale_model extends BASE_Model
 		write2Debugfile(self::DEBUG_FILENAME, "\nreturn-".print_r($return, true));
 		return $return;
 	}
-}
 
-/**
- * 
- * @param string $locale_code
- * @param string $locale_id
- * @param string nown $label
- * @param string $class
- * @param int $btn_edit
- * @param int $btn_delete
- * @return string
- */
-function callback_build_locale_buttons($locale_code, $locale_id, $class, $btn_edit=0, $btn_delete=0)
+	function callback_build_locale_buttons($locale_code, $locale_id, $class, $btn_edit=0, $btn_delete=0)
 {	
 	$label 			= $locale_id;
 	//$locale_id 		= encrypt_string($locale_id);
@@ -249,3 +313,16 @@ function callback_build_locale_buttons($locale_code, $locale_id, $class, $btn_ed
 	
 	return $buttons."&nbsp;".$label;
 }
+}
+
+/**
+ * 
+ * @param string $locale_code
+ * @param string $locale_id
+ * @param string nown $label
+ * @param string $class
+ * @param int $btn_edit
+ * @param int $btn_delete
+ * @return string
+ */
+

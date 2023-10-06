@@ -558,7 +558,7 @@ class BASE_Controller extends Controller
 					$toMenu["menu_localizations"]	= $localizations;
 					$toMenu["menu_userRight"]		= $rights;
 					$toMenu["menu_data"]			= $menu;
-
+					$toMenu["username"]            = $this->getSessionData(E_SESSION_ITEM::USERNAME);
 
 					write2Debugfile(self::DEBUG_FILENAME, " - toMenu:".print_r($toMenu, true));
 					// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
@@ -593,6 +593,7 @@ class BASE_Controller extends Controller
 					// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
 					$toBody["breadcrump"] 		= view("template/breadcrump", $toBreadcrump);
 				}
+
 				// ..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
 				// ..:: overwrite $toBody["footer"] if footer is enabled
 				if ($this->hasFooter)
@@ -659,11 +660,11 @@ class BASE_Controller extends Controller
 	public function setData($data)
 	{
 		// print_r($data);die;
-		if (!is_a($data, "BASE_Result") ){
-			throw new Exception("BASE_Result expected!");
-		}
+		// if (!is_a($data, "BASE_Result") ){
+		// 	throw new Exception("BASE_Result expected!");
+		// }
 		$this->data					= array();
-		$this->data["common"] 		= (array) $data->common;
+		// $this->data["common"] 		= (array) $data->common;
 		$this->data["data"] 		= (array) $data->data;
 		$this->data["extra"] 		= (array) $data->extra;
 		$this->data["messages"]		= (array) $data->messages;

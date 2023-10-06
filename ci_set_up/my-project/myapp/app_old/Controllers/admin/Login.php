@@ -150,7 +150,7 @@ class Login extends BASE_Controller
     		write2Debugfile(self::DEBUG_FILENAME, "authentication failed:\n".validation_errors());
     		
     		// validation failed. set the error to the views data and go ahead. the view will show the errors 
-    		$this->setData( new BASE_Result(array(), validation_errors(), $this->form_validation->error_array(), E_STATUS_CODE::ERROR));
+    		$this->setData( new BASE_Result(array(), $this->validation->getError(), $this->validation->getErrors(), E_STATUS_CODE::ERROR));
     	}
     	return $authenticated;
     }
